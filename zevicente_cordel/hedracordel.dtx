@@ -1,0 +1,183 @@
+% \iffalse
+%% File: hedracordel.dtx Copyright (C) 1998--2003 Melchior FRANZ
+%% $Id: hedracordel.dtx,v 1.92 2003/05/19 20:05:17 m Rel $
+%% $Version: 1.9 $
+%<*preamble>
+%
+% on Unix/Linux just run "make" to get the style file and the documentation;
+% else generate the driver hedracordel.ins (if you don't already have it):
+%
+%     $ latex hedracordel.dtx
+%
+% Now generate the style file:
+%
+%     $ tex hedracordel.ins
+%
+% And finally to produce the documentation run LaTeX three times:
+%
+%     $ latex hedracordel.dtx
+%
+%
+%
+%
+%
+%
+%
+% COPYRIGHT NOTICE:
+% This package is free software that can be redistributed and/or modified
+% under the terms of the LaTeX Project Public License as specified
+% in the file macros/latex/base/lppl.txt on any CTAN archive server.
+
+%</preamble>
+%
+%
+%<*batchfile>
+\begin{filecontents}{hedracordel.ins}
+\def\batchfile{hedracordel.ins}
+\input docstrip.tex
+\askforoverwritefalse
+\keepsilent
+\generate{\file{hedracordel.sty}{\from{hedracordel.dtx}{package}}}
+\endbatchfile
+\end{filecontents}
+%</batchfile>
+%
+%
+%
+%<*driver>
+\def\fileversion{1.9}
+\def\filedate{2003/05/20}
+\documentclass{ltxdoc}
+\usepackage[brazilian]{babel}
+\usepackage{ucs}
+\usepackage[utf8x]{inputenc}
+\usepackage{multicol,lipsum}
+%
+\newcommand*\option{\textsf}
+\newcommand*\package{\texttt}
+\newcommand*\program{\texttt}
+\newcommand*\person{\textsc}
+\newcommand*\itemfont{\sffamily}
+\newcommand*\versal[1]{\textsc{\small#1}}
+%
+%
+%
+%
+\newenvironment{labeling}[1]
+  {\list{}{\settowidth{\labelwidth}{\textbf{#1}}
+  \leftmargin\labelwidth\advance\leftmargin\labelsep
+  \def\makelabel##1{\textbf{##1}\hfil}}}{\endlist}
+%
+%
+\newenvironment{example}[1][.9\textwidth]
+  {\par\medskip\begin{tabular}{p{#1}l}}
+  {\end{tabular}\noindentafter\medbreak}
+%
+\makeatletter
+\newcommand*\noindentafter{\@nobreaktrue\everypar{{\setbox\z@\lastbox}}}
+\makeatother
+%
+% ^^A \RecordChanges
+%
+\begin{document}
+\hfuzz.6pt
+\setcounter{tocdepth}{2}
+\DocInput{hedracordel.dtx}
+\end{document}
+%</driver>
+% \fi
+%
+%^^A ---------------------------------------------------------------------- Instruções básicas
+%
+%\title{O pacote \package{hedracordel}}
+%
+% \author{Editora Hedra (JS)}
+% \date{4 de abril, 2009}
+% \maketitle
+%	\begin{abstract}
+%	Este pacote estabelece todos os padrões para a coleção Biblioteca de Cordel. Para gerar o pacote e a documentação, digitar "make sty"
+%	\end{abstract}
+%
+% \section{Como usar este pacotes}
+%
+% O pacote deve ser ativado  no preâmbulo com o comando |\usepackage|. Para o preâmbulo básico sugerido, ver exemplo.
+%^^A ---------------------------------------------------------------------- O códico propriamente.
+
+%\section{O código propriamente dito}
+
+%\subsection{Pacotes exigidos}
+%    \begin{macrocode}
+%<*package>
+	\NeedsTeXFormat{LaTeX2e}
+	\ProvidesPackage{hedracordel}[09/04/09 v1.0 Editora Hedra (Mantenedor: JS)]
+	\RequirePackage[hanging]{walbaum} % Fonte
+	\RequirePackage{fancyhdr} % Cabeço
+	\RequirePackage{hedralogo}
+	\RequirePackage{geometry} % Formato da página
+%    \end{macrocode}
+
+%\begin{macro}{\titulo e \introdutor}
+% Define nomes para autor dos cordéis, que leva o nome do livro, e o autor da introdução. 
+%    \begin{macrocode}
+\newcommand{\autor}[1]{\gdef\@autor{#1}}
+\newcommand{\introdutor}[1]{\gdef\@introdutor{#1}}
+%    \end{macrocode}
+%\end{macro}
+
+
+%\begin{macro}{\fronstpicio}
+% Este comando carrega todas as opções de layout para as páginas 1 e 3.
+%    \begin{macrocode}
+	\newcommand{\frontspicio}{
+		\begingroup					
+		\vspace*{20mm}
+		\thispagestyle{empty}
+		\centering 
+		\fontsize{11pt}{\baselineskip}\selectfont
+		{\fontsize{13pt}{\baselineskip}\selectfont
+		\textbf{\@autor}}\\
+		\vfill
+		\pagebreak\paginabranca
+		Biblioteca de Cordel\\				
+		\kern30mm
+		\thispagestyle{empty}
+		{\fontsize{13pt}{\baselineskip}\selectfont
+		\textbf{\@autor}}\\
+		\kern10mm
+		Introdução\\
+		\textit{\@introdutor}\\
+		\kern40mm
+		\logodois\\
+		\ São Paulo, \the\year\par
+		\endgroup
+	}
+%    \end{macrocode}
+%\end{macro}
+
+%\subsection{Tamanho do livro e da mancha}
+% Este código define o tamanho da página e da mancha.
+%    \begin{macrocode}
+\geometry{left=12mm,%
+	  top=10mm,%
+	  textwidth=83mm,%
+	  textheight=135mm,%
+	  paperwidth=108mm,%
+          paperheight=160mm}
+%    \end{macrocode}
+
+%\section{Cabeço}
+%    \begin{macrocode}
+\fancypagestyle{myheadings}{%
+\renewcommand\headrulewidth{0pt}
+  \fancyhf{}%
+  \fancyfoot[C]{(\thepage)}%
+}
+\fancypagestyle{plain}{%
+\renewcommand\headrulewidth{0pt}
+  \fancyhf{}%
+  \fancyfoot[C]{(\thepage)}%
+}
+\pagestyle{myheadings}
+%    \end{macrocode}
+
+% \Finale

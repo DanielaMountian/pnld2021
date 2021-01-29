@@ -1,0 +1,99 @@
+\documentclass[11pt]{hedrabook}
+\usepackage[brazilian,german]{babel}
+\usepackage{ucs}
+\usepackage[utf8x]{inputenc}
+\usepackage[svn,center,cam,a5]{hedracrop}
+\usepackage{hedrabolsolayout,hedraextra,hedratoc}
+\usepackage[protrusion=true,expansion]{microtype}
+\usepackage{comment,lipsum,footmisc}
+\usepackage[minionint,mathlf]{MinionPro}
+\usepackage{verse}
+%\usepackage{hedraebook}		   % hyperlinks: todos os \part têm que estar em CAIXA BAIXA
+%\usepackage{makeidx,hedraindex}  % cria índice
+%\makeindex			   % ...  índice
+
+\begin{document}
+\SVN $Id: HEINE.tex 10653 2012-02-23 16:07:37Z oliveira $
+
+
+\newcommand{\A}{\selectlanguage{german}}
+\newcommand{\B}{\selectlanguage{brazilian}}
+
+\selectlanguage{brazilian}
+\title{\mbox{O Rabi de Bacherach}\\ e três artigos sobre\\ o ódio racial} %O príncipe
+\author{Heine} %Maquiavel
+\begingroup\pagestyle{empty}
+%\begin{blackpages}
+	\maketitle
+	\begin{techpage}{5cm}
+		\vspace{-1cm}
+		\putline{Copyright}{Hedra 2009}
+		\putline{Tradução$^\copyright$}{Marcus Vinicius Mazzari} 
+		\putline{Título original}{Der Rabbi von Bacherach}
+		\putline{Corpo editorial}{
+			Adriano Scatolin,\\
+			Alexandre B.~de Souza,\\
+			Bruno Costa,
+			Caio Gagliardi,\\
+			Fábio Mantegari,
+			Iuri Pereira,\\
+			Jorge Sallum,
+			Oliver Tolle,\\
+ 		        Ricardo Musse,
+			Ricardo Valle
+		}
+		\ \\
+
+		\putline{Dados}{\fichacatalografica{H331}% Código de autor
+				% Autor (data nascimento--morte)
+				{Heine, Heinrich (1797--1856)}% 
+				% Dados bibliográficos
+				{O Rabi de Bacherach. / Heinrich Heine. 
+				Organização e tradução de Marcus
+				Vinicius  Mazzari. – São Paulo: Hedra, 2009. (Estudos Libertários). 128 p.}%
+				% Isbn
+				{978-85-7715-131-8}%
+				% Catalogação. Ex. 1.~Blabla.(Não esquecer ~)
+				{1.~Literatura Alemã. 2.~Romance Histórico. 3.~Religião. 4.~Judaismo. 5.~Ódio Racial. 
+				6.~Antissemitismo. \textsc{i}.~Título. \textsc{ii}.~Série. \textsc{iii}.~Mazzari, Marcus Vinicius, Tradutor.}%
+				%CDU
+				{830}
+				%CDD 
+				{833.7} %
+			       }
+		\direitos
+		\dadoseditora
+		\depositolegal
+	\end{techpage}
+	\begin{frontispiciopage}{4cm}{}	
+	\putline{Organização e tradução}{\textsc{Marcus Mazzari}} 
+	\end{frontispiciopage}
+\include{PRETAS}
+
+% Coloca página preta vazia à direita se texto preencher apenas uma página
+\ifodd\thepage\paginabranca\fi
+
+%\end{blackpages}
+\endgroup
+\setcounter{tocdepth}{0}     % amplitude da presença das partes no índice
+\setcounter{secnumdepth}{-2} % amplitude da numeração das partes
+
+\hedratoc
+
+% Favor não alterar o segundo parâmetro (\baselineskip). 
+% Para acertar entrelinhas, usar comando \linespread
+\fontsize{11pt}{\baselineskip}\selectfont
+\baselineskip=13.2pt   % Não passar de 0.93 do \baselineskip
+
+
+\include{INTRO}
+\part{O Rabi de Bacherach} 
+\include{TEXTO}
+
+\include{APENDICE}
+
+\include{FINAIS}
+
+\ifdefined\printcheck\printcheck\fi
+
+\end{document}

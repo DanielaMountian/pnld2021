@@ -1,0 +1,33 @@
+\documentclass[showtrims,12pt]{memoir}
+\usepackage{projeto,hedralogo}
+
+\begin{document}
+\newcommand\autor{Rodolfo Coelho Cavalcante\par\medskip Circo, teatro e cordel}
+\newcommand\introdutor{Eno Theodoro Wanke}
+
+\include{ROSTO}
+
+\setcounter{tocdepth}{0}
+\setcounter{secnumdepth}{-2}
+
+\include{CREDITOS}
+%\include{ENTRADA}
+
+\renewcommand{\contentsname}{Sumário}
+\tableofcontents*
+
+\cleardoublepage
+
+\pagestyle{plain}
+\copypagestyle{chapter}{plain}
+
+\include{INTRO}
+\cleardoublepage
+\openany
+\include{TEXTO}
+\clearpage
+\openright
+
+\include{FINAIS}
+
+\end{document}

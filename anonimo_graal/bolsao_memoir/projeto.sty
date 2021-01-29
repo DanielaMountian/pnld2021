@@ -1,0 +1,184 @@
+\RequirePackage{textcase}
+\RequirePackage[protrusion=true,expansion]{microtype}
+\RequirePackage{lastpage}
+\RequirePackage{graphicx}
+
+\RequirePackage[minionint,mathlf]{MinionPro}
+\RequirePackage{ucs}
+\RequirePackage[utf8x]{inputenc}
+\RequirePackage[brazilian,polutonikogreek]{babel}
+\usepackage{relsize,gfsporson}
+\defineshorthand{"-}{\discretionary{-}{-}{-}}
+\newcommand{\grk}[1]{{\selectlanguage{polutonikogreek}\relsize{-1}\textporson{#1}}\selectlanguage{brazilian}\relsize{1}}
+
+%\RequirePackage{polyglossia}
+%\RequirePackage{fontspec,xltxtra,xunicode}
+%\defaultfontfeatures{Mapping=tex-text}
+%\setromanfont[Mapping=tex-text]{Bauer Bodoni Std 1}
+%\setsansfont[Scale=MatchUppercase,Mapping=tex-text]{Akzidenz-Grotesk BQ Bold Condensed}
+%\setmonofont[Scale=MatchLowercase]{Akzidenz-Grotesk BQ Medium Condensed}
+%\setmainlanguage{portuges}
+
+
+\makeatletter
+\makeheadstyles{estilo}{%
+% book changes
+\renewcommand*{\booknamefont}{\bfseries\Huge}
+\renewcommand*{\booknumfont}{\bfseries\Huge}
+\renewcommand*{\booktitlefont}{\bfseries\Huge}
+\renewcommand*{\midbookskip}{\par\vskip 2\onelineskip}%
+% part changes
+\renewcommand*{\partnamefont}{\bfseries\huge}
+\renewcommand*{\partnumfont}{\bfseries\huge}
+\renewcommand*{\parttitlefont}{\bfseries\huge}
+\renewcommand*{\midpartskip}{\par\vskip 2\onelineskip}%
+% chapter
+\setlength{\beforechapskip}{0mm}%
+\setlength{\afterchapskip}{68mm\@plus2mm\@minus1mm}%
+\renewcommand*{\chapnamefont}{\centering\huge}%
+\renewcommand*{\chapnumfont}{\centering\huge}%
+\renewcommand*{\chaptitlefont}{\centering\huge}%
+% section
+\setbeforesecskip{2\onelineskip}%
+\setaftersecskip{.6\onelineskip}%
+\setsecheadstyle{\Large\scshape\MakeTextLowercase}%
+% subsection
+\setbeforesubsecskip{.5\onelineskip}%
+\setaftersubsecskip{.8\onelineskip}%
+\setsubsecheadstyle{\flushleft\Large\scshape}%
+% paragraph
+\setbeforeparaskip{1.0\onelineskip}%
+\setafterparaskip{1em}%
+\setparaheadstyle{\centering\Large\itshape}%
+}
+
+\makepagestyle{estilo}
+\makeheadposition{estilo}{flushright}{flushleft}{}{}
+\makepsmarks{estilo}{%
+  \nouppercaseheads
+  \createmark{chapter}{both}{nonumber}{}{}
+  \createmark{section}{right}{nonumber}{}{}
+  \createplainmark{toc}{both}{\contentsname}
+  \createplainmark{lof}{both}{\listfigurename}
+  \createplainmark{lot}{both}{\listtablename}
+  \createplainmark{bib}{both}{\bibname}
+  \createplainmark{index}{both}{\indexname}
+  \createplainmark{glossary}{both}{\glossaryname}}
+ 
+\makeevenhead{estilo}{\footnotesize\thepage}{}{\scshape\MakeLowercase{\@title}}
+\makeoddhead{estilo}{\scshape\MakeLowercase{\@author}}{}{\footnotesize\thepage}
+\makeheadrule{estilo}{\textwidth}{\normalrulethickness}
+
+\footmarkstyle{\normalfont{\raisebox{3pt}{\tiny#1}}}
+\def\@makefnmark#1{{\tiny \raisebox{3pt}{\@thefnmark}}}
+%\show\@makefnmark
+
+\renewcommand{\cftchapternumwidth}{4em}
+\renewcommand{\cftchapterpresnum}{Livro\ }
+\renewcommand{\cftchapterleader}{\dotfill}
+\renewcommand{\cftparskip}{-1ex}
+
+\renewenvironment{verse}[1]{
+\begin{flushleft}
+\setlength\leftskip{2em}
+\setlength\parindent{-2em}
+\setlength\itemindent{2em}
+\hyphenpenalty=10000
+\noindent#1}{\end{flushleft}}
+
+\newcounter{@sectionNumCenter}[chapter]
+\renewcommand\the@sectionNumCenter{\arabic{@sectionNumCenter}}
+\newcommand\sectionitem{%
+   \par\addvspace{1ex}%
+   \refstepcounter{@sectionNumCenter}%
+   \bgroup\centering\normalsize%
+   \the@sectionNumCenter.%
+   \par\nobreak\egroup\par\nobreak%
+   \addvspace{0.5ex}%
+}
+\newcommand\sectionitemname[1]{%
+   \par\addvspace{1ex}%
+   \refstepcounter{@sectionNumCenter}%
+   \bgroup\centering\normalsize%
+   #1%
+%   \the@sectionNumCenter.%
+   \par\nobreak\egroup\par\nobreak%
+   \addvspace{0.5ex}%
+}
+
+\renewcommand\subsection{\@startsection
+		{paragraph}{43}
+		{\z@}
+		{4ex \@plus1ex \@minus.5ex}
+		{2ex}
+		{\linespread{0.8}\normalfont\centering\itshape}
+ }
+
+\renewcommand{\subsubsection}[1]{\vspace{-1.05em}\begin{center}\footnotesize{\textit{#1}}\end{center}}
+
+\RequirePackage{manyfoot}
+\newcommand{\footnoteInSection}[1]{\NoCaseChange{\linespread{1.0}\mbox{}\protect\Footnote{{\Large$^\dagger$}}{#1}}}
+
+\def\@endpart{\vfil\newpage\pagestyle{empty}}
+
+\makeatother%
+
+\copypagestyle{part}{empty}
+\copypagestyle{chapter}{empty}
+\pagestyle{estilo}
+\headstyles{estilo}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\setbinding{3mm}
+\stockaiv 
+%\setstocksize{23cm}{16cm}
+\settrimmedsize{23cm}{16cm}{*}
+\settypeblocksize{*}{12cm}{1.5}
+
+\setlrmargins{2cm}{*}{1}
+\setulmargins{1.8cm}{*}{1.6}
+\setheadfoot{10mm}{20mm}
+\setheaderspaces{.3cm}{*}{0.15}
+
+\setlength{\trimtop}{3cm}
+\setlength{\trimedge}{\stockwidth} 
+\addtolength{\trimedge}{-\paperwidth}
+\setlength{\trimedge}{0.5\trimedge}
+\quarkmarks
+
+\checkandfixthelayout
+
+\tolerance=1000
+\emergencystretch=1pc
+\lefthyphenmin=2
+\righthyphenmin=2
+\widowpenalty=10000
+\clubpenalty=2000
+\brokenpenalty=10000
+%\raggedbottom
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\newcommand{\blank}{\newpage\ \\\thispagestyle{empty}\pagebreak}
+\newcommand{\hsp}{\hspace{2em}}
+
+\epigraphtextposition{flushleft}
+\epigraphsourceposition{flushright}
+\epigraphfontsize{\footnotesize}
+\setlength{\epigraphrule}{0pt}
+\setlength{\epigraphwidth}{.7\textwidth}
+
+\newcommand{\ficha}[7]{\begin{minipage}{.7\textwidth}
+\bigskip\fontsize{7pt}{8pt}\selectfont
+	Dados Internacionais de Catalogação na Publicação (CIP)\\
+	\vspace{-.5em}\hrule\smallskip
+	#1\hskip2mm
+	\hbox{\vtop{#2\par
+	#3 \pageref{LastPage}~p.}}\par\smallskip
+	ISBN\hskip2mm #4\par\smallskip
+	#5\par\smallskip
+	\hbox{\raggedleft\vbox{CDU #6\par CDD #7}}\par\smallskip
+	\hrule\bigskip
+\end{minipage}}
+

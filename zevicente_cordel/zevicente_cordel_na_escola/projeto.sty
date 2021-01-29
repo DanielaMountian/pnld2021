@@ -1,0 +1,190 @@
+\RequirePackage{textcase}
+\RequirePackage[protrusion=true,expansion]{microtype}
+\RequirePackage{lastpage}
+\RequirePackage{graphicx}
+\RequirePackage{manyfoot}
+\RequirePackage{ifthen}
+
+\RequirePackage{charter}
+%\RequirePackage[hanging]{walbaum}
+\RequirePackage{ucs}
+\RequirePackage[utf8x]{inputenc}
+\RequirePackage[T1]{fontenc}
+\RequirePackage[brazilian]{babel}
+\defineshorthand{"-}{\discretionary{-}{-}{-}}
+
+\makeatletter
+\makeheadstyles{estilo}{%
+% part changes
+\renewcommand*{\partnamefont}{\huge}
+\renewcommand*{\partnumfont}{\huge}
+\renewcommand*{\parttitlefont}{\huge}
+\renewcommand*{\midpartskip}{\par\vskip 2\onelineskip}%
+% chapter
+\setlength{\beforechapskip}{0mm}%
+\setlength{\afterchapskip}{24mm\@plus2mm\@minus1mm}%
+\renewcommand*{\chapnamefont}{\LARGE}%
+\renewcommand*{\chapnumfont}{\LARGE}%
+\renewcommand*{\chaptitlefont}{\LARGE}%
+% section
+\setbeforesecskip{2\onelineskip}%
+\setaftersecskip{.6\onelineskip}%
+\setsecheadstyle{\Large\scshape\MakeTextLowercase}%
+% subsection
+\setbeforesubsecskip{.8\onelineskip}%
+\setaftersubsecskip{.4\onelineskip}%
+\setsubsecheadstyle{\large\bfseries}%
+% paragraph
+\setbeforeparaskip{.5\onelineskip}%
+\setafterparaskip{.2\onelineskip}%
+\setparaheadstyle{\large\itshape}%
+}
+
+\makepagestyle{estilo}
+\makeheadposition{estilo}{flushright}{flushleft}{}{}
+\makepsmarks{estilo}{%
+  \nouppercaseheads
+  \createmark{chapter}{both}{nonumber}{}{}
+  \createmark{section}{right}{nonumber}{}{}
+  \createplainmark{toc}{both}{\contentsname}
+  \createplainmark{lof}{both}{\listfigurename}
+  \createplainmark{lot}{both}{\listtablename}
+  \createplainmark{bib}{both}{\bibname}
+  \createplainmark{index}{both}{\indexname}
+  \createplainmark{glossary}{both}{\glossaryname}}
+ 
+\makeevenhead{estilo}{\footnotesize\thepage}{}{\scshape\MakeLowercase{\@title}}
+\makeoddhead{estilo}{\scshape\MakeLowercase{\@author}}{}{\footnotesize\thepage}
+\makeheadrule{estilo}{\textwidth}{\normalrulethickness}
+
+\footmarkstyle{\normalfont{\raisebox{3pt}{\tiny#1}}}
+\def\@makefnmark#1{{\tiny \raisebox{3pt}{\@thefnmark}}}
+\skip\footins=8mm\@plus1mm\@minus4mm
+%\show\@makefnmark
+
+\renewcommand{\cftparskip}{-1ex}
+\renewcommand{\cftchapterdotsep}{4.5}
+\renewcommand{\cftchapterleader}{\normalfont\cftdotfill{\@nameuse{cftchapterdotsep}}}
+\renewcommand{\cftpartfont}{\large}
+\renewcommand{\cftpartformatpnum}{\large}
+\renewcommand{\cftchapterfont}{\normalsize}
+\renewcommand{\cftchapterformatpnum}{\normalsize}
+\renewcommand{\cftsectionfont}{\normalfont}
+
+\newcounter{@sectionNumCenter}[chapter]% ou [section] caso seja o efeito desejado
+\renewcommand\the@sectionNumCenter{\roman{@sectionNumCenter}}
+\newcommand\sectionitem{%
+   \par\addvspace{1ex plus 1em minus .3ex }%
+   \refstepcounter{@sectionNumCenter}%
+   \bgroup\centering\Large\scshape%
+   \the@sectionNumCenter%
+   \par\nobreak\egroup\par\nobreak%
+   \addvspace{.3ex}%
+}
+
+\makeevenfoot{plain}{}{\footnotesize\thepage}{}{}
+\makeoddfoot{plain}{}{\footnotesize\thepage}{}{}
+
+\makeevenhead{myheadings}{\footnotesize\thepage}{}{\scshape\MakeLowercase{\leftmark}}
+\makeoddhead{myheadings}{\scshape\MakeLowercase{\rightmark}}{}{\footnotesize\thepage}
+\makeheadrule{myheadings}{\textwidth}{\normalrulethickness}
+
+\AtBeginDocument{%
+\fontsize{12pt}{15pt}\selectfont
+\setlength\baselineskip{15pt\@plus.5pt\@minus.5pt}
+\selectlanguage{brazilian}
+\pagestyle{empty}}%
+
+\copypagestyle{part}{empty}
+\copypagestyle{chapter}{empty}
+\pagestyle{estilo}
+\headstyles{estilo}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\setbinding{3mm}
+\stockaiv 
+%\setstocksize{210mm}{140mm}
+\settrimmedsize{210mm}{140mm}{*}
+\settypeblocksize{172mm}{109mm}{*}
+
+\setlrmargins{12mm}{*}{1}
+\setulmargins{14mm}{*}{1}
+\setheadfoot{5mm}{12mm}
+\setheaderspaces{0mm}{*}{0}
+\headsep=0mm
+
+\setlength{\trimtop}{40mm}
+\setlength{\trimedge}{\stockwidth} 
+\addtolength{\trimedge}{-\paperwidth}
+\setlength{\trimedge}{.5\trimedge}
+\quarkmarks
+%\trimFrame
+
+\checkandfixthelayout
+
+\tolerance=1000
+\hyphenpenalty=500
+\emergencystretch=1pc
+\lefthyphenmin=2
+\righthyphenmin=2
+\widowpenalty=10000
+\clubpenalty=10000
+\brokenpenalty=9999
+\raggedbottom
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\newcommand\blank{\newpage\ \\\thispagestyle{empty}\pagebreak}
+\newcommand\paginabranca{\newpage\hbox{~}\thispagestyle{empty}\newpage}
+\newcommand\asterisc{{\medskip\centering***\par\medskip}}
+\newcommand\qb[1]{\hfil\break\mbox{}\hfill\hbox{\textnormal{[}\,#1}}
+\newcommand\tamanhoverso[1]{\settowidth{\versewidth}{#1}}
+
+\newcommand*\EP[1][-1]{\enlargethispage*{#1\baselineskip}}
+
+\renewenvironment{quote}%
+               {\list{}{\small\rightmargin\leftmargin}%
+                \item[]}%
+               {\endlist}
+
+\epigraphtextposition{flushleft}
+\epigraphsourceposition{flushright}
+\epigraphfontsize{\footnotesize}
+\setlength{\epigraphrule}{0pt}
+\setlength{\epigraphwidth}{.7\textwidth}
+
+\newcommand{\tit}[1]{\item[\textnormal{\textsc{\MakeTextLowercase{#1}}}]}
+\newcommand{\titidem}{\item[\line(1,0){25}]}
+
+\newenvironment{bibliografia}[1][bibliografia]{%
+	\ifthenelse{\equal{#1}{}}{\relax}{\section*{#1}}
+  \begin{description}
+    \labelsep0ex\parsep0ex}%
+  {\end{description}}
+
+\newcommand{\ficha}[8][]{
+    \begingroup\bigskip
+      \begin{minipage}{.8\textwidth}
+        \raggedright\fontsize{7pt}{8pt}\selectfont\hyphenpenalty=10000
+        Dados Internacionais de Catalogação na Publicação (\textsc{cip})\\
+        (Câmara Brasileira do Livro, \textsc{sp}, Brasil)\\\smallskip
+        \hrule\smallskip
+        #2\par\smallskip
+        #3 \pageref{LastPage}~p.\par\smallskip
+        #1\par\smallskip
+        \textsc{isbn}\hskip2mm #4\par\smallskip
+        #5\par\smallskip
+        #6\mbox{}\hfill \textsc{cdd} #7\par\smallskip
+        \hrule\smallskip
+        Índices para catálogo sistemático:\\
+        #8\par
+      \end{minipage}
+    \bigskip\endgroup
+}
+
+%\footnoteInSection para colocar notas em seções, capítulos etc. 
+\newcommand{\footnoteInSection}[1]{\NoCaseChange{\linespread{1.0}\mbox{}\protect\Footnote{{\large*}}{#1}}}
+%\newcommand{\footnoteInSection}[1]{\NoCaseChange{\linespread{1.0}\mbox{}\protect\Footnote{{\Large$^\dagger$}}{#1}}}
+
+\makeatother%

@@ -1,0 +1,43 @@
+\documentclass[10pt]{hedrabook}
+\usepackage[brazilian]{babel}
+\usepackage{ucs}
+\usepackage[utf8x]{inputenc}
+\usepackage[svn,a5,cam,center]{hedracrop}
+\usepackage{hedracordel}
+\usepackage{hedraextra,hedratoc}
+\usepackage[protrusion=true,expansion]{microtype}
+\usepackage{comment,lipsum,verse}
+
+\SVN $Id: RODOLFO.tex 6616 2010-05-26 20:07:48Z iuri $
+
+
+\begin{document}
+\autor{Rodolfo Coelho Cavalcante}
+\introdutor{Eno Theodoro Wanke}
+%\AnoCopyright
+
+\frontspicio
+
+\setcounter{tocdepth}{0}     % amplitude da presença das partes no índice
+\setcounter{secnumdepth}{-2} % amplitude da numeração das partes
+
+
+\include{FICHA}
+\include{ENTRADA}
+
+
+\hedratoc
+
+\include{INTRO}
+
+% Favor não alterar o segundo parâmetro (\baselineskip). 
+% Para acertar entrelinhas, usar comando \linespread
+\fontsize{10.5pt}{\baselineskip}\selectfont
+%\baselineskip=0.97\baselineskip   % Não passar de 0.93 do \baselineskip
+
+%\include{INTRO}
+\include{TEXTO}
+
+\include{FINAIS}
+
+\end{document}

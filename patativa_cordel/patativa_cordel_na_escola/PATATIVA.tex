@@ -1,0 +1,37 @@
+\documentclass[showtrims,12pt]{memoir}
+\usepackage{projeto,hedralogo}
+
+\begin{document}
+\newcommand\autor{Patativa do Assaré\par\medskip Uma voz do Nordeste}
+\newcommand\introdutor{Sylvie Debs}
+
+\include{ROSTO}
+
+\setcounter{tocdepth}{0}
+\setcounter{secnumdepth}{-2}
+
+\include{CREDITOS}
+%\include{ENTRADA}
+
+\renewcommand{\contentsname}{Sumário}
+\tableofcontents*
+
+\cleardoublepage
+
+\pagestyle{plain}
+\copypagestyle{chapter}{plain}
+
+\include{INTRO}
+\cleardoublepage
+\openany
+\include{TEXTO}
+\clearpage
+\openright
+\include{FICHA_DE_LEITURA}
+
+\clearpage
+\pagestyle{empty}
+
+\include{FINAIS}
+
+\end{document}

@@ -1,0 +1,30 @@
+\documentclass[showtrims,11pt]{memoir}
+\usepackage{projeto,hedralogo}
+
+\author{James Joyce}
+\title{Um retrato do artista quando jovem}
+
+\begin{document}
+
+\include{ROSTO}
+\include{CREDITOS}
+
+\clearpage
+
+\setcounter{tocdepth}{0}
+\setcounter{secnumdepth}{-2}
+
+\renewcommand{\contentsname}{Sumário}
+\tableofcontents*
+
+\cleardoublepage
+
+\pagestyle{estilo}
+\copypagestyle{chapter}{plain}
+
+\include{INTRO}
+\include{TEXTO}
+\include{APENDICE}
+\include{COLOFAO}
+
+\end{document}

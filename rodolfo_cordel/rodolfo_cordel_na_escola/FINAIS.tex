@@ -1,0 +1,29 @@
+
+% Putline
+\newcommand{\putline}[2]{#1 & #2\\}
+
+%\input{PUBLICIDADE}
+\ifodd\thepage\paginabranca\else\clearpage\fi
+\pagebreak
+\thispagestyle{empty}
+
+\noindent\begin{tabular}{rp{.5\textwidth}}\small
+    \putline{Edição}{Iuri Pereira}
+		%\putline{Co-edição}{Bruno Costa}
+		\putline{Capa}{Laerte Silvino}
+%		\putline{Imagem de capa}{}
+		\putline{Programação em \LaTeX}{Bruno Oliveira}
+		\putline{Revisão}{Carla Mello Moreira}
+		\putline{Suplemento Na sala de aula}{Thelma Annes}
+%		\putline{Preparação}{}          
+		\putline{Colofão}{Adverte-se aos curiosos que se
+			imprimiu esta obra nas oficinas da gráfica
+			Bandeirantes em \today, em papel 
+			\mbox{off-set} 90 gramas,
+			composta em tipologia Bitstream Charter, 
+			em plataforma Linux (Gentoo, Ubuntu), 
+			com os softwares livres 
+			\LaTeX, De\TeX, \textsc{vim}, Evince, Pdftk, 
+			Aspell, \textsc{svn} e \textsc{trac}.}
+\end{tabular}
+

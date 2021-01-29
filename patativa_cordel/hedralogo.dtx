@@ -1,0 +1,180 @@
+% \iffalse
+%% File: hedralogo.dtx Copyright (C) 1998--2003 Melchior FRANZ
+%% $Id: hedralogo.dtx,v 1.92 2003/05/19 20:05:17 m Rel $
+%% $Version: 1.9 $
+%<*preamble>
+%
+% on Unix/Linux just run "make" to get the style file and the documentation;
+% else generate the driver hedralogo.ins (if you don't already have it):
+%
+%     $ latex hedralogo.dtx
+%
+% Now generate the style file:
+%
+%     $ tex hedralogo.ins
+%
+% And finally to produce the documentation run LaTeX three times:
+%
+%     $ latex hedralogo.dtx
+%
+%
+%
+%
+%
+%
+%
+% COPYRIGHT NOTICE:
+% This package is free software that can be redistributed and/or modified
+% under the terms of the LaTeX Project Public License as specified
+% in the file macros/latex/base/lppl.txt on any CTAN archive server.
+
+%</preamble>
+%
+%
+%<*batchfile>
+\begin{filecontents}{hedralogo.ins}
+\def\batchfile{hedralogo.ins}
+\input docstrip.tex
+\askforoverwritefalse
+\keepsilent
+\generate{\file{hedralogo.sty}{\from{hedralogo.dtx}{package}}}
+\endbatchfile
+\end{filecontents}
+%</batchfile>
+%
+%
+%
+%<*driver>
+\def\fileversion{1.9}
+\def\filedate{2003/05/20}
+\documentclass{ltxdoc}
+\usepackage[brazilian]{babel}
+\usepackage{ucs}
+\usepackage[utf8x]{inputenc}
+\usepackage{multicol,lipsum}
+%
+\newcommand*\option{\textsf}
+\newcommand*\package{\texttt}
+\newcommand*\program{\texttt}
+\newcommand*\person{\textsc}
+\newcommand*\itemfont{\sffamily}
+\newcommand*\versal[1]{\textsc{\small#1}}
+%
+%
+\IfFileExists{hedralogo.sty}
+  {\usepackage{hedralogo}[27/12/2008]\let\CROPSTYfound\active}
+  {\GenericWarning{hedralogo.dtx}
+    {ATENÇÃO!!! Arquivo `hedralogo.sty não foi localizado. Para gerá-lo^^J
+	é preciso rodar o arquivo hedralogo.ins (pdflatex hedralogo.ins)!!^^J
+	e em seguida processar novamente o arquivo hedralogo.dtx.^^J}}
+%
+%
+\newenvironment{labeling}[1]
+  {\list{}{\settowidth{\labelwidth}{\textbf{#1}}
+  \leftmargin\labelwidth\advance\leftmargin\labelsep
+  \def\makelabel##1{\textbf{##1}\hfil}}}{\endlist}
+%
+%
+\newenvironment{example}[1][.9\textwidth]
+  {\par\medskip\begin{tabular}{p{#1}l}}
+  {\end{tabular}\noindentafter\medbreak}
+%
+\makeatletter
+\newcommand*\noindentafter{\@nobreaktrue\everypar{{\setbox\z@\lastbox}}}
+\makeatother
+%
+% ^^A \RecordChanges
+%
+\begin{document}
+\hfuzz.6pt
+\setcounter{tocdepth}{2}
+\DocInput{hedralogo.dtx}
+\end{document}
+%</driver>
+% \fi
+%
+%^^A ---------------------------------------------------------------------- TODO: opção de tamanho
+%
+%\title{The \package{hedralogo}\ package}
+%
+% \author{Editora Hedra (JS)}
+% \date{27 Dez., 2008}
+% \maketitle
+%	\begin{abstract}
+%	Este micropacote serve para incluir um logo da hedra, com tamanhos e formatos específicos.
+%	Por hora, temos apenas duas versões.
+%	\end{abstract}
+%
+% \section{Como usar este pacotes}
+%
+% O pacote deve ser ativado  no preâmbulo com o comando |\usepackage| (|\usepackage{hedralogo}|).
+% Por enquanto não há opções de pacote disponíveis.
+
+%\section{Tipos de logo}
+% |\logoum| \logoum \quad
+% |\logodois| \logodois
+
+%\section{O código}
+%    \begin{macrocode}
+%<*package>
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{hedralogo}[27/12/08 v2.0 Editora Hedra (Mantenedor: JS)]
+\RequirePackage{color}
+%    \end{macrocode}
+%\begin{macro}{\lsize}
+%Define tamanho da fonte do logo.
+%\begin{macrocode}
+\newcommand{\lsize}{\@setfontsize\lsize\@xviipt{22}}
+%    \end{macrocode}
+% \end{macro}
+
+%\begin{macro}{\logoum}
+%    \begin{macrocode}
+\newcommand{\logoum}{
+			\setlength{\unitlength}{1mm}%
+			\hspace{1mm}\begin{picture}(25,25)%
+			\color{black}
+			  \put(0, 0){\line(1, 0){2}}
+			  \put(0, 0){\line(0, 1){2}}
+			  \put(23, 0){\line(1, 0){2}}
+			  \put(25, 0){\line(0, 1){2}}
+			  \put(0, 25){\line(1, 0){2}}
+			  \put(0, 23){\line(0, 1){2}}
+			  \put(23, 25){\line(1, 0){2}}
+			  \put(25, 23){\line(0, 1){2}}
+				\put(5.8,13){\makebox(0,0)[l]{\fontencoding{OT1}%
+				\fontfamily{ptm}\selectfont\lsize{}hedra}}%
+
+			\end{picture}
+}
+%    \end{macrocode}
+% \end{macro}
+
+%\begin{macro}{\logodois}
+% Logo simples com quadrado. 
+%    \begin{macrocode}
+\newcommand{\logodois}{
+			\setlength{\unitlength}{1mm}%
+			\hspace{1mm}\begin{picture}(25,25)%
+			\color{black}
+			  \put(0, 0){\line(1, 0){25}}
+			  \put(0, 0){\line(0, 1){25}}
+			  \put(25, 0){\line(0, 1){25}}
+			  \put(0, 25){\line(1, 0){25}}
+			  \put(5.8,13){\makebox(0,0)[l]{\fontencoding{OT1}%
+				\fontfamily{ptm}\selectfont\lsize{}hedra}}%
+
+			\end{picture}
+}
+%    \end{macrocode}
+% \end{macro}
+
+%\section{O que é preciso fazer}
+%\begin{enumerate}
+%\item Criar uma versão maior do logo.
+%\item Criar uma versão com chapado preto.
+%\item Incluir os logos com cadeira (tradicionais).
+%\item Comando para frontispício. Ex: |\front{\logoum}|
+%\item Descrição de uso da marca.
+%\end{enumerate}
+% \Finale

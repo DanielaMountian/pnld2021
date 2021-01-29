@@ -1,0 +1,26 @@
+\SVN $Id: FINAIS.tex 6287 2010-04-24 16:35:25Z bruno $
+
+\input{PUBLICIDADE}
+\pagebreak
+
+\begin{techpage}{42mm}
+		\putline{Edição}{Bruno Costa}
+		\putline{Coedição}{Iuri Pereira e Jorge Sallum}
+		\putline{Capa e projeto gráfico}{Júlio Dui e Renan Costa Lima}
+   	\putline{Imagem de capa}{Detalhe de \textit{Mönch~am~Meer} 
+   	(\textit{c.}~1808), de C.~D.~Friedrich}
+		\putline{Programação em LaTeX}{Marcelo Freitas}
+		\putline{Revisão}{Iuri Pereira}
+		\putline{Assistência editorial}{Bruno Oliveira}
+%		\putline{Preparação}{}          
+		\putline{Colofão}{Adverte-se aos curiosos que se
+			imprimiu esta obra em nossas oficinas em \today, em papel 
+			\mbox{off-set} 90 gramas,
+			composta em tipologia Walbaum Monotype de 
+			corpo oito a treze e Courier de corpo sete, 
+			em \textsc{gnu}/Linux (Gentoo, Sabayon e Ubuntu), 
+			com os softwares livres 
+			\LaTeX, De\TeX, \textsc{vim}, Evince, Pdftk, 
+			Aspell, \textsc{svn} e \textsc{trac}.}
+
+\end{techpage}
