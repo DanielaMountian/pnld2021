@@ -1,41 +1,32 @@
-\documentclass[10pt]{hedrabook}
-\usepackage[brazilian]{babel}
-\usepackage{ucs}
-\usepackage[utf8x]{inputenc}
-\usepackage[svn,a5,cam,center]{hedracrop}
-\usepackage{hedracordel}
-\usepackage{hedraextra,hedratoc}
-\usepackage[protrusion=true,expansion]{microtype}
-\usepackage{comment,lipsum,verse}
-\usepackage{pdfpages}
-
-
-\SVN $Id: ATHAYDE.tex 13016 2014-02-03 18:00:00Z iuri $
-
+\documentclass[showtrims,12pt]{memoir}
+\usepackage{projeto,hedralogo}
 
 \begin{document}
-\autor{João Martins de Athayde}
-\introdutor{Mário Souto Maior}
-%\AnoCopyright
+\newcommand\autor{João Martins de Athayde\par\medskip Tipógrafo, poeta e editor}
+\newcommand\introdutor{Mário Souto Maior}
 
-\frontspicio
+\include{ROSTO}
 
-\setcounter{tocdepth}{0}     % amplitude da presença das partes no índice
-\setcounter{secnumdepth}{-2} % amplitude da numeração das partes
+\setcounter{tocdepth}{0}
+\setcounter{secnumdepth}{-2}
 
+\include{CREDITOS}
+%\include{ENTRADA}
 
-\include{FICHA}
-\include{ENTRADA}
+\renewcommand{\contentsname}{Sumário}
+\tableofcontents*
 
-% Favor não alterar o segundo parâmetro (\baselineskip). 
-% Para acertar entrelinhas, usar comando \linespread
-\fontsize{10.5pt}{\baselineskip}\selectfont
-%\baselineskip=0.97\baselineskip   % Não passar de 0.93 do \baselineskip
+\cleardoublepage
 
-%\include{INTRO}
-%\part{Ipse Titulum} 
-%\include{TEXTO}
-\includepdf[pagecommand={\thispagestyle{empty}},width=.92\paperwidth,noautoscale,pages=7-208]{Athayde.pdf}
+\pagestyle{plain}
+\copypagestyle{chapter}{plain}
+
+\include{INTRO}
+\cleardoublepage
+\openany
+\include{TEXTO}
+\clearpage
+\openright
 
 \include{FINAIS}
 
