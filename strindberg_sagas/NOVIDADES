@@ -1,0 +1,79 @@
+AVISOS
+	- Não vamos mais usar as pastas \trunk e \tag. Ficaram obsoletas.
+	- Não existe mais a opção "mataviúvas". 
+	- Não é preciso colocar mais "~" em, por exemplo, "Sr.~" em notas de rodapé.
+	- Para colocar o título do livro/autor no cabeço, usar \pagestyle{part} em AUTOR.tex
+	- Não é preciso mais \noindent no primeiro parágrafo em abertura de capítulo.
+	- Criamos pacotes para teatro; sem documentação. 
+
+RECOMENDAÇÕES
+	- Usar o pacote enumerate.sty para enumerações. Ver documentação.
+	- Colocar o nome do autor ou nomes estrangeiros muito citados em \hyphenation, em AUTOR.tex
+	- Lembrar de apagar todos os pacotes não utilizados do projeto.
+	- Colocar quebra de hifenização (\hyphenation) dentro do pacote hedraextra.sty (25/ago J.)
+
+MODIFICAÇÕES RECENTES
+	- [hedrasides] Criamos o pacote hedrasides a partir da classe sides.cls  para diagramação de teatro. Com isso
+	  	       abandonamos o hedrateadro.sty (ex-plari)
+	- [hedraextra] Criei o comando \subtitulo{} que serve para colocar subtitulos dentro de 
+	  	       do comando \chapter{}, respeitando maiúsculas e minúsculas. Quando usado
+		       é preciso incluir texto em [] para não atrapalhar sumário.
+	- [checklist] Criamos um pacote para centralizar todos os checklists e futuramente
+	  	      toda a discução sobre padronização. Ver \svn\latex\checklists.
+ 	- [hedrabook] Mudanças nas distâncias de \paragraph (a pedido do Alexandre), para 
+	  	      equilibrá-lo com o chapter
+	- [hedrabolsolayout] Correção na simetria do número de página
+  	- [hedraextra] Acrescentamos 2ex em ambiente bibliohedra
+	- [hedralogo] Criei este pacote com os logos da hedra. Por enquanto temos dois: \logoum \logodois
+	  	      útil para usar com a hedraoctavo.cls por exemplo. 
+	- [hedraextra] Descartamos o nosso ambiente \epigraph e passamos a usar o pacote epigraph.sty
+		       o texto da epígrafes fica alinhado à esquerda, tamanho footnotesize, e o tamanho
+		       da epígrafe é de 70% da mancha. Uso: \epigraph{<FONTE>}{<FONTE>}
+	- [hedrabook] \frenchspacing nas notas.
+	- [hedraendnotes] Foi inteiramente reformado. agora ele conta com as opções "section" e "chapter*":
+	  que coloca as notas com peso de section, na primeira opção, e na segunda, "chapter*", apenas
+	  elimina as notas do sumário. Por default, o peso de abertura da seção para as notas de fim 
+	  é o mesmo de qualquer "chapter".
+	- [hedraextra] Criei um comando para abertura de fala em entrevistas chamado "\fala{}"
+	- [hedracrop] Foi totalmente reformulado. Está sem documentação. Usar opção "svn" para jogar 
+	  info no cabeço.
+	- [hedraextra] Adequei o tamanho da section e \sectionitem e coloquei mais espaços para evitar quebras
+	- [hedrabook] Proibi primeira linha quebrada. 
+	- [hedrabook] Consertei numeração de notas que não recomeçava. 
+	- [hedrabolsolayout] Acertei o cabeço. Agora é possível usar o \hedramarkboth sem restrição. 
+	- [hedrabolsolayout] Conserte problemas no cabeço. Agora temos toda liberdade com cabecos!
+
+A FAZER
+	1. Melhorar as páginas pretas. 
+		- Dividir em pacotes:
+		a. hedralogo.sty
+		b. hedrafichacatalografica.sty
+		- Criar \if para página preta de uma página, para evitar ter que lembrar do "\ \\".
+	2. Acertar data automática nas pretas (desativei estrutura do Marcelo com rsY?)
+	3. Acertar espaço entre notas (sugestão do Roberto)
+	4. Reestruturar a mancha (ver blog)
+	5. Escrever documentação com docstrip.
+	6. Criar classe para coleção de cordel.
+	7. criar opção \section no pacote hedraendotes
+	8. Separar template da hedraoctavo.cls e pacotes poucos usados
+	9. Criar script para colocar em versalete os números romanos.
+
+ARQUIVOS
+       classes:
+	hedrabook.cls		modificações na classe book.cls + formato da coleção de bolso
+	hedraoctavo.cls		modificações na classe octavo.cls
+       pacotes:
+	hedrabolsolayout.sty 	layout da coleção de bolso
+	hedracrop.sty		marcas de corte e integração com svn
+	hedraextra.sty		comandos extras que servem para qualquer classe
+	hedraindex.sty		modificação para fazer índice
+	hedrateatro.sty		comandos para teatro
+	hedratoc.sty		layout do sumário
+	checklist.sty		cria uma lista de checklists
+       extras:
+	verificador		script de correção 
+	dic.sh			script que passa o dicionário
+	dic.pws			arquivo com as palavras extras não localizadas no dicionário
+
+VERIFICADOR (sugestões)
+	etc, >> etc.,

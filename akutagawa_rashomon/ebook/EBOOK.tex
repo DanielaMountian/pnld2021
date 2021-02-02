@@ -1,0 +1,22 @@
+\documentclass[11pt]{memoir} %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage[ebook]{hedra}
+
+
+\renewcommand{\footnotemark}[1]{}
+\renewcommand{\footnotetext}[1]{}
+
+\begin{document}
+\Configure{tableofcontents*}{chapter}
+\Configure{UniqueIdentifier}{http://hedra.com.br}
+\Configure{CoverMimeType}{image/png}
+%\ifdef{\dircapa}{\coverimage{\dircapa}{}}{\coverimage{capa.png}}
+
+\maketitle
+
+\IfFileExists{INTRO.tex}{\include{INTRO}}
+\IfFileExists{TEXTO.tex}{\include{TEXTO}}
+\include{INPUTS}
+
+\end{document}
+
+
