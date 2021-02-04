@@ -1,9 +1,6 @@
 \AtBeginDocument{%
-\begingroup\pagestyle{empty}\raggedright\parindent0pt
-{\Formular{\Huge{\titulagemfront{}}}}
-\vspace{15mm}
-
-{\Formular\LARGE{\autor}}
+\begingroup\pagestyle{empty}\raggedleft\parindent0pt
+\titulagemfront{}
 \vfill
 \clearpage
 
@@ -11,7 +8,6 @@
 \raggedright
 \linha{copyright}{\copyrightlivro}
 \linhalayout{edição brasileira©}{Hedra \ifdef{\ano}{\ano}{\the\year}}
-\linhalayout{coordenação da coleção}{Ieda Lebensztayn}
 \linha{tradução©}{\copyrighttraducao}
 \linha{organização©}{\copyrightorganizacao}
 \linha{prefácio©}{\copyrightintroducao}
@@ -41,6 +37,29 @@
 \textit{Grafia atualizada segundo o Acordo Ortográfico da Língua\\
 Portuguesa de 1990, em vigor no Brasil desde 2009.}\\
 
+\medskip
+
+\hspace{10pt}Dados Internacionais de Catalogação na Publicação -- CIP
+
+\hrulefill
+
+\versal{A}XXX \hspace{5pt}Andrade, Mário de (1893--1945)\\
+\hspace{20pt}\parbox{185pt}{Alguns contos / Mário de Andrade. Org. de Rodrigo Jorge Ribeiro Neves. -- São Paulo: Hedra educação, 2021.}\\[6pt]
+
+\hspace{20pt}204 p.\\[6pt]
+
+\hspace{20pt}ISBN XXX-XX-XXXX-XXX-X\\[6pt]
+
+\hspace{20pt}\parbox{185pt}{1. Literatura brasileira. 2. Conto brasileiro. 3. Modernismo I. Título. II. Andrade, Mário de. III. Neves, Rodrigo Jorge Ribeiro.}
+
+\hspace{20pt}\versal{CDU} XXXXX \hspace{138pt}\versal{CDD} XXXXX
+
+\hrulefill
+
+\hspace{10pt}Elaborado por Wanda Lucia Schmidt CRB-8-1922
+
+\medskip
+
 
 \vfill\textit{Direitos reservados em l\'ingua\\ portuguesa somente para o Brasil}\\\medskip
 
@@ -53,13 +72,12 @@ editora@hedra.com.br\\
 www.hedra.com.br\\
 \bigskip
 Foi feito o depósito legal.\\\endgroup
-\pagebreak\raggedright
+\pagebreak\raggedleft
 %% Front ---------------------------------------------------------
 % Titulo
-{\Formular{\Huge{\titulagem}}}
-\vspace{11.25mm}
+\titulagem
 
-{\Formular\LARGE{\autor} \par}%\vspace{1.5ex}}
+{\Large \autor \par\vspace{1.5ex}}
 \vspace{5cm} %9.3cm
 \ifdef{\organizador}{{\small {\organizador}\\ (\textit{organização} e \textit{prefácio})} \par}{}
 %\ifdef{\introdutor}{{\small {\introdutor} (\textit{prefácio})} \par}{}
@@ -94,7 +112,7 @@ Foi feito o depósito legal.\\\endgroup
 
 % Finais -------------------------------------------------------
 \AtEndDocument{%
-  \publicidade
+ 
 
 \pagebreak\ifodd\thepage\paginabranca\fi
 

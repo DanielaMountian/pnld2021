@@ -1,23 +1,45 @@
 all:
-	svn propset svn:keywords "Date Id Rev" *.tex
-	pdflatex AKUTAGAWA.tex
-	evince AKUTAGAWA.pdf
-dub:
-	svn propset svn:keywords "Date Id Rev" *.tex
-	pdflatex AKUTAGAWA.tex
-	pdflatex AKUTAGAWA.tex
-	evince AKUTAGAWA.pdf
-tags:
-	 svn copy ../trunk/ svn://dev.hedra.com.br/hedra/<LIVRO>/tags/release-1.0 -m "primeira edição"
-
-dic:
-	@echo "personal_ws-1.1 pt_BR `cat *.tex | aspell -l pt_BR -t list | sort | uniq | wc -l` utf-8" > dic.pws
-	@cat *.tex | aspell -l pt_BR -t list | sort | uniq >> dic.pws
-	sh dic.sh
-erros:
-	@cat *.tex | aspell --extra-dicts=./dic.pws -t list | sort | uniq
-corrige:
-	clear 
-	sh dic.sh
+	git log -1 --date=short --format=format:'\newcommand{\RevisionInfo}{%h}' > gitrevisioninfo.sty
+	latexmk -xelatex LIVRO.tex
+lua:
+	latexmk -lualatex LIVRO.tex	
 clean:
-	rm *.aux *.dvi *.log AKUTAGAWA.pdf *.ps *.toc *.out
+	-rm *aux *log *tui *toc *.4ct *.4tc *.html *.css *.dvi *.epub *.lg *.ncx *.xref *.tmp *.idv *.opf *.png  LIVRO.pdf *.fdb_latexmk *.fls
+git:
+	git add .
+	git commit -m "mudança pequena"
+	git push
+
+
+calibre:
+	sudo -v && wget -nv -O- https://raw.githubusercontent.com/kovidgoyal/calibre/master/setup/linux-installer.py | sudo python -c "import sys; main=lambda:sys.stderr.write('Download failed\n'); exec(sys.stdin.read()); main()"
+linuxli-bertine:
+	sudo apt-get install fonts-linuxlibertine
+fonts-chines:
+	sudo apt-get install ttf-wqy-microhei
+server-path-restore:
+	PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games"
+bashrc-make4ht:
+	echo "export TEXMFHOME=${HOME}/texmf" >> ~/.bashrc
+	echo "export PATH=${HOME}/texmf/tex/scripts/lua/make4ht-master:${HOME}/texmf/tex/scripts/lua/tex4ebook-master:${HOME}/texmf/tex/scripts/lua/epubcheck-master:${PATH}" >> ~/.bashrc
+update-latexmk:
+	wget http://users.phys.psu.edu/~collins/software/latexmk-jcc/latexmk-439.zip
+	unzip latexmk-439.zip -d latexmk
+	sudo mv ./latexmk/latexmk.pl /usr/bin/
+	sudo mv /usr/bin/latexmk /usr/bin/latexmk.old
+	sudo mv /usr/bin/latexmk.pl /usr/bin/latexmk 
+	rm ./latexmk -r
+	rm latexmk-439.zip
+	latexmk -v
+update-pandoc:
+	# ubuntu package is too old, use haskell-platform
+	sudo apt-get install haskell-platform
+	sudo cabal update
+	sudo cabal install pandoc
+	sudo mv /usr/bin/pandoc /usr/bin/pandoc.bak
+	# if you make it using deploy account, just sudo cp /home/deploy/.cabal/bin/pandoc /usr/bin/pandoc 
+	sudo cp ~/.cabal/bin/pandoc /usr/bin/pandoc 
+	sudo chmod +rx /usr/bin/pandoc #no need if you using deploy account
+fonts-link:
+	ln -s ~/texmf/tex/fonts ~/.fonts
+	fc-cache -f -v

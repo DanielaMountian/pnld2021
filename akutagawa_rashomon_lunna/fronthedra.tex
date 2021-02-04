@@ -7,7 +7,7 @@
 %% Créditos ------------------------------------------------------
 \raggedright
 \linha{copyright}{\copyrightlivro}
-\linhalayout{edição brasileira©}{Mais e melhores \ifdef{\ano}{\ano}{\the\year}}
+\linhalayout{edição brasileira©}{Editora Lunna \ifdef{\ano}{\ano}{\the\year}}
 \linha{tradução©}{\copyrighttraducao}
 \linha{organização©}{\copyrightorganizacao}
 \linha{prefácio©}{\copyrightintroducao}
@@ -19,13 +19,11 @@
 \linha{indicação}{\indicacao}\smallskip
 \linha{edição}{\edicao}
 \linha{coedição}{\coedicao}
-\linhalayout{editor assistente}{Paulo Henrique Pompermaier}
-%\linha{assistência editorial}{\assistencia}
+\linha{assistência editorial}{\assistencia}
 \linha{revisão}{\revisao}
 \linha{preparação}{\preparacao}
 \linha{iconografia}{\iconografia}
-\linhalayout{capa e projeto gráfico}{Lucas Kröeff}
-%\linha{capa}{\capa}
+\linha{capa}{\capa}
 \linha{imagem da capa}{\imagemcapa}\smallskip
 \linha{ISBN}{\ISBN}\smallskip
 \begingroup\tiny
@@ -43,23 +41,22 @@ Portuguesa de 1990, em vigor no Brasil desde 2009.}\\
 
 \hrulefill
 
-\versal{A}XXX \hspace{5pt}Almeida, Júlia Lopes de (1862--1934)\\
-\hspace{20pt}\parbox{185pt}{Contos e novelas / Júlia Lopes de Almeida. Org. de Rodrigo Jorge Ribeiro Neves. -- Rio de Janeiro: Mais e melhores, 2021.}\\[6pt]
+\versal{A}XXX \hspace{5pt}Akutagawa, Ryûnosuke (1892--1927)\\
+\hspace{20pt}\parbox{185pt}{Rashômon e outros contos / Ryûnosuke Akutagawa. Trad. do japonês de Madalena Hashimoto Cordaro e Junko Ota. -- Rio de Janeiro: Editora Lunna, 2021.}\\[6pt]
 
 \hspace{20pt}204 p.\\[6pt]
 
 \hspace{20pt}ISBN XXX-XX-XXXX-XXX-X\\[6pt]
 
-\hspace{20pt}\parbox{185pt}{1. Literatura brasileira. 2. Conto brasileiro. 3. Novela brasileira I. Título. II. Almeida, Júlia Lopes de. III. Neves, Rodrigo Jorge Ribeiro.}
+\hspace{20pt}\parbox{185pt}{1. Literatura japonesa. 2. Conto japonês. I. Título. II. Akutagawa, Ryûnosuke. III. Hashimoto, M. IV. Ota, Junko.}
 
-\hspace{20pt}\versal{CDU} XXXXX \hspace{138pt}\versal{CDD} XXXXX
+\hspace{20pt}\versal{CDU} 895-63 \hspace{138pt}\versal{CDD} 895-63
 
 \hrulefill
 
 \hspace{10pt}Elaborado por Wanda Lucia Schmidt CRB-8-1922
 
 \medskip
-
 
 \vfill\textit{Direitos reservados em l\'ingua\\ portuguesa somente para o Brasil}\\\medskip
 
@@ -78,19 +75,19 @@ Foi feito o depósito legal.\\\endgroup
 \titulagem
 
 {\Large \autor \par\vspace{1.5ex}}
-\ifdef{\organizador}{{\small {\organizador}\\ (\textit{organização} e \textit{prefácio})} \par}{}
-%\ifdef{\introdutor}{{\small {\introdutor} (\textit{prefácio})} \par}{}
-\ifdef{\tradutor}{{\small {\tradutor} (\textit{tradução})}\par}{}\vspace{8.5mm}
+\ifdef{\organizador}{{\small {\organizador} (\textit{organização e tradução})} \par}{}
+\ifdef{\introdutor}{{\small {\introdutor} (\textit{prefácio})} \par}{}\vspace{1.5cm}
+%\ifdef{\tradutor}{{\small {\tradutor} (\textit{tradução})}\par}{}
 
 {{\footnotesize{} \ifdef{\numeroedicao}{\numeroedicao}{1}ª edição} \par}
+
 %logos
 \vfill
-\normalsize
-\ifdef{\logo}{\IfFileExists{\logo}{\hfill\includegraphics[width=3cm]{\logo}\hfill\logoum{}\\ São Paulo\quad\the\year}}{\logoum\break{} São Paulo\quad\the\year}
+\ifdef{\logo}{\IfFileExists{\logo}{\hfill\includegraphics[width=3cm]{\logo}\hfill\logoum{}\\ São Paulo\_\the\year}}{\logoum\break{} São Paulo\quad\the\year}
 %\includegraphics[width=.4\textwidth,trim=0 0 25 0]{logo.jpg}\\\smallskip
 \par\clearpage\endgroup
 % Resumo -------------------------------------------------------
-\begingroup \footnotesize \parindent0pt \parskip 5pt \thispagestyle{empty} \vspace*{-0.5\textheight}\mbox{} \vfill
+\begingroup \footnotesize \parindent0pt \parskip 5pt \thispagestyle{empty} \vspace*{.25\textheight}\mbox{} \vfill
 \baselineskip=.92\baselineskip
 \IfFileExists{PRETAS.tex}{\input{PRETAS}}{% 
 \ifdef{\resumo}{\resumo\par}{}
@@ -111,7 +108,7 @@ Foi feito o depósito legal.\\\endgroup
 
 % Finais -------------------------------------------------------
 \AtEndDocument{%
-  \publicidade
+  
 
 \pagebreak\ifodd\thepage\paginabranca\fi
 
@@ -121,7 +118,7 @@ Foi feito o depósito legal.\\\endgroup
 \begin{center}
 \begin{minipage}{.8\textwidth}
 \centering\tiny\noindent{}Adverte-se aos curiosos que se imprimiu este livro \ifdef{\grafica}{na gráfica \grafica}{em nossas oficinas}, 
-em \today \ifdef{\papelmiolo}{em papel \papelmiolo}, em tipologia Formular e \tipopadrao{}, com diversos sofwares livres, 
+em \today \ifdef{\papelmiolo}{em papel \papelmiolo}, em tipologia \tipopadrao{}, com diversos sofwares livres, 
 entre eles, Lua\LaTeX, git \& ruby. \ifdef{\RevisionInfo{}}{\par(v.\,\RevisionInfo)}{}\par \begin{center}\normalsize\adforn{64}\end{center}
 \end{minipage}
 \end{center}
