@@ -1,5 +1,26 @@
 Primeira etapa
 ==============
+
+Submódulos
+----------
+arturazevedo_peledolobo_circuito
+atui_mare2_n-1_araucaria
+baudelaire_pequenos_acorde
+brown_narrativa_relicario
+gabrielsoares_tratado_piseagrama
+gandavo_historia_hedraeducacao
+jacobs_incidentes_n-1_nexus
+lovecraft_cthulhu_cor
+machado_paicontramae_lamparina
+marra_crack_beatrizME
+menezes_jazzrural_hedraeducacao
+mi_trans_noite_n-1
+mi_trans_terra_n-1
+safo_antologia_renato
+stocker_sol_relicario
+wpa_narrativas_hedra
+
+
 	Avaliar textos e levantar grau de dificuldade [0-5]
 	Desmembrar INTRO.tex e PRETAS.tex em `PARATEXTO.tex`
 
