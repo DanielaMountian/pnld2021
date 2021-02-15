@@ -2,7 +2,7 @@
 \hyphenpenalty =10000\thispagestyle {empty}
 \contentsline {chapter}{Sobre o autor}{9}
 \contentsline {chapter}{Sobre o livro}{11}
-\contentsline {part}{Crônicas}{13}
+\contentsline {part}{\textsc {crônicas}}{13}
 \contentsline {part}{Autobiografia}{15}
 \contentsline {chapter}{Maio}{17}
 \contentsline {chapter}{Esta minha letra}{23}
@@ -49,7 +49,7 @@
 \contentsline {chapter}{O Gambá}{155}
 \contentsline {chapter}{Pedra \& Moskowa}{159}
 \contentsline {chapter}{Percalços da farda}{161}
-\contentsline {part}{CONTOS}{163}
+\contentsline {part}{\textsc {contos}}{163}
 \contentsline {chapter}{O homem que sabia javanês}{165}
 \contentsline {chapter}{A nova Califórnia}{179}
 \contentsline {section}{Capítulo 1}{179}
@@ -59,7 +59,7 @@
 \contentsline {section}{I}{193}
 \contentsline {section}{II}{199}
 \contentsline {section}{III}{206}
-\contentsline {chapter}{Hussein Bem-Áli Al-Bálec e Miquéias Habacuc}{217}
+\contentsline {chapter}{Hussein Bem"-Áli Al"-Bálec e Miquéias Habacuc}{217}
 \contentsline {chapter}{A barganha}{235}
 \contentsline {chapter}{Cló}{245}
 \contentsline {chapter}{Clara dos Anjos}{263}

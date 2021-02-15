@@ -23,11 +23,6 @@
 \usepackage{endnotes}
 \renewcommand{\notesname}{Notas}
 
-\usepackage{makeidx,hedraindex}  % cria índice
-\makeindex  
-
-%\counterwithin*{endnote}{part}
-%\counterwithin*{endnote}{chapter}
 
 \let\latexchapter\chapter
 \makeatletter
@@ -58,6 +53,9 @@
 %\renewcommand{\headrulewidth}{0pt}
 %\renewcommand{\footrulewidth}{0pt}}
 
+
+%--------------------------------------------ALTERAR DISTÃNCIA ENTRE TÍTULO DO SUMÁRIO E CAPÍTULOS
+%\addtocontents{toc}{\vskip-15pt}
 %--------------------------------------------
 \usepackage{afterpage}
 
@@ -67,16 +65,6 @@
     \addtocounter{page}{0}%
     \newpage}
 
-
-
-%\usepackage{imakeidx} 
-%\makeindex[program=xindy, options=-C utf8 -L portuguese]
-%\newcommand\gobbleone[1]{}
-%\newcommand*{\seeonly}[2]{\ (\emph{\seename} #1)}
-%\newcommand*{\also}[2]{\emph{cf.} #1}
-%\newcommand{\Also}[2]{\emph{See also} #1}
-%\renewcommand\indexname{Índice onomástico}
-%\makeindex[intoc]
 
 \setcounter{tocdepth}{0}
 \setcounter{secnumdepth}{-2} 
@@ -125,20 +113,29 @@
 
 \newcommand{\mystar}{{\fontfamily{lmr}\selectfont$\star$}}
 
-%\makeatletter
-%\renewcommand{\@chapapp}{}% Not necessary...
-%\newenvironment{chapquote}[2][2em]
-%  {\setlength{\@tempdima}{#1}%
-%   \def\chapquote@author{#2}%
-%   \parshape 1 \@tempdima \dimexpr\textwidth-2\@tempdima\relax%
-%   \itshape}
-%  {\par\scriptsize\hfill-- \chapquote@author\hspace*{\@tempdima}\par\bigskip}
-%\makeatother
+%------------------------------------------ INCLUIR EPIGRAFE EM PART
+\let\oldafterpartskip\afterpartskip 
 
-%\newcommand\Chapter[2]{\chapter
-%  [#1\hfil\hbox{}\protect\linebreak{\itshape#1}]%
-%  {#1\\[2ex]\Large\itshape#2}%
-%}
+\newcommand\partepigraph[3][60pt]{
+\renewcommand{\afterpartskip}{
+\vskip#1
+\epigraph{#2}{#3}
+\vfil}
+}
+\newcommand\removeepigraph{
+  \let\afterpartskip\oldafterpartskip}
+
+\makeatletter
+\renewenvironment{verse}
+               {\let\\\@centercr
+                \list{}{\itemsep      \z@
+                        \itemindent   -1.5em%
+                        \listparindent\itemindent
+                        \rightmargin  \leftmargin
+                        \advance\leftmargin 1.5em}%
+                \item\relax}
+               {\endlist}
+\makeatother
 
 \begin{document}
 

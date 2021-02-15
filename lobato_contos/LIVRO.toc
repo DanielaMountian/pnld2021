@@ -1,0 +1,121 @@
+\babel@toc {brazilian}{}
+\hyphenpenalty =10000\thispagestyle {empty}
+\contentsline {chapter}{Apresentação\emph {, por{} Ieda Lebensztayn}}{9}
+\contentsline {section}{SOBRE O AUTOR}{13}
+\contentsline {section}{FONTES/EDIÇÕES DE CONTOS DE LOBATO}{16}
+\contentsline {part}{OS PROTAGONISTAS DA HISTÓRIA}{19}
+\contentsline {chapter}{Negrinha\FN@sf@gobble@opt {A primeira edição de \emph {Negrinha} (1920) era composta dos seguintes contos: ``Negrinha'', ``As fitas da vida'', ``O drama da geada'', ``Bugio moqueado'', ``O jardineiro Timóteo'' e ``O colocador de pronomes''. Nota da edição de 1955.}}{21}
+\contentsline {chapter}{O jardineiro Timóteo\FN@sf@gobble@opt [*]{Texto de 1920, publicado no livro \emph {Negrinha}.}}{31}
+\contentsline {chapter}{Os negros\FN@sf@gobble@opt [*]{Texto de 1922, publicado no livro \emph {Negrinha}.}}{41}
+\contentsline {section}{I}{41}
+\contentsline {section}{II}{44}
+\contentsline {section}{III}{46}
+\contentsline {section}{IV}{48}
+\contentsline {section}{V}{48}
+\contentsline {section}{VI}{50}
+\contentsline {section}{VII}{51}
+\contentsline {section}{VIII}{54}
+\contentsline {section}{IX}{54}
+\contentsline {section}{X}{57}
+\contentsline {section}{XI}{57}
+\contentsline {section}{XII}{59}
+\contentsline {section}{XIII}{62}
+\contentsline {section}{XIV}{63}
+\contentsline {section}{XV}{64}
+\contentsline {section}{XVI}{65}
+\contentsline {section}{XVII}{68}
+\contentsline {section}{XVIII}{69}
+\contentsline {section}{XIX}{71}
+\contentsline {section}{XX}{72}
+\contentsline {section}{XXI}{72}
+\contentsline {section}{XXII}{73}
+\contentsline {chapter}{Marabá\FN@sf@gobble@opt [*]{Texto de 1923, publicado no livro \emph {O macaco que se fez homem}.}}{77}
+\contentsline {section}{PRIMEIRO ATO}{81}
+\contentsline {section}{QUADRO}{82}
+\contentsline {section}{QUADRO}{83}
+\contentsline {section}{LETREIRO}{83}
+\contentsline {section}{QUADRO}{83}
+\contentsline {section}{QUADRO}{84}
+\contentsline {section}{LETREIRO}{84}
+\contentsline {section}{QUADRO}{84}
+\contentsline {section}{NOTA A MR. CECIL B. DE MILLE}{86}
+\contentsline {section}{QUADRO}{86}
+\contentsline {section}{QUADRO}{87}
+\contentsline {section}{QUADRO}{87}
+\contentsline {section}{LETREIRO}{87}
+\contentsline {section}{QUADRO}{87}
+\contentsline {section}{QUADRO}{88}
+\contentsline {section}{QUADRO}{88}
+\contentsline {section}{QUADRO}{89}
+\contentsline {section}{QUADRO}{89}
+\contentsline {section}{QUADRO}{89}
+\contentsline {section}{QUADRO}{90}
+\contentsline {section}{QUADRO}{90}
+\contentsline {section}{QUADRO}{90}
+\contentsline {section}{LETREIRO}{90}
+\contentsline {section}{QUADRO}{90}
+\contentsline {section}{QUADRO}{90}
+\contentsline {section}{QUADRO}{90}
+\contentsline {section}{QUADRO}{91}
+\contentsline {section}{QUADRO}{91}
+\contentsline {section}{QUADRO}{91}
+\contentsline {section}{QUADRO}{91}
+\contentsline {section}{LETREIRO}{91}
+\contentsline {part}{O AMOR INVISÍVEL}{93}
+\contentsline {chapter}{O fisco (Conto de Natal)\FN@sf@gobble@opt [*]{Texto de 1918, publicado no livro \emph {Negrinha}.}}{95}
+\contentsline {section}{PRÓLOGO}{95}
+\contentsline {section}{O BRÁS}{97}
+\contentsline {section}{PEDRINHO, SEM SER CONSULTADO, NASCE}{101}
+\contentsline {section}{A VIDA}{101}
+\contentsline {section}{EPÍLOGO? NÃO! PRIMEIRO ATO...}{105}
+\contentsline {chapter}{As fitas da vida\FN@sf@gobble@opt [*]{Texto de 1920, publicado no livro \emph {Negrinha}.}\,\FN@sf@gobble@opt [**]{Na primeira edição o título deste conto era simplesmente ``Fitas da vida''. Nota da edição de 1955.}}{107}
+\contentsline {chapter}{Era no Paraíso...\FN@sf@gobble@opt [*]{Texto de 1923, publicado no livro \emph {O macaco que se fez homem}.}}{113}
+\contentsline {chapter}{Tragédia dum capão de pintos\FN@sf@gobble@opt [*]{Texto de 1923, publicado no livro \emph {O macaco que se fez homem}.}}{127}
+\contentsline {chapter}{Duas cavalgaduras\FN@sf@gobble@opt [*]{Texto de 1923, publicado no livro \emph {O macaco que se fez homem}.}}{141}
+\contentsline {chapter}{Fatia de vida\FN@sf@gobble@opt [*]{Texto de 1923, publicado no livro \emph {O macaco que se fez homem}.}}{151}
+\contentsline {chapter}{``Quero ajudar o Brasil...''\FN@sf@gobble@opt [*]{Texto de 1938, publicado no livro \emph {Negrinha}.}}{159}
+\contentsline {part}{TERRA PARA RIR OU CHORAR}{165}
+\contentsline {chapter}{Gens ennuyeux\FN@sf@gobble@opt [*]{Texto de 1901, publicado no livro \emph {Cidades mortas}.}\,\FN@sf@gobble@opt [**]{Com este trabalho Monteiro Lobato, então acadêmico de Direito, concorreu ao concurso de contos instituído pelo~jornal \emph {O Onze de Agosto}. Obteve o primeiro lugar, tendo o júri sido composto por Amadeu Amaral, Garcia Redondo e Silvio de Almeida. ``Gens ennuyeux'' foi publicado no \emph {O Onze} \emph {de Agosto}, de 12 de outubro de 1904. Nota da edição de 1955.}}{167}
+\contentsline {chapter}{Cabelos compridos\FN@sf@gobble@opt [*]{Texto de 1904, publicado no livro \emph {Cidades mortas}.}}{175}
+\contentsline {chapter}{O fígado indiscreto\FN@sf@gobble@opt [*]{Texto de 1904, publicado no livro \emph {Cidades mortas}.}\,\FN@sf@gobble@opt [**]{Na primeira publicação deste trabalho -- \emph {Revista do Brasil,} n. 39, março de 1919 -- vinha o seguinte subtítulo: ``Ou o rapaz que saía fora de si''. Nota da edição de 1955.}}{181}
+\contentsline {chapter}{O pito do reverendo\FN@sf@gobble@opt [*]{Texto de 1906, publicado no livro \emph {Cidades mortas}.}\,\FN@sf@gobble@opt [**]{Este conto foi publicado na \emph {Revista do Brasil}, n. 42, de junho de 1919, com o título ``Gramática viva'' e o subtítulo ``De como se formam locuções familiares''. Nota da edição de 1955.}}{187}
+\contentsline {chapter}{De como quebrei a cabeça à mulher do Melo\FN@sf@gobble@opt [*]{Texto de 1906, publicado no livro \emph {Cidades mortas}.}}{193}
+\contentsline {section}{Nota da primeira edição (1946)}{196}
+\contentsline {chapter}{A vida em Oblivion\FN@sf@gobble@opt [*]{Texto de 1908, publicado no livro \emph {Cidades mortas}.}\,\FN@sf@gobble@opt [**]{Na primeira edição o título deste capítulo era ``Coisas do meu diário'', com o subtítulo ``Oblivion''. Nota da edição de 1955.}}{199}
+\contentsline {section}{Os três livros}{199}
+\contentsline {chapter}{Vidinha ociosa\FN@sf@gobble@opt [*]{Texto de 1908, publicado no livro \emph {Cidades mortas}.}}{203}
+\contentsline {section}{APÓLOGO}{203}
+\contentsline {section}{A MESMICE}{203}
+\contentsline {section}{A FOLHINHA}{204}
+\contentsline {section}{TOURADAS}{204}
+\contentsline {section}{A ENXADA E O PARAFUSO}{206}
+\contentsline {section}{RABULICES}{206}
+\contentsline {section}{PÉ NO CHÃO}{207}
+\contentsline {section}{BARQUINHA DE PAPEL}{208}
+\contentsline {section}{O HEREGE}{208}
+\contentsline {section}{JUQUITA}{209}
+\contentsline {section}{O JESUÍNO}{209}
+\contentsline {chapter}{O colocador de pronomes, 1920 (De \emph {Negrinha})}{211}
+\contentsline {chapter}{O rapto, 1923 (De O macaco que se fez homem)}{227}
+\contentsline {chapter}{Sorte grande, 1939 (De \emph {Negrinha})}{239}
+\contentsline {chapter}{Dona Expedita, 1939 (De \emph {Negrinha})}{251}
+\contentsline {chapter}{Herdeiro de si mesmo, 1939 (De \emph {Negrinha})}{261}
+\contentsline {chapter}{A policitemia de Dona Lindoca, s. d. (De \emph {Negrinha})}{275}
+\contentsline {part}{OS PARASITAS DONOS, OS DECADENTES E OS OLHODARRUÁVEIS}{289}
+\contentsline {chapter}{Café! Café!, 1900 (De \emph {Cidades mortas})}{291}
+\contentsline {chapter}{O plágio, 1905 (De \emph {Cidades mortas})}{297}
+\contentsline {chapter}{Cidades mortas, 1906 (De \emph {Cidades mortas})}{307}
+\contentsline {chapter}{O luzeiro agrícola, 1910 (De \emph {Cidades mortas})}{311}
+\contentsline {section}{I}{311}
+\contentsline {section}{II}{314}
+\contentsline {chapter}{Velha praga, 1914 (De \emph {Urupês})}{323}
+\contentsline {chapter}{Urupês, 1914 (De \emph {Urupês})}{331}
+\contentsline {chapter}{A nuvem de gafanhotos, 1914 (De \emph {O macaco que se fez homem})}{345}
+\contentsline {chapter}{Um suplício moderno, 1916 (De \emph {Urupês})}{361}
+\contentsline {chapter}{``Pollice verso'', 1916 (De \emph {Urupês})}{375}
+\contentsline {chapter}{O engraçado arrependido, 1917 (De \emph {Urupês})}{389}
+\contentsline {chapter}{O comprador de fazendas, 1917 (De \emph {Urupês})}{403}
+\contentsline {chapter}{O drama da geada, 1919 (De \emph {Negrinha})}{419}
+\contentsline {chapter}{Toque outra, s. d. (De \emph {Cidades mortas})}{429}
+\contentsline {chapter}{Os pequeninos, 1939 (De \emph {Negrinha})}{431}
+\contentsfinish 

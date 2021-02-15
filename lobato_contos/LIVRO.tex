@@ -1,4 +1,4 @@
-\documentclass[showtrims,trimframe,12pt,spreadimages]{memoir}
+\documentclass[semcabeco,showtrims,12pt,conselho,spreadimages]{memoir}
 
 \usepackage[pnld]{hedraoptions} %% << %%%%%%%%%%%%%%%%
 \usepackage[baruch]{hedrastyles}
@@ -8,57 +8,32 @@
 \usepackage{penalidades}
 \usepackage{graficos}
 \usepackage{hedralogo}
-\usepackage[shrink,siderepl]{hedrasides}
 \usepackage{hifensextras}
 \usepackage{fichatecnica}
 \usepackage[standart]{aparatos}
 \usepackage{tabelas}
 \usepackage{versos}
 \usepackage{gitrevisioninfo}
+\usepackage{parallel}
 
 \newcommand{\forceindent}{\leavevmode{\parindent=1,4em\indent}}
 
-%\linespread{1.15}
-
-\usepackage{endnotes}
-\renewcommand{\notesname}{Notas}
-
-\usepackage{makeidx,hedraindex}  % cria índice
-\makeindex  
-
-%\counterwithin*{endnote}{part}
-%\counterwithin*{endnote}{chapter}
-
-\let\latexchapter\chapter
 \makeatletter
-\renewcommand\enoteheading{%
-  \setcounter{secnumdepth}{-2}
-  \latexchapter*{\notesname\markboth{NOTAS}{}}
-  \mbox{}\par\vskip-\baselineskip
-  \let\@afterindentfalse\@afterindenttrue
-}
-\makeatother
 
-
-
-
-\makeatletter
 \def\@xfootnote[#1]{%
   \protected@xdef\@thefnmark{#1}%
   \@footnotemark\@footnotetext}
+%\def\footnoterule{\kern-8\p@
+   %\hrule \@width 2in \kern 7.6\p@} % the \hrule is .4pt high
+\skip\footins=10mm\@plus3mm\@minus5mm
 \makeatother
-
 
 
 \usepackage{footmisc}
 
 \renewcommand*\footnoterule{}
-%\fancyhf[RO]{\cnvt{\thepage} -- \thepage}
-%\fancyfoot{}
-%\renewcommand{\headrulewidth}{0pt}
-%\renewcommand{\footrulewidth}{0pt}}
 
-%--------------------------------------------
+
 \usepackage{afterpage}
 
 \newcommand\blankpage{%
@@ -68,19 +43,9 @@
     \newpage}
 
 
-
-%\usepackage{imakeidx} 
-%\makeindex[program=xindy, options=-C utf8 -L portuguese]
-%\newcommand\gobbleone[1]{}
-%\newcommand*{\seeonly}[2]{\ (\emph{\seename} #1)}
-%\newcommand*{\also}[2]{\emph{cf.} #1}
-%\newcommand{\Also}[2]{\emph{See also} #1}
-%\renewcommand\indexname{Índice onomástico}
-%\makeindex[intoc]
-
 \setcounter{tocdepth}{0}
 \setcounter{secnumdepth}{-2} 
-%\linespread{1.08}
+
 \usepackage{commands}
 
 \usepackage{setspace}
@@ -125,25 +90,8 @@
 
 \newcommand{\mystar}{{\fontfamily{lmr}\selectfont$\star$}}
 
-%\makeatletter
-%\renewcommand{\@chapapp}{}% Not necessary...
-%\newenvironment{chapquote}[2][2em]
-%  {\setlength{\@tempdima}{#1}%
-%   \def\chapquote@author{#2}%
-%   \parshape 1 \@tempdima \dimexpr\textwidth-2\@tempdima\relax%
-%   \itshape}
-%  {\par\scriptsize\hfill-- \chapquote@author\hspace*{\@tempdima}\par\bigskip}
-%\makeatother
-
-%\newcommand\Chapter[2]{\chapter
-%  [#1\hfil\hbox{}\protect\linebreak{\itshape#1}]%
-%  {#1\\[2ex]\Large\itshape#2}%
-%}
-
 \begin{document}
 
-\include{INPUTS}
-
-\printindex
+\include{TEXTO}
 
 \end{document}

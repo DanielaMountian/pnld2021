@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1613052532 "LIVRO.tex" "LIVRO.pdf" "LIVRO" 1613052539
+["pdflatex"] 1613052532 "LIVRO.tex" "LIVRO.pdf" "LIVRO" 1613098914
   "/home/edlab/.texlive2017/texmf-var/luatex-cache/generic/fonts/otl/linlibertine-r.luc" 1568389827 330559 8015d189746fd34549af425155e1e6e6 ""
   "/home/edlab/.texlive2017/texmf-var/luatex-cache/generic/fonts/otl/linlibertine-rb.luc" 1568389827 287959 d5887f4d1b939889089730c9a54a54da ""
   "/home/edlab/.texlive2017/texmf-var/luatex-cache/generic/fonts/otl/linlibertine-rbi.luc" 1568389827 219520 6fa7a4848f8db3261ce34a95f9e81fd5 ""
@@ -240,9 +240,9 @@
   "hedrastyles.sty" 1613052503 8871 42adf333292a28ff4bee8655ccc74eef ""
   "tipografia.sty" 1612880186 10023 139cb71713430b6cd9823439cc7ff191 ""
   (generated)
-  "INPUTS.aux"
   "PUBLICIDADE.aux"
-  "LIVRO.aux"
-  "LIVRO.toc"
   "LIVRO.log"
+  "LIVRO.aux"
   "LIVRO.pdf"
+  "INPUTS.aux"
+  "LIVRO.toc"

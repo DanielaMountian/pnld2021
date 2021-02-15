@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.0.4 (TeX Live 2017/Debian)  (format=lualatex 2019.9.13)  12 FEB 2021 00:15
+This is LuaTeX, Version 1.0.4 (TeX Live 2017/Debian)  (format=lualatex 2019.9.13)  15 FEB 2021 11:57
  restricted system commands enabled.
 **LIVRO.tex
 (./LIVRO.tex
@@ -34,7 +34,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.088 seconds
+luaotfload | main : initialization completed in 0.085 seconds
 Babel <3.18> and hyphenation patterns for 1 language(s) loaded.
 (/usr/share/texlive/texmf-dist/tex/latex/memoir/memoir.cls
 Document Class: memoir 2016/05/16 v3.7f configurable book, report, article docum
@@ -374,20 +374,20 @@ Package: mempatch 2009/07/24 v6.0f Patches for memoir class v1.6180339
 ))
 (./hedraoptions.sty
 
-Class memoir Warning: \marginparsep is zero or negative on input line 189.
+Class memoir Warning: \marginparsep is zero or negative on input line 191.
 
 
 ******************************************************
 Stock height and width: 845.04684pt by 597.50787pt
 Top and edge trims: 56.9055pt and 106.69783pt
 Page height and width: 583.2815pt by 384.1122pt
-Text height and width: 490.5pt by 281pt
-Spine and edge margins: 51.2299pt and 51.20001pt
-Upper and lower margins: 52.20032pt and 40.58118pt
-Headheight and headsep: 14.22636pt and 14.22636pt
-Footskip: 5.69054pt
+Text height and width: 490.5pt by 284pt
+Spine and edge margins: 48.36966pt and 51.21498pt
+Upper and lower margins: 32.37915pt and 60.40234pt
+Headheight and headsep: 14.22636pt and 0pt
+Footskip: 28.45274pt
 Columnsep and columnseprule: 10pt and 0pt
-Marginparsep and marginparwidth: 0pt and 70.42056pt
+Marginparsep and marginparwidth: 0pt and 71.13188pt
 Sidecapsep and sidecapwidth: 7pt and 102pt
 Sidebarhsep and sidebarwidth: 7pt and 102pt
 Sidebarvsep and sidebartopsep: 14.5pt and 0pt
@@ -396,7 +396,7 @@ Sidefoothsep and sidefootwidth: 7pt and 102pt
 Sidefootvsep and sidefootheight: 14.5pt and 546.64995pt
 ******************************************************
 
-) (./hedrastyles.sty
+) (/home/edlab/texmf/tex/hedrastyles.sty
 (/usr/share/texlive/texmf-dist/tex/latex/textcase/textcase.sty
 Package: textcase 2004/10/07 v0.07 Text only upper/lower case changing (DPC)
 LaTeX Info: Redefining \MakeTextUppercase on input line 47.
@@ -1431,28 +1431,23 @@ File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package color Info: Driver file: luatex.def on input line 147.
 ))
-(/home/edlab/texmf/tex/hedrasides.sty
-Package: hedrasides 2008/12/15 v1.9 extensão hedra da classe sides.cls
-\c@act=\count336
-\c@scene=\count337
-) (./fichatecnica.sty)
-(/home/edlab/texmf/tex/aparatos.sty (/home/edlab/texmf/tex/listingx.sty)
-(/home/edlab/texmf/tex/frontlayout.sty)) (./fronthedra.tex)
-(/home/edlab/texmf/tex/tabelas.sty
+(./fichatecnica.sty) (/home/edlab/texmf/tex/aparatos.sty
+(/home/edlab/texmf/tex/listingx.sty) (/home/edlab/texmf/tex/frontlayout.sty))
+(./fronthedra.tex) (/home/edlab/texmf/tex/tabelas.sty
 (/usr/share/texlive/texmf-dist/tex/latex/xtab/xtab.sty
 Package: xtab 2011/07/31 v2.3f Extended supertabular package
-\c@tracingst=\count338
+\c@tracingst=\count336
 \PWSTcapht=\dimen288
 \ST@wd=\dimen289
 \ST@rightskip=\skip266
 \ST@leftskip=\skip267
 \ST@parfillskip=\skip268
-\c@PWSTtable=\count339
-\PWSTlastpage=\count340
-\PWSTpenultimate=\count341
-\PWSTcurpage=\count342
-\PWSTtempc=\count343
-\PWSTlines=\count344
+\c@PWSTtable=\count337
+\PWSTlastpage=\count338
+\PWSTpenultimate=\count339
+\PWSTcurpage=\count340
+\PWSTtempc=\count341
+\PWSTlines=\count342
 \PWST@lastht=\dimen290
 \PWST@generalht=\dimen291
 \PWST@ht=\dimen292
@@ -1474,7 +1469,7 @@ Package: enumitem 2011/09/28 v3.5.2 Customized lists
 \enit@outerparindent=\dimen303
 \enit@toks=\toks32
 \enit@inbox=\box54
-\enitdp@description=\count345
+\enitdp@description=\count343
 )
 (/usr/share/texlive/texmf-dist/tex/latex/ctable/ctable.sty
 Package: ctable 2015/10/17 v1.31 ctable package for flexible typesetting of tabl
@@ -1506,12 +1501,12 @@ Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
 \XKV@toks=\toks33
 \XKV@tempa@toks=\toks34
 )
-\XKV@depth=\count346
+\XKV@depth=\count344
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/rotating.sty
 Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
-\c@r@tfl@t=\count347
+\c@r@tfl@t=\count345
 \rotFPtop=\skip270
 \rotFPbot=\skip271
 \rot@float@box=\box55
@@ -1544,106 +1539,72 @@ Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
 \CT@t=\box56
 \@CTcurftwidth=\dimen322
 ))
-(/home/edlab/texmf/tex/versos.sty) (/home/edlab/texmf/tex/gitrevisioninfo.sty)
-(/home/edlab/texmf/tex/endnotes.sty
-\c@endnote=\count348
-\endnotesep=\dimen323
-\@enotes=\write5
-) (/home/edlab/texmf/tex/hedraindex.sty
-(/usr/share/texlive/texmf-dist/tex/latex/tools/multicol.sty
-Package: multicol 2017/04/11 v1.8q multicolumn formatting (FMi)
-\c@tracingmulticols=\count349
-\mult@box=\box57
-\multicol@leftmargin=\dimen324
-\c@unbalance=\count350
-\c@collectmore=\count351
-\doublecol@number=\count352
-\multicoltolerance=\count353
-\multicolpretolerance=\count354
-\full@width=\dimen325
-\page@free=\dimen326
-\premulticols=\dimen327
-\postmulticols=\dimen328
-\multicolsep=\skip272
-\multicolbaselineskip=\skip273
-\partial@page=\box58
-\last@line=\box59
-\maxbalancingoverflow=\dimen329
-\mult@rightbox=\box60
-\mult@grightbox=\box61
-\mult@gfirstbox=\box62
-\mult@firstbox=\box63
-\@tempa=\box64
-\@tempa=\box65
-\@tempa=\box66
-\@tempa=\box67
-\@tempa=\box68
-\@tempa=\box69
-\@tempa=\box70
-\@tempa=\box71
-\@tempa=\box72
-\@tempa=\box73
-\@tempa=\box74
-\@tempa=\box75
-\@tempa=\box76
-\@tempa=\box77
-\@tempa=\box78
-\@tempa=\box79
-\@tempa=\box80
-\c@columnbadness=\count355
-\c@finalcolumnbadness=\count356
-\last@try=\dimen330
-\multicolovershoot=\dimen331
-\multicolundershoot=\dimen332
-\mult@nat@firstbox=\box81
-\colbreak@box=\box82
-\mc@col@check@num=\count357
-))
-\LIVRO@idxfile=\write6
+(/home/edlab/texmf/tex/versos.sty) (./gitrevisioninfo.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/parallel/parallel.sty
+Package: parallel 2003/04/13, setting two texts parallel (me)
 
-\openout6 = LIVRO.idx
-
-Writing index file LIVRO.idx 
+`parallel': setting two texts parallel, (beta 4) 2003/04/13.
+\ParallelLWidth=\dimen323
+\ParallelRWidth=\dimen324
+\ParallelTextWidth=\dimen325
+\ParallelLeftMargin=\dimen326
+\ParallelUserMidSkip=\dimen327
+\ParallelMainMidSkip=\dimen328
+\ParallelLBox=\box57
+\ParallelRBox=\box58
+\ParallelBoxVar=\box59
+\ParallelLTok=\box60
+\ParallelRTok=\box61
+\ParallelBoolVar=\count346
+\ParallelBoolMid=\count347
+\ParallelWhichBox=\count348
+\ParallelMainMode=\count349
+\ParallelFNMode=\count350
+\ParallelLFNCounter=\count351
+\ParallelRFNCounter=\count352
+\ParallelMaxFN=\count353
+\ParallelFNNumMode=\count354
+)
 (/usr/share/texlive/texmf-dist/tex/latex/tools/afterpage.sty
 Package: afterpage 2014/10/28 v1.08 After-Page Package (DPC)
 \AP@output=\toks36
-\AP@partial=\box83
-\AP@footins=\box84
+\AP@partial=\box62
+\AP@footins=\box63
 )
-(/home/edlab/texmf/tex/commands.sty) (./LIVRO.aux (./INPUTS.aux))
+(/home/edlab/texmf/tex/commands.sty) (./LIVRO.aux (./TEXTO.aux))
 \openout1 = LIVRO.aux
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 143.
-LaTeX Font Info:    ... okay on input line 143.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 143.
-LaTeX Font Info:    ... okay on input line 143.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 143.
-LaTeX Font Info:    ... okay on input line 143.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 143.
-LaTeX Font Info:    ... okay on input line 143.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 143.
-LaTeX Font Info:    ... okay on input line 143.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 143.
-LaTeX Font Info:    ... okay on input line 143.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 143.
-LaTeX Font Info:    ... okay on input line 143.
-LaTeX Font Info:    Checking defaults for LGR/cmr/m/n on input line 143.
-LaTeX Font Info:    Try loading font information for LGR+cmr on input line 143.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 93.
+LaTeX Font Info:    ... okay on input line 93.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 93.
+LaTeX Font Info:    ... okay on input line 93.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 93.
+LaTeX Font Info:    ... okay on input line 93.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 93.
+LaTeX Font Info:    ... okay on input line 93.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 93.
+LaTeX Font Info:    ... okay on input line 93.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 93.
+LaTeX Font Info:    ... okay on input line 93.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 93.
+LaTeX Font Info:    ... okay on input line 93.
+LaTeX Font Info:    Checking defaults for LGR/cmr/m/n on input line 93.
+LaTeX Font Info:    Try loading font information for LGR+cmr on input line 93.
 
 (/usr/share/texlive/texmf-dist/tex/latex/cbfonts-fd/lgrcmr.fd
 File: lgrcmr.fd 2017/07/29 v1.2 Greek European Computer Regular
 )
-LaTeX Font Info:    ... okay on input line 143.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 143.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 143.
+LaTeX Font Info:    ... okay on input line 93.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 93.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 93.
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 143.
-LaTeX Info: Redefining \dots on input line 143.
-LaTeX Info: Redefining \up on input line 143.
-LaTeX Info: Redefining \microtypecontext on input line 143.
+LaTeX Font Info:    ... okay on input line 93.
+LaTeX Info: Redefining \dots on input line 93.
+LaTeX Info: Redefining \up on input line 93.
+LaTeX Info: Redefining \microtypecontext on input line 93.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -1664,77 +1625,77 @@ Package microtype Info: Loading generic protrusion settings for font family
 .................................................
 \symlegacymaths=\mathgroup7
 LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
-(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 143.
-LaTeX Font Info:    Redeclaring math accent \acute on input line 143.
-LaTeX Font Info:    Redeclaring math accent \grave on input line 143.
-LaTeX Font Info:    Redeclaring math accent \ddot on input line 143.
-LaTeX Font Info:    Redeclaring math accent \tilde on input line 143.
-LaTeX Font Info:    Redeclaring math accent \bar on input line 143.
-LaTeX Font Info:    Redeclaring math accent \breve on input line 143.
-LaTeX Font Info:    Redeclaring math accent \check on input line 143.
-LaTeX Font Info:    Redeclaring math accent \hat on input line 143.
-LaTeX Font Info:    Redeclaring math accent \dot on input line 143.
-LaTeX Font Info:    Redeclaring math accent \mathring on input line 143.
-LaTeX Font Info:    Redeclaring math symbol \colon on input line 143.
-LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 143.
-LaTeX Font Info:    Redeclaring math symbol \Delta on input line 143.
-LaTeX Font Info:    Redeclaring math symbol \Theta on input line 143.
-LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 143.
-LaTeX Font Info:    Redeclaring math symbol \Xi on input line 143.
-LaTeX Font Info:    Redeclaring math symbol \Pi on input line 143.
-LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 143.
-LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 143.
-LaTeX Font Info:    Redeclaring math symbol \Phi on input line 143.
-LaTeX Font Info:    Redeclaring math symbol \Psi on input line 143.
-LaTeX Font Info:    Redeclaring math symbol \Omega on input line 143.
-LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 143.
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 143.
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 93.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 93.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 93.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 93.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 93.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 93.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 93.
+LaTeX Font Info:    Redeclaring math accent \check on input line 93.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 93.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 93.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 93.
+LaTeX Font Info:    Redeclaring math symbol \colon on input line 93.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 93.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 93.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 93.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 93.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 93.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 93.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 93.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 93.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 93.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 93.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 93.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 93.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 93.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 143.
+(Font)              `operators' in the math version `normal' on input line 93.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  OT1/cmr/m/n --> TU/LinuxLibertineO(0)/m/n on input line 
-143.
+93.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 143.
+(Font)              `operators' in the math version `bold' on input line 93.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
 (Font)                  OT1/cmr/bx/n --> TU/LinuxLibertineO(0)/m/n on input line
- 143.
+ 93.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  TU/LinuxLibertineO(0)/m/n --> TU/LinuxLibertineO(0)/m/n 
-on input line 143.
+on input line 93.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
 (Font)                  OT1/cmr/m/it --> TU/LinuxLibertineO(0)/m/it on input lin
-e 143.
+e 93.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
 (Font)                  OT1/cmr/bx/n --> TU/LinuxLibertineO(0)/bx/n on input lin
-e 143.
+e 93.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 143.
+(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 93.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 143.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 93.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
 (Font)                  TU/LinuxLibertineO(0)/m/n --> TU/LinuxLibertineO(0)/bx/n
- on input line 143.
+ on input line 93.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 (Font)                  OT1/cmr/bx/it --> TU/LinuxLibertineO(0)/bx/it on input l
-ine 143.
+ine 93.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> TU/lmss/bx/n on input line 143.
+(Font)                  OT1/cmss/bx/n --> TU/lmss/bx/n on input line 93.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/bx/n on input line 143.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/bx/n on input line 93.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count358
-\scratchdimen=\dimen333
-\scratchbox=\box85
-\nofMPsegments=\count359
-\nofMParguments=\count360
+\scratchcounter=\count355
+\scratchdimen=\dimen329
+\scratchbox=\box64
+\nofMPsegments=\count356
+\nofMParguments=\count357
 \everyMPshowfont=\toks37
-\MPscratchCnt=\count361
-\MPscratchDim=\dimen334
-\MPnumerator=\count362
-\makeMPintoPDFobject=\count363
+\MPscratchCnt=\count358
+\MPscratchDim=\dimen330
+\MPnumerator=\count359
+\makeMPintoPDFobject=\count360
 \everyMPtoPDFconversion=\toks38
 ) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
@@ -1766,29 +1727,35 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
 Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             https://www.ctan.org/pkg/pageslts
-(lastpage)             ! on input line 143.
+(lastpage)             ! on input line 93.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: rotating package is loaded.
 Package caption Info: xtab package is loaded.
 Package caption Info: End \AtBeginDocument code.
-
-[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
+(load luc: /home/edlab/.texlive2017/texmf-var/luatex-cache/generic/fonts/otl/lmm
+ono12-regular.luc)
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `lmtt' (encoding: TU).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+(load luc: /home/edlab/.texlive2017/texmf-var/luatex-cache/generic/fonts/otl/lmm
+ono8-regular.luc) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
 ]
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 143.
+(Font)              <8> on input line 93.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 143.
+(Font)              <6> on input line 93.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 143.
-
-(/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-cmr.cfg
+(Font)              <5> on input line 93.
+ (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-cmr.cfg
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman (
 RS)
-) [2
+)
+(/home/edlab/texmf/tex/frontconselho.tex) [2
 
 ]
-LaTeX Font Info:    Try loading font information for OT1+ptm on input line 143.
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 93.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
@@ -1796,254 +1763,248 @@ File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-ptm.cfg
 File: mt-ptm.cfg 2006/04/20 v1.7 microtype config. file: Times (RS)
 ) [3]
-(./PRETAS.tex) [4
+(./PRETAS.tex(load luc: /home/edlab/.texlive2017/texmf-var/luatex-cache/generic/
+fonts/otl/lmmono10-regular.luc) [4
 
-] (./LIVRO.toc [5] [6]) [7]
-\openout2 = INPUTS.aux
- (./INPUTS.tex (./TEXTO.tex
-[8
+]) [5] [6] (./LIVRO.toc [7]) [8]
+\openout2 = TEXTO.aux
 
+(./TEXTO.tex
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 1.
 
-
-]
 
 Class memoir Warning: The material used in the headers is too large
 (14.49998pt) for the given head height (14.22636pt), it is recommended to
 either increase the head height or redesign the header
 (in both cases you will find help in the memoir manual). on input line 31.
 
+[9
 
-Class memoir Warning: The material used in the footer is too large
-(10.14995pt) for the given foot skip (5.69054pt), it is recommended to
-either increase the foot skip or redesign the fotoer
-(in both cases you will find help in the memoir manual). on input line 31.
 
-[9] [10] [11
 
-] [12] [13
+] [10] [11] [12] [13] [14] [15] [16] [17] [18] [19
 
-] [14] [15
-
-] [16]
+] [20]
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <17.28> on input line 105.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 105.
- [17
+(Font)              <17.28> on input line 362.
+ [21
 
-] [18] [19] [20] [21] [22] [23
-
-]
+] [22] [23]
 [24] [25] [26] [27] [28] [29] [30
 
-] [31] [32] [33] [34] [35
+] [31] [32] [33] [34] [35] [36] [37]
+Underfull \hbox (badness 1810) in paragraph at lines 948--950
+[]\TU/LinuxLibertineO(0)/m/n/12 --- Adeus, Ti-mó-teo! --- dis-se-ram ale-gre-m
+ente os
+ []
 
-] [36] [37
+[38] [39] [40] [41
 
-] [38]
-[39
+] [42] [43] [44] [45] [46] [47] [48] [49] [50] [51] [52]
+[53] [54] [55] [56] [57] [58] [59] [60] [61] [62] [63] [64] [65] [66] [67]
+[68] [69] [70] [71] [72] [73] [74] [75] [76] [77
 
-] [40] [41
-
-] [42] [43
-
-] [44] [45
-
-] [46] [47] [48
-
-] [49] [50] [51] [52] [53]
-[54] [55
-
-] [56] [57] [58] [59] [60]
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 1354.
- [61
-
-] [62] [63] [64] [65
-
-] [66] [67
-
-] [68]
-[69] [70] [71] [72
-
-] [73] [74] [75] [76] [77] [78] [79] [80] [81] [82
-
-] [83]
-[84] [85
-
-] [86] [87
-
-] [88] [89] [90
-
-] [91] [92] [93
+] [78] [79] [80] [81] [82]
+[83] [84] [85] [86] [87] [88] [89] [90] [91] [92] [93
 
 ] [94] [95
 
-] [96] [97
+] [96] [97]
+[98] [99] [100] [101] [102] [103] [104] [105] [106
 
-] [98]
-[99
+] [107] [108] [109] [110]
+[111] [112] [113
 
-] [100] [101
-
-] [102] [103
-
-] [104] [105] [106
-
-] [107] [108] [109
-
-] [110] [111]
-[112
-
-] [113] [114] [115
-
-] [116] [117
-
-] [118] [119] [120
-
-] [121] [122] [123
-
-]
-[124] [125
-
-] [126] [127
-
-] [128] [129
-
-] [130] [131] [132
-
-] [133] [134] [135]
-[136
-
-] [137] [138] [139
-
-] [140] [141] [142] [143] [144
-
-] [145] [146] [147
-
-]
-[148] [149] [150
-
-] [151] [152] [153
-
-] [154
-
-] [155] [156] [157] [158
-
-] [159]
-[160] [161
-
-] [162] [163
-
-] [164] [165
-
-] [166] [167] [168] [169] [170]
-Underfull \hbox (badness 1365) in paragraph at lines 4055--4060
-[]\TU/LinuxLibertineO(0)/m/n/12 ``Fi-lho, te-nho este li-vro aqui, es-crito em 
-ja-va-nês.
+] [114] [115] [116] [117] [118] [119]
+Overfull \hbox (7.87933pt too wide) in paragraph at lines 3938--3941
+[]\TU/LinuxLibertineO(0)/m/n/12 ``E vi-ve-rão em guerra aberta com os ani-mais
+, escravizando-
  []
 
-[171] [172] [173] [174] [175] [176] [177] [178
+[120] [121] [122] [123] [124] [125] [126] [127
 
-] [179] [180] [181] [182]
-[183] [184] [185] [186] [187] [188] [189] [190] [191] [192
+] [128] [129] [130] [131]
+[132] [133] [134] [135] [136] [137] [138] [139] [140
 
-]
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 4699.
- [193] [194]
-[195] [196] [197] [198] [199] [200] [201] [202] [203] [204] [205] [206]
-[207] [208] [209] [210] [211] [212] [213] [214] [215] [216] [217
+] [141] [142] [143]
+[144] [145] [146] [147] [148] [149] [150] [151
 
-] [218]
-[219] [220] [221] [222] [223] [224] [225] [226] [227] [228] [229] [230]
-[231] [232] [233] [234
-
-] [235] [236] [237] [238] [239] [240] [241] [242]
-[243] [244
-
-] [245] [246] [247] [248] [249] [250] [251] [252] [253] [254]
-[255] [256] [257] [258] [259] [260] [261] [262] [263
-
-] [264] [265] [266]
-[267] [268] [269] [270] [271] [272] [273] [274] [275] [276
-
-] [277] [278]
-[279] [280] [281] [282] [283] [284] [285] [286] [287] [288] [289] [290]
-[291
-
-] [292]
-Underfull \hbox (badness 1502) in paragraph at lines 8051--8055
-[]\TU/LinuxLibertineO(0)/m/n/12 Acom-pa-nhado de do-lo-ro-sos ran-gi-dos da mes
-a, o
+] [152]
+Underfull \hbox (badness 1910) in paragraph at lines 5043--5045
+[]\TU/LinuxLibertineO(0)/m/n/12 As ane-do-tas têm força de ímã. Vá-rios cu
+-ri-o-sos
  []
 
-[293] [294
+[153] [154] [155] [156] [157] [158] [159
 
-] [295] [296] [297] [298
+] [160] [161] [162] [163] [164]
+[165
 
-] [299] [300] [301] [302] [303] [304]
-[305] [306] [307] [308
+] [166] [167
 
-] [309] [310] [311] [312] [313] [314] [315
+] [168] [169] [170] [171] [172] [173] [174] [175
 
-] [316]
-[317] [318] [319] [320] [321] [322] [323
+] [176]
+[177] [178] [179] [180
 
-] [324] [325] [326] [327] [328]
-[329] [330] [331] [332] [333] [334] [335
+] [181] [182] [183] [184] [185] [186] [187
 
-] [336] [337] [338] [339] [340]
-[341])) [342] (./LIVRO.ind)
+] [188]
+[189] [190] [191] [192] [193
+
+] [194] [195] [196] [197] [198
+
+] [199] [200]
+[201] [202] [203
+
+] [204] [205] [206] [207] [208] [209] [210] [211
+
+] [212]
+[213] [214] [215] [216] [217] [218] [219] [220] [221] [222] [223] [224]
+[225] [226] [227
+
+] [228] [229] [230] [231] [232]
+Underfull \hbox (badness 1728) in paragraph at lines 7689--7693
+[]\TU/LinuxLibertineO(0)/m/n/12 Re-sul-tou disso que uma re-la-tiva abun-dân-c
+ia veio
+ []
+
+[233] [234] [235] [236] [237] [238
+
+] [239] [240] [241] [242] [243] [244]
+[245] [246] [247] [248] [249] [250
+
+] [251] [252] [253] [254] [255] [256]
+[257] [258] [259] [260] [261
+
+] [262]
+Underfull \hbox (badness 1270) in paragraph at lines 8677--8682
+\TU/LinuxLibertineO(0)/m/n/12 an-tes dera à costa na-quele ponto. Uma tem-pes-
+tade
+ []
+
+[263] [264] [265] [266] [267] [268] [269] [270] [271] [272] [273] [274
+
+]
+[275] [276] [277] [278] [279] [280] [281] [282] [283] [284] [285] [286]
+[287] [288
+
+] [289] [290] [291
+
+] [292] [293] [294] [295] [296
+
+] [297] [298]
+[299] [300] [301] [302] [303] [304] [305] [306] [307
+
+] [308] [309] [310]
+[311
+
+] [312] [313] [314] [315] [316] [317] [318] [319] [320] [321] [322]
+[323
+
+] [324] [325] [326] [327] [328] [329] [330
+
+] [331] [332] [333] [334]
+[335] [336] [337] [338] [339] [340] [341] [342] [343] [344
+
+] [345] [346]
+Overfull \hbox (0.45886pt too wide) in paragraph at lines 11399--11405
+[]\TU/LinuxLibertineO(0)/m/n/12 Desde esse dia, ima-gi-na-ri-a-mente, Ve-nân-c
+io transformou-
+ []
+
+[347] [348] [349] [350] [351] [352] [353] [354] [355] [356] [357] [358]
+[359] [360] [361
+
+] [362] [363] [364] [365] [366] [367] [368] [369] [370]
+[371] [372] [373] [374
+
+] [375] [376] [377] [378] [379] [380] [381] [382]
+[383] [384] [385] [386] [387] [388
+
+] [389] [390] [391] [392] [393] [394]
+Underfull \hbox (badness 1490) in paragraph at lines 13036--13043
+[]\TU/LinuxLibertineO(0)/m/n/12 Ora, Pon-tes, men-tal-mente dono da-quela si-ne
+-cura,
+ []
+
+[395] [396]
+Underfull \hbox (badness 1009) in paragraph at lines 13117--13119
+[]\TU/LinuxLibertineO(0)/m/n/12 Pon-tes sor-ria com ar ven-cido; mas lá por de
+n-tro
+ []
+
+[397] [398] [399] [400] [401] [402
+
+]
+Underfull \hbox (badness 4013) in paragraph at lines 13265--13268
+[]\TU/LinuxLibertineO(0)/m/n/12 O de-ten-tor úl-timo, um Davi Mo-reira de Sous
+a,
+ []
+
+[403] [404] [405] [406] [407] [408] [409] [410] [411] [412]
+Underfull \hbox (badness 1502) in paragraph at lines 13676--13681
+[]\TU/LinuxLibertineO(0)/m/n/12 Che-gou en-fim o mo-mento da par-tida. Tran-cos
+o
+ []
+
+[413] [414] [415] [416] [417] [418] [419
+
+] [420] [421] [422] [423] [424]
+[425] [426] [427] [428
+
+] [429] [430] [431
+
+] [432] [433] [434] [435] [436]
+[437] [438] [439] [440]) [441]
 
 Class memoir Warning: The material used in the headers is too large
 (14.49998pt) for the given head height (14.22636pt), it is recommended to
 either increase the head height or redesign the header
-(in both cases you will find help in the memoir manual). on input line 149.
-
-
-Class memoir Warning: The material used in the footer is too large
-(10.14995pt) for the given foot skip (5.69054pt), it is recommended to
-either increase the foot skip or redesign the fotoer
-(in both cases you will find help in the memoir manual). on input line 149.
+(in both cases you will find help in the memoir manual). on input line 97.
 
 
 AED: lastpage setting LastPage
-[343
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <10.95> on input line 97.
+[442
 
 
-] [344]
-\tf@toc=\write7
+]
+\tf@toc=\write5
 
-\openout7 = LIVRO.toc
- (./LIVRO.aux (./INPUTS.aux))
+\openout5 = LIVRO.toc
+ (./LIVRO.aux (./TEXTO.aux))
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 )
 
 Here is how much of LuaTeX's memory you used:
- 24975 strings out of 494480
- 2842788,794899 words of node,token memory allocated
- 2448685 words of node memory still in use:
-   4 hlist, 1 vlist, 1 rule, 317 glue, 1 penalty, 385583 glyph, 56496 attribute,
- 200 glue_spec, 9416 attribute_list, 3 shape, 2 write nodes
-   avail lists: 1:4,2:787,3:149,4:66,5:347,6:936,7:837,8:117,9:257,10:27,11:452
- 27904 multiletter control sequences out of 65536+600000
- 113 fonts using 20901587 bytes
- 50i,14n,85p,1369b,535s stack positions out of 5000i,500n,10000p,200000b,100000s
+ 24778 strings out of 494480
+ 3553423,794899 words of node,token memory allocated
+ 3415286 words of node memory still in use:
+   4 hlist, 1 vlist, 1 rule, 59 glue, 1 penalty, 543370 glyph, 65796 attribute, 
+197 glue_spec, 10966 attribute_list, 3 shape, 2 write nodes
+   avail lists: 1:4,2:920,3:124,4:63,5:235,6:1190,7:640,8:104,9:242,10:22,11:385
+
+ 27737 multiletter control sequences out of 65536+600000
+ 109 fonts using 20175931 bytes
+ 50i,12n,85p,1369b,463s stack positions out of 5000i,500n,10000p,200000b,100000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/adforn/OrnementsADF.enc}{/usr/sha
 re/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist
 /fonts/opentype/public/libertine/LinLibertine_RI.otf></usr/share/texlive/texmf-d
 ist/fonts/opentype/public/libertine/LinLibertine_RB.otf></usr/share/texlive/texm
-f-dist/fonts/opentype/public/libertine/LinLibertine_R.otf></usr/share/texlive/te
-xmf-dist/fonts/type1/arkandis/adforn/OrnementsADF.pfb></usr/share/texlive/texmf-
-dist/fonts/type1/public/amsfonts/latxfont/lcirclew.pfb></usr/share/texlive/texmf
--dist/fonts/type1/urw/times/utmr8a.pfb>
-Output written on LIVRO.pdf (344 pages, 866271 bytes).
+f-dist/fonts/opentype/public/libertine/LinLibertine_R.otf></usr/share/texmf/font
+s/opentype/public/lm/lmmono8-regular.otf></usr/share/texlive/texmf-dist/fonts/ty
+pe1/arkandis/adforn/OrnementsADF.pfb></usr/share/texlive/texmf-dist/fonts/type1/
+public/amsfonts/latxfont/lcirclew.pfb></usr/share/texlive/texmf-dist/fonts/type1
+/urw/times/utmr8a.pfb>
+Output written on LIVRO.pdf (442 pages, 1180418 bytes).
 
-PDF statistics: 1118 PDF objects out of 1200 (max. 8388607)
- 752 compressed objects within 8 object streams
+PDF statistics: 1432 PDF objects out of 1440 (max. 8388607)
+ 963 compressed objects within 10 object streams
  0 named destinations out of 1000 (max. 131072)
  1 words of extra memory for PDF output out of 10000 (max. 100000000)
 
