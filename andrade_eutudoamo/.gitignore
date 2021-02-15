@@ -1,12 +1,15 @@
-*~
-LIVRO.fdb_latexmk
+\originais
 *.log
 *.aux
 *.toc
+*.docx
+*.doc
+*.odt
 *.pdf
 *.idx
 *.ind
 *.ilg
+*_latexmk 
 *.fls 
 *.tui 
 *.4ct 
@@ -21,7 +24,5 @@ LIVRO.fdb_latexmk
 *.tmp 
 *.idv 
 *.opf
-capa/
-img/
-originais/
+*.swp
 LIVRO.pdf
