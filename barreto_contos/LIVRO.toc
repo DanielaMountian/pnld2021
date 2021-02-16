@@ -1,74 +1,74 @@
 \babel@toc {brazilian}{}
 \hyphenpenalty =10000\thispagestyle {empty}
-\contentsline {chapter}{Sobre o autor}{9}
-\contentsline {chapter}{Sobre o livro}{11}
-\contentsline {part}{\textsc {crônicas}}{13}
-\contentsline {part}{Autobiografia}{15}
-\contentsline {chapter}{Maio}{17}
-\contentsline {chapter}{Esta minha letra}{23}
-\contentsline {chapter}{Elogio da morte}{31}
-\contentsline {part}{Cotidiano e vida nos subúrbios}{35}
-\contentsline {chapter}{A polícia suburbana}{37}
-\contentsline {chapter}{O «muambeiro»}{39}
-\contentsline {chapter}{A carroça dos cachorros}{41}
-\contentsline {chapter}{Atribulações de um vendeiro}{43}
-\contentsline {chapter}{Atribulações de um autor}{45}
-\contentsline {chapter}{O caso do mendigo}{49}
-\contentsline {chapter}{Os enterros de Inhaúma}{55}
-\contentsline {chapter}{Queixa de defunto}{61}
-\contentsline {chapter}{As enchentes}{65}
-\contentsline {chapter}{Coisas do jogo do «Bicho»}{67}
-\contentsline {chapter}{Feiras e «mafuás»}{73}
-\contentsline {chapter}{No «mafuá» dos padres}{83}
-\contentsline {chapter}{Paulino e o «mafuá»}{85}
-\contentsline {chapter}{Coisas de «mafuá»}{87}
-\contentsline {part}{Futebol, o tal jogo de pontapés}{91}
-\contentsline {chapter}{Uma partida de \emph {football}}{93}
-\contentsline {chapter}{O Haroldo}{95}
-\contentsline {chapter}{O ideal}{97}
-\contentsline {chapter}{Macaquitos}{99}
-\contentsline {part}{Nossa Política e nossos políticos }{101}
-\contentsline {chapter}{«Encrencas» nacionais}{103}
-\contentsline {chapter}{País rico}{107}
-\contentsline {chapter}{A política republicana}{109}
-\contentsline {chapter}{Os cortes}{113}
-\contentsline {chapter}{O novo manifesto}{115}
-\contentsline {chapter}{Um candidato}{117}
-\contentsline {chapter}{O café}{121}
-\contentsline {chapter}{O rico mendigo}{123}
-\contentsline {part}{Violência contra as mulheres}{125}
-\contentsline {chapter}{A lei}{127}
-\contentsline {chapter}{Não as matem}{129}
-\contentsline {chapter}{Lavar a honra, matando?}{133}
-\contentsline {chapter}{Os matadores de mulheres}{137}
-\contentsline {chapter}{Mais uma vez}{139}
-\contentsline {part}{Humor}{145}
-\contentsline {chapter}{A cartomante}{147}
-\contentsline {chapter}{A pescaria}{151}
-\contentsline {chapter}{Rocha, o guerreiro}{153}
-\contentsline {chapter}{O Gambá}{155}
-\contentsline {chapter}{Pedra \& Moskowa}{159}
-\contentsline {chapter}{Percalços da farda}{161}
-\contentsline {part}{\textsc {contos}}{163}
-\contentsline {chapter}{O homem que sabia javanês}{165}
-\contentsline {chapter}{A nova Califórnia}{179}
-\contentsline {section}{Capítulo 1}{179}
-\contentsline {section}{Capítulo 2}{182}
-\contentsline {section}{Capítulo 3}{185}
-\contentsline {chapter}{Como o «homem» chegou}{193}
-\contentsline {section}{I}{193}
-\contentsline {section}{II}{199}
-\contentsline {section}{III}{206}
-\contentsline {chapter}{Hussein Bem"-Áli Al"-Bálec e Miquéias Habacuc}{217}
-\contentsline {chapter}{A barganha}{235}
-\contentsline {chapter}{Cló}{245}
-\contentsline {chapter}{Clara dos Anjos}{263}
-\contentsline {chapter}{O Filho de Gabriela}{277}
-\contentsline {chapter}{O Pecado}{291}
-\contentsline {chapter}{O cemitério}{295}
-\contentsline {chapter}{Milagre do Natal}{299}
-\contentsline {chapter}{Quase ela deu o «sim»}{309}
-\contentsline {chapter}{O Jornalista}{315}
-\contentsline {chapter}{O Número da Sepultura}{323}
-\contentsline {chapter}{Numa e a Ninfa}{335}
+\contentsline {chapter}{Sobre o autor}{9}% 
+\contentsline {chapter}{Sobre o livro}{11}% 
+\contentsline {part}{\textsc {crônicas}}{13}% 
+\contentsline {part}{Autobiografia}{15}% 
+\contentsline {chapter}{Maio}{17}% 
+\contentsline {chapter}{Esta minha letra}{23}% 
+\contentsline {chapter}{Elogio da morte}{31}% 
+\contentsline {part}{Cotidiano e vida nos subúrbios}{35}% 
+\contentsline {chapter}{A polícia suburbana}{37}% 
+\contentsline {chapter}{O «muambeiro»}{39}% 
+\contentsline {chapter}{A carroça dos cachorros}{41}% 
+\contentsline {chapter}{Atribulações de um vendeiro}{43}% 
+\contentsline {chapter}{Atribulações de um autor}{45}% 
+\contentsline {chapter}{O caso do mendigo}{49}% 
+\contentsline {chapter}{Os enterros de Inhaúma}{55}% 
+\contentsline {chapter}{Queixa de defunto}{61}% 
+\contentsline {chapter}{As enchentes}{65}% 
+\contentsline {chapter}{Coisas do jogo do «Bicho»}{67}% 
+\contentsline {chapter}{Feiras e «mafuás»}{73}% 
+\contentsline {chapter}{No «mafuá» dos padres}{83}% 
+\contentsline {chapter}{Paulino e o «mafuá»}{85}% 
+\contentsline {chapter}{Coisas de «mafuá»}{87}% 
+\contentsline {part}{Futebol, o tal jogo de pontapés}{91}% 
+\contentsline {chapter}{Uma partida de \emph {football}}{93}% 
+\contentsline {chapter}{O Haroldo}{95}% 
+\contentsline {chapter}{O ideal}{97}% 
+\contentsline {chapter}{Macaquitos}{99}% 
+\contentsline {part}{Nossa Política e nossos políticos }{101}% 
+\contentsline {chapter}{«Encrencas» nacionais}{103}% 
+\contentsline {chapter}{País rico}{107}% 
+\contentsline {chapter}{A política republicana}{109}% 
+\contentsline {chapter}{Os cortes}{113}% 
+\contentsline {chapter}{O novo manifesto}{115}% 
+\contentsline {chapter}{Um candidato}{117}% 
+\contentsline {chapter}{O café}{121}% 
+\contentsline {chapter}{O rico mendigo}{123}% 
+\contentsline {part}{Violência contra as mulheres}{125}% 
+\contentsline {chapter}{A lei}{127}% 
+\contentsline {chapter}{Não as matem}{129}% 
+\contentsline {chapter}{Lavar a honra, matando?}{133}% 
+\contentsline {chapter}{Os matadores de mulheres}{137}% 
+\contentsline {chapter}{Mais uma vez}{139}% 
+\contentsline {part}{Humor}{145}% 
+\contentsline {chapter}{A cartomante}{147}% 
+\contentsline {chapter}{A pescaria}{151}% 
+\contentsline {chapter}{Rocha, o guerreiro}{153}% 
+\contentsline {chapter}{O Gambá}{155}% 
+\contentsline {chapter}{Pedra \& Moskowa}{159}% 
+\contentsline {chapter}{Percalços da farda}{161}% 
+\contentsline {part}{\textsc {contos}}{163}% 
+\contentsline {chapter}{O homem que sabia javanês}{165}% 
+\contentsline {chapter}{A nova Califórnia}{179}% 
+\contentsline {section}{Capítulo 1}{179}% 
+\contentsline {section}{Capítulo 2}{182}% 
+\contentsline {section}{Capítulo 3}{185}% 
+\contentsline {chapter}{Como o «homem» chegou}{193}% 
+\contentsline {section}{I}{193}% 
+\contentsline {section}{II}{199}% 
+\contentsline {section}{III}{206}% 
+\contentsline {chapter}{Hussein Bem"-Áli Al"-Bálec e Miquéias Habacuc}{217}% 
+\contentsline {chapter}{A barganha}{235}% 
+\contentsline {chapter}{Cló}{245}% 
+\contentsline {chapter}{Clara dos Anjos}{263}% 
+\contentsline {chapter}{O Filho de Gabriela}{277}% 
+\contentsline {chapter}{O Pecado}{291}% 
+\contentsline {chapter}{O cemitério}{295}% 
+\contentsline {chapter}{Milagre do Natal}{299}% 
+\contentsline {chapter}{Quase ela deu o «sim»}{309}% 
+\contentsline {chapter}{O Jornalista}{315}% 
+\contentsline {chapter}{O Número da Sepultura}{323}% 
+\contentsline {chapter}{Numa e a Ninfa}{335}% 
 \contentsfinish 

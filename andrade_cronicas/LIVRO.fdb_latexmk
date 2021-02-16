@@ -1,5 +1,5 @@
 # Fdb version 3
-["lualatex"] 1613489480 "LIVRO.tex" "LIVRO.pdf" "LIVRO" 1613489488
+["lualatex"] 1613489480 "LIVRO.tex" "LIVRO.pdf" "LIVRO" 1613491563
   "/home/aeschylus/.texlive2019/texmf-var/luatex-cache/generic/fonts/otl/formular-bold.luc" 1613411501 139861 7a66ee124236daed5975a469ceaab78b ""
   "/home/aeschylus/.texlive2019/texmf-var/luatex-cache/generic/fonts/otl/formular-regular.luc" 1613411501 143622 d96ac91495b5584a6eea891a25a624e6 ""
   "/home/aeschylus/.texlive2019/texmf-var/luatex-cache/generic/fonts/otl/linlibertine-r.luc" 1613411169 304548 fb887d4b3df1e2d50ba2967538dd8f89 ""
@@ -230,13 +230,13 @@
   "hedrastyles.sty" 1613410908 8871 42adf333292a28ff4bee8655ccc74eef ""
   "tipografia.sty" 1613489462 10023 69ff1c7fc60b4fe5c81ea3355f9811e3 ""
   (generated)
+  "LIVRO.log"
   "LIVRO.aux"
-  "LIVRO.toc"
-  "LIVRO.idx"
   "LIVRO.pdf"
   "INPUTS.aux"
-  "LIVRO.log"
-["makeindex LIVRO.idx"] 1612794448 "LIVRO.idx" "LIVRO.ind" "LIVRO" 1613489488
+  "LIVRO.toc"
+  "LIVRO.idx"
+["makeindex LIVRO.idx"] 1612794448 "LIVRO.idx" "LIVRO.ind" "LIVRO" 1613491563
   "LIVRO.idx" 1613489482 0 d41d8cd98f00b204e9800998ecf8427e "lualatex"
   (generated)
   "LIVRO.ind"
