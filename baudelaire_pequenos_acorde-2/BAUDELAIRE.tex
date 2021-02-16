@@ -1,0 +1,140 @@
+\documentclass[10pt]{hedrabook}
+\usepackage[brazilian,french]{babel}
+\usepackage{ucs}
+\usepackage[utf8x]{inputenc}
+\usepackage[center,cam,a5]{hedracrop}
+\usepackage{hedratoc,hedrabolsolayout,hedraextra,hedraendnotes}
+\usepackage[protrusion=true,expansion]{microtype}
+\usepackage{comment,lipsum}
+\usepackage{verse,footmisc}
+\usepackage{parallel}
+\usepackage{shorttoc}
+\usepackage[minionint,mathlf]{MinionPro}
+%\usepackage{charter}
+%\usepackage{gmverse}
+%\usepackage{hedraebook}		   % hyperlinks: todos os \part têm que estar em CAIXA BAIXA
+%\usepackage{makeidx,hedraindex}  % cria índice
+%\makeindex			   % ...  índice
+
+
+\makeatletter
+\renewcommand\section{\@startsection%
+   {section}{1}%
+   {\z@}% indent
+   {3.5ex \@plus1ex \@minus.5ex}% beforeskip (se < 0, sem indentação na sequência)
+   {.2ex}% afterskip (se < 0, run-in head)
+   {\linespread{0.7}\raggedright\normalfont\Large\scshape}% estilo
+}
+\makeatother
+
+\newcommand{\quebra}{\vfil\pagebreak}
+
+\begin{document}
+
+\SVN $Id: BAUDELAIRE.tex 12772 2013-11-08 13:44:46Z iuri $ 
+
+\selectlanguage{brazilian}
+\title{\mbox{Pequenos poemas}\break em prosa} %\hspace*{1mm}\\\mbox{(O spleen de Paris)}  } 
+\author{Baudelaire} 
+\begingroup\pagestyle{empty}
+%\begin{blackpages}
+	\maketitle
+	\begin{techpage}{5cm}
+		\vspace{-1.5cm}
+		\putline{Copyright}{Hedra 2009}
+		\putline{Tradução$^\copyright$}{Dorothée de Bruchard}
+%		\putline{Edição consultada}{\emph{ }, }
+%		\putline{Primeira edição}
+%		\putline{Título original}{}
+%		\putline{Indicação}{}
+%		\putline{Agradecimento}
+		\putline{Corpo editorial}{
+			André Fernandes,
+			Bruno Costa,\\
+			Caio Gagliardi,
+			Fábio Mantegari,\\
+			Iuri Pereira,
+			Jorge Sallum,\\
+			Oliver Tolle,
+ 		        Ricardo Martins Valle,\\
+			Ricardo Musse, 
+			Adriano Scatolin
+		}
+		\putline{}{2\ai\ edição}
+		\ \\
+
+		\putline{Dados}{{\fontsize{8pt}{\baselineskip}\selectfont
+				Dados Internacionais de Catalogação  na Publicação (CIP)\\
+                                \vspace{0.5ex}\hrule\vspace{1ex} 
+				Pequenos poemas em prosa  / Baudelaire, Charles (tradução Dorothée de Bruchard) 
+                                -- São Paulo : Hedra : \the\year
+				\vspace{1ex}
+				\setlength{\parindent}{3ex}
+				Bibliografia.\\
+				\textsc{isbn} 97-8857715-064-9 \\
+                                \vspace{1ex}
+				1. Poesia francesa 2. Baudelaire, Charles
+				\vspace{1ex}
+				\noindent   \hspace{\stretch{1}} \textsc{cdd}-841
+				\vspace{1ex}\hrule\vspace{1ex}
+				Índice para catálogo sistemático:\\
+				1. Poesia francesa\quad 841
+				\linebreak
+                                }}
+		\direitos
+		\dadoseditora
+		\depositolegal
+	\end{techpage}
+	\begin{frontispiciopage}{4cm}{}	
+		\putline{Tradução}{\textsc{\mbox{Dorothée de Bruchard}}}
+		\putline{Introdução}{\textsc{Dirceu Villa}}	
+		\end{frontispiciopage}
+\include{PRETAS}
+
+% Coloca página preta vazia à direita se texto preencher apenas uma página
+\ifodd\thepage\paginabranca\fi
+
+%\end{blackpages}
+\endgroup
+\setcounter{tocdepth}{4}     % amplitude da presença das partes no índice
+\setcounter{secnumdepth}{-2} % amplitude da numeração das partes
+
+\shorttoc{sumário}{0}
+
+% Favor não alterar o segundo parâmetro (\baselineskip). 
+% Para acertar entrelinhas, usar comando \linespread
+\fontsize{10pt}{\baselineskip}\selectfont
+\baselineskip=0.94\baselineskip   % Não passar de 0.9 do \baselineskip
+
+\include{INTRO}
+
+\paginabranca
+
+\makeatletter
+\def\@endpart{}
+\makeatother
+
+\part[pequenos poemas em prosa]{pequenos poemas\break em prosa\break (o spleen de paris)}
+
+\hedramarkboth{Pequenos poemas em prosa}{Baudelaire}
+
+
+\begin{Parallel}[p]{}{} 
+\ParallelLText{\selectlanguage{french}\input{FRANCES}}
+\ParallelRText{\setcounter{section}{0} \input{PORTUGUES}}
+\end{Parallel} 
+
+\pagebreak
+\addcontentsline{toc}{chapter}{Notas}
+\theendnotes
+
+% Minitoc
+ \def\contentsname{índice}
+ \addcontentsline{toc}{chapter}{Índice}
+ \tableofcontents
+ 
+\include{FINAIS}
+
+\ifdefined\printcheck\printcheck\fi
+
+\end{document}
