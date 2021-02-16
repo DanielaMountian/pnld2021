@@ -1,5 +1,5 @@
 # Fdb version 3
-["lualatex"] 1613412230 "LIVRO.tex" "LIVRO.pdf" "LIVRO" 1613412247
+["lualatex"] 1613412230 "LIVRO.tex" "LIVRO.pdf" "LIVRO" 1613491754
   "/home/aeschylus/.texlive2019/texmf-var/luatex-cache/generic/fonts/otl/linlibertine-r.luc" 1613411169 304548 fb887d4b3df1e2d50ba2967538dd8f89 ""
   "/home/aeschylus/.texlive2019/texmf-var/luatex-cache/generic/fonts/otl/linlibertine-rb.luc" 1613411170 266011 58720d5e7feb4bed5284209d678473d9 ""
   "/home/aeschylus/.texlive2019/texmf-var/luatex-cache/generic/fonts/otl/linlibertine-rbi.luc" 1613411169 204054 8c0f97c0caf2ae4ebe2400fe4d73846f ""
@@ -228,8 +228,8 @@
   "hedraoptions.sty" 1613410909 4184 e3a0a2966acff81c2ba10604094ed24a ""
   "tipografia.sty" 1613410909 10020 63abbd8d0fb38b68c8c926d32693a511 ""
   (generated)
-  "TEXTO.aux"
   "LIVRO.pdf"
-  "LIVRO.aux"
+  "TEXTO.aux"
   "LIVRO.log"
   "LIVRO.toc"
+  "LIVRO.aux"
