@@ -12,11 +12,13 @@ Primeira etapa
 - [ ] Diagramação do material do professor [10]
 
 
-
-
 ## Paratextos [30]
 
-- [ ] PNLD0001_lunna_akutagawa_rashomon
+::info
+É preciso levantar imediatamente qual prefácio pode ser usado. Acrescente um asterisco* no que pode ser usado.
+::
+
+- [ ] PNLD0001_lunna_akutagawa_rashomon*
 - [ ] PNLD0002_mm_almeida_contos
 - [ ] PNLD0003_he_andrade_peru
 - [ ] PNLD0004_madalena_andrade_zeppelin
