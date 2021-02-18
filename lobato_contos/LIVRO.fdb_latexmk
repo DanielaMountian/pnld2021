@@ -1,5 +1,5 @@
 # Fdb version 3
-["lualatex"] 1613491853 "LIVRO.tex" "LIVRO.pdf" "LIVRO" 1613491865
+["lualatex"] 1613655803 "LIVRO.tex" "LIVRO.pdf" "LIVRO" 1613655819
   "/home/aeschylus/.texlive2019/texmf-var/luatex-cache/generic/fonts/otl/linlibertine-r.luc" 1613411169 304548 fb887d4b3df1e2d50ba2967538dd8f89 ""
   "/home/aeschylus/.texlive2019/texmf-var/luatex-cache/generic/fonts/otl/linlibertine-rb.luc" 1613411170 266011 58720d5e7feb4bed5284209d678473d9 ""
   "/home/aeschylus/.texlive2019/texmf-var/luatex-cache/generic/fonts/otl/linlibertine-rbi.luc" 1613411169 204054 8c0f97c0caf2ae4ebe2400fe4d73846f ""
@@ -209,11 +209,11 @@
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1592757371 4549418 4593509275c90822931a1b14bc17851e ""
   "/var/lib/texmf/tex/generic/config/language.dat" 1592757373 5089 b31f52270295c70f3a4cc9d9eb93857e ""
   "/var/lib/texmf/web2c/luatex/lualatex.fmt" 1592757403 1382400 61f834af55561eec2094227bbea47d72 ""
-  "LIVRO.aux" 1613491865 372 b1defb8fea6bc40cdee786a73dd2986f "lualatex"
+  "LIVRO.aux" 1613655818 372 b1defb8fea6bc40cdee786a73dd2986f "lualatex"
   "LIVRO.tex" 1613410909 2403 92fd0c68e50764a68eeec3d4ff5085f5 ""
-  "LIVRO.toc" 1613491865 10264 9166107bba80f64bfcfcb8d0acd6f1ef "lualatex"
+  "LIVRO.toc" 1613655818 10264 9166107bba80f64bfcfcb8d0acd6f1ef "lualatex"
   "PRETAS.tex" 1613410909 1200 ac9092a47b4e32419aa8f7510e59724e ""
-  "TEXTO.aux" 1613491864 19580 56c902450701c4630b084ad196c046c6 "lualatex"
+  "TEXTO.aux" 1613655818 19580 56c902450701c4630b084ad196c046c6 "lualatex"
   "TEXTO.tex" 1613490021 648748 015514493f346dda201cae6cccf34c33 ""
   "fichatecnica.sty" 1613420845 2245 35a7d026a184f3aa58daa35ba61554d6 ""
   "fronthedra.tex" 1613410909 4765 4a345cf5051df30266b2f2ea46ffaebd ""
@@ -221,8 +221,8 @@
   "hedraoptions.sty" 1613410909 4184 e3a0a2966acff81c2ba10604094ed24a ""
   "tipografia.sty" 1613410909 10020 63abbd8d0fb38b68c8c926d32693a511 ""
   (generated)
-  "LIVRO.log"
-  "LIVRO.aux"
-  "TEXTO.aux"
-  "LIVRO.toc"
   "LIVRO.pdf"
+  "LIVRO.toc"
+  "LIVRO.log"
+  "TEXTO.aux"
+  "LIVRO.aux"

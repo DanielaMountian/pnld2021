@@ -1,6 +1,6 @@
 all:
 	git log -1 --date=short --format=format:'\newcommand{\RevisionInfo}{%h}' > gitrevisioninfo.sty
-	latexmk -xelatex LIVRO.tex
+	latexmk -lualatex LIVRO.tex
 lua:
 	latexmk -lualatex LIVRO.tex
 clean:

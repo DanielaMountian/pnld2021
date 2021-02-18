@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.10.0 (TeX Live 2019/Debian)  (format=lualatex 2020.6.21)  15 FEB 2021 15:03
+This is LuaTeX, Version 1.10.0 (TeX Live 2019/Debian)  (format=lualatex 2020.6.21)  18 FEB 2021 10:42
  restricted system commands enabled.
 **LIVRO.tex
 (./LIVRO.tex
@@ -48,7 +48,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.196 seconds
+luaotfload | main : initialization completed in 0.101 seconds
 (/usr/share/texlive/texmf-dist/tex/latex/memoir/memoir.cls
 Document Class: memoir 2018/12/12 v3.7h configurable book, report, article docum
 ent class
@@ -1921,7 +1921,7 @@ Here is how much of LuaTeX's memory you used:
    avail lists: 1:6,2:1050,3:247,4:123,5:1060,6:48,7:2243,8:2,9:455,10:27,11:161
 0
  30334 multiletter control sequences out of 65536+600000
- 123 fonts using 23010391 bytes
+ 123 fonts using 23010031 bytes
  58i,12n,98p,1554b,446s stack positions out of 5000i,500n,10000p,200000b,100000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/adforn/OrnementsADF.enc}{/usr/sha
 re/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist
@@ -1933,7 +1933,7 @@ pe1/arkandis/adforn/OrnementsADF.pfb></usr/share/texlive/texmf-dist/fonts/type1/
 public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
 amsfonts/latxfont/lcirclew.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/ti
 mes/utmr8a.pfb>
-Output written on LIVRO.pdf (498 pages, 1234094 bytes).
+Output written on LIVRO.pdf (498 pages, 1234468 bytes).
 
 PDF statistics: 1610 PDF objects out of 1728 (max. 8388607)
  1083 compressed objects within 11 object streams
