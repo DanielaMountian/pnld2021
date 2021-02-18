@@ -17,52 +17,52 @@ Primeira etapa
 É preciso levantar imediatamente qual prefácio pode ser usado. Acrescente um asterisco* no que pode ser usado.
 
 
-- [ ] PNLD0001_lunna_akutagawa_rashomon*
-- [ ] PNLD0002_mm_almeida_contos
-- [ ] PNLD0003_he_andrade_peru
-- [ ] PNLD0004_madalena_andrade_zeppelin
-- [ ] PNLD0005_circuito_andrade_tudoamo
-- [ ] PNLD0007_hedra_athayde_cordel
-- [ ] PNLD0008_araucaria_atui_mare
-- [ ] PNLD0006_ayllon_baccega_graal
-- [ ] PNLD0029_n-1_ballester_yanomami
-- [ ] PNLD0009_lunna_barreto_cronicas
-- [ ] PNLD0010_acorde_baudelaire_pequenos
+- [x] PNLD0001_lunna_akutagawa_rashomon*
+- [x] PNLD0002_mm_almeida_contos
+- [x] PNLD0003_he_andrade_peru
+- [x] PNLD0004_madalena_andrade_zeppelin
+- [x] PNLD0005_circuito_andrade_tudoamo
+- [ ] PNLD0007_hedra_athayde_cordel (Mario Souto: falecido. Dá para usar partes mas precisamos citar.)
+- [x] PNLD0008_araucaria_atui_mare (Não tem)
+- [x] PNLD0006_ayllon_baccega_graal
+- [x] PNLD0029_n-1_ballester_yanomami (Não tem)
+- [x] PNLD0009_lunna_barreto_cronicas
+- [x] PNLD0010_acorde_baudelaire_pequenos
 - [ ] PNLD0011_relicario_brown_narrativa
-- [ ] PNLD0012_he_cardim_tratado
-- [ ] PNLD0013_ayllon_defoe_robinson
-- [ ] PNLD0014_acorde_firmina_antologia
+- [x] PNLD0012_he_cardim_tratado
+- [x] PNLD0013_ayllon_defoe_robinson
+- [x] PNLD0014_acorde_firmina_antologia
 - [ ] PNLD0030_nexus_fontela_poesia
-- [ ] PNLD0015_piseagrama_gabriel_tratado
-- [ ] PNLD0016_edlab_gama_abolicao
-- [ ] PNLD0017_he_gandavo_provincia
-- [ ] PNLD0018_iluminuras_heine_rabi
-- [ ] PNLD0019_he_hesiodo_teogonia_trabalhos
+- [x] PNLD0015_piseagrama_gabriel_tratado
+- [ ] PNLD0016_edlab_gama_abolicao (Não tem introdução)
+- [x] PNLD0017_he_gandavo_provincia
+- [x] PNLD0018_iluminuras_heine_rabi
+- [x] PNLD0019_he_hesiodo_teogonia_trabalhos
 - [ ] PNLD0020_nexus_jacobs_incidentes
-- [ ] PNLD0021_he_joyce_dublinenses
+- [x] PNLD0021_he_joyce_dublinenses
 - [ ] PNLD0022_he_joyce_retrato
-- [ ] PNLD0023_he_joyce_stephen
-- [ ] PNLD0024_circuito_lobato_suplicio
-- [ ] PNLD0025_he_lovecraft_chulhu
-- [ ] PNLD0026_lamparina_machado_pai
-- [ ] PNLD0046_araucaria_maistre_viagem
+- [x] PNLD0023_he_joyce_stephen
+- [x] PNLD0024_circuito_lobato_suplicio
+- [x] PNLD0025_he_lovecraft_chulhu
+- [x] PNLD0026_lamparina_machado_pai
+- [x] PNLD0046_araucaria_maistre_viagem
 - [ ] PNLD0027_glac_marra_crack
-- [ ] PNLD0028_he_menezes_jazz
+- [x] PNLD0028_he_menezes_jazz
 - [ ] PNLD0031_he_panelas_cordel
 - [ ] PNLD0032_he_patativa_cordel
-- [ ] PNLD0033_blooks_patativa_ispinho
+- [x] PNLD0033_blooks_patativa_ispinho
 - [ ] PNLD0034_he_rodolfo_cordel
-- [ ] PNLD0035_escola_safo_hino
-- [ ] PNLD0036_escola_schwob_vidas
-- [ ] PNLD0037_he_stevenson_medico
-- [ ] PNLD0038_relicario_stoker_sol
-- [ ] PNLD0039_glac_strindberg_hemso
+- [x] PNLD0035_escola_safo_hino
+- [x] PNLD0036_escola_schwob_vidas (Cruzada das crianças: não temos contato com introdutor. O outro é da própria tradutora)
+- [x] PNLD0037_he_stevenson_medico
+- [x] PNLD0038_relicario_stoker_sol
+- [ ] PNLD0039_glac_strindberg_hemso (Não conhecemos o introdutor)
 - [ ] PNLD0040_blooks_strindberg_sagas
-- [ ] PNLD0041_mm_tieck_feitico
-- [ ] PNLD0042_madalena_tolstoi_ivan
+- [x] PNLD0041_mm_tieck_feitico
+- [x] PNLD0042_madalena_tolstoi_ivan
 - [ ] PNLD0043_edlab_twain_diarios
 - [ ] PNLD0047_he_vicente_cordel
-- [ ] PNLD0044_he_vieira_sermoes
+- [x] PNLD0044_he_vieira_sermoes
 - [ ] PNLD0045_hedra_wpa_nascidos
 - [ ] KALINKA_1
 - [ ] KALINKA_2
