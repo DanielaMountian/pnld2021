@@ -14,13 +14,8 @@ Primeira etapa
 
 ## Paratextos [30]
 
-É ==preciso== levantar imediatamente qual prefácio pode ser usado. Acrescente um asterisco* no que pode ser usado.
+É preciso levantar imediatamente qual prefácio pode ser usado. Acrescente um asterisco* no que pode ser usado.
 
-:::info
-==UX== As a publisher: I WANT to see how much I have to pay in the budgets (AA) and P&L report (Journal)
-
-==UX== As an author: I WANT to have a report monthly or by quarter and WANT to receive the money by Quarter or by Year
-:::
 
 - [ ] PNLD0001_lunna_akutagawa_rashomon*
 - [ ] PNLD0002_mm_almeida_contos
