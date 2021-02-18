@@ -4,7 +4,7 @@ Primeira etapa
 Paratextos
 ----------
 
-- [x] akutagawa_rashomon_lunna
+- [ ] akutagawa_rashomon_lunna
 - [ ] almeida_antologia_maismelhores
 - [ ] andrade_antologia_hedraeducacao
 - [ ] andrade_cronicas
