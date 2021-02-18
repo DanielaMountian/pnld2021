@@ -64,8 +64,12 @@ Primeira etapa
 - [ ] PNLD0047_he_vicente_cordel
 - [x] PNLD0044_he_vieira_sermoes
 - [ ] PNLD0045_hedra_wpa_nascidos
-- [ ] KALINKA_1
-- [ ] KALINKA_2
+- [ ] PNLD0046_araucaria_maistre_viagem
+- [ ] PNLD0047_he_vicente_cordel
+- [ ] PNLD0048_piseagrama_machado_cartomante
+- [ ] PNLD0049_kalinka_tolstoi_nikita
+- [ ] PNLD0050_kalinka_russos_mountian
+- [ ] PNLD0051_lamparina_sonhos_rezende
 
 ## Edição [5]
 
@@ -116,12 +120,20 @@ Primeira etapa
 - [ ] PNLD0047_he_vicente_cordel
 - [ ] PNLD0044_he_vieira_sermoes
 - [ ] PNLD0045_hedra_wpa_nascidos
+- [ ] PNLD0046_araucaria_maistre_viagem
+- [ ] PNLD0047_he_vicente_cordel
+- [ ] PNLD0048_piseagrama_machado_cartomante
+- [ ] PNLD0049_kalinka_tolstoi_nikita
+- [ ] PNLD0050_kalinka_russos_mountian
+- [ ] PNLD0051_lamparina_sonhos_rezende
+
 
 
 ## Diagramação [2]
 
-- [ ] KALINKA_1
-- [ ] KALINKA_2
+- [ ] PNLD0049_kalinka_tolstoi_nikita
+- [ ] PNLD0050_kalinka_russos_mountian
+- [ ] PNLD0051_lamparina_sonhos_rezende
 
 
 ## Logos [2]
@@ -173,8 +185,13 @@ Primeira etapa
 - [ ] PNLD0047_he_vicente_cordel
 - [ ] PNLD0044_he_vieira_sermoes
 - [ ] PNLD0045_hedra_wpa_nascidos
-- [ ] KALINKA_1
-- [ ] KALINKA_2
+- [ ] PNLD0046_araucaria_maistre_viagem
+- [ ] PNLD0047_he_vicente_cordel
+- [ ] PNLD0048_piseagrama_machado_cartomante
+- [ ] PNLD0049_kalinka_tolstoi_nikita
+- [ ] PNLD0050_kalinka_russos_mountian
+- [ ] PNLD0051_lamparina_sonhos_rezende
+
 
 ## Fichas catalográficas [5]
 
@@ -225,8 +242,13 @@ Primeira etapa
 - [ ] PNLD0047_he_vicente_cordel
 - [ ] PNLD0044_he_vieira_sermoes
 - [ ] PNLD0045_hedra_wpa_nascidos
-- [ ] KALINKA_1
-- [ ] KALINKA_2
+- [ ] PNLD0046_araucaria_maistre_viagem
+- [ ] PNLD0047_he_vicente_cordel
+- [ ] PNLD0048_piseagrama_machado_cartomante
+- [ ] PNLD0049_kalinka_tolstoi_nikita
+- [ ] PNLD0050_kalinka_russos_mountian
+- [ ] PNLD0051_lamparina_sonhos_rezende
+
 
 ## Revisão [10]
 
@@ -276,8 +298,13 @@ Primeira etapa
 - [ ] PNLD0047_he_vicente_cordel
 - [ ] PNLD0044_he_vieira_sermoes
 - [ ] PNLD0045_hedra_wpa_nascidos
-- [ ] KALINKA_1
-- [ ] KALINKA_2
+- [ ] PNLD0046_araucaria_maistre_viagem
+- [ ] PNLD0047_he_vicente_cordel
+- [ ] PNLD0048_piseagrama_machado_cartomante
+- [ ] PNLD0049_kalinka_tolstoi_nikita
+- [ ] PNLD0050_kalinka_russos_mountian
+- [ ] PNLD0051_lamparina_sonhos_rezende
+
 
 # Diagramação do material do professor [10]
 
@@ -328,7 +355,9 @@ Primeira etapa
 - [ ] PNLD0047_he_vicente_cordel
 - [ ] PNLD0044_he_vieira_sermoes
 - [ ] PNLD0045_hedra_wpa_nascidos
-- [ ] KALINKA_1
-- [ ] KALINKA_2
-- [ ] ALAMEDA_1
-- [ ] ALAMEDA_2
+- [ ] PNLD0046_araucaria_maistre_viagem
+- [ ] PNLD0047_he_vicente_cordel
+- [ ] PNLD0048_piseagrama_machado_cartomante
+- [ ] PNLD0049_kalinka_tolstoi_nikita
+- [ ] PNLD0050_kalinka_russos_mountian
+- [ ] PNLD0051_lamparina_sonhos_rezende
