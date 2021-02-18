@@ -14,9 +14,9 @@ Primeira etapa
 
 ## Paratextos [30]
 
-::info
+:::info
 É preciso levantar imediatamente qual prefácio pode ser usado. Acrescente um asterisco* no que pode ser usado.
-::
+:::
 
 - [ ] PNLD0001_lunna_akutagawa_rashomon*
 - [ ] PNLD0002_mm_almeida_contos
