@@ -53,7 +53,7 @@ O asterisco indica que o prefácio da edição original pode ser utilizado.
 - [ ] PNLD0033_blooks_patativa_ispinho*
 - [ ] PNLD0034_he_rodolfo_cordel
 - [ ] PNLD0035_escola_safo_hino*
-- [ ] PNLD0036_escola_schwob_vidas* [^1]
+- [ ] PNLD0036_escola_schwob_vidas* :notebook: 
 - [ ] PNLD0037_he_stevenson_medico*
 - [ ] PNLD0038_relicario_stoker_sol*
 - [ ] PNLD0039_glac_strindberg_hemso (Não conhecemos o introdutor)
@@ -71,7 +71,7 @@ O asterisco indica que o prefácio da edição original pode ser utilizado.
 - [ ] PNLD0050_kalinka_russos_mountian
 - [ ] PNLD0051_lamparina_sonhos_rezende
 
-[^1](Cruzada das crianças: não temos contato com introdutor. O outro é da própria tradutora)
+:notebook: (Cruzada das crianças: não temos contato com introdutor. O outro é da própria tradutora)
 
 ## Edição [5]
 
