@@ -1,173 +1,333 @@
 Primeira etapa
 ==============
 
-Paratextos
-----------
+# Ondas de trabalho [67]
 
-- [ ] akutagawa_rashomon_lunna
-- [ ] almeida_antologia_maismelhores
-- [ ] andrade_antologia_hedraeducacao
-- [ ] andrade_cronicas
-- [ ] andrade_eutudoamo
-- [ ] anonimo_graal_ayllon
-- [ ] athayde_cordel_hedra
-- [ ] atui_mare2_n-1_araucaria-2
-- [ ] barreto_contos
-- [ ] baudelaire_pequenos_acorde-2
-- [ ] brown_narrativa_relicario-2
-- [ ] cardim_tratado-pisagrama2
-- [ ] defoe_crusoe_ayllon
-- [ ] firmina_antologia_acorde
-- [ ] gabrielsoares_tratado_piseagrama2
-- [ ] gama_luta
-- [ ] gandavo_historia_hedraeducacao2
-- [ ] heine_rabi_iluminuras
-- [ ] hesiodo_antologia_hedraeducacao
-- [ ] jacobs_incidentes_n-1_nexus-2
-- [ ] joyce_dublinenses_hedraeducacao
-- [ ] joyce_retrato_hedraeducacao
-- [ ] joyce_stephen_hedraeducacao
-- [ ] lobato_contos
-- [ ] lovecraft_cthulhu_cor-2
-- [ ] machado_paicontramae_lamparina-2
-- [ ] marra_crack_beatrizME-2
-- [ ] menezes_jazzrural_hedraeducacao-2
-- [ ] mi_trans_terra_n-1-2
-- [ ] orides_poesia
-- [ ] panelas_cordel_hedraeducacao
-- [ ] patativa_cordel_hedraeducacao
-- [ ] patativa_fulo
-- [ ] rodolfo_cordel_hedraeducacao
-- [ ] safo_antologia_renato-2
-- [ ] schwob_vidas_cruzada_renato
-- [ ] stevenson_jekyll_hedraeducacao
-- [ ] stocker_sol_relicario-2
-- [ ] strindberg_hemso_beatrizME
-- [ ] strindberg_sagas_circuito_blooks
-- [ ] tieck_feitico_maismelhores
-- [ ] tolstoi_morte
-- [ ] twain_diário_edlabpress
-- [ ] vieira_sermoes_hedraeducacao
-- [ ] wpa_narrativas_hedra-2
-- [ ] xavier_viagem_n-1_araucaria
-- [ ] zevicente_cordel_hedraeducacao
-
-Submódulos
-----------
-arturazevedo_peledolobo_circuito
-atui_mare2_n-1_araucaria
-baudelaire_pequenos_acorde
-brown_narrativa_relicario
-gabrielsoares_tratado_piseagrama
-gandavo_historia_hedraeducacao
-jacobs_incidentes_n-1_nexus
-lovecraft_cthulhu_cor
-
-Paulo:
-machado_paicontramae_lamparina
-marra_crack_beatrizME
-menezes_jazzrural_hedraeducacao
-mi_trans_noite_n-1
-mi_trans_terra_n-1
-safo_antologia_renato
-stocker_sol_relicario
-wpa_narrativas_hedra
+- [ ] Logos [2]
+- [ ] Edição [5]
+- [ ] Paratextos [30]
+- [ ] Revisão [10]
+- [ ] Fichas catalográficas [5]
+- [ ] Diagramação [2]
+- [ ] Diagramação do material do professor [10]
 
 
-	Avaliar textos e levantar grau de dificuldade [0-5]
-	Desmembrar INTRO.tex e PRETAS.tex em `PARATEXTO.tex`
 
 
-almeida_antologia [0]
------------------
-	A cargo da Ieda.
+## Paratextos [30]
 
-anonimo_graal [4]
--------------
-	Sem pretas. 
-	Introdução com rigor acadêmico. 
-	Ver [Resenha](http://www.scielo.br/scielo.php?script=sci_arttext&pid=S0103-40142017000100453).
-	Ver sobre [Percival](https://en.wikipedia.org/wiki/Parzival).
-	Dificuldade: texto erudito, sem aparatos iniciais como pretas, matéria antiga, muitos comentários acadêmicos intertextuais.
+- [ ] PNLD0001_lunna_akutagawa_rashomon
+- [ ] PNLD0002_mm_almeida_contos
+- [ ] PNLD0003_he_andrade_peru
+- [ ] PNLD0004_madalena_andrade_zeppelin
+- [ ] PNLD0005_circuito_andrade_tudoamo
+- [ ] PNLD0007_hedra_athayde_cordel
+- [ ] PNLD0008_araucaria_atui_mare
+- [ ] PNLD0006_ayllon_baccega_graal
+- [ ] PNLD0029_n-1_ballester_yanomami
+- [ ] PNLD0009_lunna_barreto_cronicas
+- [ ] PNLD0010_acorde_baudelaire_pequenos
+- [ ] PNLD0011_relicario_brown_narrativa
+- [ ] PNLD0012_he_cardim_tratado
+- [ ] PNLD0013_ayllon_defoe_robinson
+- [ ] PNLD0014_acorde_firmina_antologia
+- [ ] PNLD0030_nexus_fontela_poesia
+- [ ] PNLD0015_piseagrama_gabriel_tratado
+- [ ] PNLD0016_edlab_gama_abolicao
+- [ ] PNLD0017_he_gandavo_provincia
+- [ ] PNLD0018_iluminuras_heine_rabi
+- [ ] PNLD0019_he_hesiodo_teogonia_trabalhos
+- [ ] PNLD0020_nexus_jacobs_incidentes
+- [ ] PNLD0021_he_joyce_dublinenses
+- [ ] PNLD0022_he_joyce_retrato
+- [ ] PNLD0023_he_joyce_stephen
+- [ ] PNLD0024_circuito_lobato_suplicio
+- [ ] PNLD0025_he_lovecraft_chulhu
+- [ ] PNLD0026_lamparina_machado_pai
+- [ ] PNLD0046_araucaria_maistre_viagem
+- [ ] PNLD0027_glac_marra_crack
+- [ ] PNLD0028_he_menezes_jazz
+- [ ] PNLD0031_he_panelas_cordel
+- [ ] PNLD0032_he_patativa_cordel
+- [ ] PNLD0033_blooks_patativa_ispinho
+- [ ] PNLD0034_he_rodolfo_cordel
+- [ ] PNLD0035_escola_safo_hino
+- [ ] PNLD0036_escola_schwob_vidas
+- [ ] PNLD0037_he_stevenson_medico
+- [ ] PNLD0038_relicario_stoker_sol
+- [ ] PNLD0039_glac_strindberg_hemso
+- [ ] PNLD0040_blooks_strindberg_sagas
+- [ ] PNLD0041_mm_tieck_feitico
+- [ ] PNLD0042_madalena_tolstoi_ivan
+- [ ] PNLD0043_edlab_twain_diarios
+- [ ] PNLD0047_he_vicente_cordel
+- [ ] PNLD0044_he_vieira_sermoes
+- [ ] PNLD0045_hedra_wpa_nascidos
+- [ ] KALINKA_1
+- [ ] KALINKA_2
 
-arturazevedo_peledolobo [?]
------------------------
-	Vazio.
+## Edição [5]
 
-athayde_cordel [1]
---------------
-	Atividades feitas pelo Iuri ajudam as atividas.
-
-baudelaire_pequenos
--------------------
-	Vazio.
-
-brown_narrativa
----------------
-	Vazio.
-
-cardim_tratados
----------------
-	Vazio.
-
-gabrielsoares_tratado
----------------------
-	Vazio.
-
-gandavo_historia
-----------------
-	Vazio.
-
-goethe_werther
---------------
-	Vazio (afora as pretas).
-	Tradução em domínio público. ⛔
-	Vantagem: temos uma ficha de leitura.
-
-
-heine_rabi
-----------
-	Vazio
-
-hesiodo_teogonia
-hesiodo_trabalhos
-jacobs_incidentes
-joyce_dublinenses
-joyce_retrato
-joyce_stephen
-machado_cartomante
-machado_paicontramae
-marra_crack
-menezes_jazzrural
-mi_trans_noite
-mi_trans_terra
-panelas_cordel
-patativa_cordel
-rodolfo_cordel
-safo_antologia
-schwob_monelle
-schwob_vidas_cruzada
-stevenson_jekyll
-stocker_sol
-strindberg_hemso
-tieck_feitico
-twain_diário
-wpa_narrativas
-xavier_viagem
-zevicente_cordel
-zola_acusols
+- [ ] PNLD0001_lunna_akutagawa_rashomon
+- [ ] PNLD0002_mm_almeida_contos
+- [ ] PNLD0003_he_andrade_peru
+- [ ] PNLD0004_madalena_andrade_zeppelin
+- [ ] PNLD0005_circuito_andrade_tudoamo
+- [ ] PNLD0007_hedra_athayde_cordel
+- [ ] PNLD0008_araucaria_atui_mare
+- [ ] PNLD0006_ayllon_baccega_graal
+- [ ] PNLD0029_n-1_ballester_yanomami
+- [ ] PNLD0009_lunna_barreto_cronicas
+- [ ] PNLD0010_acorde_baudelaire_pequenos
+- [ ] PNLD0011_relicario_brown_narrativa
+- [ ] PNLD0012_he_cardim_tratado
+- [ ] PNLD0013_ayllon_defoe_robinson
+- [ ] PNLD0014_acorde_firmina_antologia
+- [ ] PNLD0030_nexus_fontela_poesia
+- [ ] PNLD0015_piseagrama_gabriel_tratado
+- [ ] PNLD0016_edlab_gama_abolicao
+- [ ] PNLD0017_he_gandavo_provincia
+- [ ] PNLD0018_iluminuras_heine_rabi
+- [ ] PNLD0019_he_hesiodo_teogonia_trabalhos
+- [ ] PNLD0020_nexus_jacobs_incidentes
+- [ ] PNLD0021_he_joyce_dublinenses
+- [ ] PNLD0022_he_joyce_retrato
+- [ ] PNLD0023_he_joyce_stephen
+- [ ] PNLD0024_circuito_lobato_suplicio
+- [ ] PNLD0025_he_lovecraft_chulhu
+- [ ] PNLD0026_lamparina_machado_pai
+- [ ] PNLD0046_araucaria_maistre_viagem
+- [ ] PNLD0027_glac_marra_crack
+- [ ] PNLD0028_he_menezes_jazz
+- [ ] PNLD0031_he_panelas_cordel
+- [ ] PNLD0032_he_patativa_cordel
+- [ ] PNLD0033_blooks_patativa_ispinho
+- [ ] PNLD0034_he_rodolfo_cordel
+- [ ] PNLD0035_escola_safo_hino
+- [ ] PNLD0036_escola_schwob_vidas
+- [ ] PNLD0037_he_stevenson_medico
+- [ ] PNLD0038_relicario_stoker_sol
+- [ ] PNLD0039_glac_strindberg_hemso
+- [ ] PNLD0040_blooks_strindberg_sagas
+- [ ] PNLD0041_mm_tieck_feitico
+- [ ] PNLD0042_madalena_tolstoi_ivan
+- [ ] PNLD0043_edlab_twain_diarios
+- [ ] PNLD0047_he_vicente_cordel
+- [ ] PNLD0044_he_vieira_sermoes
+- [ ] PNLD0045_hedra_wpa_nascidos
 
 
-Livros não diagramados
-======================
+## Diagramação [2]
 
-_vieirasermoes_
--------------
+- [ ] KALINKA_1
+- [ ] KALINKA_2
 
-_marenostrum_
------------
 
-_luisgama_
---------
-	
+## Logos [2]
 
+- [ ] PNLD0001_lunna_akutagawa_rashomon
+- [ ] PNLD0002_mm_almeida_contos
+- [ ] PNLD0003_he_andrade_peru
+- [ ] PNLD0004_madalena_andrade_zeppelin
+- [ ] PNLD0005_circuito_andrade_tudoamo
+- [ ] PNLD0007_hedra_athayde_cordel
+- [ ] PNLD0008_araucaria_atui_mare
+- [ ] PNLD0006_ayllon_baccega_graal
+- [ ] PNLD0029_n-1_ballester_yanomami
+- [ ] PNLD0009_lunna_barreto_cronicas
+- [ ] PNLD0010_acorde_baudelaire_pequenos
+- [ ] PNLD0011_relicario_brown_narrativa
+- [ ] PNLD0012_he_cardim_tratado
+- [ ] PNLD0013_ayllon_defoe_robinson
+- [ ] PNLD0014_acorde_firmina_antologia
+- [ ] PNLD0030_nexus_fontela_poesia
+- [ ] PNLD0015_piseagrama_gabriel_tratado
+- [ ] PNLD0016_edlab_gama_abolicao
+- [ ] PNLD0017_he_gandavo_provincia
+- [ ] PNLD0018_iluminuras_heine_rabi
+- [ ] PNLD0019_he_hesiodo_teogonia_trabalhos
+- [ ] PNLD0020_nexus_jacobs_incidentes
+- [ ] PNLD0021_he_joyce_dublinenses
+- [ ] PNLD0022_he_joyce_retrato
+- [ ] PNLD0023_he_joyce_stephen
+- [ ] PNLD0024_circuito_lobato_suplicio
+- [ ] PNLD0025_he_lovecraft_chulhu
+- [ ] PNLD0026_lamparina_machado_pai
+- [ ] PNLD0046_araucaria_maistre_viagem
+- [ ] PNLD0027_glac_marra_crack
+- [ ] PNLD0028_he_menezes_jazz
+- [ ] PNLD0031_he_panelas_cordel
+- [ ] PNLD0032_he_patativa_cordel
+- [ ] PNLD0033_blooks_patativa_ispinho
+- [ ] PNLD0034_he_rodolfo_cordel
+- [ ] PNLD0035_escola_safo_hino
+- [ ] PNLD0036_escola_schwob_vidas
+- [ ] PNLD0037_he_stevenson_medico
+- [ ] PNLD0038_relicario_stoker_sol
+- [ ] PNLD0039_glac_strindberg_hemso
+- [ ] PNLD0040_blooks_strindberg_sagas
+- [ ] PNLD0041_mm_tieck_feitico
+- [ ] PNLD0042_madalena_tolstoi_ivan
+- [ ] PNLD0043_edlab_twain_diarios
+- [ ] PNLD0047_he_vicente_cordel
+- [ ] PNLD0044_he_vieira_sermoes
+- [ ] PNLD0045_hedra_wpa_nascidos
+- [ ] KALINKA_1
+- [ ] KALINKA_2
+
+## Fichas catalográficas [5]
+
+- [ ] PNLD0001_lunna_akutagawa_rashomon
+- [ ] PNLD0002_mm_almeida_contos
+- [ ] PNLD0003_he_andrade_peru
+- [ ] PNLD0004_madalena_andrade_zeppelin
+- [ ] PNLD0005_circuito_andrade_tudoamo
+- [ ] PNLD0007_hedra_athayde_cordel
+- [ ] PNLD0008_araucaria_atui_mare
+- [ ] PNLD0006_ayllon_baccega_graal
+- [ ] PNLD0029_n-1_ballester_yanomami
+- [ ] PNLD0009_lunna_barreto_cronicas
+- [ ] PNLD0010_acorde_baudelaire_pequenos
+- [ ] PNLD0011_relicario_brown_narrativa
+- [ ] PNLD0012_he_cardim_tratado
+- [ ] PNLD0013_ayllon_defoe_robinson
+- [ ] PNLD0014_acorde_firmina_antologia
+- [ ] PNLD0030_nexus_fontela_poesia
+- [ ] PNLD0015_piseagrama_gabriel_tratado
+- [ ] PNLD0016_edlab_gama_abolicao
+- [ ] PNLD0017_he_gandavo_provincia
+- [ ] PNLD0018_iluminuras_heine_rabi
+- [ ] PNLD0019_he_hesiodo_teogonia_trabalhos
+- [ ] PNLD0020_nexus_jacobs_incidentes
+- [ ] PNLD0021_he_joyce_dublinenses
+- [ ] PNLD0022_he_joyce_retrato
+- [ ] PNLD0023_he_joyce_stephen
+- [ ] PNLD0024_circuito_lobato_suplicio
+- [ ] PNLD0025_he_lovecraft_chulhu
+- [ ] PNLD0026_lamparina_machado_pai
+- [ ] PNLD0046_araucaria_maistre_viagem
+- [ ] PNLD0027_glac_marra_crack
+- [ ] PNLD0028_he_menezes_jazz
+- [ ] PNLD0031_he_panelas_cordel
+- [ ] PNLD0032_he_patativa_cordel
+- [ ] PNLD0033_blooks_patativa_ispinho
+- [ ] PNLD0034_he_rodolfo_cordel
+- [ ] PNLD0035_escola_safo_hino
+- [ ] PNLD0036_escola_schwob_vidas
+- [ ] PNLD0037_he_stevenson_medico
+- [ ] PNLD0038_relicario_stoker_sol
+- [ ] PNLD0039_glac_strindberg_hemso
+- [ ] PNLD0040_blooks_strindberg_sagas
+- [ ] PNLD0041_mm_tieck_feitico
+- [ ] PNLD0042_madalena_tolstoi_ivan
+- [ ] PNLD0043_edlab_twain_diarios
+- [ ] PNLD0047_he_vicente_cordel
+- [ ] PNLD0044_he_vieira_sermoes
+- [ ] PNLD0045_hedra_wpa_nascidos
+- [ ] KALINKA_1
+- [ ] KALINKA_2
+
+## Revisão [10]
+
+- [ ] PNLD0002_mm_almeida_contos
+- [ ] PNLD0003_he_andrade_peru
+- [ ] PNLD0004_madalena_andrade_zeppelin
+- [ ] PNLD0005_circuito_andrade_tudoamo
+- [ ] PNLD0007_hedra_athayde_cordel
+- [ ] PNLD0008_araucaria_atui_mare
+- [ ] PNLD0006_ayllon_baccega_graal
+- [ ] PNLD0029_n-1_ballester_yanomami
+- [ ] PNLD0009_lunna_barreto_cronicas
+- [ ] PNLD0010_acorde_baudelaire_pequenos
+- [ ] PNLD0011_relicario_brown_narrativa
+- [ ] PNLD0012_he_cardim_tratado
+- [ ] PNLD0013_ayllon_defoe_robinson
+- [ ] PNLD0014_acorde_firmina_antologia
+- [ ] PNLD0030_nexus_fontela_poesia
+- [ ] PNLD0015_piseagrama_gabriel_tratado
+- [ ] PNLD0016_edlab_gama_abolicao
+- [ ] PNLD0017_he_gandavo_provincia
+- [ ] PNLD0018_iluminuras_heine_rabi
+- [ ] PNLD0019_he_hesiodo_teogonia_trabalhos
+- [ ] PNLD0020_nexus_jacobs_incidentes
+- [ ] PNLD0021_he_joyce_dublinenses
+- [ ] PNLD0022_he_joyce_retrato
+- [ ] PNLD0023_he_joyce_stephen
+- [ ] PNLD0024_circuito_lobato_suplicio
+- [ ] PNLD0025_he_lovecraft_chulhu
+- [ ] PNLD0026_lamparina_machado_pai
+- [ ] PNLD0046_araucaria_maistre_viagem
+- [ ] PNLD0027_glac_marra_crack
+- [ ] PNLD0028_he_menezes_jazz
+- [ ] PNLD0031_he_panelas_cordel
+- [ ] PNLD0032_he_patativa_cordel
+- [ ] PNLD0033_blooks_patativa_ispinho
+- [ ] PNLD0034_he_rodolfo_cordel
+- [ ] PNLD0035_escola_safo_hino
+- [ ] PNLD0036_escola_schwob_vidas
+- [ ] PNLD0037_he_stevenson_medico
+- [ ] PNLD0038_relicario_stoker_sol
+- [ ] PNLD0039_glac_strindberg_hemso
+- [ ] PNLD0040_blooks_strindberg_sagas
+- [ ] PNLD0041_mm_tieck_feitico
+- [ ] PNLD0042_madalena_tolstoi_ivan
+- [ ] PNLD0043_edlab_twain_diarios
+- [ ] PNLD0047_he_vicente_cordel
+- [ ] PNLD0044_he_vieira_sermoes
+- [ ] PNLD0045_hedra_wpa_nascidos
+- [ ] KALINKA_1
+- [ ] KALINKA_2
+
+# Diagramação do material do professor [10]
+
+- [ ] PNLD0001_lunna_akutagawa_rashomon
+- [ ] PNLD0002_mm_almeida_contos
+- [ ] PNLD0003_he_andrade_peru
+- [ ] PNLD0004_madalena_andrade_zeppelin
+- [ ] PNLD0005_circuito_andrade_tudoamo
+- [ ] PNLD0007_hedra_athayde_cordel
+- [ ] PNLD0008_araucaria_atui_mare
+- [ ] PNLD0006_ayllon_baccega_graal
+- [ ] PNLD0029_n-1_ballester_yanomami
+- [ ] PNLD0009_lunna_barreto_cronicas
+- [ ] PNLD0010_acorde_baudelaire_pequenos
+- [ ] PNLD0011_relicario_brown_narrativa
+- [ ] PNLD0012_he_cardim_tratado
+- [ ] PNLD0013_ayllon_defoe_robinson
+- [ ] PNLD0014_acorde_firmina_antologia
+- [ ] PNLD0030_nexus_fontela_poesia
+- [ ] PNLD0015_piseagrama_gabriel_tratado
+- [ ] PNLD0016_edlab_gama_abolicao
+- [ ] PNLD0017_he_gandavo_provincia
+- [ ] PNLD0018_iluminuras_heine_rabi
+- [ ] PNLD0019_he_hesiodo_teogonia_trabalhos
+- [ ] PNLD0020_nexus_jacobs_incidentes
+- [ ] PNLD0021_he_joyce_dublinenses
+- [ ] PNLD0022_he_joyce_retrato
+- [ ] PNLD0023_he_joyce_stephen
+- [ ] PNLD0024_circuito_lobato_suplicio
+- [ ] PNLD0025_he_lovecraft_chulhu
+- [ ] PNLD0026_lamparina_machado_pai
+- [ ] PNLD0046_araucaria_maistre_viagem
+- [ ] PNLD0027_glac_marra_crack
+- [ ] PNLD0028_he_menezes_jazz
+- [ ] PNLD0031_he_panelas_cordel
+- [ ] PNLD0032_he_patativa_cordel
+- [ ] PNLD0033_blooks_patativa_ispinho
+- [ ] PNLD0034_he_rodolfo_cordel
+- [ ] PNLD0035_escola_safo_hino
+- [ ] PNLD0036_escola_schwob_vidas
+- [ ] PNLD0037_he_stevenson_medico
+- [ ] PNLD0038_relicario_stoker_sol
+- [ ] PNLD0039_glac_strindberg_hemso
+- [ ] PNLD0040_blooks_strindberg_sagas
+- [ ] PNLD0041_mm_tieck_feitico
+- [ ] PNLD0042_madalena_tolstoi_ivan
+- [ ] PNLD0043_edlab_twain_diarios
+- [ ] PNLD0047_he_vicente_cordel
+- [ ] PNLD0044_he_vieira_sermoes
+- [ ] PNLD0045_hedra_wpa_nascidos
+- [ ] KALINKA_1
+- [ ] KALINKA_2
+- [ ] ALAMEDA_1
+- [ ] ALAMEDA_2
