@@ -1,48 +1,16 @@
-mv PNLD0009_lunna_barreto_cronicas	PNLD0001_lunna_barretocronicas_MIOLO
-mv PNLD0002_mm_almeida_contos	PNLD0002_mm_almeidacontos_MIOLO
-mv PNLD0044_he_vieira_sermoes	PNLD0003_he_vieirasermoes_MIOLO
-mv PNLD0004_madalena_andrade_zeppelin	PNLD0004_madalena_andradezeppelin_MIOLO
-mv PNLD0005_circuito_andrade_tudoamo	PNLD0005_circuito_andradetudoamo_MIOLO
-mv PNLD0006_ayllon_baccega_graal	PNLD0006_ayllon_baccegagraal_MIOLO
-mv PNLD0045_hedra_wpa_nascidos	PNLD0007_hedra_wpanascidos_MIOLO
-mv PNLD0008_araucaria_atui_mare	PNLD0008_araucaria_atuimare_MIOLO
-mv PNLD0001_lunna_akutagawa_rashomon	PNLD0009_lunna_akutagawarashomon_MIOLO
-mv PNLD0010_acorde_baudelaire_pequenos	PNLD0010_acorde_baudelairepequenos_MIOLO
-mv PNLD0038_relicario_stoker_sol	PNLD0011_relicario_stokersol_MIOLO
-mv PNLD0031_he_panelas_cordel	PNLD0012_he_panelascordel_MIOLO
-mv PNLD0013_ayllon_defoe_robinson	PNLD0013_ayllon_defoerobinson_MIOLO
-mv PNLD0014_acorde_firmina_antologia	PNLD0014_acorde_firminaantologia_MIOLO
-mv PNLD0015_piseagrama_gabriel_tratado	PNLD0015_piseagrama_gabrieltratado_MIOLO
-mv PNLD0016_edlab_gama_abolicao	PNLD0016_edlab_gamaabolicao_MIOLO
-mv PNLD0037_he_stevenson_medico	PNLD0017_he_stevensonmedico_MIOLO
-mv PNLD0018_iluminuras_heine_rabi	PNLD0018_iluminuras_heinerabi_MIOLO
-mv PNLD0032_he_patativa_cordel	PNLD0019_he_patativacordel_MIOLO
-mv PNLD0020_nexus_jacobs_incidentes	PNLD0020_nexus_jacobsincidentes_MIOLO
-mv PNLD0025_he_lovecraft_chulhu	PNLD0021_he_lovecraftchulhu_MIOLO
-mv PNLD0023_he_joyce_stephen	PNLD0022_he_joycestephen_MIOLO
-mv PNLD0012_he_cardim_tratado	PNLD0023_he_cardimtratado_MIOLO
-mv PNLD0024_circuito_lobato_suplicio	PNLD0024_circuito_lobatosuplicio_MIOLO
-mv PNLD0047_he_vicente_cordel	PNLD0025_he_vicentecordel_MIOLO
-mv PNLD0026_lamparina_machado_pai	PNLD0026_lamparina_machadopai_MIOLO
-mv PNLD0027_glac_marra_crack	PNLD0027_???_marracrack_MIOLO
-mv PNLD0003_he_andrade_peru	PNLD0028_he_andradeperu_MIOLO
-mv PNLD0029_n-1_ballester_yanomami	PNLD0029_n-1_ballesteryanomami_MIOLO
-mv PNLD0030_nexus_fontela_poesia	PNLD0030_nexus_fontelapoesia_MIOLO
-mv PNLD0034_he_rodolfo_cordel	PNLD0031_he_rodolfocordel_MIOLO
-mv PNLD0021_he_joyce_dublinenses	PNLD0032_he_joycedublinenses_MIOLO
-mv PNLD0033_blooks_patativa_ispinho	PNLD0033_blooks_patativaispinho_MIOLO
-mv PNLD0017_he_gandavo_provincia	PNLD0034_he_gandavoprovincia_MIOLO
-mv PNLD0035_escola_safo_hino	PNLD0035_escola_safohino_MIOLO
-mv PNLD0036_escola_schwob_vidas	PNLD0036_escola_schwobvidas_MIOLO
-mv PNLD0022_he_joyce_retrato	PNLD0037_he_joyceretrato_MIOLO
-mv PNLD0011_relicario_brown_narrativa	PNLD0038_relicario_brownnarrativa_MIOLO
-mv PNLD0039_glac_strindberg_hemso	PNLD0039_XXX_strindberghemso_MIOLO
-mv PNLD0040_blooks_strindberg_sagas	PNLD0040_blooks_strindbergsagas_MIOLO
-mv PNLD0041_mm_tieck_feitico	PNLD0041_mm_tieckfeitico_MIOLO
-mv PNLD0042_madalena_tolstoi_ivan	PNLD0042_madalena_tolstoiivan_MIOLO
-mv PNLD0043_edlab_twain_diarios	PNLD0043_edlab_twaindiarios_MIOLO
-mv PNLD0019_he_hesiodo_teogonia_trabalhos	PNLD0044_he_hesiodoteogonia_trabalhos_MIOLO
-mv PNLD0007_hedra_athayde_cordel	PNLD0045_hedra_athaydecordel_MIOLO
-mv PNLD0046_araucaria_maistre_viagem	PNLD0046_araucaria_maistreviagem_MIOLO
-mv PNLD0028_he_menezes_jazz	PNLD0047_he_menezesjazz_MIOLO
-mv PNLD0048_piseagrama_machado_cartomante	PNLD0048_piseagrama_machadocartomante_MIOLO
+all:
+	git log -1 --date=short --format=format:'\newcommand{\RevisionInfo}{%h}' > gitrevisioninfo.sty
+	latexmk -lualatex LIVRO.tex	
+clean:
+	-rm *aux *log *tui *toc *.4ct *.4tc *.html *.css *.dvi *.epub *.lg *.ncx *.xref *.tmp *.idv *.opf *.png  LIVRO.pdf *.fdb_latexmk *.fls
+pdf:
+	git log -1 --date=short --format=format:'\newcommand{\RevisionInfo}{%h}' > gitrevisioninfo.sty
+	latexmk -lualatex LIVRO.tex	
+	evince LIVRO.pdf
+rename:
+	mv LIVRO.pdf $(notdir $(patsubst %/,%,$(CURDIR))).pdf
+git:
+	git add .
+	git commit -m "mudança pequena"
+	git push
+

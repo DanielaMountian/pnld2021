@@ -1,22 +1,16 @@
 all:
-	pdflatex XAVIER.tex
-	evince XAVIER.pdf
-dub:
-	svn propset svn:keywords "Date Id Rev" *.tex
-	pdflatex XAVIER.tex	
-	pdflatex XAVIER.tex
-	evince XAVIER.pdf
-tags:
-	 svn copy ../trunk/ svn://dev.hedra.com.br/hedra/<LIVRO>/tags/release-1.0 -m "primeira edição"
-
-dic:
-	@echo "personal_ws-1.1 pt_BR `cat *.tex | aspell -l pt_BR -t list | sort | uniq | wc -l` utf-8" > dic.pws
-	@cat *.tex | aspell -l pt_BR -t list | sort | uniq >> dic.pws
-	sh dic.sh
-erros:
-	@cat *.tex | aspell --extra-dicts=./dic.pws -t list | sort | uniq
-corrige:
-	clear 
-	sh dic.sh
+	git log -1 --date=short --format=format:'\newcommand{\RevisionInfo}{%h}' > gitrevisioninfo.sty
+	latexmk -lualatex LIVRO.tex	
 clean:
-	rm *.aux *.dvi *.log XAVIER.pdf *.ps *.toc
+	-rm *aux *log *tui *toc *.4ct *.4tc *.html *.css *.dvi *.epub *.lg *.ncx *.xref *.tmp *.idv *.opf *.png  LIVRO.pdf *.fdb_latexmk *.fls
+pdf:
+	git log -1 --date=short --format=format:'\newcommand{\RevisionInfo}{%h}' > gitrevisioninfo.sty
+	latexmk -lualatex LIVRO.tex	
+	evince LIVRO.pdf
+rename:
+	mv LIVRO.pdf $(notdir $(patsubst %/,%,$(CURDIR))).pdf
+git:
+	git add .
+	git commit -m "mudança pequena"
+	git push
+
