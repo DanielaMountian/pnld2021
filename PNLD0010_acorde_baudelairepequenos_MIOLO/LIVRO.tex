@@ -1,70 +1,35 @@
-\documentclass[semcabeco,showtrims,12pt,conselho,spreadimages]{memoir}
+\documentclass[semcabeco,showtrims,trimframe,12pt,spreadimages,oneside]{memoir}
 
-\usepackage[largepost]{hedraoptions} %% << %%%%%%%%%%%%%%%%
+\usepackage[pnld]{hedraoptions} %% << %%%%%%%%%%%%%%%%
 \usepackage[baruch]{hedrastyles}
 \usepackage[xetex,chicagofootnotes]{tipografia}
-\usepackage[standart,sempontinhos]{toc}
+\usepackage[standart,compontinhos]{toc}
 \usepackage{hedraextra}
 \usepackage{penalidades}
 \usepackage{graficos}
 \usepackage{hedralogo}
+\usepackage[shrink,siderepl]{hedrasides}
 \usepackage{hifensextras}
 \usepackage{fichatecnica}
 \usepackage[standart]{aparatos}
 \usepackage{tabelas}
-\usepackage{versos}
+\usepackage[squarebr]{gmverse}
 \usepackage{gitrevisioninfo}
-\usepackage{parallel}
-
 
 \newcommand{\forceindent}{\leavevmode{\parindent=1,4em\indent}}
 
-\linespread{1.15}
-
-\newcommand{\paragraphbr}[1]{\vfill\pagebreak\paragraph{#1}}
-\renewcommand\theparagraph{\Roman{paragraph}}
-\newcommand{\quebra}{\vfil\pagebreak}
-
-%\usepackage{endnotes}
-%\renewcommand{\notesname}{Notas}
-
-%\usepackage{fancyhdr}
-%\pagestyle{fancy}
-%\setlength{\headheight}{9mm}
-%\fancyhf{}
-%\fancyhead[R]{\thepage}
-%\renewcommand{\headrulewidth}{0pt}
-
-%\lhead[\fancyplain{}]{}
-%\chead[\fancyplain{}]{}
-%\rhead[\fancyplain{}]{\cnvt{\thepage} -- \thepage}
-
-%\newcommand*{\cnvt}[1]{\the\numexpr#1-1\relax}
-
-%\fancypagestyle{chapter}{
-%\pagestyle{fancy}
-%\setlength{\headheight}{5mm}
-%\fancyhf{}
-%\fancyhead[R]{\thepage}
-%\renewcommand{\headrulewidth}{0pt}}
+\makeatletter
+\def\@xfootnote[#1]{%
+  \protected@xdef\@thefnmark{#1}%
+  \@footnotemark\@footnotetext}
+\makeatother
 
 
-%\usepackage{footmisc}
 
-%\renewcommand*\footnoterule{}
-%\fancyhf[RO]{\cnvt{\thepage} -- \thepage}
-%\fancyfoot{}
-%\renewcommand{\headrulewidth}{0pt}
-%\renewcommand{\footrulewidth}{0pt}}
+\usepackage{footmisc}
 
-\usepackage{fontspec}
+\renewcommand*\footnoterule{}
 
-%\usepackage{Formular}
-\newfontfamily\Formular{Formular-Regular}[
-BoldFont = Formular-Bold.otf]	
-
-%--------------------------------------------ALTERAR DISTÃNCIA ENTRE TÍTULO DO SUMÁRIO E CAPÍTULOS
-%\addtocontents{toc}{\vskip-15pt}
 %--------------------------------------------
 \usepackage{afterpage}
 
@@ -74,22 +39,10 @@ BoldFont = Formular-Bold.otf]
     \addtocounter{page}{0}%
     \newpage}
 
-%\usepackage{imakeidx} 
-%\makeindex[program=xindy, options=-C utf8 -L portuguese]
-%\newcommand\gobbleone[1]{}
-%\newcommand*{\seeonly}[2]{\ (\emph{\seename} #1)}
-%\newcommand*{\also}[2]{\emph{cf.} #1}
-%\newcommand{\Also}[2]{\emph{See also} #1}
-%\renewcommand\indexname{Índice onomástico}
-%\makeindex[intoc]
+
 
 \setcounter{tocdepth}{0}
 \setcounter{secnumdepth}{-2} 
-%\renewcommand \thesection {\thechapter.\Roman\c@section}
-\renewcommand{\thesection}{\arabic{section}}
-
-
-%\linespread{1.08}
 \usepackage{commands}
 
 \usepackage{setspace}
@@ -134,42 +87,9 @@ BoldFont = Formular-Bold.otf]
 
 \newcommand{\mystar}{{\fontfamily{lmr}\selectfont$\star$}}
 
-%\makeatletter
-%\renewcommand{\@chapapp}{}% Not necessary...
-%\newenvironment{chapquote}[2][2em]
-%  {\setlength{\@tempdima}{#1}%
-%   \def\chapquote@author{#2}%
-%   \parshape 1 \@tempdima \dimexpr\textwidth-2\@tempdima\relax%
-%   \itshape}
-%  {\par\scriptsize\hfill-- \chapquote@author\hspace*{\@tempdima}\par\bigskip}
-%\makeatother
-
-%\newcommand\Chapter[2]{\chapter
-%  [#1\hfil\hbox{}\protect\linebreak{\itshape#1}]%
-%  {#1\\[2ex]\Large\itshape#2}%
-%}
 
 \begin{document}
-%\include{INPUTS}
-\include{INTRO}
 
-\begin{Parallel}[p]{}{} 
-\ParallelLText{\selectlanguage{french} \input{FRANCES}} 
-\ParallelRText{\setcounter{section}{0} \input{PORTUGUES}} %
+\include{INPUTS}
 
-\renewcommand{\ParallelAtEnd}{\noindent{}\vspace{1cm}\Large{Notas}}
-\end{Parallel} 
-
- \pagebreak
- \def\contentsname{Índice}
- \setcounter{tocdepth}{1}
- \tableofcontents
-
-%\pagebreak
-%\addcontentsline{toc}{chapter}{Notas}
-%\theendnotes
-
-% Minitoc
- 
-
- \end{document}
+\end{document}

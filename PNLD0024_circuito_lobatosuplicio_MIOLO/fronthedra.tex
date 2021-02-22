@@ -7,7 +7,10 @@
 %% Créditos ------------------------------------------------------
 \raggedright
 \linha{copyright}{\copyrightlivro}
-\linhalayout{edição brasileira©}{Mais e melhores \ifdef{\ano}{\ano}{\the\year}}
+
+\hspace{43pt}\tiny\textit{Direitos cedidos à Editora Circuito}\medskip
+
+%\linhalayout{edição brasileira©}{Mais e melhores \ifdef{\ano}{\ano}{\the\year}}
 \linha{tradução©}{\copyrighttraducao}
 \linha{organização©}{\copyrightorganizacao}
 \linha{prefácio©}{\copyrightintroducao}
@@ -86,9 +89,8 @@ Foi feito o depósito legal.\\\endgroup
 %logos
 \vfill
 \normalsize
-\ifdef{\logo}{\IfFileExists{\logo}{\hfill\includegraphics[width=3cm]{\logo}\hfill\logoum{}\\ São Paulo\quad\the\year}}{\logoum\break{} São Paulo\quad\the\year}
-%\includegraphics[width=.4\textwidth,trim=0 0 25 0]{logo.jpg}\\\smallskip
-\par\clearpage\endgroup
+\ifdef{\hfill\includegraphics[width=3cm]{./logo/logo.pdf}\\ São Paulo\quad\the\year}
+\par\clearpage\endgroup\thispagestyle{empty}\pagebreak
 % Resumo -------------------------------------------------------
 \begingroup \footnotesize \parindent0pt \parskip 5pt \thispagestyle{empty} \vspace*{.25\textheight}\mbox{} \vfill
 \baselineskip=.92\baselineskip

@@ -1,16 +1,16 @@
 \AtBeginDocument{%
-\begingroup\pagestyle{empty}\raggedright\parindent0pt
-{\Formular{\Huge{\titulagemfront{}}}}
-\vspace{11.25mm}
-
-\LARGE{\autor}
+\begingroup\pagestyle{empty}\raggedleft\parindent0pt
+\titulagemfront{}
 \vfill
 \clearpage
 
 %% Créditos ------------------------------------------------------
 \raggedright
 \linha{copyright}{\copyrightlivro}
-\linhalayout{edição brasileira©}{Hedra \ifdef{\ano}{\ano}{\the\year}}
+
+\hspace{43pt}\tiny\textit{Direitos cedidos à Editora Hedra Educação}\medskip
+
+%\linhalayout{edição brasileira©}{Hedra \ifdef{\ano}{\ano}{\the\year}}
 \linha{tradução©}{\copyrighttraducao}
 \linha{organização©}{\copyrightorganizacao}
 \linha{prefácio©}{\copyrightintroducao}
@@ -56,12 +56,9 @@ Foi feito o depósito legal.\\\endgroup
 \pagebreak\raggedright
 %% Front ---------------------------------------------------------
 % Titulo
-{\Formular{\Huge{\titulagem}}}
-\vspace{11.25mm}
+\titulagem
 
-{\LARGE{\autor} \par}%\vspace{1.5ex}}
-\vspace{6cm} %9.3cm
-
+{\Large \autor \par\vspace{1.5ex}}
 \ifdef{\organizador}{{\small {\organizador} (\textit{organização})} \par}{}
 %\ifdef{\introdutor}{{\small {\introdutor} (\textit{prefácio})} \par}{}
 \ifdef{\tradutor}{{\small {\tradutor} (\textit{tradução})}\par}{}\vspace{8.5mm}
@@ -70,7 +67,7 @@ Foi feito o depósito legal.\\\endgroup
 %logos
 \vfill
 \normalsize
-{\includegraphics[width=8cm]{./logos.pdf}\\ São Paulo\quad\the\year}
+{\includegraphics[width=8cm]{./imgs/logos.pdf}\\ São Paulo\quad\the\year}
 %\ifdef{\logo}{\IfFileExists{\logo}{\hfill\includegraphics[width=3cm]{\logo}\hfill\logoum{}
 %\includegraphics[width=.4\textwidth,trim=0 0 25 0]{logo.jpg}\\\smallskip
 \par\clearpage\endgroup

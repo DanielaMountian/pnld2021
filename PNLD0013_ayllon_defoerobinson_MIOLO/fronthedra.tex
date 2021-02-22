@@ -1,30 +1,29 @@
 \AtBeginDocument{%
-\begingroup\pagestyle{empty}\raggedright\parindent0pt
-{\Formular{\Huge{\titulagemfront{}}}}
-\vspace{15mm}
-
-{\Formular\LARGE{\autor}}
+\begingroup\pagestyle{empty}\raggedleft\parindent0pt
+\titulagemfront{}
 \vfill
 \clearpage
 
 %% Créditos ------------------------------------------------------
 \raggedright
 \linha{copyright}{\copyrightlivro}
-\linhalayout{edição brasileira©}{Hedra \ifdef{\ano}{\ano}{\the\year}}
+
+\hspace{43pt}\tiny\textit{Direitos cedidos à Editora Ayllon}\medskip
+
+%\linhalayout{edição brasileira©}{Editora Hedra \ifdef{\ano}{\ano}{\the\year}}
 \linha{tradução©}{\copyrighttraducao}
 \linha{organização©}{\copyrightorganizacao}
-%\linhalayout{coordenação da coleção}{Ieda Lebensztayn}
 \linha{prefácio©}{\copyrightintroducao}
 \linha{ilustração©}{\copyrightilustracao}\smallskip
 \linha{título original}{\titulooriginal}
 \linha{edição consultada}{\edicaoconsultada}
-%\linha{primeira edição}{\primeiraedicao}
+\linha{primeira edição}{\primeiraedicao}
 \linha{agradecimentos}{\agradecimentos}
 \linha{indicação}{\indicacao}\smallskip
 \linha{edição}{\edicao}
 \linha{coedição}{\coedicao}
 \linhalayout{editor assistente}{Paulo Henrique Pompermaier}
-\linha{assistência editorial}{\assistencia}
+%\linha{assistência editorial}{\assistencia}
 \linha{revisão}{\revisao}
 \linha{preparação}{\preparacao}
 \linha{iconografia}{\iconografia}
@@ -41,6 +40,29 @@
 \textit{Grafia atualizada segundo o Acordo Ortográfico da Língua\\
 Portuguesa de 1990, em vigor no Brasil desde 2009.}\\
 
+\medskip
+
+\hspace{10pt}Dados Internacionais de Catalogação na Publicação -- CIP
+
+\hrulefill
+
+\versal{A}XXX \hspace{5pt}Almeida, Júlia Lopes de (1862--1934)\\
+\hspace{20pt}\parbox{185pt}{Contos e novelas / Júlia Lopes de Almeida. Org. de Rodrigo Jorge Ribeiro Neves. -- Rio de Janeiro: Mais e melhores, 2021.}\\[6pt]
+
+\hspace{20pt}204 p.\\[6pt]
+
+\hspace{20pt}ISBN XXX-XX-XXXX-XXX-X\\[6pt]
+
+\hspace{20pt}\parbox{185pt}{1. Literatura brasileira. 2. Conto brasileiro. 3. Novela brasileira I. Título. II. Almeida, Júlia Lopes de. III. Neves, Rodrigo Jorge Ribeiro.}
+
+\hspace{20pt}\versal{CDU} XXXXX \hspace{138pt}\versal{CDD} XXXXX
+
+\hrulefill
+
+\hspace{10pt}Elaborado por Wanda Lucia Schmidt CRB-8-1922
+
+\medskip
+
 
 \vfill\textit{Direitos reservados em l\'ingua\\ portuguesa somente para o Brasil}\\\medskip
 
@@ -53,23 +75,21 @@ editora@hedra.com.br\\
 www.hedra.com.br\\
 \bigskip
 Foi feito o depósito legal.\\\endgroup
-\pagebreak\raggedright
+\pagebreak\raggedleft
 %% Front ---------------------------------------------------------
 % Titulo
-{\Formular{\Huge{\titulagem}}}
-\vspace{11.25mm}
+\titulagem
 
-{\Formular\LARGE{\autor} \par}%\vspace{1.5ex}}
-\vspace{5cm} %9.3cm
-\ifdef{\organizador}{{\small {\organizador}\\ (\textit{organização} e \textit{tradução})} \par}{}\vspace{8.5mm}
+{\Large \autor \par\vspace{1.5ex}}
+%\ifdef{\organizador}{{\small {\organizador}\\ (\textit{organização})} \par}{}
 %\ifdef{\introdutor}{{\small {\introdutor} (\textit{prefácio})} \par}{}
-%\ifdef{\tradutor}{{\small {\tradutor} (\textit{tradução})}\par}{}\vspace{8.5mm}
+\ifdef{\tradutor}{{\small {\tradutor} (\textit{organização})}\par}{}\vspace{8.5mm}
 
 {{\footnotesize{} \ifdef{\numeroedicao}{\numeroedicao}{1}ª edição} \par}
 %logos
 \vfill
 \normalsize
-\ifdef{\logo}{\IfFileExists{\logo}{\hfill\includegraphics[width=3cm]{\logo}\hfill\logoum{}\\ São Paulo\quad\the\year}}{\logoum\break{} São Paulo\quad\the\year}
+\ifdef{\hfill\includegraphics[width=3cm]{./logo/logo.png}\\ São Paulo\quad\the\year}
 %\includegraphics[width=.4\textwidth,trim=0 0 25 0]{logo.jpg}\\\smallskip
 \par\clearpage\endgroup
 % Resumo -------------------------------------------------------
@@ -94,7 +114,7 @@ Foi feito o depósito legal.\\\endgroup
 
 % Finais -------------------------------------------------------
 \AtEndDocument{%
-  \publicidade
+  
 
 \pagebreak\ifodd\thepage\paginabranca\fi
 

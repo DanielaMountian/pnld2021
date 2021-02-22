@@ -7,7 +7,10 @@
 %% Créditos ------------------------------------------------------
 \raggedright
 \linha{copyright}{\copyrightlivro}
-\linhalayout{edição brasileira©}{Hedra \ifdef{\ano}{\ano}{\the\year}}
+
+\hspace{43pt}\tiny\textit{Direitos cedidos à Editora Relicário}\medskip
+
+%\linhalayout{edição brasileira©}{Hedra \ifdef{\ano}{\ano}{\the\year}}
 \linha{tradução©}{\copyrighttraducao}
 \linha{organização©}{\copyrightorganizacao}
 \linha{introdução©}{\copyrightintroducao}
@@ -57,16 +60,15 @@ Foi feito o depósito legal.\\\endgroup
 \ifdef{\apresentador}{{\small {\apresentador} (\textit{apresentação})} \par}{}
 \ifdef{\prefacio}{{\small {\prefacio} (\textit{prefácio})} \par}{}
 \ifdef{\organizador}{{\small {\organizador} (\textit{organização e tradução})} \par}{}
-\ifdef{\introdutor}{{\small {\introdutor} (\textit{introdução})} \par}{}
-\ifdef{\tradutor}{{\small {\tradutor} (\textit{tradução})}\par}{}\vspace{1.5cm}
+\ifdef{\introdutor}{{\small {\introdutor} (\textit{introdução})} \par}{}\vspace{1.5cm}
 
 {{\footnotesize{} \ifdef{\numeroedicao}{\numeroedicao}{1}ª edição} \par}
 
 %logos
 \vfill
-\ifdef{\logo}{\IfFileExists{\logo}{\hfill\includegraphics[width=3cm]{\logo}\hfill\logoum{}\\ São Paulo\_\the\year}}{\logoum\break{} São Paulo\_\the\year}
-%\includegraphics[width=.4\textwidth,trim=0 0 25 0]{logo.jpg}\\\smallskip
-\par\clearpage\endgroup
+\normalfont
+\ifdef{\hfill\includegraphics[width=3cm]{./img/logo.png}\\ São Paulo\quad\the\year}
+\par\clearpage\endgroup\thispagestyle{empty}\pagebreak
 % Resumo -------------------------------------------------------
 \begingroup \footnotesize \parindent0pt \parskip 5pt \thispagestyle{empty} \vspace*{.25\textheight}\mbox{} \vfill
 \baselineskip=.92\baselineskip
@@ -89,7 +91,6 @@ Foi feito o depósito legal.\\\endgroup
 
 % Finais -------------------------------------------------------
 \AtEndDocument{%
-  \publicidade
 
 \pagebreak\ifodd\thepage\paginabranca\fi
 

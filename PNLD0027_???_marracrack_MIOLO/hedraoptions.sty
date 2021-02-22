@@ -26,18 +26,30 @@
 }
 
 \DeclareOption{almeida}{%
-  \setbinding{3mm}
+  \setbinding{5mm}
   \stockaiv 
   \settrimmedsize{210mm}{137mm}{*}
-  \settypeblocksize{*}{97.37mm}{1.65}
+  \settypeblocksize{*}{90mm}{1.7}
   \setlrmargins{*}{*}{1.2}
-  \setulmargins{24mm}{*}{*}
+  \setulmargins{*}{*}{1.7}
 %  \setheadfoot{5mm}{10mm}
 %  \setheaderspaces{*}{*}{0}
   \headsep=5mm
   \raggedbottom
 }
 
+\DeclareOption{Kalinka}{%
+  \setbinding{3mm}
+  \stockaiv 
+  %\setstocksize{210mm}{140mm}{*}
+  \settrimmedsize{210mm}{140mm}{*}
+  \settypeblocksize{170.5mm}{96.8mm}{*}
+  \setlrmargins{18.6mm}{*}{1}
+  \setulmargins{15.8mm}{*}{1}
+  \setheadfoot{5mm}{10mm}
+  \setheaderspaces{0mm}{*}{0}
+  \headsep=2mm
+}
 
 \DeclareOption{16x23}{%
   \setbinding{5mm}
@@ -55,11 +67,11 @@
 
 
 \DeclareOption{14x21}{%
-  \setbinding{4mm}
+  \setbinding{3mm}
   \stockaiv 
   %\setstocksize{210mm}{140mm}{*}
-  \settrimmedsize{210mm}{135mm}{*}
-  \settypeblocksize{168mm}{100mm}{*}
+  \settrimmedsize{210mm}{140mm}{*} %137
+  \settypeblocksize{172mm}{109mm}{*}
   \setlrmargins{12mm}{*}{1}
   \setulmargins{14mm}{*}{1}
   \setheadfoot{5mm}{10mm}
@@ -103,6 +115,19 @@
 %  \setheadfoot{5mm}{10mm}
 %  \setheaderspaces{*}{*}{0}
   \headsep=5mm
+}
+
+\DeclareOption{pnld}{%
+   \setbinding{3mm}
+  \stockaiv 
+  %\setstocksize{210mm}{140mm}{*}
+  \settrimmedsize{205mm}{135mm}{*}
+  \settypeblocksize{172mm}{100mm}{*}
+  \setlrmargins{14mm}{*}{1}
+  \setulmargins{14mm}{*}{1}
+  \setheadfoot{5mm}{10mm}
+  \setheaderspaces{0mm}{*}{0}
+  \headsep=2mm
 }
 
 \DeclareOption{bolso}{%

@@ -1,6 +1,6 @@
 \documentclass[semcabeco,showtrims,trimframe,12pt,conselho,spreadimages]{memoir}
 
-\usepackage[largepost]{hedraoptions} %% << %%%%%%%%%%%%%%%%
+\usepackage[pnld]{hedraoptions} %% << %%%%%%%%%%%%%%%%
 \usepackage[baruch]{hedrastyles}
 \usepackage[xetex,chicagofootnotes]{tipografia}
 \usepackage[standart,compontinhos]{toc}
@@ -12,117 +12,18 @@
 \usepackage{fichatecnica}
 \usepackage[standart]{aparatos}
 \usepackage{tabelas}
-\usepackage{versos}
+\usepackage[squarebr]{gmverse}
 \usepackage{gitrevisioninfo}
-
-
-%Pequeno resumo abaixo dos itens do sumário
-
-\makeatletter
-\newcommand*\l@chapterinfo{\@nodottedtocline{0}{0.0em}{1.5em}}
-\newcommand*\l@sectioninfo{\@nodottedtocline{1}{1.5em}{2.3em}}
-\newcommand*\l@subsectioninfo{\@nodottedtocline{2}{3.8em}{3.2em}}
-\newcommand*\l@subsubsectioninfo{\@nodottedtocline{3}{7.0em}{4.1em}}
-\newcommand*\l@paragraphinfo{\@nodottedtocline{4}{10em}{5em}}
-\newcommand*\l@subparagraphinfo{\@nodottedtocline{5}{12em}{6em}}
-
-\def\@nodottedtocline#1#2#3#4#5{%
-  \ifnum #1>\c@tocdepth \else
-    \vskip \z@ \@plus.2\p@
-    {\leftskip #2\relax \rightskip \@tocrmarg \parfillskip -\rightskip
-     \parindent #2\relax\@afterindenttrue
-     \interlinepenalty\@M
-     \leavevmode
-     \@tempdima #3\relax
-     \advance\leftskip \@tempdima \null\nobreak\hskip -\leftskip
-     {#4}\nobreak
-     \leaders\hbox{$\m@th
-        \mkern \@dotsep mu\hbox{\,}\mkern \@dotsep
-        mu$}\hfill
-     \nobreak
-     \hb@xt@\@pnumwidth{\hfil\normalfont \normalcolor }%
-     \par}%
-  \fi}
-
-\makeatother
-
-\def\chapterinfo#1{%
-    \addcontentsline{toc}{chapterinfo}{%
-    \noexpand\small\itshape\numberline{}#1 \smallskip}%
-}
-\def\sectioninfo#1{%
-    \addcontentsline{toc}{sectioninfo}{%
-    \noexpand\numberline{}#1}%
-}
-\def\subsectioninfo#1{%
-    \addcontentsline{toc}{subsectioninfo}{%
-    \noexpand\numberline{}#1}%
-}
-
-
-\newcommand{\forceindent}{\leavevmode{\parindent=1,4em\indent}}
-
-\linespread{1.08}
-
-\usepackage{endnotes}
-\renewcommand{\notesname}{Notas}
 
 \setlength{\marginparwidth}{2em}
 \newcommand{\num}[1]{\marginpar{\scriptsize#1}}
 
-\usepackage{makeidx,hedraindex}  % cria índice
-\makeindex	
-
-%\counterwithin*{endnote}{part}
-%\counterwithin*{endnote}{chapter}
-
-\let\latexchapter\chapter
-\makeatletter
-\renewcommand\enoteheading{%
-  \setcounter{secnumdepth}{-2}
-  \latexchapter*{\notesname\markboth{NOTAS}{}}
-  \mbox{}\par\vskip-\baselineskip
-  \let\@afterindentfalse\@afterindenttrue
-}
-\makeatother
-%\usepackage{fancyhdr}
-%\pagestyle{fancy}
-%\setlength{\headheight}{9mm}
-%\fancyhf{}
-%\fancyhead[R]{\thepage}
-%\renewcommand{\headrulewidth}{0pt}
-
-%\lhead[\fancyplain{}]{}
-%\chead[\fancyplain{}]{}
-%\rhead[\fancyplain{}]{\cnvt{\thepage} -- \thepage}
-
-%\newcommand*{\cnvt}[1]{\the\numexpr#1-1\relax}
-
-%\fancypagestyle{chapter}{
-%\pagestyle{fancy}
-%\setlength{\headheight}{5mm}
-%\fancyhf{}
-%\fancyhead[R]{\thepage}
-%\renewcommand{\headrulewidth}{0pt}}
+\newcommand{\forceindent}{\leavevmode{\parindent=1,4em\indent}}
 
 
 \usepackage{footmisc}
 
 \renewcommand*\footnoterule{}
-%\fancyhf[RO]{\cnvt{\thepage} -- \thepage}
-%\fancyfoot{}
-%\renewcommand{\headrulewidth}{0pt}
-%\renewcommand{\footrulewidth}{0pt}}
-
-\usepackage{fontspec}
-
-%\usepackage{Formular}
-\newfontfamily\Formular{Formular-Regular}[
-BoldFont = Formular-Bold.otf,
-ItalicFont = Formular-Italic.otf]
-
-%--------------------------------------------ALTERAR DISTÃNCIA ENTRE TÍTULO DO SUMÁRIO E CAPÍTULOS
-%\addtocontents{toc}{\vskip-15pt}
 %--------------------------------------------
 \usepackage{afterpage}
 
@@ -132,20 +33,8 @@ ItalicFont = Formular-Italic.otf]
     \addtocounter{page}{0}%
     \newpage}
 
-    
-
-%\usepackage{imakeidx} 
-%\makeindex[program=xindy, options=-C utf8 -L portuguese]
-%\newcommand\gobbleone[1]{}
-%\newcommand*{\seeonly}[2]{\ (\emph{\seename} #1)}
-%\newcommand*{\also}[2]{\emph{cf.} #1}
-%\newcommand{\Also}[2]{\emph{See also} #1}
-%\renewcommand\indexname{Índice onomástico}
-%\makeindex[intoc]
-
 \setcounter{tocdepth}{1}
 \setcounter{secnumdepth}{-2} 
-%\linespread{1.08}
 \usepackage{commands}
 
 \usepackage{setspace}
@@ -190,25 +79,8 @@ ItalicFont = Formular-Italic.otf]
 
 \newcommand{\mystar}{{\fontfamily{lmr}\selectfont$\star$}}
 
-%\makeatletter
-%\renewcommand{\@chapapp}{}% Not necessary...
-%\newenvironment{chapquote}[2][2em]
-%  {\setlength{\@tempdima}{#1}%
-%   \def\chapquote@author{#2}%
-%   \parshape 1 \@tempdima \dimexpr\textwidth-2\@tempdima\relax%
-%   \itshape}
-%  {\par\scriptsize\hfill-- \chapquote@author\hspace*{\@tempdima}\par\bigskip}
-%\makeatother
-
-%\newcommand\Chapter[2]{\chapter
-%  [#1\hfil\hbox{}\protect\linebreak{\itshape#1}]%
-%  {#1\\[2ex]\Large\itshape#2}%
-%}
-
 \begin{document}
 
 \include{INPUTS}
-
-\printindex
 
 \end{document}

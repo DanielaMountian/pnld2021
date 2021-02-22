@@ -7,7 +7,10 @@
 %% Créditos ------------------------------------------------------
 \raggedright
 \linha{copyright}{\copyrightlivro}
-\linhalayout{edição brasileira©}{Hedra \ifdef{\ano}{\ano}{\the\year}}
+
+\hspace{43pt}\tiny\textit{Direitos cedidos à Editora Lamparina}\medskip
+
+%\linhalayout{edição brasileira©}{Hedra \ifdef{\ano}{\ano}{\the\year}}
 \linha{tradução©}{\copyrighttraducao}
 \linha{organização©}{\copyrightorganizacao}
 \linha{colaboração no posfácio}{\copyrightintroducao}
@@ -62,9 +65,9 @@ Foi feito o depósito legal.\\\endgroup
 
 %logos
 \vfill
-\ifdef{\logo}{\IfFileExists{\logo}{\hfill\includegraphics[width=3cm]{\logo}\hfill\logoum{}\\ São Paulo\_\the\year}}{\logoum\break{} São Paulo\_\the\year}
-%\includegraphics[width=.4\textwidth,trim=0 0 25 0]{logo.jpg}\\\smallskip
-\par\clearpage\endgroup
+\normalfont
+\ifdef{\hfill\includegraphics[width=2cm]{./logo/logo.jpg}\\ São Paulo\quad\the\year}
+\par\clearpage\endgroup\thispagestyle{empty}\pagebreak
 % Resumo -------------------------------------------------------
 \begingroup \footnotesize \parindent0pt \parskip 5pt \thispagestyle{empty} \vspace*{.25\textheight}\mbox{} \vfill
 \baselineskip=.92\baselineskip

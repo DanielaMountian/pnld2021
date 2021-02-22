@@ -1,0 +1,100 @@
+\documentclass[semcabeco,showtrims,trimframe,12pt,spreadimages]{memoir}
+
+\usepackage[pnld]{hedraoptions} %% << %%%%%%%%%%%%%%%%
+\usepackage[baruch]{hedrastyles}
+\usepackage[xetex,chicagofootnotes]{tipografia}
+\usepackage[standart,compontinhos]{toc}
+\usepackage{hedraextra}
+\usepackage{penalidades}
+\usepackage{graficos}
+\usepackage{hedralogo}
+\usepackage[shrink,siderepl]{hedrasides}
+\usepackage{hifensextras}
+\usepackage{fichatecnica}
+\usepackage[standart]{aparatos}
+\usepackage{tabelas}
+\usepackage{versos}
+\usepackage{gitrevisioninfo}
+\usepackage{hedraendnotes}
+
+\newcommand{\forceindent}{\leavevmode{\parindent=1,4em\indent}}
+
+
+\makeatletter
+\def\@xfootnote[#1]{%
+  \protected@xdef\@thefnmark{#1}%
+  \@footnotemark\@footnotetext}
+\makeatother
+
+
+
+\usepackage{footmisc}
+
+\renewcommand*\footnoterule{}
+
+%--------------------------------------------
+\usepackage{afterpage}
+
+\newcommand\blankpage{%
+    \null
+    \thispagestyle{empty}%
+    \addtocounter{page}{0}%
+    \newpage}
+
+
+
+\setcounter{tocdepth}{0}
+\setcounter{secnumdepth}{-2} 
+\usepackage{commands}
+
+\usepackage{setspace}
+
+\makeatletter
+\newenvironment{Parskip}{%
+   \par
+   \parskip=0.3\baselineskip \advance\parskip by 0pt plus 2pt
+   \parindent=\z@
+   \def\@listI{\leftmargin\leftmargini
+      \topsep\z@ \parsep\parskip \itemsep\z@}
+   \let\@listi\@listI
+   \@listi
+   \def\@listii{\leftmargin\leftmarginii
+      \labelwidth\leftmarginii\advance\labelwidth-\labelsep
+      \topsep\z@ \parsep\parskip \itemsep\z@}
+   \def\@listiii{\leftmargin\leftmarginiii
+       \labelwidth\leftmarginiii\advance\labelwidth-\labelsep
+       \topsep\z@ \parsep\parskip \itemsep\z@}
+   \partopsep=\z@
+}{\par}
+\makeatother
+
+\makeatletter
+\newenvironment{myParskip}{%
+   \par
+   \parskip=0.2\baselineskip \advance\parskip by 0pt plus 2pt
+   \parindent=\z@
+   \def\@listI{\leftmargin\leftmargini
+      \topsep\z@ \parsep\parskip \itemsep\z@}
+   \let\@listi\@listI
+   \@listi
+   \def\@listii{\leftmargin\leftmarginii
+      \labelwidth\leftmarginii\advance\labelwidth-\labelsep
+      \topsep\z@ \parsep\parskip \itemsep\z@}
+   \def\@listiii{\leftmargin\leftmarginiii
+       \labelwidth\leftmarginiii\advance\labelwidth-\labelsep
+       \topsep\z@ \parsep\parskip \itemsep\z@}
+   \partopsep=\z@
+}{\par}
+\makeatother
+
+\newcommand{\mystar}{{\fontfamily{lmr}\selectfont$\star$}}
+
+\begin{document}
+
+
+\include{TEXTO}
+\include{NOTAS}
+\part{Paratexto}
+\include{INTRO}
+
+\end{document}
