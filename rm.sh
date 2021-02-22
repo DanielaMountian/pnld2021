@@ -1,0 +1,4 @@
+rm PNLD0007_hedra_wpanascidos_MIOLO/gitrevisioninfo.sty
+rm PNLD0015_piseagrama_gabrieltratado_MIOLO/gitrevisioninfo.sty
+rm PNLD0023_he_cardimtratado_MIOLO/gitrevisioninfo.sty
+rm PNLD0034_he_gandavoprovincia_MIOLO/gitrevisioninfo.sty
