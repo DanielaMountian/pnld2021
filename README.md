@@ -3,7 +3,7 @@ Primeira etapa
 
 # Ondas de trabalho [67]
 
-- [ ] Logos [2]
+- [x] Logos [2] [faltam logos da hedra educação]
 - [ ] Edição [5]
 - [ ] Paratextos [30]
 - [ ] Revisão [10]
@@ -17,7 +17,7 @@ Primeira etapa
 O asterisco indica que o prefácio da edição original pode ser utilizado.
 
 
-- [ ] PNLD0001_lunna_akutagawa_rashomon*
+- [x] PNLD0001_lunna_akutagawa_rashomon*
 - [ ] PNLD0002_mm_almeida_contos*
 - [ ] PNLD0003_he_andrade_peru*
 - [ ] PNLD0004_madalena_andrade_zeppelin*
@@ -52,10 +52,10 @@ O asterisco indica que o prefácio da edição original pode ser utilizado.
 - [ ] PNLD0032_he_patativa_cordel
 - [ ] PNLD0033_blooks_patativa_ispinho*
 - [ ] PNLD0034_he_rodolfo_cordel
-- [ ] PNLD0035_escola_safo_hino*
+- [x] PNLD0035_escola_safo_hino*
 - [ ] PNLD0036_escola_schwob_vidas* :notebook: 
 - [ ] PNLD0037_he_stevenson_medico*
-- [ ] PNLD0038_relicario_stoker_sol*
+- [x] PNLD0038_relicario_stoker_sol*
 - [ ] PNLD0039_glac_strindberg_hemso (Não conhecemos o introdutor)
 - [ ] PNLD0040_blooks_strindberg_sagas
 - [ ] PNLD0041_mm_tieck_feitico*
