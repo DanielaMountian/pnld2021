@@ -27,7 +27,7 @@ O asterisco indica que o prefácio da edição original pode ser utilizado.
 - [ ] PNLD0006_ayllon_baccega_graal*
 - [ ] PNLD0029_n-1_ballester_yanomami (Não tem)*
 - [ ] PNLD0009_lunna_barreto_cronicas*
-- [ ] PNLD0010_acorde_baudelaire_pequenos*
+- [x] PNLD0010_acorde_baudelaire_pequenos*
 - [ ] PNLD0011_relicario_brown_narrativa
 - [ ] PNLD0012_he_cardim_tratado*
 - [ ] PNLD0013_ayllon_defoe_robinson*
