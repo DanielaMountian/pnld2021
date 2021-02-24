@@ -30,13 +30,13 @@ O asterisco indica que o prefácio da edição original pode ser utilizado.
 - [x] PNLD0010_acorde_baudelaire_pequenos*
 - [ ] PNLD0011_relicario_brown_narrativa
 - [ ] PNLD0012_he_cardim_tratado*
-- [ ] PNLD0013_ayllon_defoe_robinson*
+- [x] PNLD0013_ayllon_defoe_robinson*
 - [ ] PNLD0014_acorde_firmina_antologia*
 - [ ] PNLD0030_nexus_fontela_poesia
 - [ ] PNLD0015_piseagrama_gabriel_tratado*
 - [ ] PNLD0016_edlab_gama_abolicao (Não tem introdução)
 - [ ] PNLD0017_he_gandavo_provincia*
-- [ ] PNLD0018_iluminuras_heine_rabi*
+- [x] PNLD0018_iluminuras_heine_rabi*
 - [ ] PNLD0019_he_hesiodo_teogonia_trabalhos*
 - [ ] PNLD0020_nexus_jacobs_incidentes
 - [ ] PNLD0021_he_joyce_dublinenses*
@@ -54,7 +54,7 @@ O asterisco indica que o prefácio da edição original pode ser utilizado.
 - [ ] PNLD0034_he_rodolfo_cordel
 - [x] PNLD0035_escola_safo_hino*
 - [ ] PNLD0036_escola_schwob_vidas* :notebook: 
-- [ ] PNLD0037_he_stevenson_medico*
+- [x] PNLD0037_he_stevenson_medico*
 - [x] PNLD0038_relicario_stoker_sol*
 - [ ] PNLD0039_glac_strindberg_hemso (Não conhecemos o introdutor)
 - [ ] PNLD0040_blooks_strindberg_sagas
