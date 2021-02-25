@@ -1,7 +1,8 @@
 README.md
 ======
 
-* New Backgrounds
-* First Test
-* Files for all videos
-* Variable data
+- [ ] Run all
+- [ ] New Backgrounds
+- [ ] First Test
+- [ ] Files for all videos
+- [ ] Variable data
