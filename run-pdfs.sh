@@ -1,412 +1,383 @@
-FOLDER="akutagawa_rashomon_lunna"
+FOLDER="PNLD0001_lunna_barretocronicas_MIOLO/"
 cd $FOLDER
-make lua
-mv LIVRO.pdf $FOLDER.pdf
+make
+make rename
+mv *.pdf $FOLDER.pdf
 cp $FOLDER.pdf ..
 cd ..
 
-FOLDER="almeida_antologia_maismelhores"
+FOLDER="PNLD0002_mm_almeidacontos_MIOLO/"
 cd $FOLDER
-make lua
-mv LIVRO.pdf $FOLDER.pdf
+make
+make rename
+mv *.pdf $FOLDER.pdf
 cp $FOLDER.pdf ..
 cd ..
 
-FOLDER="andrade_antologia_hedraeducacao"
+FOLDER="PNLD0003_he_vieirasermoes_MIOLO/"
 cd $FOLDER
-make lua
-mv LIVRO.pdf $FOLDER.pdf
+make
+make rename
+mv *.pdf $FOLDER.pdf
 cp $FOLDER.pdf ..
 cd ..
 
-FOLDER="andrade_cronicas"
+FOLDER="PNLD0004_madalena_andradezeppelin_MIOLO/"
 cd $FOLDER
-make lua
-mv LIVRO.pdf $FOLDER.pdf
+make
+make rename
+mv *.pdf $FOLDER.pdf
 cp $FOLDER.pdf ..
 cd ..
 
-FOLDER="andrade_eutudoamo"
+FOLDER="PNLD0005_circuito_andradetudoamo_MIOLO/"
 cd $FOLDER
-make lua
-mv LIVRO.pdf $FOLDER.pdf
+make
+make rename
+mv *.pdf $FOLDER.pdf
 cp $FOLDER.pdf ..
 cd ..
 
-FOLDER="anonimo_graal_ayllon"
+FOLDER="PNLD0006_ayllon_baccegagraal_MIOLO/"
 cd $FOLDER
-make lua
-mv LIVRO.pdf $FOLDER.pdf
+make
+make rename
+mv *.pdf $FOLDER.pdf
 cp $FOLDER.pdf ..
 cd ..
 
-FOLDER="arturazevedo_peledolobo_circuito"
+FOLDER="PNLD0007_hedra_wpanascidos_MIOLO/"
 cd $FOLDER
-make lua
-mv LIVRO.pdf $FOLDER.pdf
+make
+make rename
+mv *.pdf $FOLDER.pdf
 cp $FOLDER.pdf ..
 cd ..
 
-FOLDER="athayde_cordel_hedra"
+FOLDER="PNLD0008_araucaria_atuimare_MIOLO/"
 cd $FOLDER
-make lua
-mv LIVRO.pdf $FOLDER.pdf
+make
+make rename
+mv *.pdf $FOLDER.pdf
 cp $FOLDER.pdf ..
 cd ..
 
-FOLDER="atui_mare2_n-1_araucaria-2"
+FOLDER="PNLD0009_lunna_akutagawarashomon_MIOLO/"
 cd $FOLDER
-make lua
-mv LIVRO.pdf $FOLDER.pdf
+make
+make rename
+mv *.pdf $FOLDER.pdf
 cp $FOLDER.pdf ..
 cd ..
 
-FOLDER="barreto_contos"
+FOLDER="PNLD0010_acorde_baudelairepequenos_MIOLO/"
 cd $FOLDER
-make lua
-mv LIVRO.pdf $FOLDER.pdf
+make
+make rename
+mv *.pdf $FOLDER.pdf
 cp $FOLDER.pdf ..
 cd ..
 
-FOLDER="baudelaire_pequenos_acorde-2"
+FOLDER="PNLD0011_relicario_stokersol_MIOLO/"
 cd $FOLDER
-make lua
-mv LIVRO.pdf $FOLDER.pdf
+make
+make rename
+mv *.pdf $FOLDER.pdf
 cp $FOLDER.pdf ..
 cd ..
 
-FOLDER="brown_narrativa_relicario-2"
+FOLDER="PNLD0012_he_panelascordel_MIOLO/"
 cd $FOLDER
-make lua
-mv LIVRO.pdf $FOLDER.pdf
+make
+make rename
+mv *.pdf $FOLDER.pdf
 cp $FOLDER.pdf ..
 cd ..
 
-FOLDER="cardim_tratado-pisagrama2"
+FOLDER="PNLD0013_ayllon_defoerobinson_MIOLO/"
 cd $FOLDER
-make lua
-mv LIVRO.pdf $FOLDER.pdf
+make
+make rename
+mv *.pdf $FOLDER.pdf
 cp $FOLDER.pdf ..
 cd ..
 
-FOLDER="cardim_tratados_piseagrama"
+FOLDER="PNLD0014_acorde_firminaantologia_MIOLO/"
 cd $FOLDER
-make lua
-mv LIVRO.pdf $FOLDER.pdf
+make
+make rename
+mv *.pdf $FOLDER.pdf
 cp $FOLDER.pdf ..
 cd ..
 
-FOLDER="defoe_crusoe_ayllon"
+FOLDER="PNLD0015_piseagrama_gabrieltratado_MIOLO/"
 cd $FOLDER
-make lua
-mv LIVRO.pdf $FOLDER.pdf
+make
+make rename
+mv *.pdf $FOLDER.pdf
 cp $FOLDER.pdf ..
 cd ..
 
-FOLDER="dostoievski_subsolo"
+FOLDER="PNLD0016_edlab_gamaabolicao_MIOLO/"
 cd $FOLDER
-make lua
-mv LIVRO.pdf $FOLDER.pdf
+make
+make rename
+mv *.pdf $FOLDER.pdf
 cp $FOLDER.pdf ..
 cd ..
 
-FOLDER="firmina_antologia_acorde"
+FOLDER="PNLD0017_he_stevensonmedico_MIOLO/"
 cd $FOLDER
-make lua
-mv LIVRO.pdf $FOLDER.pdf
+make
+make rename
+mv *.pdf $FOLDER.pdf
 cp $FOLDER.pdf ..
 cd ..
 
-FOLDER="gabrielsoares_tratado_piseagrama"
+FOLDER="PNLD0018_iluminuras_heinerabi_MIOLO/"
 cd $FOLDER
-make lua
-mv LIVRO.pdf $FOLDER.pdf
+make
+make rename
+mv *.pdf $FOLDER.pdf
 cp $FOLDER.pdf ..
 cd ..
 
-FOLDER="gabrielsoares_tratado_piseagrama-2"
+FOLDER="PNLD0019_he_patativacordel_MIOLO/"
 cd $FOLDER
-make lua
-mv LIVRO.pdf $FOLDER.pdf
+make
+make rename
+mv *.pdf $FOLDER.pdf
 cp $FOLDER.pdf ..
 cd ..
 
-FOLDER="gabrielsoares_tratado_piseagrama2"
+FOLDER="PNLD0020_nexus_jacobsincidentes_MIOLO/"
 cd $FOLDER
-make lua
-mv LIVRO.pdf $FOLDER.pdf
+make
+make rename
+mv *.pdf $FOLDER.pdf
 cp $FOLDER.pdf ..
 cd ..
 
-FOLDER="gama_luta"
+FOLDER="PNLD0021_he_lovecraftchulhu_MIOLO/"
 cd $FOLDER
-make lua
-mv LIVRO.pdf $FOLDER.pdf
+make
+make rename
+mv *.pdf $FOLDER.pdf
 cp $FOLDER.pdf ..
 cd ..
 
-FOLDER="gandavo_historia_hedraeducacao"
+FOLDER="PNLD0022_he_joycestephen_MIOLO/"
 cd $FOLDER
-make lua
-mv LIVRO.pdf $FOLDER.pdf
+make
+make rename
+mv *.pdf $FOLDER.pdf
 cp $FOLDER.pdf ..
 cd ..
 
-FOLDER="gandavo_historia_hedraeducacao-2"
+FOLDER="PNLD0023_he_cardimtratado_MIOLO/"
 cd $FOLDER
-make lua
-mv LIVRO.pdf $FOLDER.pdf
+make
+make rename
+mv *.pdf $FOLDER.pdf
 cp $FOLDER.pdf ..
 cd ..
 
-FOLDER="gandavo_historia_hedraeducacao2"
+FOLDER="PNLD0024_circuito_lobatosuplicio_MIOLO/"
 cd $FOLDER
-make lua
-mv LIVRO.pdf $FOLDER.pdf
+make
+make rename
+mv *.pdf $FOLDER.pdf
 cp $FOLDER.pdf ..
 cd ..
 
-FOLDER="heine_rabi_iluminuras"
+FOLDER="PNLD0025_he_vicentecordel_MIOLO/"
 cd $FOLDER
-make lua
-mv LIVRO.pdf $FOLDER.pdf
+make
+make rename
+mv *.pdf $FOLDER.pdf
 cp $FOLDER.pdf ..
 cd ..
 
-FOLDER="hesiodo_antologia_hedraeducacao"
+FOLDER="PNLD0026_lamparina_machadopai_MIOLO/"
 cd $FOLDER
-make lua
-mv LIVRO.pdf $FOLDER.pdf
+make
+make rename
+mv *.pdf $FOLDER.pdf
 cp $FOLDER.pdf ..
 cd ..
 
-FOLDER="jacobs_incidentes_n-1_nexus-2"
+FOLDER="PNLD0027_\?\?\?_marracrack_MIOLO/"
 cd $FOLDER
-make lua
-mv LIVRO.pdf $FOLDER.pdf
+make
+make rename
+mv *.pdf $FOLDER.pdf
 cp $FOLDER.pdf ..
 cd ..
 
-FOLDER="joyce_dublinenses_hedraeducacao"
+FOLDER="PNLD0028_he_andradeperu_MIOLO/"
 cd $FOLDER
-make lua
-mv LIVRO.pdf $FOLDER.pdf
+make
+make rename
+mv *.pdf $FOLDER.pdf
 cp $FOLDER.pdf ..
 cd ..
 
-FOLDER="joyce_retrato_hedraeducacao"
+FOLDER="PNLD0029_n-1_ballesteryanomami_MIOLO/"
 cd $FOLDER
-make lua
-mv LIVRO.pdf $FOLDER.pdf
+make
+make rename
+mv *.pdf $FOLDER.pdf
 cp $FOLDER.pdf ..
 cd ..
 
-FOLDER="joyce_stephen_hedraeducacao"
+FOLDER="PNLD0030_nexus_fontelapoesia_MIOLO/"
 cd $FOLDER
-make lua
-mv LIVRO.pdf $FOLDER.pdf
+make
+make rename
+mv *.pdf $FOLDER.pdf
 cp $FOLDER.pdf ..
 cd ..
 
-FOLDER="lobato_contos"
+FOLDER="PNLD0031_he_rodolfocordel_MIOLO/"
 cd $FOLDER
-make lua
-mv LIVRO.pdf $FOLDER.pdf
+make
+make rename
+mv *.pdf $FOLDER.pdf
 cp $FOLDER.pdf ..
 cd ..
 
-FOLDER="lovecraft_cthulhu_cor-2"
+FOLDER="PNLD0032_he_joycedublinenses_MIOLO/"
 cd $FOLDER
-make lua
-mv LIVRO.pdf $FOLDER.pdf
+make
+make rename
+mv *.pdf $FOLDER.pdf
 cp $FOLDER.pdf ..
 cd ..
 
-FOLDER="machado_cartomante_piseagrama"
+FOLDER="PNLD0033_blooks_patativaispinho_MIOLO/      "
 cd $FOLDER
-make lua
-mv LIVRO.pdf $FOLDER.pdf
+make
+make rename
+mv *.pdf $FOLDER.pdf
 cp $FOLDER.pdf ..
 cd ..
 
-FOLDER="machado_paicontramae_lamparina-2"
+FOLDER="PNLD0034_he_gandavoprovincia_MIOLO/"
 cd $FOLDER
-make lua
-mv LIVRO.pdf $FOLDER.pdf
+make
+make rename
+mv *.pdf $FOLDER.pdf
 cp $FOLDER.pdf ..
 cd ..
 
-FOLDER="Makefile"
+FOLDER="PNLD0035_escola_safohino_MIOLO/"
 cd $FOLDER
-make lua
-mv LIVRO.pdf $FOLDER.pdf
+make
+make rename
+mv *.pdf $FOLDER.pdf
 cp $FOLDER.pdf ..
 cd ..
 
-FOLDER="marra_crack_beatrizME-2"
+FOLDER="PNLD0036_escola_schwobvidas_MIOLO/"
 cd $FOLDER
-make lua
-mv LIVRO.pdf $FOLDER.pdf
+make
+make rename
+mv *.pdf $FOLDER.pdf
 cp $FOLDER.pdf ..
 cd ..
 
-FOLDER="menezes_jazzrural_hedraeducacao-2"
+FOLDER="PNLD0037_he_joyceretrato_MIOLO/"
 cd $FOLDER
-make lua
-mv LIVRO.pdf $FOLDER.pdf
+make
+make rename
+mv *.pdf $FOLDER.pdf
 cp $FOLDER.pdf ..
 cd ..
 
-FOLDER="mi_trans_noite_n-1-2"
+FOLDER="PNLD0038_relicario_brownnarrativa_MIOLO/"
 cd $FOLDER
-make lua
-mv LIVRO.pdf $FOLDER.pdf
+make
+make rename
+mv *.pdf $FOLDER.pdf
 cp $FOLDER.pdf ..
 cd ..
 
-FOLDER="mi_trans_terra_n-1-2"
+FOLDER="PNLD0039_XXX_strindberghemso_MIOLO/"
 cd $FOLDER
-make lua
-mv LIVRO.pdf $FOLDER.pdf
+make
+make rename
+mv *.pdf $FOLDER.pdf
 cp $FOLDER.pdf ..
 cd ..
 
-FOLDER="panelas_cordel_hedraeducacao"
+FOLDER="PNLD0040_blooks_strindbergsagas_MIOLO/"
 cd $FOLDER
-make lua
-mv LIVRO.pdf $FOLDER.pdf
+make
+make rename
+mv *.pdf $FOLDER.pdf
 cp $FOLDER.pdf ..
 cd ..
 
-FOLDER="patativa_cordel_hedraeducacao"
+FOLDER="PNLD0041_mm_tieckfeitico_MIOLO/"
 cd $FOLDER
-make lua
-mv LIVRO.pdf $FOLDER.pdf
+make
+make rename
+mv *.pdf $FOLDER.pdf
 cp $FOLDER.pdf ..
 cd ..
 
-FOLDER="patativa_fulo"
+FOLDER="PNLD0042_madalena_tolstoiivan_MIOLO/"
 cd $FOLDER
-make lua
-mv LIVRO.pdf $FOLDER.pdf
+make
+make rename
+mv *.pdf $FOLDER.pdf
 cp $FOLDER.pdf ..
 cd ..
 
-FOLDER="pnld.sublime-project"
+FOLDER="PNLD0043_edlab_twaindiarios_MIOLO/"
 cd $FOLDER
-make lua
-mv LIVRO.pdf $FOLDER.pdf
+make
+make rename
+mv *.pdf $FOLDER.pdf
 cp $FOLDER.pdf ..
 cd ..
 
-FOLDER="pnld.sublime-workspace"
+FOLDER="PNLD0044_he_hesiodoteogonia_trabalhos_MIOLO/"
 cd $FOLDER
-make lua
-mv LIVRO.pdf $FOLDER.pdf
+make
+make rename
+mv *.pdf $FOLDER.pdf
 cp $FOLDER.pdf ..
 cd ..
 
-FOLDER="rodolfo_cordel_hedraeducacao"
+FOLDER="PNLD0045_hedra_athaydecordel_MIOLO/"
 cd $FOLDER
-make lua
-mv LIVRO.pdf $FOLDER.pdf
+make
+make rename
+mv *.pdf $FOLDER.pdf
 cp $FOLDER.pdf ..
 cd ..
 
-FOLDER="safo_antologia_renato-2"
+FOLDER="PNLD0046_araucaria_maistreviagem_MIOLO/"
 cd $FOLDER
-make lua
-mv LIVRO.pdf $FOLDER.pdf
+make
+make rename
+mv *.pdf $FOLDER.pdf
 cp $FOLDER.pdf ..
 cd ..
 
-FOLDER="schwob_vidas_cruzada_renato"
+FOLDER="PNLD0047_he_menezesjazz_MIOLO/"
 cd $FOLDER
-make lua
-mv LIVRO.pdf $FOLDER.pdf
+make
+make rename
+mv *.pdf $FOLDER.pdf
 cp $FOLDER.pdf ..
 cd ..
 
-FOLDER="stevenson_jekyll_hedraeducacao"
+FOLDER="PNLD0048_piseagrama_machadocartomante_MIOLO/"
 cd $FOLDER
-make lua
-mv LIVRO.pdf $FOLDER.pdf
-cp $FOLDER.pdf ..
-cd ..
-
-FOLDER="stocker_sol_relicario-2"
-cd $FOLDER
-make lua
-mv LIVRO.pdf $FOLDER.pdf
-cp $FOLDER.pdf ..
-cd ..
-
-FOLDER="strindberg_hemso_beatrizME"
-cd $FOLDER
-make lua
-mv LIVRO.pdf $FOLDER.pdf
-cp $FOLDER.pdf ..
-cd ..
-
-FOLDER="strindberg_sagas_circuito_blooks"
-cd $FOLDER
-make lua
-mv LIVRO.pdf $FOLDER.pdf
-cp $FOLDER.pdf ..
-cd ..
-
-FOLDER="tieck_feitico_maismelhores"
-cd $FOLDER
-make lua
-mv LIVRO.pdf $FOLDER.pdf
-cp $FOLDER.pdf ..
-cd ..
-
-FOLDER="tolstoi_morte"
-cd $FOLDER
-make lua
-mv LIVRO.pdf $FOLDER.pdf
-cp $FOLDER.pdf ..
-cd ..
-
-FOLDER="twain_diário_edlabpress"
-cd $FOLDER
-make lua
-mv LIVRO.pdf $FOLDER.pdf
-cp $FOLDER.pdf ..
-cd ..
-
-FOLDER="vieira_sermoes_hedraeducacao"
-cd $FOLDER
-make lua
-mv LIVRO.pdf $FOLDER.pdf
-cp $FOLDER.pdf ..
-cd ..
-
-FOLDER="wpa_narrativas_hedra-2"
-cd $FOLDER
-make lua
-mv LIVRO.pdf $FOLDER.pdf
-cp $FOLDER.pdf ..
-cd ..
-
-FOLDER="xavier_viagem_n-1_araucaria"
-cd $FOLDER
-make lua
-mv LIVRO.pdf $FOLDER.pdf
-cp $FOLDER.pdf ..
-cd ..
-
-FOLDER="zevicente_cordel_hedraeducacao"
-cd $FOLDER
-make lua
-mv LIVRO.pdf $FOLDER.pdf
-cp $FOLDER.pdf ..
-cd ..
-
-FOLDER="zola_acuso"
-cd $FOLDER
-make lua
-mv LIVRO.pdf $FOLDER.pdf
+make
+make rename
+mv *.pdf $FOLDER.pdf
 cp $FOLDER.pdf ..
 cd ..
