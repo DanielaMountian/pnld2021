@@ -17,7 +17,9 @@
 \RequirePackage{textcase}
 \RequirePackage[footnotesize,bf,hang]{caption}
 \RequirePackage[nodayofweek,level]{datetime}
-\RequirePackage[top=0.85in,left=2.75in,footskip=0.75in]{geometry}
+\RequirePackage[paperheight=275mm,paperwidth=205mm,top=15mm,left=2.75in,footskip=18mm]{geometry}
+
+
 
 \RequirePackage{lastpage,fancyhdr}
 \RequirePackage{epstopdf}
@@ -51,7 +53,7 @@
 \pagestyle{fancy}
 \fancyhf{}
 \setlength{\headheight}{27.023pt}
-\lhead{\includegraphics[width=11mm]{\logoeditora}}
+\lhead{\includegraphics[width=12mm]{\logoeditora}}
 \rhead{\ifdef{\journaltitle}{\journaltitle}{}
 \ifdef{\volume}{vol.\,\volume}{}
 \ifdef{\issue}{(\issue)}{}
@@ -92,8 +94,8 @@
   \draw (3cm,9cm) node[text width = 5cm] {\baselineskip=.7\baselineskip
        \footnotesize\begin{minipage}{5cm}
        \hyphenpenalty=10000\authornotes\\ \ifdef{\cclicense}{\cclicense\\}{}
-       \ifdef{\issnppub}{ISBN do livro: \issnppub\\}{}
-       %\ifdef{\issnepub}{eISBN do epub: \issnepub\\}{}
+       \ifdef{\issnppub}{\issnppub (Obra)\\}{}
+       \ifdef{\issnepub}{\issnepub (Material do Professor)\\}{}
        \ifdef{\ack}{\bigskip\\ \ack}{}
        \end{minipage}};
   \end{tikzpicture}
@@ -134,10 +136,32 @@
   \stepcounter{#1}}
 
   \def\subject{Manual do professor -- Pnld literatura}
-  \newcommand\articledoi{\ifdef{\autor}{\textsc{\autor}}{} \ifdef{\titulo}{\emph{\titulo}}{}}
+  \newcommand\articledoi{\ifdef{\autor}{\textsc{\autor}}{} \ifdef{\titulo}{\emph{\titulo}, \publishername}{}}
   \newcommand{\journaltitle}{\textsc{pnld} literatura}
 
+\newcommand{\cclicense}{\ccbync}
 
+\newcommand{\video}[2]{%
+\begin{figure}
+\begin{center}
+  \includemedia[
+    width=0.7\linewidth,
+    %totalheight=0.225\linewidth,
+    activate=pageopen,
+    passcontext,  %show VPlayer's right-click menu
+    addresource=./videos/#2,
+    flashvars={
+      %important: same path as in `addresource'
+      source=./videos/#2
+    }
+  ]{\fbox{Click!}}{./videos/#2}
+\caption{#1 (Abrir de preferência com Acrobat Reader e clicar com o botão esquerdo do mouse.)}
+\end{center}
+\end{figure}
+}
+
+
+\newcommand{\publishername}{Editora Lorem Ipsum}
 
 % Blooks
 \DeclareOption{ubu}{\renewcommand{\logoeditora}{logopapagaia.png}
