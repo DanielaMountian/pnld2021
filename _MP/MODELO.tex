@@ -7,6 +7,9 @@
 \usepackage{media9}
 \usepackage{graficos}
 \usepackage[justification=raggedright]{caption}
+\usepackage{tikz}
+\usepackage[most]{tcolorbox}
+
 
 \begin{document}
 
@@ -33,6 +36,19 @@
 
 \section{Atividades 1}
 
+
+\newenvironment{bncc}[1]{%
+	\begin{tcolorbox}[colback=blue!5!white,colframe=blue!15!brown,title=#1]\footnotesize
+	}{%
+	\end{tcolorbox}
+	}
+
+
+\begin{bncc}{ssdcsd}
+sdcscd
+\end{bncc}
+
+
 \subsection{Pré-leitura}
 \subsection{Leitura}
 \subsection{Pós-leitura}
@@ -44,6 +60,11 @@
 \subsection{Pré-leitura}
 \subsection{Leitura}
 \subsection{Pós-leitura}
+
+
+\lipsum
+
+
 
 
 
