@@ -1,4 +1,4 @@
-\documentclass[semcabeco,showtrims,trimframe,12pt,spreadimages]{memoir}
+\documentclass[semcabeco,showtrims,12pt,conselho,spreadimages]{memoir}
 
 \usepackage[pnld]{hedraoptions} %% << %%%%%%%%%%%%%%%%
 \usepackage[baruch]{hedrastyles}
@@ -8,29 +8,22 @@
 \usepackage{penalidades}
 \usepackage{graficos}
 \usepackage{hedralogo}
-\usepackage[shrink,siderepl]{hedrasides}
 \usepackage{hifensextras}
 \usepackage{fichatecnica}
 \usepackage[standart]{aparatos}
 \usepackage{tabelas}
 \usepackage{versos}
 \usepackage{gitrevisioninfo}
+\usepackage{parallel}
 
 \newcommand{\forceindent}{\leavevmode{\parindent=1,4em\indent}}
-
-\makeatletter
-\def\@xfootnote[#1]{%
-  \protected@xdef\@thefnmark{#1}%
-  \@footnotemark\@footnotetext}
-\makeatother
-
 
 
 \usepackage{footmisc}
 
 \renewcommand*\footnoterule{}
 
-%--------------------------------------------
+
 \usepackage{afterpage}
 
 \newcommand\blankpage{%
@@ -40,9 +33,9 @@
     \newpage}
 
 
-
 \setcounter{tocdepth}{0}
 \setcounter{secnumdepth}{-2} 
+
 \usepackage{commands}
 
 \usepackage{setspace}
@@ -87,9 +80,14 @@
 
 \newcommand{\mystar}{{\fontfamily{lmr}\selectfont$\star$}}
 
-
 \begin{document}
 
-\include{INPUTS}
+\include{INTRO_CRUZADA}
+
+\include{CRUZADA}
+
+\include{INTRO_MONELLE} %
+
+\include{MONELLE}
 
 \end{document}
