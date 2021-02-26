@@ -53,7 +53,7 @@
 \pagestyle{fancy}
 \fancyhf{}
 \setlength{\headheight}{27.023pt}
-\lhead{\includegraphics[width=12mm]{\logoeditora}}
+\lhead{\includegraphics[height=12mm]{\logoeditora}}
 \rhead{\ifdef{\journaltitle}{\journaltitle}{}
 \ifdef{\volume}{vol.\,\volume}{}
 \ifdef{\issue}{(\issue)}{}
@@ -164,40 +164,39 @@
 \newcommand{\publishername}{Editora Lorem Ipsum}
 
 % Blooks
-\DeclareOption{ubu}{\renewcommand{\logoeditora}{logopapagaia.png}
+\DeclareOption{blooks}{\renewcommand{\logoeditora}{logoblooks.png}
 \renewcommand{\publishername}{Editora Papagaio}}
 
 % Editora Lunna
-\DeclareOption{ubu}{\renewcommand{\logoeditora}{logolunna.png}
+\DeclareOption{lunna}{\renewcommand{\logoeditora}{logolunna.png}
 \renewcommand{\publishername}{Editora Lunna}}
 
 % Lamparina
-\DeclareOption{ubu}{\renewcommand{\logoeditora}{logolamparina.png}
+\DeclareOption{lamparina}{\renewcommand{\logoeditora}{logolamparina.png}
 \renewcommand{\publishername}{Editora Lamparina}}
 
 % Letra e Imagem
-\DeclareOption{ubu}{\renewcommand{\logoeditora}{logoletraeimagem.png}
+\DeclareOption{letraeimagem}{\renewcommand{\logoeditora}{logoletraeimagem.png}
 \renewcommand{\publishername}{Editora Letra e Imagem}}
 
 % Livros de Criação
-\DeclareOption{ubu}{\renewcommand{\logoeditora}{logolivrosdecriacao.png}
+\DeclareOption{livrosdecriacao}{\renewcommand{\logoeditora}{logolivrosdecriacao.png}
 \renewcommand{\publishername}{Editora Livros de Criação}}
 
 % Madalena
-\DeclareOption{ubu}{\renewcommand{\logoeditora}{logomadalena.png}
+\DeclareOption{madalena}{\renewcommand{\logoeditora}{logomadalena.png}
 \renewcommand{\publishername}{Editora Maralena}}
 
 % Nexus
-\DeclareOption{ubu}{\renewcommand{\logoeditora}{logonexus.png}
+\DeclareOption{nexus}{\renewcommand{\logoeditora}{logonexus.png}
 \renewcommand{\publishername}{Editora Papagaio}}
 
 % Piseagrama
-\DeclareOption{ubu}{\renewcommand{\logoeditora}{logopiseagrama.png}
+\DeclareOption{piseagrama}{\renewcommand{\logoeditora}{logopiseagrama.png}
 \renewcommand{\publishername}{Editora Papagaio}}
 
-
 % Alameda
-\DeclareOption{ubu}{\renewcommand{\logoeditora}{logoalameda.png}
+\DeclareOption{alameda}{\renewcommand{\logoeditora}{logoalameda.png}
 \renewcommand{\publishername}{Editora Alameda}}
 
 % Araucária
@@ -256,7 +255,7 @@
 \renewcommand{\publishername}{Ubu Editora}}
 
 % Papagaio
-\DeclareOption{ubu}{\renewcommand{\logoeditora}{logopapagaia.png}
+\DeclareOption{papagaio}{\renewcommand{\logoeditora}{logopapagaio.png}
 \renewcommand{\publishername}{Editora Papagaio}}
 
 \ProcessOptions\relax
