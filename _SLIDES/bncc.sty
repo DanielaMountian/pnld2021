@@ -1,0 +1,391 @@
+\RequirePackage{tikz,comment}
+\RequirePackage[most]{tcolorbox}
+
+
+\newenvironment{bncc}[1]{%
+	\begin{block}{#1}\footnotesize
+	}{%
+	\end{block}
+	}
+
+\newcommand{\DefineBNCC}[2]{%
+  \expandafter\newcommand\csname #1\endcsname{#2}%
+}
+\newcommand{\BNCC}[1]{\csname #1\endcsname}
+
+
+\expandafter\newcommand\csname EM13LGG302\endcsname{\begin{bncc}{EM13LGG302}
+Compreender e posicionar-se criticamente diante de diversas visões de mundo presentes nos discursos em diferentes linguagens, levando em conta seus contextos de produção e de circulação.
+\end{bncc}}
+
+\expandafter\newcommand\csname EM13LGG704\endcsname{\begin{bncc}{EM13LGG704}
+Apropriar-se criticamente de processos de pesquisa e busca de informação, por meio de ferramentas e dos novos formatos de produção e distribuição do conhecimento na cultura de rede.
+\end{bncc}}
+
+\expandafter\newcommand\csname EM13LP10\endcsname{\begin{bncc}{EM13LP10}
+Selecionar informações, dados e argumentos em fontes confiáveis, impressas e digitais, e utilizá-los de forma referenciada, para que o texto a ser produzido tenha um nível de aprofundamento adequado (para além do senso comum) e contemple a sustentação das posições defendidas.
+\end{bncc}}
+
+\expandafter\newcommand\csname EM13LP19\endcsname{\begin{bncc}{EM13LP19}
+Compartilhar gostos, interesses, práticas culturais, temas problemas/questões que despertam maior interesse ou preocupação, respeitando e valorizando diferenças, como forma de identificar afinidades e interesses comuns, como também de organizar e/ou participar de grupos, clubes, oficinas e afins.
+\end{bncc}}
+
+\expandafter\newcommand\csname EM13LP45\endcsname{\begin{bncc}{EM13LP45}
+Compartilhar sentidos construídos na leitura/escuta de textos literários, percebendo diferenças e eventuais tensões entre as formas pessoais e coletivas de apreensão desses textos, para exercitar o diálogo cultural e aguçar a perspectiva crítica.
+\end{bncc}}
+
+
+\expandafter\newcommand\csname EM13LGG103\endcsname{\begin{bncc}{EM13LGG103}
+Analisar, de maneira cada vez mais aprofundada, o funcionamento das linguagens, para interpretar e produzir criticamente discursos em textos de diversas semioses.
+\end{bncc}}
+
+\expandafter\newcommand\csname EM13LP02\endcsname{\begin{bncc}{EM13LP02}
+Estabelecer relações entre as partes do texto, tanto na produção como na recepção, considerando a construção composicional e o estilo do gênero, usando/reconhecendo adequadamente elementos e recursos coesivos diversos que contribuam para a coerência, a continuidade do texto e sua progressão temática, e organizando informações, tendo em vista as condições de produção e as relações lógico-discursivas envolvidas (causa/efeito ou consequência; tese/argumentos; problema/solução; definição/exemplos etc.).
+\end{bncc}}
+
+\expandafter\newcommand\csname EM13LP48\endcsname{\begin{bncc}{EM13LP48}
+Perceber as peculiaridades estruturais e estilísticas de diferentes gêneros literários (a apreensão pessoal do cotidiano nas crônicas, a manifestação livre e subjetiva do eu lírico diante do mundo nos poemas, a múltipla perspectiva da vida humana e social dos romances, a dimensão política e social de textos da literatura marginal e da periferia etc.) para experimentar os diferentes ângulos de apreensão do indivíduo e do mundo pela literatura.
+\end{bncc}}
+
+\expandafter\newcommand\csname EM13LP51\endcsname{\begin{bncc}{EM13LP51}
+Analisar obras significativas da literatura brasileira e da literatura de outros países e povos, em especial a portuguesa, a indígena, a africana e a latino-americana, com base em ferramentas da crítica literária (estrutura da composição, estilo, aspectos discursivos), considerando o contexto de produção (visões de mundo, diálogos com outros textos, inserções em movimentos estéticos e culturais etc.) e o modo como elas dialogam com o presente.
+\end{bncc}}
+
+% Atividade 1 (Linguagens Língua Portuguesa): Pós-Leitura
+\expandafter\newcommand\csname EM13LGG102\endcsname{\begin{bncc}{EM13LGG102}
+Analisar visões de mundo, conflitos de interesse, preconceitos e ideologias presentes nos discursos veiculados nas diferentes mídias como forma de ampliar suas as possibilidades de explicação e interpretação crítica da realidade.
+\end{bncc}}
+
+\expandafter\newcommand\csname EM13LGG303\endcsname{\begin{bncc}{EM13LGG303}
+Debater questões polêmicas de relevância social, analisando diferentes argumentos e opiniões manifestados, para negociar e sustentar posições, formular propostas, e intervir e tomar decisões democraticamente sustentadas, que levem em conta o bem comum e os Direitos Humanos, a consciência socioambiental e o consumo responsável em âmbito local, regional e global.
+\end{bncc}}
+
+\expandafter\newcommand\csname EM13LGG402\endcsname{\begin{bncc}{EM13LGG402}
+Analisar obras significativas da literatura brasileira e da literatura de outros países e povos, em especial a portuguesa, a indígena, a africana e a latino-americana, com base em ferramentas da crítica literária (estrutura da composição, estilo, aspectos discursivos), considerando o contexto de produção (visões de mundo, diálogos com outros textos, inserções em movimentos estéticos e culturais etc.) e o modo como elas dialogam com o presente.
+\end{bncc}}
+
+\expandafter\newcommand\csname EM13LGG703\endcsname{\begin{bncc}{EM13LGG703}
+Utilizar diferentes linguagens, mídias e ferramentas digitais em processos de produção coletiva, colaborativa e projetos autorais em ambientes digitais.
+\end{bncc}}
+
+\expandafter\newcommand\csname EM13LP13\endcsname{\begin{bncc}{EM13LP13}
+Planejar, produzir, revisar, editar, reescrever e avaliar textos escritos e multissemióticos, considerando sua adequação às condições de produção do texto, no que diz respeito ao lugar social a ser assumido e à imagem que se pretende passar a respeito de si mesmo, ao leitor pretendido, ao veículo e mídia em que o texto ou produção cultural vai circular, ao contexto imediato e sócio histórico mais geral, ao gênero textual em questão e suas regularidades, à variedade linguística apropriada a esse contexto e ao uso do conhecimento dos aspectos notacionais (ortografia padrão, pontuação adequada, mecanismos de concordância nominal e verbal, regência verbal etc.), sempre que o contexto o exigir. 
+\end{bncc}}
+
+\expandafter\newcommand\csname EM13LP14\endcsname{\begin{bncc}{EM13LP14}
+Produzir e analisar textos orais, considerando sua adequação aos contextos de produção, à forma composicional e ao estilo do gênero em questão, à clareza, à progressão temática e à variedade linguística empregada, como também aos elementos relacionados à fala (modulação de voz, entonação, ritmo, altura e intensidade, respiração etc.) e à cinestesia (postura corporal, movimentos e gestualidade significativa, expressão facial, contato de olho com plateia etc.). 
+\end{bncc}}
+
+\expandafter\newcommand\csname EM13LP28\endcsname{\begin{bncc}{EM13LP28}
+Resumir e resenhar textos, com o manejo adequado das vozes envolvidas (do autor da obra e do resenhador), por meio do uso de paráfrases, marcas do discurso reportado e citações, para uso em textos de divulgação de estudos e pesquisas.
+\end{bncc}}
+
+\expandafter\newcommand\csname EM13LP29\endcsname{\begin{bncc}{EM13LP29}
+Realizar pesquisas de diferentes tipos (bibliográfica, de campo, experimento científico, levantamento de dados etc.), usando fontes abertas e confiáveis, registrando o processo e comunicando os resultados, tendo em vista os objetivos colocados e demais elementos do contexto de produção, como forma de compreender como o conhecimento científico é produzido e apropriar-se dos procedimentos e dos gêneros textuais envolvidos na realização de pesquisas.
+\end{bncc}}
+
+\expandafter\newcommand\csname EM13LP47\endcsname{\begin{bncc}{EM13LP47}
+Analisar assimilações e rupturas no processo de constituição da literatura brasileira e ao longo de sua trajetória, por meio da leitura e análise de obras fundamentais do cânone ocidental, em especial da literatura portuguesa, para perceber a historicidade de matrizes e procedimentos estéticos.
+\end{bncc}}
+
+\expandafter\newcommand\csname EM13LP50\endcsname{\begin{bncc}{EM13LP50}
+Selecionar obras do repertório artístico-literário contemporâneo à disposição segundo suas predileções, de modo a constituir um acervo pessoal e dele se apropriar para se inserir e intervir com autonomia e criticidade no meio cultural.
+\end{bncc}}
+
+\expandafter\newcommand\csname EM13LP52\endcsname{\begin{bncc}{EM13LP52}
+Produzir apresentações e comentários apreciativos e críticos sobre livros, filmes, discos, canções, espetáculos de teatro e dança, exposições etc. (resenhas, vlogs e podcasts literários e artísticos, playlists comentadas, fanzines, e-zines etc.).
+\end{bncc}}
+
+%Atividade 2 (Interdisciplinar): Lista Única
+\expandafter\newcommand\csname EM13CNT201\endcsname{\begin{bncc}{EM13CNT201}
+Analisar e utilizar modelos científicos, propostos em diferentes épocas e culturas para avaliar distintas explicações sobre o surgimento e a evolução da Vida, da Terra e do Universo. 
+\end{bncc}}
+
+\expandafter\newcommand\csname EM13CNT303\endcsname{\begin{bncc}{EM13CNT303}
+Interpretar textos de divulgação científica que tratem de temáticas das Ciências da Natureza, disponíveis em diferentes mídias, considerando a apresentação dos dados, a consistência dos argumentos e a coerência das conclusões, visando construir estratégias de seleção de fontes confiáveis de informações.
+\end{bncc}}
+
+\expandafter\newcommand\csname EM13CHS101\endcsname{\begin{bncc}{EM13CHS101}
+Analisar e comparar diferentes fontes e narrativas expressas em diversas linguagens, com vistas à compreensão e à crítica de ideias filosóficas e processos e eventos históricos, geográficos, políticos, econômicos, sociais, ambientais e culturais. 
+\end{bncc}}
+
+\expandafter\newcommand\csname EM13CHS102\endcsname{\begin{bncc}{EM13CHS102}
+Identificar, analisar e discutir as circunstâncias históricas, geográficas, políticas, econômicas, sociais, ambientais e culturais da emergência de matrizes conceituais hegemônicas (etnocentrismo, evolução, modernidade etc.), comparando-as a narrativas que contemplem outros agentes e discursos. 
+\end{bncc}}
+
+\expandafter\newcommand\csname EM13CHS104\endcsname{\begin{bncc}{EM13CHS104}
+Analisar objetos da cultura material e imaterial como suporte de conhecimentos, valores, crenças e práticas que singularizam diferentes sociedades inseridas no tempo e no espaço.
+\end{bncc}}
+
+\expandafter\newcommand\csname EM13CHS106\endcsname{\begin{bncc}{EM13CHS106}
+Utilizar as linguagens cartográfica, gráfica e iconográfica e de diferentes gêneros textuais e as tecnologias digitais de informação e comunicação de forma crítica, significativa, reflexiva e ética nas diversas práticas sociais (incluindo as escolares) para se comunicar, acessar e disseminar informações, produzir conhecimentos, resolver problemas e exercer protagonismo e autoria na vida pessoal e coletiva. 
+\end{bncc}}
+
+\expandafter\newcommand\csname EM13CHS401\endcsname{\begin{bncc}{EM13CHS401}
+Identificar e analisar as relações entre sujeitos, grupos e classes sociais diante das transformações técnicas, tecnológicas e informacionais e das novas formas de trabalho ao longo do tempo, em diferentes espaços e contextos.
+\end{bncc}}
+
+
+% ---------------------------------
+
+\expandafter\newcommand\csname EM13CHS201\endcsname{\begin{bncc}{EM13CHS201} 
+Analisar e caracterizar as dinâmicas das populações, das mercadorias e do capital nos diversos continentes, com destaque para a mobilidade e a fixação de pessoas, grupos humanos e povos, em função de eventos naturais, políticos, econômicos, sociais e culturais. 
+\end{bncc}}
+
+\expandafter\newcommand\csname EM13CHS202\endcsname{\begin{bncc}{EM13CHS202} 
+Analisar e avaliar os impactos das tecnologias na estruturação e nas dinâmicas das sociedades contemporâneas (fluxos populacionais, financeiros, de mercadorias, de informações, de valores éticos e culturais etc.), bem como suas interferências nas decisões políticas, sociais, ambientais, econômicas e culturais. 
+\end{bncc}}
+
+\expandafter\newcommand\csname EM13CHS203\endcsname{\begin{bncc}{EM13CHS203} 
+Contrapor os diversos significados de território, fronteiras e vazio (espacial, temporal e cultural) em diferentes sociedades, contextualizando e relativizando visões dualistas como civilização/barbárie, nomadismo/sedentarismo e cidade/campo, entre outras. 
+\end{bncc}}
+
+\expandafter\newcommand\csname EM13CHS204\endcsname{\begin{bncc}{EM13CHS204} 
+Comparar e avaliar os processos de ocupação do espaço e a formação de territórios, territorialidades e fronteiras, identificando o papel de diferentes agentes (como grupos sociais e culturais, impérios, Estados Nacionais e organismos internacionais) e considerando os conflitos populacionais (internos e externos), a diversidade étnico-cultural e as características socioeconômicas, políticas e tecnológicas. 
+\end{bncc}}
+
+\expandafter\newcommand\csname EM13CHS205\endcsname{\begin{bncc}{EM13CHS205} 
+Analisar a produção de diferentes territorialidades em suas dimensões culturais, econômicas, ambientais, políticas e sociais, no Brasil e no mundo contemporâneo, com destaque para as culturas juvenis. 
+\end{bncc}}
+
+\expandafter\newcommand\csname EM13CHS206\endcsname{\begin{bncc}{EM13CHS206} 
+Compreender e aplicar os princípios de localização, distribuição, ordem, extensão, conexão, entre outros, relacionados com o raciocínio geográfico, na análise da ocupação humana e da produção do espaço em diferentes tempos.
+\end{bncc}}
+
+\expandafter\newcommand\csname EM13CHS301\endcsname{\begin{bncc}{EM13CHS301} 
+Problematizar hábitos e práticas individuais e coletivos de produção e descarte (reuso e reciclagem) de resíduos na contemporaneidade e elaborar e/ou selecionar propostas de ação que promovam a sustentabilidade socioambiental e o consumo responsável. 
+\end{bncc}}
+
+\expandafter\newcommand\csname EM13CHS302\endcsname{\begin{bncc}{EM13CHS302} 
+Analisar e avaliar os impactos econômicos e socioambientais de cadeias produtivas ligadas à exploração de recursos naturais e às atividades agropecuárias em diferentes ambientes e escalas de análise, considerando o modo de vida das populações locais e o compromisso com a sustentabilidade. 
+\end{bncc}}
+
+\expandafter\newcommand\csname EM13CHS303\endcsname{\begin{bncc}{EM13CHS303} 
+Debater e avaliar o papel da indústria cultural e das culturas de massa no estímulo ao consumismo, seus impactos econômicos e socioambientais, com vistas a uma percepção crítica das necessidades criadas pelo consumo. 
+\end{bncc}}
+
+\expandafter\newcommand\csname EM13CHS304\endcsname{\begin{bncc}{EM13CHS304} 
+Analisar os impactos socioambientais decorrentes de práticas de instituições governamentais, de empresas e de indivíduos, discutindo as origens dessas práticas, e selecionar aquelas que respeitem e promovam a consciência e a ética socioambiental e o consumo responsável. 
+\end{bncc}}
+
+\expandafter\newcommand\csname EM13CHS305\endcsname{\begin{bncc}{EM13CHS305} 
+Analisar e discutir o papel dos organismos nacionais de regulação, controle e fiscalização ambiental e dos acordos internacionais para a promoção e a garantia de práticas ambientais sustentáveis. 
+\end{bncc}}
+
+\expandafter\newcommand\csname EM13CHS306\endcsname{\begin{bncc}{EM13CHS306} 
+Contextualizar, comparar e avaliar os impactos de diferentes modelos econômicos no uso dos recursos naturais e na promoção da sustentabilidade econômica e socioambiental do planeta. 
+\end{bncc}}
+
+\expandafter\newcommand\csname EM13CHS402\endcsname{\begin{bncc}{EM13CHS402} 
+Analisar e comparar indicadores de emprego, trabalho e renda em diferentes espaços, escalas e tempos, associando-os a processos de estratificação e desigualdade socioeconômica. 
+\end{bncc}}
+
+\expandafter\newcommand\csname EM13CHS403\endcsname{\begin{bncc}{EM13CHS403} 
+Caracterizar e analisar processos próprios da contemporaneidade, com ênfase nas transformações tecnológicas e das relações sociais e de trabalho, para propor ações que visem à superação de situações de opressão e violação dos Direitos Humanos. 
+\end{bncc}}
+
+\expandafter\newcommand\csname EM13CHS404\endcsname{\begin{bncc}{EM13CHS404} 
+Identificar e discutir os múltiplos aspectos do trabalho em diferentes circunstâncias e contextos históricos e/ou geográficos e seus efeitos sobre as gerações, em especial, os jovens e as gerações futuras, levando em consideração, na atualidade, as transformações técnicas, tecnológicas e informacionais. 
+\end{bncc}}
+
+\expandafter\newcommand\csname EM13CHS501\endcsname{\begin{bncc}{EM13CHS501} 
+Compreender e analisar os fundamentos da ética em diferentes culturas, identificando processos que contribuem para a formação de sujeitos éticos que valorizem a liberdade, a autonomia e o poder de decisão (vontade). 
+\end{bncc}}
+
+\expandafter\newcommand\csname EM13CHS502\endcsname{\begin{bncc}{EM13CHS502} 
+Analisar situações da vida cotidiana (estilos de vida, valores, condutas etc.), desnaturalizando e problematizando formas de desigualdade e preconceito, e propor ações que promovam os Direitos Humanos, a solidariedade e o respeito às diferenças e às escolhas individuais. 
+\end{bncc}}
+
+\expandafter\newcommand\csname EM13CHS503\endcsname{\begin{bncc}{EM13CHS503} 
+Identificar diversas formas de violência (física, simbólica, psicológica etc.), suas causas, significados e usos políticos, sociais e culturais, avaliando e propondo mecanismos para combatê-las, com base em argumentos éticos. 
+\end{bncc}}
+
+\expandafter\newcommand\csname EM13CHS504\endcsname{\begin{bncc}{EM13CHS504} 
+Analisar e avaliar os impasses ético-políticos decorrentes das transformações científicas e tecnológicas no mundo contemporâneo e seus desdobramentos nas atitudes e nos valores de indivíduos, grupos sociais, sociedades e culturas. 
+\end{bncc}}
+
+\expandafter\newcommand\csname EM13LP46\endcsname{\begin{bncc}{EM13LP46} 
+Participar de eventos (saraus, competições orais, audições, mostras, festivais, feiras culturais e literárias, rodas e clubes de leitura, cooperativas culturais, jograis, repentes, slams etc.), inclusive para socializar obras da própria autoria (poemas, contos e suas variedades, roteiros e microrroteiros, videominutos, playlists comentadas de música etc.) e/ou interpretar obras de outros, inserindo-se nas diferentes práticas culturais de seu tempo. Competências específicas: 3, 6 
+\end{bncc}}
+
+\expandafter\newcommand\csname EM13LP49\endcsname{\begin{bncc}{EM13LP49} 
+Analisar relações intertextuais e interdiscursivas entre obras de diferentes autores e gêneros literários de um mesmo momento histórico e de momentos históricos diversos, explorando os modos como a literatura e as artes em geral se constituem, dialogam e se retroalimentam. Competências específicas: 6 
+\end{bncc}}
+
+\expandafter\newcommand\csname EM13LP53\endcsname{\begin{bncc}{EM13LP53} 
+Criar obras autorais, em diferentes gêneros e mídias – mediante seleção e apropriação de recursos textuais e expressivos do repertório artístico –, e/ou produções derivadas (paródias, estilizações, fanfics, fanclipes etc.), como forma de dialogar crítica e/ou subjetivamente com o texto literário.
+\end{bncc}}
+
+\expandafter\newcommand\csname EM13LP27\endcsname{\begin{bncc}{EM13LP27} 
+Organizar situações de estudo e utilizar procedimentos e estratégias de leitura adequados aos objetivos e à natureza do conhecimento em questão. Competências específicas: 3, 7 
+\end{bncc}}
+
+\expandafter\newcommand\csname EM13LP30\endcsname{\begin{bncc}{EM13LP30} 
+Compreender criticamente textos de divulgação científica orais, escritos e multissemióticos de diferentes áreas do conhecimento, identificando sua organização tópica e a hierarquização das informações, questionando fontes não confiáveis e problematizando enfoques tendenciosos ou superficiais. Competências específicas: 1 
+\end{bncc}}
+
+\expandafter\newcommand\csname EM13LP31\endcsname{\begin{bncc}{EM13LP31} 
+Selecionar informações e dados necessários para uma dada pesquisa (sem excedê-los) em diferentes fontes (orais, impressas, digitais etc.) e comparar autonomamente esses conteúdos, levando em conta seus contextos de produção, referências e índices de confiabilidade, e percebendo coincidências, complementaridades, contradições, erros ou imprecisões conceituais e de dados, de forma a compreender e posicionar-se criticamente sobre esses conteúdos e estabelecer recortes precisos. Competências específicas: 7 
+\end{bncc}}
+
+\expandafter\newcommand\csname EM13LP32\endcsname{\begin{bncc}{EM13LP32} 
+Selecionar, elaborar e utilizar instrumentos simples de coleta de dados e informações (questionários, enquetes, mapeamentos, opinários) e de tratamento e análise dos conteúdos obtidos, que atendam adequadamente a diferentes objetivos de pesquisa. Competências específicas: 3 
+\end{bncc}}
+
+\expandafter\newcommand\csname EM13LP33\endcsname{\begin{bncc}{EM13LP33} 
+Produzir textos para a divulgação do conhecimento e de resultados de levantamentos e pesquisas – texto monográfico, ensaio, artigo de divulgação científica, verbete de enciclopédia (colaborativa ou não), infográfico (estático ou animado), relato de experimento, relatório, relatório multimidiático de campo, reportagem científica, podcast ou vlog científico, apresentações orais, seminários, comunicações em mesas redondas, mapas dinâmicos etc. –, considerando o contexto de produção e utilizando os conhecimentos sobre os gêneros de divulgação científica, de forma a engajar-se em processos significativos de socialização e divulgação do conhecimento. Competências específicas: 3 
+\end{bncc}}
+
+\expandafter\newcommand\csname EM13LP34\endcsname{\begin{bncc}{EM13LP34} 
+Utilizar adequadamente ferramentas de apoio a apresentações orais, escolhendo e usando tipos e tamanhos de fontes que permitam boa visualização, topicalizando e/ou organizando o conteúdo em itens, inserindo de forma adequada imagens, gráficos, tabelas, formas e elementos gráficos, dimensionando a quantidade de texto e imagem por slide e usando, de forma harmônica, recursos (efeitos de transição, slides mestres, layouts personalizados, gravação de áudios em slides etc.). Competências específicas: 7 
+\end{bncc}}
+
+\expandafter\newcommand\csname EM13LP01\endcsname{\begin{bncc}{EM13LP01} 
+Relacionar o texto, tanto na produção como na recepção, com suas condições de produção e seu contexto sócio-histórico de circulação (leitor previsto, objetivos, pontos de vista e perspectivas, papel social do autor, época, gênero do discurso etc.). Competências específicas: 2 
+\end{bncc}}
+
+\expandafter\newcommand\csname EM13LP03\endcsname{\begin{bncc}{EM13LP03} 
+Analisar relações de intertextualidade e interdiscursividade que permitam a explicitação de relações dialógicas, a identificação de posicionamentos ou de perspectivas, a compreensão de paródias e estilizações, entre outras possibilidades. Competências específicas:1 
+\end{bncc}}
+
+\expandafter\newcommand\csname EM13LP04\endcsname{\begin{bncc}{EM13LP04} 
+Estabelecer relações de interdiscursividade e intertextualidade para explicitar, sustentar e qualificar posicionamentos e para construir e referendar explicações e relatos, fazendo uso de citações e paráfrases devidamente marcadas. Competências específicas:1 
+\end{bncc}}
+
+\expandafter\newcommand\csname EM13LP05\endcsname{\begin{bncc}{EM13LP05} 
+Analisar, em textos argumentativos, os posicionamentos assumidos, os movimentos argumentativos e os argumentos utilizados para sustentá-los, para avaliar sua força e eficácia, e posicionar-se diante da questão discutida e/ou dos argumentos utilizados, recorrendo aos mecanismos linguísticos necessários. Competências específicas: 3 
+\end{bncc}}
+
+\expandafter\newcommand\csname EM13LP06\endcsname{\begin{bncc}{EM13LP06} 
+Analisar efeitos de sentido decorrentes de usos expressivos da linguagem, da escolha de determinadas palavras ou expressões e da ordenação, combinação e contraposição de palavras, dentre outros, para ampliar as possibilidades de construção de sentidos e de uso crítico da língua. 
+\end{bncc}}
+
+\expandafter\newcommand\csname EM13LP07\endcsname{\begin{bncc}{EM13LP07} 
+Analisar, em textos de diferentes gêneros, marcas que expressam a posição do enunciador frente àquilo que é dito: uso de diferentes modalidades (epistêmica, deôntica e apreciativa) e de diferentes recursos gramaticais que operam como modalizadores (verbos modais, tempos e modos verbais, expressões modais, adjetivos, locuções ou orações adjetivas, advérbios, locuções ou orações adverbiais, entonação etc.), uso de estratégias de impessoalização (uso de terceira pessoa e de voz passiva etc.), com vistas ao incremento da compreensão e da criticidade e ao manejo adequado desses elementos nos textos produzidos, considerando os contextos de produção. Competências específicas: 1
+\end{bncc}}
+
+\expandafter\newcommand\csname EM13LP08\endcsname{\begin{bncc}{EM13LP08} 
+Analisar elementos e aspectos da sintaxe do Português, como a ordem dos constituintes da sentença (e os efeito que causam sua inversão), a estrutura dos sintagmas, as categorias sintáticas, os processos de coordenação e subordinação (e os efeitos de seus usos) e a sintaxe de concordância e de regência, de modo a potencializar os processos de compreensão e produção de textos e a possibilitar escolhas adequadas à situação comunicativa. Competências específicas:1 
+\end{bncc}}
+
+\expandafter\newcommand\csname EM13LP09\endcsname{\begin{bncc}{EM13LP09} 
+Fazer curadoria de informações, tendo em vista diferentes propósitos e projetos discursivos. Competências específicas: 7 
+\end{bncc}}
+
+
+\expandafter\newcommand\csname EM13LP11\endcsname{\begin{bncc}{EM13LP11} 
+Analisar efeitos de sentido decorrentes de escolhas de elementos sonoros (volume, timbre, intensidade, pausas, ritmo, efeitos sonoros, sincronização etc.) e de suas relações com o verbal, levando em conta esses efeitos na produção de áudios, para ampliar as possibilidades de construção de sentidos e de apreciação. Competências específicas: 1 
+\end{bncc}}
+
+\expandafter\newcommand\csname EM13LP12\endcsname{\begin{bncc}{EM13LP12} 
+Analisar efeitos de sentido decorrentes de escolhas e formatação das imagens (enquadramento, ângulo/vetor, cor, brilho, contraste) e de sua sequenciação (disposição e transição, movimentos de câmera, remix), das performances (movimentos do corpo, gestos, ocupação do espaço cênico), dos elementos sonoros (entonação, trilha sonora, sampleamento etc.) e das relações desses elementos com o verbal, levando em conta esses efeitos nas produções de imagens e vídeos, para ampliar as possibilidades de construção de sentidos e de apreciação. Competências específicas: 1 
+\end{bncc}}
+
+\expandafter\newcommand\csname EM13LP15\endcsname{\begin{bncc}{EM13LP15} 
+Elaborar roteiros para a produção de vídeos variados (vlog, videoclipe, videominuto, documentário etc.), apresentações teatrais, narrativas multimídia e transmídia, podcasts, playlists comentadas etc., para ampliar as possibilidades de produção de sentidos e engajar-se de forma reflexiva em práticas autorais e coletivas. Competências específicas: 3, 7 
+\end{bncc}}
+
+\expandafter\newcommand\csname EM13LP16\endcsname{\begin{bncc}{EM13LP16} 
+Utilizar softwares de edição de textos, fotos, vídeos e áudio, além de ferramentas e ambientes colaborativos para criar textos e produções multissemióticas com finalidades diversas, explorando os recursos e efeitos disponíveis e apropriando-se de práticas colaborativas de escrita, de construção coletiva do conhecimento e de desenvolvimento de projetos. Competências específicas: 7
+\end{bncc}}
+
+\expandafter\newcommand\csname EM13LP17\endcsname{\begin{bncc}{EM13LP17} 
+Analisar o fenômeno da variação linguística, em seus diferentes níveis (variação fonético-fonológica, lexical, sintática, semântica e estilístico-pragmática) e em suas diferentes dimensões (regional, histórica, social, situacional, ocupacional, etária etc.), de forma a ampliar a compreensão sobre a natureza viva e dinâmica da língua e sobre o fenômeno da constituição de variedades linguísticas de prestígio e estigmatizadas, e a fundamentar o respeito às variedades linguísticas e o combate a preconceitos linguísticos. Competências específicas: 4 
+\end{bncc}}
+
+\expandafter\newcommand\csname EM13LP35\endcsname{\begin{bncc}{EM13LP35} 
+Analisar os interesses que movem o campo jornalístico, os impactos das novas tecnologias no campo e as condições que fazem da informação uma mercadoria e da checagem de informação uma prática (e um serviço) essencial, adotando atitude analítica e crítica diante dos textos jornalísticos. Competências específicas: 2 
+\end{bncc}}
+
+\expandafter\newcommand\csname EM13LP36\endcsname{\begin{bncc}{EM13LP36} 
+Conhecer e analisar diferentes projetos editorias – institucionais, privados, públicos, financiados, independentes etc. –, de forma a ampliar o repertório de escolhas possíveis de fontes de informação e opinião, reconhecendo o papel da mídia plural para a consolidação da democracia. Competências específicas: 2 
+\end{bncc}}
+
+\expandafter\newcommand\csname EM13LP37\endcsname{\begin{bncc}{EM13LP37} 
+Analisar os diferentes graus de parcialidade/imparcialidade (no limite, a não neutralidade) em textos noticiosos, comparando relatos de diferentes fontes e analisando o recorte feito de fatos/dados e os efeitos de sentido provocados pelas escolhas realizadas pelo autor do texto, de forma a manter uma atitude crítica diante dos textos jornalísticos e tornar-se consciente das escolhas feitas como produtor. Competências específicas: 1, 2 
+\end{bncc}}
+
+\expandafter\newcommand\csname EM13LP38\endcsname{\begin{bncc}{EM13LP38} 
+Usar procedimentos de checagem de fatos noticiados e fotos publicadas (verificar/avaliar veículo, fonte, data e local da publicação, autoria, URL, formatação; comparar diferentes fontes; consultar ferramentas e sites checadores etc.), de forma a combater a proliferação de notícias falsas (fake news). Competências específicas: 7 
+\end{bncc}}
+
+\expandafter\newcommand\csname EM13LP39\endcsname{\begin{bncc}{EM13LP39} 
+Analisar o fenômeno da pós-verdade – discutindo as condições e os mecanismos de disseminação de fake news e também exemplos, causas e consequências desse fenômeno e da prevalência de crenças e opiniões sobre fatos –, de forma a adotar atitude crítica em relação ao fenômeno e desenvolver uma postura flexível que permita rever crenças e opiniões quando fatos apurados as contradisserem. Competências específicas: 2, 7 
+\end{bncc}}
+
+\expandafter\newcommand\csname EM13LP40\endcsname{\begin{bncc}{EM13LP40} 
+Analisar os processos humanos e automáticos de curadoria que operam nas redes sociais e outros domínios da internet, comparando os feeds de diferentes páginas de redes sociais e discutindo os efeitos desses modelos de curadoria, de forma a ampliar as possibilidades de trato com o diferente e minimizar o efeito bolha e a manipulação de terceiros. Competências específicas: 7 
+\end{bncc}}
+
+\expandafter\newcommand\csname EM13LP41\endcsname{\begin{bncc}{EM13LP41} 
+Acompanhar, analisar e discutir a cobertura da mídia diante de acontecimentos e questões de relevância social, local e global, comparando diferentes enfoques e perspectivas, por meio do uso de ferramentas de curadoria de informação (como agregadores de conteúdo) e da consulta a serviços e fontes de checagem e curadoria de informação, de forma a aprofundar o entendimento sobre um determinado fato ou questão, identificar o enfoque preponderante da mídia e manter-se implicado, de forma crítica, com os fatos e as questões que afetam a coletividade. Competências específicas: 2 
+\end{bncc}}
+
+\expandafter\newcommand\csname EM13LP42\endcsname{\begin{bncc}{EM13LP42} 
+Atuar de forma fundamentada, ética e crítica na produção e no compartilhamento de comentários, textos noticiosos e de opinião, memes, gifs, remixes variados etc. em redes sociais ou outros ambientes digitais. Competências específicas: 7
+\end{bncc}}
+
+\expandafter\newcommand\csname EM13LP43\endcsname{\begin{bncc}{EM13LP43} 
+Analisar formas contemporâneas de publicidade em contexto digital e peças de campanhas publicitárias e políticas (cartazes, folhetos, anúncios, propagandas em diferentes mídias, spots, jingles etc.), explicando os mecanismos de persuasão utilizados e os efeitos de sentido provocados pelas escolhas feitas em termos de elementos e recursos linguístico-discursivos, imagéticos, sonoros, gestuais e espaciais, entre outros, e destacando valores e representações de situações, grupos e configurações sociais veiculadas, a fim de desconstruir eventuais estereótipos e proceder a uma avaliação crítica da publicidade e das práticas de consumo. Competências específicas: 1, 7 
+\end{bncc}}
+
+\expandafter\newcommand\csname EM13LP44\endcsname{\begin{bncc}{EM13LP44} 
+Analisar, discutir, produzir e socializar, tendo em vista temas e acontecimentos de interesse local ou global, notícias, fotodenúncias, fotorreportagens, reportagens multimidiáticas, documentários, infográficos, podcasts noticiosos, artigos de opinião, críticas da mídia, vlogs de opinião, textos de apresentação e apreciação de produções culturais (resenhas, ensaios etc.) e outros gêneros próprios das formas de expressão das culturas juvenis (vlogs e podcasts culturais, gameplay etc.), em várias mídias, vivenciando de forma significativa o papel de repórter, analista, crítico, editorialista ou articulista, leitor, vlogueiro e booktuber, entre outros. Competências específicas: 1, 3 
+\end{bncc}}
+
+\expandafter\newcommand\csname EM13LP18\endcsname{\begin{bncc}{EM13LP18} 
+Apresentar-se por meio de textos multimodais diversos (perfis variados, gifs biográficos, biodata, currículo web, videocurrículo etc.) e de ferramentas digitais (ferramenta de gif, wiki, site etc.), para falar de si de formas variadas, considerando diferentes situações e objetivos. Competências específicas: 3 
+\end{bncc}}
+
+\expandafter\newcommand\csname EM13LP20\endcsname{\begin{bncc}{EM13LP20} 
+Produzir, de forma colaborativa, e socializar playlists comentadas de preferências culturais e de entretenimento, revistas culturais, fanzines, e-zines ou publicações afins que divulguem, comentem e avaliem músicas, games, séries, filmes, quadrinhos, livros, peças, exposições, espetáculos de dança etc., de forma a compartilhar gostos, identificar afinidades, fomentar comunidades etc. Competências específicas: 1, 6 
+\end{bncc}}
+
+\expandafter\newcommand\csname EM13LP21\endcsname{\begin{bncc}{EM13LP21} 
+Construir e/ou atualizar, de forma colaborativa, registros dinâmicos (mapas, wiki etc.) de profissões e ocupações de seu interesse (áreas de atuação, dados sobre formação, fazeres, produções, depoimentos de profissionais etc.) que possibilitem vislumbrar trajetórias pessoais e profissionais. Competências específicas: 3
+\end{bncc}}
+
+\expandafter\newcommand\csname EM13CHS601\endcsname{\begin{bncc}{EM13CHS601} 
+Relacionar as demandas políticas, sociais e culturais de indígenas e afrodescendentes no Brasil contemporâneo aos processos históricos das Américas e ao contexto de exclusão e inclusão precária desses grupos na ordem social e econômica atual. 
+\end{bncc}}
+
+\expandafter\newcommand\csname EM13CHS602\endcsname{\begin{bncc}{EM13CHS602} 
+Identificar, caracterizar e relacionar a presença do paternalismo, do autoritarismo e do populismo na política, na sociedade e nas culturas brasileira e latino-americana, em períodos ditatoriais e democráticos, com as formas de organização e de articulação das sociedades em defesa da autonomia, da liberdade, do diálogo e da promoção da cidadania. 
+\end{bncc}}
+
+\expandafter\newcommand\csname EM13CHS603\endcsname{\begin{bncc}{EM13CHS603} 
+Compreender e aplicar conceitos políticos básicos (Estado, poder, formas, sistemas e regimes de governo, soberania etc.) na análise da formação de diferentes países, povos e nações e de suas experiências políticas. 
+\end{bncc}}
+
+\expandafter\newcommand\csname EM13CHS604\endcsname{\begin{bncc}{EM13CHS604} 
+Conhecer e discutir o papel dos organismos internacionais no contexto mundial, com vistas à elaboração de uma visão crítica sobre seus limites e suas formas de atuação. 
+\end{bncc}}
+
+\expandafter\newcommand\csname EM13CHS605\endcsname{\begin{bncc}{EM13CHS605} 
+Analisar os princípios da declaração dos Direitos Humanos, recorrendo às noções de justiça, igualdade e fraternidade, para fundamentar a crítica à desigualdade entre indivíduos, grupos e sociedades e propor ações concretas diante da desigualdade e das violações desses direitos em diferentes espaços de vivência dos jovens.
+\end{bncc}}
+
+\expandafter\newcommand\csname EM13LP22\endcsname{\begin{bncc}{EM13LP22} 
+Analisar o histórico e o discurso político de candidatos e de partidos, como também propagandas políticas e programas e propostas de governo, de forma a participar do debate político e tomar decisões fundamentadas. Competências específicas: 1, 7 
+\end{bncc}}
+
+\expandafter\newcommand\csname EM13LP23\endcsname{\begin{bncc}{EM13LP23} 
+Analisar formas não institucionalizadas de participação social, sobretudo as vinculadas a manifestações artísticas, produções culturais, intervenções urbanas e formas de expressão típica das culturas juvenis que pretendam expor uma problemática ou promover uma reflexão/ação, posicionando-se em relação a essas produções e manifestações. Competências específicas: 1
+\end{bncc}}
+
+\expandafter\newcommand\csname EM13LP24\endcsname{\begin{bncc}{EM13LP24} 
+Participar de reuniões na escola (conselho de escola e de classe, grêmio livre etc.), agremiações, coletivos ou movimentos, entre outros, em debates, assembleias, fóruns de discussão etc., exercitando a escuta atenta, respeitando seu turno e tempo de fala, posicionando-se de forma fundamentada, respeitosa e ética diante da apresentação de propostas e defesas de opiniões, usando estratégias linguísticas típicas de negociação e de apoio e/ou de consideração do discurso do outro (como solicitar esclarecimento, detalhamento, fazer referência direta ou retomar a fala do outro, parafraseando-a para endossá-la, enfatizá-la, complementá-la ou enfraquecê-la), considerando propostas alternativas e reformulando seu posicionamento, quando for caso, com vistas ao entendimento e ao bem comum. Competências específicas: 1, 2, 3 
+\end{bncc}}
+
+\expandafter\newcommand\csname EM13LP25\endcsname{\begin{bncc}{EM13LP25} 
+Relacionar textos e documentos legais e normativos de âmbito universal, nacional, local ou escolar que envolvam a definição de direitos e deveres – em especial, os voltados a adolescentes e jovens – aos seus contextos de produção, identificando ou inferindo possíveis motivações e finalidades, como forma de ampliar a compreensão desses direitos e deveres. Competências específicas: 1 
+\end{bncc}}
+
+\expandafter\newcommand\csname EM13LP26\endcsname{\begin{bncc}{EM13LP26} 
+Engajar-se na busca de solução de problemas que envolvam a coletividade, denunciando o desrespeito a direitos, organizando e/ou participando de discussões, campanhas e debates, produzindo textos reivindicatórios, normativos, dentre outras possibilidades, como forma de fomentar os princípios democráticos e uma atuação pautada pela ética da responsabilidade. Competências específicas: 3 
+\end{bncc}}
+
+\begin{comment} -----------------------------------------------------------------
+\end{comment}
+
+
