@@ -1,17 +1,25 @@
 \RequirePackage{tikz,comment}
 \RequirePackage[most]{tcolorbox}
 
+\definecolor{studiointro}{rgb}{0, 153, 0}
+\setbeamercolor{block title}{bg=red,fg=black}
+
 
 \newenvironment{bncc}[1]{%
-	\begin{block}{#1}\footnotesize
-	}{%
-	\end{block}
-	}
+	\footnotesize  \bullet{}~\textbf{#1}\    
+	}{}
+
+% \newcommand{\DefineBNCC}[2]{%
+%   \expandafter\newcommand\csname {#1}\endcsname{#2}%
+% }
+% \newcommand{\BNCC}[1]{\csname #1\endcsname}
+
 
 \newcommand{\DefineBNCC}[2]{%
-  \expandafter\newcommand\csname #1\endcsname{#2}%
+  \expandafter\newcommand\csname {#1}\endcsname{#2}%
 }
 \newcommand{\BNCC}[1]{\csname #1\endcsname}
+
 
 
 \expandafter\newcommand\csname EM13LGG302\endcsname{\begin{bncc}{EM13LGG302}
