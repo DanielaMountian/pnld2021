@@ -2,8 +2,8 @@
 \adventortrue
 \DeclareOption{nofont}{\adventorfalse}
 \DeclareOption{widescreen}{
-	%\geometry{paperheight=3.75in, paperwidth=6.66in}
-	\geometry{paperheight=1080, paperwidth=1920pt}
+	\geometry{paperheight=3.75in, paperwidth=6.66in}
+	%\geometry{paperheight=1080pt, paperwidth=1920pt}
 	\addtobeamertemplate{frametitle}{}{\vspace{1cm}}
 }
 \ProcessOptions
@@ -16,7 +16,7 @@
 	\ifnum\thepage>1\relax
 		\includegraphics[width=\paperwidth, height=\paperheight, keepaspectratio]{BG}
 	\else
-		\includegraphics[height=\paperheight, keepaspectratio]{EN}
+		\includegraphics[height=\paperheight, keepaspectratio]{BG}
 	\fi
 }
 \setbeamertemplate{navigation symbols}{}
@@ -79,4 +79,9 @@
 	\setbeamercolor{frametitle}{bg=PraterStreetTitleBlue}%
 	\begin{frame}[plain]}{\end{frame}\egroup}
 \newcommand{\sectionframe}{\frame{\sectionpage}}
+
+\setromanfont{Avenir Next Condensed}
+\setsansfont{Avenir Next Condensed}
+\setmonofont[Color={0019D4}]{Avenir Next Condensed}
+
 

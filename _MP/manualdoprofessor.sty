@@ -17,7 +17,9 @@
 \RequirePackage{textcase}
 \RequirePackage[footnotesize,bf,hang]{caption}
 \RequirePackage[nodayofweek,level]{datetime}
-\RequirePackage[top=0.85in,left=2.75in,footskip=0.75in]{geometry}
+\RequirePackage[paperheight=275mm,paperwidth=205mm,top=15mm,left=2.75in,footskip=18mm]{geometry}
+
+
 
 \RequirePackage{lastpage,fancyhdr}
 \RequirePackage{epstopdf}
@@ -51,7 +53,7 @@
 \pagestyle{fancy}
 \fancyhf{}
 \setlength{\headheight}{27.023pt}
-\lhead{\includegraphics[width=11mm]{\logoeditora}}
+\lhead{\includegraphics[height=12mm]{\logoeditora}}
 \rhead{\ifdef{\journaltitle}{\journaltitle}{}
 \ifdef{\volume}{vol.\,\volume}{}
 \ifdef{\issue}{(\issue)}{}
@@ -71,32 +73,32 @@
 \fancypagestyle{plain}{%
 \fancyhf{}
 \fancyhead[R]{\colorbox{maroon}{
-		\makebox[
-		  \dimexpr\headwidth-2\fboxsep][r]{\strut\color{white}
-		  \sffamily\bfseries
-		  	\MakeTextUppercase\subject}}%
+    \makebox[
+      \dimexpr\headwidth-2\fboxsep][r]{\strut\color{white}
+      \sffamily\bfseries
+        \MakeTextUppercase\subject}}%
            \colorbox{white}{\makebox[\dimexpr0.2
-           			 		 \headwidth-2
-           			 		 \fboxsep][c]{\strut\ }
-           					 }}
+                     \headwidth-2
+                     \fboxsep][c]{\strut\ }
+                     }}
 %\fancyhead[R]{\sffamily\bfseries\color{blue}\textsc{\subject}}
 \fancyhead[L]{}
 \fancyfoot[L]{
-	\begin{tikzpicture}[gray,very thin,remember picture,overlay]
-	%\foreach \y in {0,1,2,3,4,5,7,8,9,10,11,12,13,14,15}
-	%\draw[step=1cm,gray,very thin] (0,0) node {0} (0,\y) node {\y} (-2,-2) grid (60,60);
+  \begin{tikzpicture}[gray,very thin,remember picture,overlay]
+  %\foreach \y in {0,1,2,3,4,5,7,8,9,10,11,12,13,14,15}
+  %\draw[step=1cm,gray,very thin] (0,0) node {0} (0,\y) node {\y} (-2,-2) grid (60,60);
     \draw (2,20) node {%
                       \setlength{\fboxsep}{0pt}%
                       \setlength{\fboxrule}{1pt}%
                       \fbox{\includegraphics[width=4cm]{capa.png}}};
-	\draw (3cm,9cm) node[text width = 5cm] {\baselineskip=.7\baselineskip
-		   \footnotesize\begin{minipage}{5cm}
-		   \hyphenpenalty=10000\authornotes\\ \ifdef{\cclicense}{\cclicense\\}{}
-       \ifdef{\issnppub}{ISBN do livro: \issnppub\\}{}
-       %\ifdef{\issnepub}{eISBN do epub: \issnepub\\}{}
+  \draw (3cm,9cm) node[text width = 5cm] {\baselineskip=.7\baselineskip
+       \footnotesize\begin{minipage}{5cm}
+       \hyphenpenalty=10000\authornotes\\ \ifdef{\cclicense}{\cclicense\\}{}
+       \ifdef{\issnppub}{\issnppub (Obra)\\}{}
+       \ifdef{\issnepub}{\issnepub (Material do Professor)\\}{}
        \ifdef{\ack}{\bigskip\\ \ack}{}
        \end{minipage}};
-	\end{tikzpicture}
+  \end{tikzpicture}
 \sf \ifdef{\articledoi}{\articledoi}{}}
 \fancyfoot[R]{\thepage/\pageref{LastPage}}
 \renewcommand{\headrulewidth}{0pt}}
@@ -134,5 +136,126 @@
   \stepcounter{#1}}
 
   \def\subject{Manual do professor -- Pnld literatura}
-  \newcommand\articledoi{\ifdef{\autor}{\textsc{\autor}}{} \ifdef{\titulo}{\emph{\titulo}}{}}
+  \newcommand\articledoi{\ifdef{\autor}{\textsc{\autor}}{} \ifdef{\titulo}{\emph{\titulo}, \publishername}{}}
   \newcommand{\journaltitle}{\textsc{pnld} literatura}
+
+\newcommand{\cclicense}{\ccbync}
+
+\newcommand{\video}[2]{%
+\begin{figure}
+\begin{center}
+  \includemedia[
+    width=0.7\linewidth,
+    %totalheight=0.225\linewidth,
+    activate=pageopen,
+    passcontext,  %show VPlayer's right-click menu
+    addresource=./videos/#2,
+    flashvars={
+      %important: same path as in `addresource'
+      source=./videos/#2
+    }
+  ]{\fbox{Click!}}{./videos/#2}
+\caption{#1 (Abrir de preferência com Acrobat Reader e clicar com o botão esquerdo do mouse.)}
+\end{center}
+\end{figure}
+}
+
+
+\newcommand{\publishername}{Editora Lorem Ipsum}
+
+% Blooks
+\DeclareOption{blooks}{\renewcommand{\logoeditora}{logoblooks.png}
+\renewcommand{\publishername}{Editora Papagaio}}
+
+% Editora Lunna
+\DeclareOption{lunna}{\renewcommand{\logoeditora}{logolunna.png}
+\renewcommand{\publishername}{Editora Lunna}}
+
+% Lamparina
+\DeclareOption{lamparina}{\renewcommand{\logoeditora}{logolamparina.png}
+\renewcommand{\publishername}{Editora Lamparina}}
+
+% Letra e Imagem
+\DeclareOption{letraeimagem}{\renewcommand{\logoeditora}{logoletraeimagem.png}
+\renewcommand{\publishername}{Editora Letra e Imagem}}
+
+% Livros de Criação
+\DeclareOption{livrosdecriacao}{\renewcommand{\logoeditora}{logolivrosdecriacao.png}
+\renewcommand{\publishername}{Editora Livros de Criação}}
+
+% Madalena
+\DeclareOption{madalena}{\renewcommand{\logoeditora}{logomadalena.png}
+\renewcommand{\publishername}{Editora Maralena}}
+
+% Nexus
+\DeclareOption{nexus}{\renewcommand{\logoeditora}{logonexus.png}
+\renewcommand{\publishername}{Editora Papagaio}}
+
+% Piseagrama
+\DeclareOption{piseagrama}{\renewcommand{\logoeditora}{logopiseagrama.png}
+\renewcommand{\publishername}{Editora Papagaio}}
+
+% Alameda
+\DeclareOption{alameda}{\renewcommand{\logoeditora}{logoalameda.png}
+\renewcommand{\publishername}{Editora Alameda}}
+
+% Araucária
+\DeclareOption{araucaria}{\renewcommand{\logoeditora}{logoaraucaria.png}
+\renewcommand{\publishername}{Editora Araucária}}
+% Ayllon
+\DeclareOption{ayllon}{\renewcommand{\logoeditora}{logoayllon.png}
+\renewcommand{\publishername}{Editora Ayllon}}
+
+% Circuito
+\DeclareOption{circuito}{\renewcommand{\logoeditora}{logocircuito.png}
+\renewcommand{\publishername}{Editora Circuito}}
+
+% EdLab Press
+\DeclareOption{edlab}{\renewcommand{\logoeditora}{logoedlab.png}
+\renewcommand{\publishername}{EdLab Press}}
+
+% Escola de Pais
+\DeclareOption{escoladepais}{\renewcommand{\logoeditora}{logoescoladepais.png}
+\renewcommand{\publishername}{Editora Escola de Pais}}
+
+% Glac Edições
+\DeclareOption{glac}{\renewcommand{\logoeditora}{logoglac.png}
+\renewcommand{\publishername}{Editora Glac}}
+
+% Hedra
+\DeclareOption{hedra}{\renewcommand{\logoeditora}{logohedra.png}
+\renewcommand{\publishername}{Editora Hedra}}
+
+% Iluminuras
+\DeclareOption{iluminuras}{\renewcommand{\logoeditora}{logoiluminuras.png}
+\renewcommand{\publishername}{Editora Iluminuras}}
+
+% Kalinka
+\DeclareOption{kalinka}{\renewcommand{\logoeditora}{logokalinka.png}
+\renewcommand{\publishername}{Editora Kalinka}}
+
+% Acorde
+\DeclareOption{acorde}{\renewcommand{\logoeditora}{logoacorde.png}
+\renewcommand{\publishername}{Editora Acorde}}
+
+% Mais e Melhores
+\DeclareOption{maisemelhores}{\renewcommand{\logoeditora}{logomaisemelhores.png}
+\renewcommand{\publishername}{Mais e Melhores editora}}
+
+% n-1
+\DeclareOption{nmenosum}{\renewcommand{\logoeditora}{logonmenosum.png}
+\renewcommand{\publishername}{n-1 Edições}}
+
+% Relicário
+\DeclareOption{relicario}{\renewcommand{\logoeditora}{logorelicario.png}
+\renewcommand{\publishername}{Editora Relicário}}
+
+% Ubu
+\DeclareOption{ubu}{\renewcommand{\logoeditora}{logoubu.png}
+\renewcommand{\publishername}{Ubu Editora}}
+
+% Papagaio
+\DeclareOption{papagaio}{\renewcommand{\logoeditora}{logopapagaio.png}
+\renewcommand{\publishername}{Editora Papagaio}}
+
+\ProcessOptions\relax
