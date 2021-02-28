@@ -24,6 +24,14 @@
   \@footnotemark\@footnotetext}
 \makeatother
 
+\let\originalparagraph\paragraph
+\makeatletter
+\renewcommand\paragraph{\@startsection{paragraph}{4}{\z@}%
+                                    {1ex \@plus.5ex \@minus.2ex}%
+                                    {-1em}%
+                                    {\normalfont\normalsize\bfseries}}
+\makeatother
+
 
 
 \usepackage{footmisc}
@@ -41,7 +49,7 @@
 
 
 
-\setcounter{tocdepth}{0}
+\setcounter{tocdepth}{1}
 \setcounter{secnumdepth}{-2} 
 \usepackage{commands}
 
