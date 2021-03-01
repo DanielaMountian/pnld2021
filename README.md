@@ -37,7 +37,7 @@ O asterisco indica que o prefácio da edição original pode ser utilizado.
 - [ ] PNLD0016_edlab_gama_abolicao (Não tem introdução)
 - [x] PNLD0017_he_gandavo_provincia*
 - [x] PNLD0018_iluminuras_heine_rabi*
-- [ ] PNLD0019_he_hesiodo_teogonia_trabalhos*
+- [x] PNLD0019_he_hesiodo_teogonia_trabalhos*
 - [x] PNLD0020_nexus_jacobs_incidentes
 - [x] PNLD0021_he_joyce_dublinenses*
 - [ ] PNLD0022_he_joyce_retrato
@@ -48,7 +48,7 @@ O asterisco indica que o prefácio da edição original pode ser utilizado.
 - [ ] PNLD0027_glac_marra_crack
 - [ ] PNLD0028_he_menezes_jazz*
 - [x] PNLD0031_he_panelas_cordel
-- [ ] PNLD0032_he_patativa_cordel
+- [x] PNLD0032_he_patativa_cordel
 - [ ] PNLD0033_blooks_patativa_ispinho*
 - [x] PNLD0034_he_rodolfo_cordel
 - [x] PNLD0035_escola_safo_hino*
@@ -131,7 +131,7 @@ O asterisco indica que o prefácio da edição original pode ser utilizado.
 
 ## Diagramação [2]
 
-- [ ] PNLD0049_kalinka_tolstoi_nikita
+- [x] PNLD0049_kalinka_tolstoi_nikita
 - [ ] PNLD0050_kalinka_russos_mountian
 - [ ] PNLD0051_lamparina_sonhos_rezende
 
