@@ -1,76 +1,52 @@
 \documentclass{article}
-
-
 \usepackage{manualdoprofessor}
 \usepackage{fichatecnica}
 \usepackage{lipsum,media9,graficos}
 \usepackage[justification=raggedright]{caption}
-
-
-
-
 \usepackage{bncc}
 \usepackage[iluminuras]{logoedlab}
-
- 
 
 \begin{document}
 
 
-% Abertura -----------------------------------------------------------------
-										\begin{frame}\begin{raggedleft}
-										\Huge 
-Sofia									\\
-										\huge 
-Sidney Rocha							\\
-										\bigskip
-										\normalsize
-Tema: Ficção, mistério e fantasia		\\	
-Gênero: Romance							\\\vfill\hfill
+\newcommand{\AutorLivro}{Heinrich Heine} 
+\newcommand{\TituloLivro}{O Rabi de Bacherach}
+\newcommand{\Tema}{Ficção, mistério e fantasia}
+\newcommand{\Genero}{Romance}
+\newcommand{\imagemCapa}{PNLD0018-01.png}
+\newcommand{\issnppub}{---}
+\newcommand{\issnepub}{---}
+\newcommand{\colaborador}{\textbf{Fulano de Tal} é uma pessoa incrível e vai fazer um bom serviço.}
 
-\publishername
 
-										\end{raggedleft}
+\title{\TituloLivro}
+\author{\AutorLivro}
+\def\authornotes{\colaborador}
 
-\smallskip\includegraphics[width=2cm]{ccbync.png}\hfill
-\end{frame}
+\date{}
+\maketitle
+\tableofcontents
 
-% Logo ---------------------------------------------------------------------
 
-\begin{frame}{\textsc{videotutorial do aluno}}
-\vspace{-2cm}\begin{figure}
-\hfill\IfFileExists{PNLD0054-01.png}{\includegraphics[width=6cm]{PNLD0054-01.png}}{Sem capa!}
-\end{figure}
-\end{frame}
 
-% Slides -------------------------------------------------------------------
 
-\begin{frame}
-\hfill\Huge
-\textsc{sobre obra e autor}
-\end{frame}
+\section{Atividades 1}
 
-\begin{frame}
-\hfill\Huge
-\textsc{sobre o gênero do livro}
-\end{frame}
+\BNCC{EM13LP26}
 
-% BNCC ---------------------------------------------------------------------
+\subsection{Pré-leitura}
+\subsection{Leitura}
+\subsection{Pós-leitura}
 
-% \begin{frame}[plain]{Habilidades (BNCC)}
-% \vspace{-2cm}
-% \BNCC{EM13CHS504}
-% \BNCC{EM13CHS601}
-% \end{frame}
 
-\setbeamertemplate{background}{%
-		\includegraphics[width=\paperwidth, 
-		height=\paperheight, 
-		keepaspectratio]{BGW.pdf}}
-% Fechamento ---------------------------------------------------------------
 
-\begin{frame}
-\centering\hfill\includegraphics[width=7cm]{\logoeditora}
-\end{frame}
+\section{Atividades 2}
 
+\subsection{Pré-leitura}
+\subsection{Leitura}
+\subsection{Pós-leitura}
+
+\lipsum
 \end{document}
+
+
