@@ -13,13 +13,14 @@
 \usepackage{fichatecnica}
 \usepackage[standart]{aparatos}
 \usepackage{tabelas}
-\usepackage{versos}
+\usepackage[squarebr]{gmverse}
 \usepackage{gitrevisioninfo}
 
 
 \newcommand{\forceindent}{\leavevmode{\parindent=1,4em\indent}}
 
-\newcommand{\num}{\hfill}
+\setlength{\marginparwidth}{2em}
+\newcommand{\num}[1]{\marginpar{\scriptsize#1}}
 
 
 \makeatletter
@@ -45,7 +46,7 @@
     \newpage}
 
 
-\setcounter{tocdepth}{0}
+\setcounter{tocdepth}{1}
 \setcounter{secnumdepth}{-2} 
 \usepackage{commands}
 
