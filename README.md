@@ -131,7 +131,7 @@ O asterisco indica que o prefácio da edição original pode ser utilizado.
 
 ## Diagramação [2]
 
-- [ ] PNLD0049_kalinka_tolstoi_nikita
+- [x] PNLD0049_kalinka_tolstoi_nikita
 - [ ] PNLD0050_kalinka_russos_mountian
 - [ ] PNLD0051_lamparina_sonhos_rezende
 
