@@ -56,7 +56,7 @@ gsed -i 's/\\newcommand{\\AutorLivro}{.*/\\newcommand{\\AutorLivro}{Nella Larsen
 gsed -i 's/\\newcommand{\\AutorLivro}{.*/\\newcommand{\\AutorLivro}{Sojourner Truth}/g'	PNLD0056-MP.tex
 gsed -i 's/\\newcommand{\\AutorLivro}{.*/\\newcommand{\\AutorLivro}{Nellie Bly}/g'	PNLD0057-MP.tex
 gsed -i 's/\\newcommand{\\AutorLivro}{.*/\\newcommand{\\AutorLivro}{Nellie Bly}/g'	PNLD0058-MP.tex
-gsed -i 's/\\newcommand{\\AutorLivro}{.*/\\newcommand{\\AutorLivro}{Ádrian Recinos}/g'	PNLD0059-MP.tex
+gsed -i 's/\\newcommand{\\AutorLivro}{.*/\\newcommand{\\AutorLivro}{Ádrian Recinos (Org.)}/g'	PNLD0059-MP.tex
 gsed -i 's/\\newcommand{\\AutorLivro}{.*/\\newcommand{\\AutorLivro}{Charles Darwin}/g'	PNLD0060-MP.tex
 gsed -i 's/\\newcommand{\\AutorLivro}{.*/\\newcommand{\\AutorLivro}{Claudio Medeiros}/g'	PNLD0061-MP.tex
 gsed -i 's/\\newcommand{\\AutorLivro}{.*/\\newcommand{\\AutorLivro}{Igor Mendes}/g'	PNLD0062-MP.tex
