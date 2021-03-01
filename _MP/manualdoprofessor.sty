@@ -87,7 +87,7 @@
   %\draw[step=1cm,gray,very thin] (0,0) node {0} (0,\y) node {\y} (-2,-2) grid (60,60);
     \draw (2,20) node {%
                       \setlength{\fboxsep}{0pt}%
-                      \setlength{\fboxrule}{1pt}%
+                      \setlength{\fboxrule}{0pt}%
                       \fbox{
                       \ifdef{\imagemCapa}{
                       \includegraphics[width=4cm]{\imagemCapa}
@@ -98,9 +98,11 @@
                       };
   \draw (3cm,9cm) node[text width = 5cm] {\baselineskip=.7\baselineskip
        \footnotesize\begin{minipage}{5cm}
-       \hyphenpenalty=10000\authornotes\\ \ifdef{\cclicense}{\cclicense\\}{}
-       \ifdef{\issnppub}{\issnppub (Obra)\\}{}
-       \ifdef{\issnepub}{\issnepub (Material do Professor)\\}{}
+       \includegraphics[width=4cm]{\logoeditora}\bigskip\\
+       \hyphenpenalty=10000\authornotes\\ 
+       \ifdef{\issnppub}{\issnppub\ (Obra)\\}{}
+       \ifdef{\issnepub}{\issnepub\ (Material do Professor)\smallskip\\}{}
+       \ifdef{\cclicense}{{\Large\cclicense}\\}{}
        \ifdef{\ack}{\bigskip\\ \ack}{}
        \end{minipage}};
   \end{tikzpicture}
@@ -163,4 +165,11 @@
 \caption{#1 (Abrir de preferência com Acrobat Reader e clicar com o botão esquerdo do mouse.)}
 \end{center}
 \end{figure}
+}
+
+\AtEndDocument{
+  \vspace*{2cm}
+  \ifdef{\fichacatalografica}%
+    {\includegraphics{\fichacatalografica}}%
+    {\includegraphics[width=\textwidth]{fichacatalografica.png}}
 }
