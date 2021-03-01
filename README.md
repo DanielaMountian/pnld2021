@@ -48,7 +48,7 @@ O asterisco indica que o prefácio da edição original pode ser utilizado.
 - [ ] PNLD0027_glac_marra_crack
 - [ ] PNLD0028_he_menezes_jazz*
 - [x] PNLD0031_he_panelas_cordel
-- [ ] PNLD0032_he_patativa_cordel
+- [x] PNLD0032_he_patativa_cordel
 - [ ] PNLD0033_blooks_patativa_ispinho*
 - [x] PNLD0034_he_rodolfo_cordel
 - [x] PNLD0035_escola_safo_hino*
