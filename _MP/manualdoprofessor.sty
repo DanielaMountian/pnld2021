@@ -88,7 +88,14 @@
     \draw (2,20) node {%
                       \setlength{\fboxsep}{0pt}%
                       \setlength{\fboxrule}{1pt}%
-                      \fbox{\includegraphics[width=4cm]{capa.png}}};
+                      \fbox{
+                      \ifdef{\imagemCapa}{
+                      \includegraphics[width=4cm]{\imagemCapa}
+                                          }{
+                      \includegraphics[width=4cm]{capa.png}                    
+                                          }
+                           }
+                      };
   \draw (3cm,9cm) node[text width = 5cm] {\baselineskip=.7\baselineskip
        \footnotesize\begin{minipage}{5cm}
        \hyphenpenalty=10000\authornotes\\ \ifdef{\cclicense}{\cclicense\\}{}
