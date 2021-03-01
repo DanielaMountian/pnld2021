@@ -1,6 +1,13 @@
 README.md
 ======
 
+
+- [ ] bncc nas laterais
+- [ ] Diagramação dos primeiros textos
+- [ ] Junção dos primeiros MP textos no repo
+- [ ] Levantamento das capas (todas)
+
+
 - [ ] Formato segundo o edital
 - [ ] Incluir Capa principal do material do professor
 - [X] Ficha catalográfica ao final (criar comando com padrão de nome pra isso)
