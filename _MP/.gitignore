@@ -2,6 +2,8 @@
 *.aux
 *.toc
 *.docx
+*.out
+*.xdv
 *.doc
 *.odt
 *.pdf
