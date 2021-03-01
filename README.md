@@ -37,7 +37,7 @@ O asterisco indica que o prefácio da edição original pode ser utilizado.
 - [ ] PNLD0016_edlab_gama_abolicao (Não tem introdução)
 - [x] PNLD0017_he_gandavo_provincia*
 - [x] PNLD0018_iluminuras_heine_rabi*
-- [ ] PNLD0019_he_hesiodo_teogonia_trabalhos*
+- [x] PNLD0019_he_hesiodo_teogonia_trabalhos*
 - [x] PNLD0020_nexus_jacobs_incidentes
 - [x] PNLD0021_he_joyce_dublinenses*
 - [ ] PNLD0022_he_joyce_retrato
