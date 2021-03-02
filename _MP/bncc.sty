@@ -2,6 +2,25 @@
 \RequirePackage[most]{tcolorbox}
 
 
+\newcommand{\bnccativividadespreleitura
+	\BNCC{EM13LGG704}
+	\BNCC{EM13LP10}}
+
+\newcommand{\bnccativividadesleitura
+	\BNCC{EM13LGG103}
+	\BNCC{EM13LP02}}
+
+\newcommand{\bnccativividadesposleitura
+	\BNCC{EM13LGG102}
+	\BNCC{EM13LGG303}}
+
+\newcommand{\bnccreferenciasgerais
+	\BNCC{EM13LGG302}
+	\BNCC{EM13LP45}
+	\BNCC{EM13LP48}}
+
+
+
 \newenvironment{bncc}[1]{%
 	\begin{tcolorbox}[colback=blue!5!white,colframe=blue!15!brown,title=#1]\footnotesize
 	}{%
@@ -12,7 +31,6 @@
   \expandafter\newcommand\csname #1\endcsname{#2}%
 }
 \newcommand{\BNCC}[1]{\csname #1\endcsname}
-
 
 \expandafter\newcommand\csname EM13LGG302\endcsname{\begin{bncc}{EM13LGG302}
 Compreender e posicionar-se criticamente diante de diversas visões de mundo presentes nos discursos em diferentes linguagens, levando em conta seus contextos de produção e de circulação.
