@@ -1,4 +1,4 @@
-\documentclass[compontinhos,showtrims,11pt,conselho,spreadimages,openany]{memoir}
+\documentclass[trimframe,compontinhos,showtrims,11pt,conselho,spreadimages]{memoir}
 
 \usepackage[pnld]{hedraoptions} %% << %%%%%%%%%%%%%%%%
 \usepackage[baruch]{hedrastyles}
@@ -15,6 +15,10 @@
 \usepackage{tabelas}
 \usepackage{versos}
 \usepackage{gitrevisioninfo}
+
+\makeatletter
+\newcommand\HUGES{\@setfontsize\Huge{28}{37}} 
+\makeatother
 
 \newcommand{\forceindent}{\leavevmode{\parindent=1,4em\indent}}
 
@@ -83,6 +87,7 @@ BoldFont = BigCityGrotesquePro-Bold.ttf]
 \newfontface\textlt{BigCityGrotesquePro-Light.ttf}
 \newfontface\textltit{BigCityGrotesquePro-LightIt.ttf}
 \newfontface\textmdbf{BigCityGrotesquePro-Medium.ttf}
+\newfontface\textbl{BigCityGrotesquePro-Black.ttf}
 
 \usepackage{commands}
 
