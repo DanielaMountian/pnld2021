@@ -1,14 +1,8 @@
 \documentclass{article}
-
-
 \usepackage{manualdoprofessor}
 \usepackage{fichatecnica}
 \usepackage{lipsum,media9,graficos}
 \usepackage[justification=raggedright]{caption}
-
-
-
-
 \usepackage{bncc}
 \usepackage[indigo]{logoedlab}
 
@@ -17,61 +11,44 @@
 \begin{document}
 
 
-% Abertura -----------------------------------------------------------------
-										\begin{frame}\begin{raggedleft}
-										\Huge 
-Uma voz do Nordeste						\\
-										\huge 
-Patativa do Assaré						\\
-										\bigskip
-										\normalsize
-Tema: Ficção, mistério e fantasia		\\	
-Gênero: Poema							\\\vfill\hfill
-
-\publishername
-
-										\end{raggedleft}
-
-\smallskip\includegraphics[width=2cm]{ccbync.png}\hfill
-\end{frame}
-
-% Logo ---------------------------------------------------------------------
-
-\begin{frame}{\textsc{videotutorial do aluno}}
-\vspace{-2cm}\begin{figure}
-	\IfFileExists{PNLD0019-01.png}{\includegraphics[width=5cm]{PNLD0019-01.png}}{Aplicar Capa!!}
-\end{figure}
-\end{frame}
+\newcommand{\AutorLivro}{Patativa do Assaré}
+\newcommand{\TituloLivro}{Uma voz do Nordeste}
+\newcommand{\Tema}{Ficção, mistério e fantasia}
+\newcommand{\Genero}{Poema}
+% \newcommand{\imagemCapa}{PNLD0019-01.png}
+\newcommand{\issnppub}{---}
+\newcommand{\issnepub}{---}
+% \newcommand{\fichacatalografica}{PNLD0019-00.png}
+\newcommand{\colaborador}{\textbf{Fulano de Tal} é uma pessoa incrível e vai fazer um bom serviço.}
 
 
-% Slides -------------------------------------------------------------------
+\title{\TituloLivro}
+\author{\AutorLivro}
+\def\authornotes{\colaborador}
 
-\begin{frame}
-\hfill\Huge
-\textsc{sobre obra e autor}
-\end{frame}
+\date{}
+\maketitle
+\tableofcontents
 
-\begin{frame}
-\hfill\Huge
-\textsc{sobre o gênero do livro}
-\end{frame}
 
-% BNCC ---------------------------------------------------------------------
 
-% \begin{frame}[plain]{Habilidades (BNCC)}
-% \vspace{-2cm}
-% \BNCC{EM13CHS504}
-% \BNCC{EM13CHS601}
-% \end{frame}
 
-\setbeamertemplate{background}{%
-		\includegraphics[width=\paperwidth, 
-		height=\paperheight, 
-		keepaspectratio]{BGW.pdf}}
-% Fechamento ---------------------------------------------------------------
+\section{Atividades 1}
 
-\begin{frame}
-\centering\hfill\includegraphics[width=7cm]{\logoeditora}
-\end{frame}
+\BNCC{EM13LP26}
 
+\subsection{Pré-leitura}
+\subsection{Leitura}
+\subsection{Pós-leitura}
+
+
+
+\section{Atividades 2}
+
+\subsection{Pré-leitura}
+\subsection{Leitura}
+\subsection{Pós-leitura}
+
+\lipsum
 \end{document}
+
