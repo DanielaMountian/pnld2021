@@ -16,35 +16,7 @@
 \usepackage{versos}
 \usepackage{gitrevisioninfo}
 
-\usepackage[switch,modulo,pagewise]{lineno}
-
-\newfontfamily\Libertine{Linux Libertine O}
-\renewcommand\linenumberfont{\Libertine\scriptsize\small}
-
 \newcommand{\forceindent}{\leavevmode{\parindent=1,4em\indent}}
-
-%\linespread{1.15}
-
-\usepackage{endnotes}
-\renewcommand{\notesname}{Notas}
-
-\usepackage{makeidx,hedraindex}  % cria índice
-\makeindex  
-
-%\counterwithin*{endnote}{part}
-%\counterwithin*{endnote}{chapter}
-
-\let\latexchapter\chapter
-\makeatletter
-\renewcommand\enoteheading{%
-  \setcounter{secnumdepth}{-2}
-  \latexchapter*{\notesname\markboth{NOTAS}{}}
-  \mbox{}\par\vskip-\baselineskip
-  \let\@afterindentfalse\@afterindenttrue
-}
-\makeatother
-
-
 
 
 \makeatletter
@@ -58,19 +30,6 @@
 \usepackage{footmisc}
 
 \renewcommand*\footnoterule{}
-%\fancyhf[RO]{\cnvt{\thepage} -- \thepage}
-%\fancyfoot{}
-%\renewcommand{\headrulewidth}{0pt}
-%\renewcommand{\footrulewidth}{0pt}}
-
-\usepackage{fontspec}
-
-%\usepackage{Formular}
-\newfontfamily\Formular{Formular-Regular}[
-BoldFont = Formular-Bold.otf] 
-
-%--------------------------------------------ALTERAR DISTÃNCIA ENTRE TÍTULO DO SUMÁRIO E CAPÍTULOS
-%\addtocontents{toc}{\vskip-15pt}
 %--------------------------------------------
 \usepackage{afterpage}
 
@@ -81,19 +40,8 @@ BoldFont = Formular-Bold.otf]
     \newpage}
 
 
-
-%\usepackage{imakeidx} 
-%\makeindex[program=xindy, options=-C utf8 -L portuguese]
-%\newcommand\gobbleone[1]{}
-%\newcommand*{\seeonly}[2]{\ (\emph{\seename} #1)}
-%\newcommand*{\also}[2]{\emph{cf.} #1}
-%\newcommand{\Also}[2]{\emph{See also} #1}
-%\renewcommand\indexname{Índice onomástico}
-%\makeindex[intoc]
-
-\setcounter{tocdepth}{0}
+\setcounter{tocdepth}{1}
 \setcounter{secnumdepth}{-2} 
-%\linespread{1.08}
 \usepackage{commands}
 
 \usepackage{setspace}
@@ -138,25 +86,8 @@ BoldFont = Formular-Bold.otf]
 
 \newcommand{\mystar}{{\fontfamily{lmr}\selectfont$\star$}}
 
-%\makeatletter
-%\renewcommand{\@chapapp}{}% Not necessary...
-%\newenvironment{chapquote}[2][2em]
-%  {\setlength{\@tempdima}{#1}%
-%   \def\chapquote@author{#2}%
-%   \parshape 1 \@tempdima \dimexpr\textwidth-2\@tempdima\relax%
-%   \itshape}
-%  {\par\scriptsize\hfill-- \chapquote@author\hspace*{\@tempdima}\par\bigskip}
-%\makeatother
-
-%\newcommand\Chapter[2]{\chapter
-%  [#1\hfil\hbox{}\protect\linebreak{\itshape#1}]%
-%  {#1\\[2ex]\Large\itshape#2}%
-%}
-
 \begin{document}
 
 \include{INPUTS}
-
-\printindex
 
 \end{document}
