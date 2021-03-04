@@ -1,6 +1,6 @@
 all:
 	latexmk -lualatex $(file).tex	
-	evince $(file).pdf &
+	open $(file).pdf &
 all-slides:
 	for l in *.tex; do \
 		latexmk -lualatex ${l}; \
