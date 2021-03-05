@@ -13,7 +13,7 @@ cdlabelgen --create-cdlabel -c "Vocacao de cantador" -s "Oliveira de Panelas - E
 cdlabelgen --create-cdlabel -c "Robinson Crusoe" -s "Daniel Defoe - Editora Ayllon  (PNLD0013)" > PNLD0013.ps
 cdlabelgen --create-cdlabel -c "Antologia de prosa e versos" -s "Maria Firmina dos Reis - Editora Acorde  (PNLD0014)" > PNLD0014.ps
 cdlabelgen --create-cdlabel -c "Tratado descritivo do Brasil" -s "Seleta) (Gabriel Soares - Editora Piseagrama  (PNLD0015)" > PNLD0015.ps
-cdlabelgen --create-cdlabel -c "O heroi da abolicao: a luta de Luiz Gama no imperio do Brasil" -s "Luiz Gama - Editora EdLab Press  (PNLD0016)" > PNLD0016.ps
+cdlabelgen --create-cdlabel -c "O heroi da abolicao" -s "Luiz Gama - Editora EdLab Press  (PNLD0016)" > PNLD0016.ps
 cdlabelgen --create-cdlabel -c "O medico e o monstro" -s "Robert Louis Stevenson - Editora Arlecchino  (PNLD0017)" > PNLD0017.ps
 cdlabelgen --create-cdlabel -c "O Rabi de Bacherach" -s "Heinrich Heine - Editora Iluminuras  (PNLD0018)" > PNLD0018.ps
 cdlabelgen --create-cdlabel -c "Uma voz do Nordeste" -s "Patativa do Assare - Editora Indico  (PNLD0019)" > PNLD0019.ps
@@ -35,7 +35,7 @@ cdlabelgen --create-cdlabel -c "Historia da provincia de Santa Cruz" -s "Gandavo
 cdlabelgen --create-cdlabel -c "Hino a Afrodite e outros poemas" -s "Safo de Lesbos - Editora Escola de Pais  (PNLD0035)" > PNLD0035.ps
 cdlabelgen --create-cdlabel -c "Vidas imaginarias e outros textos" -s "Marcel Schwob - Editora Escola de Pais  (PNLD0036)" > PNLD0036.ps
 cdlabelgen --create-cdlabel -c "Um retrato do artista quando Jovem" -s "James Joyce - Editora Prosper  (PNLD0037)" > PNLD0037.ps
-cdlabelgen --create-cdlabel -c "Narrativa de William Wells Brown, escravo fugitivo" -s "William Wells Brown - Editora Relicario  (PNLD0038)" > PNLD0038.ps
+cdlabelgen --create-cdlabel -c "Narrativa de William Wells Brown" -s "William Wells Brown - Editora Relicario  (PNLD0038)" > PNLD0038.ps
 cdlabelgen --create-cdlabel -c "Gente de Hemso" -s "Strindberg - Editora Papagaio  (PNLD0039)" > PNLD0039.ps
 cdlabelgen --create-cdlabel -c "Sagas" -s "Strindberg - Editora Blooks  (PNLD0040)" > PNLD0040.ps
 cdlabelgen --create-cdlabel -c "Feitico de amor e outros contos" -s "Johann Ludwig Tieck - Editora Mais e Melhores  (PNLD0041)" > PNLD0041.ps
@@ -49,7 +49,7 @@ cdlabelgen --create-cdlabel -c "O Alienista  O Imortal  A Cartomante" -s "Machad
 cdlabelgen --create-cdlabel -c "Infancia de Nikita" -s "Aleksei Tolstoi - Editora Kalinka  (PNLD0049)" > PNLD0049.ps
 cdlabelgen --create-cdlabel -c "Contos russos juvenis" -s "Daniela Mountian (Org.) - Editora Kalinka  (PNLD0050)" > PNLD0050.ps
 cdlabelgen --create-cdlabel -c "Rio de sonhos" -s "Maria Valeria Rezende - Editora Lamparina  (PNLD0051)" > PNLD0051.ps
-cdlabelgen --create-cdlabel -c "Historia concisa da musica classica brasileira" -s "Irineu Franco Perpetuo - Editora Alameda  (PNLD0052)" > PNLD0052.ps
+cdlabelgen --create-cdlabel -c "Historia concisa da musica classica bras." -s "Irineu Franco Perpetuo - Editora Alameda  (PNLD0052)" > PNLD0052.ps
 cdlabelgen --create-cdlabel -c "Julia  Nos campos conflagrados do Senhor" -s "Bernardo Kucinski - Editora Alameda  (PNLD0053)" > PNLD0053.ps
 cdlabelgen --create-cdlabel -c "Sofia" -s "Sidney Rocha - Editora Iluminuras  (PNLD0054)" > PNLD0054.ps
 cdlabelgen --create-cdlabel -c "Passando-se" -s "Nella Larsen - Editora Livros de Criacao  (PNLD0055)" > PNLD0055.ps
@@ -58,5 +58,5 @@ cdlabelgen --create-cdlabel -c "Dez dias no manicomio" -s "Nellie Bly - Editora 
 cdlabelgen --create-cdlabel -c "Volta ao mundo em 72 dias" -s "Nellie Bly - Editora Letra e Imagem  (PNLD0058)" > PNLD0058.ps
 cdlabelgen --create-cdlabel -c "Popol Vuh" -s "Anonimo - Editora Ubu  (PNLD0059)" > PNLD0059.ps
 cdlabelgen --create-cdlabel -c "Origem das especies" -s "Charles Darwin - Editora Ubu  (PNLD0060)" > PNLD0060.ps
-cdlabelgen --create-cdlabel -c "Historia da experiencia das epidemias no Brasil" -s "Claudio Medeiros - Editora Glac Edicoes  (PNLD0061)" > PNLD0061.ps
+cdlabelgen --create-cdlabel -c "Historia da exper. das epidemias no Brasil" -s "Claudio Medeiros - Editora Glac Edicoes  (PNLD0061)" > PNLD0061.ps
 cdlabelgen --create-cdlabel -c "Pequena prisao" -s "Igor Mendes - Editora n-1  (PNLD0062)" > PNLD0062.ps
