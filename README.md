@@ -24,8 +24,8 @@ O asterisco indica que o prefácio da edição original pode ser utilizado.
 - [ ] PNLD0005_circuito_andrade_tudoamo*
 - [x] PNLD0007_hedra_athayde_cordel 
 - [x] PNLD0008_araucaria_atui_mare (Não tem)* [faltam 7 páginas]
-- [ ] PNLD0006_ayllon_baccega_graal*
-- [x] PNLD0029_n-1_ballester_yanomami (Não tem)* [faltam 7 páginas e sobre o gênero]
+- [ ] PNLD0006_ayllon_baccega_graal
+- [ ] PNLD0029_n-1_ballester_yanomami (Não tem) [faltam 7 páginas e sobre o gênero]
 - [x] PNLD0009_lunna_barreto_cronicas* [falta sobre o gênero]
 - [x] PNLD0010_acorde_baudelaire_pequenos*
 - [x] PNLD0011_relicario_brown_narrativa
@@ -57,16 +57,16 @@ O asterisco indica que o prefácio da edição original pode ser utilizado.
 - [x] PNLD0038_relicario_stoker_sol*
 - [x] PNLD0039_glac_strindberg_hemso (introdutor é o tradutor)
 - [x] PNLD0040_blooks_strindberg_sagas
-- [ ] PNLD0041_mm_tieck_feitico*
+- [x] PNLD0041_mm_tieck_feitico*
 - [ ] PNLD0042_madalena_tolstoi_ivan*
-- [ ] PNLD0043_edlab_twain_diarios
+- [x] PNLD0043_edlab_twain_diarios
 - [ ] PNLD0044_he_vieira_sermoes*
 - [x] PNLD0045_hedra_wpa_nascidos
 - [x] PNLD0046_araucaria_maistre_viagem
 - [x] PNLD0047_he_vicente_cordel [complementar]
 - [ ] PNLD0048_piseagrama_machado_cartomante
 - [ ] PNLD0049_kalinka_tolstoi_nikita
-- [ ] PNLD0050_kalinka_russos_mountian
+- [x] PNLD0050_kalinka_russos_mountian
 - [ ] PNLD0051_lamparina_sonhos_rezende
 
 :notebook: (Cruzada das crianças: não temos contato com introdutor. O outro é da própria tradutora)
