@@ -1,4 +1,3 @@
-for d in */; do
- echo $d
-  cp Makefile $d
+for d in PNLD*/; do
+ cp frontend.tex $d/
 done
