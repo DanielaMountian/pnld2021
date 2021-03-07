@@ -1,0 +1,52 @@
+\SVN $Id: TEXTO.tex 11980 2013-04-22 20:13:03Z jorge $
+
+\begin{pages}
+
+\baselineskip=1.05\baselineskip
+
+%% no indentation
+   \setstanzaindents{0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0}
+   %% no number flag
+    \renewcommand{\Rlineflag}{}
+    %% draw a rule and widen the columns
+     %\setlength{\columnrulewidth}{0.4pt}
+     %\setlength{\Lcolwidth}{0.46\textwidth}
+     %\setlength{\Rcolwidth}{\Lcolwidth}
+
+    \begin{Leftside}
+      %% set left text line numbering sequence
+%      \firstlinenum{2}
+%      \linenumincrement{2}
+      \linenummargin{left}
+      \beginnumbering
+      \input{GREGO}
+     \endnumbering
+    \end{Leftside}
+
+    \begin{Rightside}
+      %% different right text line numbering sequence
+%      \firstlinenum{1}
+%      \linenumincrement{2}
+      \linenummargin{right}
+      \beginnumbering
+        \input{PORTUGUES}
+      \endnumbering
+    \end{Rightside}
+
+    \Pages
+  \end{pages}
+
+\begin{comment}
+%\newcommand{\abre}{\beginnumbering\pstart}
+%\newcommand{\fecha}{\pend\endnumbering}
+
+\let\nota=\Afootnote
+
+\newcommand{\fim}{\pend\pstart}
+
+\abre{}
+
+
+\fecha
+
+\end{comment}

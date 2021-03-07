@@ -1,0 +1,205 @@
+\documentclass[11pt]{hedrabook}
+\usepackage[brazilian]{babel}
+\usepackage{ucs}
+\usepackage[utf8x]{inputenc}
+\usepackage[svn,center,a5]{hedracrop}
+\usepackage{hedrabolsolayout,hedraextra}
+\usepackage[chapterdot]{hedratoc}
+\usepackage[protrusion=true,expansion]{microtype}
+\usepackage{comment,lipsum,footmisc,subfigure}
+\usepackage{times}
+%\usepackage[minionint,mathlf]{MinionPro}
+%\usepackage{gmverse}
+%\usepackage{hedraebook}		   % hyperlinks: todos os \part têm que estar em CAIXA BAIXA
+%\usepackage{makeidx,hedraindex}  % cria índice
+%\makeindex			   % ...  índice
+
+\newcommand\mpmeu[1]{\marginpar[\flshright{#1}]{#1}}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%% títuloS
+\makeatletter
+\renewcommand\maketitle[1][4cm]{
+	\begin{titlepage}
+		\thispagestyle{empty}
+		
+		% desenha os tracinhos:
+		\setlength{\unitlength}{\baselineskip}%
+		\begin{picture}(0,0)
+			\put(0,-10){\makebox(0,0)[l]{\interno@traco}}
+			\put(0,-11){\makebox(0,0)[l]{\interno@traco}}
+			\put(0,-13){\makebox(0,0)[l]{\interno@traco}}
+			\put(0,-16){\makebox(0,0)[l]{\interno@traco}}
+			\put(0,-17){\makebox(0,0)[l]{\interno@traco}}
+			\put(0,-20){\makebox(0,0)[l]{\interno@traco}}
+			\put(0,-21){\makebox(0,0)[l]{\interno@traco}}
+			\put(0,-22){\makebox(0,0)[l]{\interno@traco}}
+			\put(0,-28){\makebox(0,0)[l]{\interno@traco}}
+			\put(0,-29){\makebox(0,0)[l]{\interno@traco}}
+			\put(0,-30){\makebox(0,0)[l]{\interno@traco}}
+		\end{picture}
+
+		% algumas linhas...
+		\vspace*{\stretch{1}}
+		{
+		\hspace*{3.5cm}\begin{fancytable}{#1}
+			\bigline{}{}{\includegraphics[width=5.68mm, height=12.351mm]{pecinha.pdf}\vspace{6mm}}
+			\FirstpageAuthorCathegory
+%			\putline{Autor}{\textsc{\@author}}
+			\putline{Artigos}{\textsc{\@title}}
+		\end{fancytable}\hspace*{\stretch{1}}
+		}
+		\vspace*{\stretch{3}}
+	\end{titlepage}
+}
+\renewenvironment{frontispiciopage}[2]{
+	\cleartooddpage{\thispagestyle{empty}}
+	\thispagestyle{empty}
+	\def\@ano{#2}
+	\vspace*{\stretch{1}}
+	\hspace*{\stretch{0.1}}%
+	\begin{fancytable}{#1}%
+% Para eliminar o Autor
+	\ThirdpageAuthorCathegory
+		\putline{Artigos}{\textsc{\@title}}
+}{
+		\putline{S\~ao Paulo}{\the\year\vspace{5mm}}
+		\bigline{}{}{
+			\setlength{\unitlength}{1mm}%
+			\hspace{1mm}\begin{picture}(25,25)%
+			\color{white}
+			  \put(0, 0){\line(1, 0){2}}
+			  \put(0, 0){\line(0, 1){2}}
+			  \put(23, 0){\line(1, 0){2}}
+			  \put(25, 0){\line(0, 1){2}}
+			  \put(0, 25){\line(1, 0){2}}
+			  \put(0, 23){\line(0, 1){2}}
+			  \put(23, 25){\line(1, 0){2}}
+			  \put(25, 23){\line(0, 1){2}}
+				\put(5.8,13){\makebox(0,0)[l]{\fontencoding{OT1}\fontfamily{ptm}\selectfont\logosize{}hedra}}%
+
+			\end{picture}
+		}
+		\bigline{}{%
+			\setlength{\unitlength}{\baselineskip}%
+			\begin{picture}(0,0)(0,0)%
+				\put(0,1){\makebox(0,0)[l]{\interno@traco}}%
+				\put(0,2.5){\makebox(0,0)[l]{\interno@traco}}%
+				\put(0,3.5){\makebox(0,0)[l]{\interno@traco}}%
+				\put(0,5){\makebox(0,0)[l]{\interno@traco}}%
+				\put(0,8.7){\makebox(0,0)[l]{\interno@traco}}%
+			\end{picture}%
+		}{%
+			\setlength{\unitlength}{\baselineskip}%
+			\hspace{\stretch{1}}\begin{picture}(0,0)(-4,0)%
+				\put(-4,1){\makebox(0,0)[l]{\interno@traco}}%
+				%
+				\put(-4,3){\makebox(0,0)[l]{\interno@traco}}%
+				\put(-4,4){\makebox(0,0)[l]{\interno@traco}}%
+				%
+				\put(-4,10){\makebox(0,0)[l]{\interno@traco}}%
+				\put(-4,11){\makebox(0,0)[l]{\interno@traco}}%
+				\put(-4,12){\makebox(0,0)[l]{\interno@traco}}%
+				%
+				\put(-4,16){\makebox(0,0)[l]{\interno@traco}}%
+				\put(-4,17){\makebox(0,0)[l]{\interno@traco}}%
+				%
+				\put(-4,21){\makebox(0,0)[l]{\interno@traco}}%
+				%
+				\put(-4,23){\makebox(0,0)[l]{\interno@traco}}%
+				\put(-4,24){\makebox(0,0)[l]{\interno@traco}}%
+			\end{picture}%
+		}
+				
+	\end{fancytable}\hspace*{\stretch{2}}
+}
+\makeatother
+
+
+
+
+
+\begin{document}
+\SVN $Id: ZOLA.tex 12038 2013-05-10 18:25:10Z jorge $
+
+
+\selectlanguage{brazilian}
+\title{Eu acuso!\break O processo do\break\mbox{capitão Dreyfus}} %O príncipe
+\author{Zola\\e Rui Barbosa} %Maquiavel
+	\maketitle
+	\begin{techpage}{5cm}
+		\vspace{-1cm}
+		\putline{Copyright}{Hedra 2007}
+		\putline{Tradução$^\copyright$}{Ricardo Lísias} 
+		\putline{Edições}{2007 2008 2010}
+%		\putline{Edição consultada}{\emph{ }, }
+%		\putline{Primeira edição}
+%		\putline{Indicação}{}
+%		\putline{Agradecimento}
+		\putline{Corpo editorial}{
+			André Fernandes,\\
+			Bruno Costa,\\
+			Caio Gagliardi,\\
+			Fábio Mantegari,\\
+			Iuri Pereira,\\
+			Jorge Sallum,\\
+			Oliver Tolle,\\ 
+ 	  	        Ricardo Martins Valle,\\
+			Ricardo Musse
+		}
+		\ \\
+		\putline{Dados}{{\fontsize{8pt}{\baselineskip}\selectfont
+				Dados Inter.~de Catalogação  na Publicação\\
+                                \vspace{0.5ex}\hrule\vspace{1ex} 
+				Eu acuso! O processo do capitão dreyfus / Émile Zola, Rui Barbosa (organização e tradução, Ricardo Lísias) 
+                                -- São Paulo : Hedra : 2008
+				\vspace{1ex}
+				\setlength{\parindent}{3ex}
+				Bibliografia.\\
+				\textsc{isbn} 97-8857715-069-4 \\
+                                \vspace{1ex}
+				I. Ensaio francês 1. Periódicos franceses 2. Título 3. Rui Barbosa
+				\vspace{1ex}
+				\noindent \hspace{\stretch{1}} \textsc{cdd}-844.74
+				\vspace{1ex}\hrule\vspace{1ex}
+				Índice para catálogo sistemático:\\
+				1. Ensaio francês : Jornais franceses\quad 844.74 
+				\linebreak
+                                }}
+		\direitos
+		\dadoseditora
+		\depositolegal
+	\end{techpage}
+	\begin{frontispiciopage}{4cm}{}	
+%	\putline{\hspace{12ex}Tradução}{\textsc{   }} %{Introdução|Organização|...}
+%	\putline{\hspace{12ex}Introdução}{\textsc{   }} %{Introdução|Organização|...}
+		\putline{Organização e tradução}{\textsc{\mbox{Ricardo Lísias}}} %{Introdução|Organização|...}
+	\end{frontispiciopage}
+\include{PRETAS}
+
+% Coloca página preta vazia à direita se texto preencher apenas uma página
+\ifodd\thepage\paginabranca\fi
+
+\setcounter{tocdepth}{0}     % amplitude da presença das partes no índice
+\setcounter{secnumdepth}{-2} % amplitude da numeração das partes
+
+\hedratoc
+
+% Favor não alterar o segundo parâmetro (\baselineskip). 
+% Para acertar entrelinhas, usar comando \linespread
+%\fontsize{10.5pt}{\baselineskip}\selectfont
+\baselineskip=13.2pt   % Parâmetro válido apenas para corpo 10.5, para outros, acrescer 20% do valor do corpo%%
+
+
+\include{INTRO}
+%\part{eu acuso!}
+\include{TEXTO}
+\include{CRONOLOGIA}
+%\printindex
+
+\include{FINAIS}
+
+\ifdefined\printcheck\printcheck\fi
+
+\end{document}

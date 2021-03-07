@@ -1,0 +1,91 @@
+\documentclass[10pt]{hedrabook}
+\usepackage{verse}
+\usepackage{shorttoc}
+\usepackage{times,edicaocritica}
+
+\newcommand{\Para}{\mbox{}\quad}
+\newcommand{\PPara}{\P\quad}
+\newcommand{\num}[1]{}
+\pagestyle{plain}
+\def\normalsize{\fontsize{10}{12}\selectfont}\normalsize
+
+
+\begin{document}
+
+\selectlanguage{brazilian}
+\title{Trabalhos e dias} 
+\author{Hesíodo}
+
+\begingroup\pagestyle{empty}
+%\begin{blackpages}
+    % apagar o comentário abaixo para incluir o selo Livro do professor
+	\maketitle%[livrodoprofessor]
+	\begin{techpage}{5cm}
+		\vspace{-1cm}
+		\putline{Copyright}{Hedra 2013}
+		\putline{Tradução$^\copyright$}{Christian Werner\strut} 
+		\putline{Corpo editorial}{
+			Bruno Costa,
+			Caio Gagliardi,\\
+			Fábio Mantegari,
+			Iuri Pereira,\\
+			Jorge Sallum,
+			Oliver Tolle,\\ 
+ 		        Ricardo Martins Valle,
+			Ricardo Musse
+		}
+
+    \putline{Agradecimento}{O presente trabalho foi realizado com apoio do
+    \textsc{cnp}q, Conselho Nacional de Desenvolvimento Científico e
+    Tecnológico – Brasil.}
+
+		\putline{Dados}{{\fontsize{8pt}{\baselineskip}\selectfont
+				Dados Internacionais de Catalogação  na Publicação (CIP)\\
+                                \vspace{0.5ex}\hrule\vspace{1ex} 
+				Trabalhos e dias / Hesíodo.
+				Trad.~e intro.~Christian Werner. -- São Paulo :
+				Hedra, 2013.				
+				\vspace{1ex}
+				\setlength{\parindent}{3ex}
+				Bibliografia.\\
+				\textsc{isbn} 97-8857715-079-3 \\
+                                \vspace{1ex}
+				1. Título  2. Literatura grega.
+				\vspace{1ex}
+				\noindent 92-1393  \hspace{\stretch{1}} \textsc{cdd}-822
+				\vspace{1ex}\hrule\vspace{1ex}
+				Índice para catálogo sistemático:\\
+				1. Título  2. Literatura grega\quad 822
+				\linebreak
+                                }}
+		\direitos
+		\dadoseditora
+		\depositolegal
+	\end{techpage}
+	\begin{frontispiciopage}{4cm}{}	
+	\putline{Organização e tradução}{\textsc{Christian Werner}}
+	\end{frontispiciopage}
+\include{PRETAS}
+
+
+% Coloca página preta vazia à direita se texto preencher apenas uma página
+\ifodd\thepage\paginabranca\fi
+
+%\end{blackpages}
+\endgroup
+\setcounter{tocdepth}{0}     % amplitude da presença das partes no índice
+\setcounter{secnumdepth}{-2} % amplitude da numeração das partes
+
+\hedratoc
+
+\include{INTRO}
+
+\part{Trabalhos e dias} 
+
+\include{TEXTO}
+
+\include{FINAIS}
+
+\ifdefined\printcheck\printcheck\fi
+
+\end{document}
