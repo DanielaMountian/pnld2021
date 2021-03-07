@@ -1,25 +1,20 @@
-\documentclass[trimframe,compontinhos,showtrims,11pt,conselho,spreadimages]{memoir}
+\documentclass[showtrims,trimframe,12pt,spreadimages]{memoir}
 \usepackage[kalinka]{../edlab}
-
 \usepackage[pnld]{hedraoptions} %% << %%%%%%%%%%%%%%%%
 \usepackage[baruch]{hedrastyles}
 \usepackage[xetex,chicagofootnotes]{tipografia}
-\usepackage[standart,sempontinhos]{toc}
+\usepackage[standart,compontinhos]{toc}
 \usepackage{hedraextra}
 \usepackage{penalidades}
 \usepackage{graficos}
 \usepackage{hedralogo}
+\usepackage[shrink,siderepl]{hedrasides}
 \usepackage{hifensextras}
 \usepackage{fichatecnica}
-\usepackage{tocloft}
 \usepackage[standart]{aparatos}
 \usepackage{tabelas}
 \usepackage{versos}
 \usepackage{gitrevisioninfo}
-
-\makeatletter
-\newcommand\HUGES{\@setfontsize\Huge{28}{37}} 
-\makeatother
 
 \newcommand{\forceindent}{\leavevmode{\parindent=1,4em\indent}}
 
@@ -29,31 +24,13 @@
   \@footnotemark\@footnotetext}
 \makeatother
 
-\linespread{1.35}
-
-\newenvironment{absolutelynopagebreak}
-  {\par\nobreak\vfil\penalty0\vfilneg
-   \vtop\bgroup}
-  {\par\xdef\tpd{\the\prevdepth}\egroup
-   \prevdepth=\tpd}
 
 
-%---------------------------------------NUMERAÇÃO DE PAGINA NAS LATERAIS
-\usepackage{graphicx}
-\usepackage{fancyhdr}
-\pagestyle{fancy}
-\fancyhf{}
-\fancyfoot[LE,RO]{\textlt \scriptsize \thepage}
-\renewcommand{\headrulewidth}{0pt}
+\usepackage{footmisc}
 
-%---------------------------------------NUMERAÇÃO NAS LATERAIS EM CHAPTER
-\fancypagestyle{chapter}{
-\fancyhf{}
-\fancyfoot[LE,RO]{\textlt \scriptsize \thepage}
-\renewcommand{\headrulewidth}{0pt}
-\renewcommand{\footrulewidth}{0pt}}
+\renewcommand*\footnoterule{}
 
-%---------------------------------------GERAR BLANK PAGE
+%--------------------------------------------
 \usepackage{afterpage}
 
 \newcommand\blankpage{%
@@ -61,45 +38,19 @@
     \thispagestyle{empty}%
     \addtocounter{page}{0}%
     \newpage}
-%---------------------------------------MUDAR FONTE DE CHAPTER
-\usepackage{titlesec}
-
-\titleformat{\chapter}
-[display]
-{\Large\bfseries}
- {\large\chaptertitlename\space\thechapter}
-  {20pt}
-  {\flushleft}
 
 
-%----------------------------------------TIRAR O DIVISOR DE NOTA DE RODAPÉ E CORPO DO TEXTO
 
-\usepackage{footmisc}
-
-\renewcommand*\footnoterule{\vfill}
-
-
-%---------------------------------------DEFINIR FONTE PRIMÁRIA
-\usepackage{fontspec}
-\setmainfont{BigCityGrotesquePro-Book.ttf}[
-ItalicFont = BigCityGrotesquePro-BookIt.ttf ,
-BoldFont = BigCityGrotesquePro-Bold.ttf]
-
-\newfontface\textlt{BigCityGrotesquePro-Light.ttf}
-\newfontface\textltit{BigCityGrotesquePro-LightIt.ttf}
-\newfontface\textmdbf{BigCityGrotesquePro-Medium.ttf}
-\newfontface\textbl{BigCityGrotesquePro-Black.ttf}
-
+\setcounter{tocdepth}{1}
+\setcounter{secnumdepth}{-2} 
 \usepackage{commands}
 
 \usepackage{setspace}
 
-\usepackage{multirow}
-
 \makeatletter
 \newenvironment{Parskip}{%
    \par
-   \parskip=0.2\baselineskip \advance\parskip by 0pt plus 2pt
+   \parskip=0.3\baselineskip \advance\parskip by 0pt plus 2pt
    \parindent=\z@
    \def\@listI{\leftmargin\leftmargini
       \topsep\z@ \parsep\parskip \itemsep\z@}
@@ -136,14 +87,6 @@ BoldFont = BigCityGrotesquePro-Bold.ttf]
 
 \newcommand{\mystar}{{\fontfamily{lmr}\selectfont$\star$}}
 
-\hyphenation{Pis-tsóv}
-\hyphenation{res-fria-do}
-\hyphenation{rio-zinho}
-\hyphenation{imedia-ta-mente}
-\hyphenation{crian-cinhas}
-\hyphenation{quie-to}
-\hyphenation{Apoll-óssovna}
-\hyphenation{Kolokol-tsovka}
 
 \begin{document}
 

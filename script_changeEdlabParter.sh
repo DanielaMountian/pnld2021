@@ -13,9 +13,9 @@ gsed -i 's/\\usepackage{..\/edlab}/\\usepackage[circuito]{..\/edlab}/' PNLD0005_
 gsed -i 's/\\usepackage{..\/edlab}/\\usepackage[circuito]{..\/edlab}/' PNLD0024_circuito_lobatosuplicio_MIOLO/LIVRO.tex
 gsed -i 's/\\usepackage{..\/edlab}/\\usepackage[edlab]{..\/edlab}/' PNLD0016_edlab_gamaabolicao_MIOLO/LIVRO.tex
 gsed -i 's/\\usepackage{..\/edlab}/\\usepackage[edlab]{..\/edlab}/' PNLD0043_edlab_twaindiarios_MIOLO/LIVRO.tex
-gsed -i 's/\\usepackage{..\/edlab}/\\usepackage[escola]{..\/edlab}/' PNLD0035_escola_safohino_MIOLO/LIVRO.tex
-gsed -i 's/\\usepackage{..\/edlab}/\\usepackage[escola]{..\/edlab}/' PNLD0036_escola_schwobvidas_MIOLO/LIVRO.tex
-gsed -i 's/\\usepackage{..\/edlab}/\\usepackage[felix]{..\/edlab}/' PNLD0025_he_vicentecordel_MIOLO/LIVRO.tex
+gsed -i 's/\\usepackage{..\/edlab}/\\usepackage[escoladepais]{..\/edlab}/' PNLD0035_escola_safohino_MIOLO/LIVRO.tex
+gsed -i 's/\\usepackage{..\/edlab}/\\usepackage[escoladepais]{..\/edlab}/' PNLD0036_escola_schwobvidas_MIOLO/LIVRO.tex
+gsed -i 's/\\usepackage{..\/edlab}/\\usepackage[fenix]{..\/edlab}/' PNLD0025_he_vicentecordel_MIOLO/LIVRO.tex
 gsed -i 's/\\usepackage{..\/edlab}/\\usepackage[fenix]{..\/edlab}/' PNLD0012_he_panelascordel_MIOLO/LIVRO.tex
 gsed -i 's/\\usepackage{..\/edlab}/\\usepackage[hedra]{..\/edlab}/' PNLD0007_hedra_wpanascidos_MIOLO/LIVRO.tex
 gsed -i 's/\\usepackage{..\/edlab}/\\usepackage[hedra]{..\/edlab}/' PNLD0045_hedra_athaydecordel_MIOLO/LIVRO.tex
