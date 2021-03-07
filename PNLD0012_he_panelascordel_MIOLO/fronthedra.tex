@@ -6,30 +6,32 @@
 
 %% Créditos ------------------------------------------------------
 \raggedright
-\linha{copyright}{\copyrightlivro}
 
-\hspace{43pt}\tiny\textit{Direitos cedidos à Editora Hedra Educação}\medskip
+\linha{copyright}{\publishername}
+%\linha{copyright}{\copyrightlivro}
+%\hspace{43pt}\tiny\textit{Direitos cedidos à \\publishername}\medskip
 
-%\linhalayout{edição brasileira©}{Hedra \ifdef{\ano}{\ano}{\the\year}}
+%\linhalayout{edição brasileira©}{Editora Hedra \ifdef{\ano}{\ano}{\the\year}}
 \linha{tradução©}{\copyrighttraducao}
 \linha{organização©}{\copyrightorganizacao}
-\linha{introdução©}{\copyrightintroducao}
+\linha{prefácio©}{\copyrightintroducao}
 \linha{ilustração©}{\copyrightilustracao}\smallskip
 \linha{título original}{\titulooriginal}
 \linha{edição consultada}{\edicaoconsultada}
 \linha{primeira edição}{\primeiraedicao}
 \linha{agradecimentos}{\agradecimentos}
-\linha{indicação}{\indicacao}
+\linha{indicação}{\indicacao}\smallskip
 \linha{edição}{\edicao}
 \linha{coedição}{\coedicao}
-\linha{assistência editorial}{\assistencia}
-\linha{preparação}{\preparacao}
+\linhalayout{editor assistente}{Paulo Henrique Pompermaier}
+%\linha{assistência editorial}{\assistencia}
 \linha{revisão}{\revisao}
+\linha{preparação}{\preparacao}
 \linha{iconografia}{\iconografia}
-\linha{capa}{\capa}
-\linha{imagem da capa}{\imagemcapa}
-\linha{ISBN}{\ISBN}
-\linha{eISBN}{\eISBN}\smallskip
+\linhalayout{capa e projeto gráfico}{Lucas Kröeff}
+%\linha{capa}{\capa}
+\linha{imagem da capa}{\imagemcapa}\smallskip
+\linha{ISBN}{\ISBN}\smallskip
 \begingroup\tiny
 \ifdef{\conselho}{\conselho}{\relax}
 \par\endgroup\bigskip
@@ -39,16 +41,40 @@
 \textit{Grafia atualizada segundo o Acordo Ortográfico da Língua\\
 Portuguesa de 1990, em vigor no Brasil desde 2009.}\\
 
+\medskip
+
+\hspace{10pt}Dados Internacionais de Catalogação na Publicação -- CIP
+
+\hrulefill
+
+\versal{A}XXX \hspace{5pt}Almeida, Júlia Lopes de (1862--1934)\\
+\hspace{20pt}\parbox{185pt}{Contos e novelas / Júlia Lopes de Almeida. Org. de Rodrigo Jorge Ribeiro Neves. -- Rio de Janeiro: Mais e melhores, 2021.}\\[6pt]
+
+\hspace{20pt}204 p.\\[6pt]
+
+\hspace{20pt}ISBN XXX-XX-XXXX-XXX-X\\[6pt]
+
+\hspace{20pt}\parbox{185pt}{1. Literatura brasileira. 2. Conto brasileiro. 3. Novela brasileira I. Título. II. Almeida, Júlia Lopes de. III. Neves, Rodrigo Jorge Ribeiro.}
+
+\hspace{20pt}\versal{CDU} XXXXX \hspace{138pt}\versal{CDD} XXXXX
+
+\hrulefill
+
+\hspace{10pt}Elaborado por Wanda Lucia Schmidt CRB-8-1922
+
+\medskip
+
 
 \vfill\textit{Direitos reservados em l\'ingua\\ portuguesa somente para o Brasil}\\\medskip
 
 %
+\ifdef{\publisheraddress}{\publisheraddress\par}{
 \textsc{editora hedra ltda.}\\
-R.~Fradique Coutinho, 1.139 (subsolo)\\
-05416-011, São Paulo-\textsc{sp}, Brasil\\
+R.~Fradique Coutinho, 1139 (subsolo)\\
+05416--011 São Paulo \textsc{sp} Brasil\\
 Telefone/Fax +55 11 3097 8304\\\smallskip
 editora@hedra.com.br\\
-www.hedra.com.br\\
+www.hedra.com.br\\}
 \bigskip
 Foi feito o depósito legal.\\\endgroup
 \pagebreak\raggedleft
@@ -57,20 +83,19 @@ Foi feito o depósito legal.\\\endgroup
 \titulagem
 
 {\Large \autor \par\vspace{1.5ex}}
-\ifdef{\apresentador}{{\small {\apresentador} (\textit{apresentação})} \par}{}
-\ifdef{\prefacio}{{\small {\prefacio} (\textit{prefácio})} \par}{}
-\ifdef{\organizador}{{\small {\organizador} (\textit{organização e tradução})} \par}{}
-\ifdef{\introdutor}{{\small {\introdutor} (\textit{introdução})} \par}{}\vspace{1.5cm}
+\ifdef{\organizador}{{\small {\organizador}\\ (\textit{organização})} \par}{}
+%\ifdef{\introdutor}{{\small {\introdutor} (\textit{prefácio})} \par}{}
+\ifdef{\tradutor}{{\small {\tradutor} (\textit{tradução})}\par}{}\vspace{8.5mm}
 
 {{\footnotesize{} \ifdef{\numeroedicao}{\numeroedicao}{1}ª edição} \par}
-
 %logos
 \vfill
-\normalfont
-\ifdef{\hfill\includegraphics[width=3cm]{./logo/logo.png}\\ São Paulo\quad\the\year}
-\par\clearpage\endgroup\thispagestyle{empty}\pagebreak
+\normalsize
+\ifdef{\hfill\includegraphics[width=3cm]{\logoeditora}\\ São Paulo\quad\the\year}
+%\includegraphics[width=.4\textwidth,trim=0 0 25 0]{logo.jpg}\\\smallskip
+\par\clearpage\endgroup
 % Resumo -------------------------------------------------------
-\begingroup \footnotesize \parindent0pt \parskip 5pt \thispagestyle{empty} \vspace*{.25\textheight}\mbox{} \vfill
+\begingroup \footnotesize \parindent0pt \parskip 5pt \thispagestyle{empty} \vspace*{-0.5\textheight}\mbox{} \vfill
 \baselineskip=.92\baselineskip
 \IfFileExists{PRETAS.tex}{\input{PRETAS}}{% 
 \ifdef{\resumo}{\resumo\par}{}
@@ -91,6 +116,7 @@ Foi feito o depósito legal.\\\endgroup
 
 % Finais -------------------------------------------------------
 \AtEndDocument{%
+  
 
 \pagebreak\ifodd\thepage\paginabranca\fi
 
@@ -100,7 +126,7 @@ Foi feito o depósito legal.\\\endgroup
 \begin{center}
 \begin{minipage}{.8\textwidth}
 \centering\tiny\noindent{}Adverte-se aos curiosos que se imprimiu este livro \ifdef{\grafica}{na gráfica \grafica}{em nossas oficinas}, 
-em \today \ifdef{\papelmiolo}{em papel \papelmiolo}, em tipologia \tipopadrao{}, com diversos sofwares livres, 
+em \today \ifdef{\papelmiolo}{em papel \papelmiolo}, em tipologia Formular e \tipopadrao{}, com diversos sofwares livres, 
 entre eles, Lua\LaTeX, git \& ruby. \ifdef{\RevisionInfo{}}{\par(v.\,\RevisionInfo)}{}\par \begin{center}\normalsize\adforn{64}\end{center}
 \end{minipage}
 \end{center}
