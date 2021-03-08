@@ -15,6 +15,7 @@
 \usepackage{tabelas}
 \usepackage{versos}
 \usepackage{gitrevisioninfo}
+\usepackage{footmisc}
 
 \newcommand{\forceindent}{\leavevmode{\parindent=1,4em\indent}}
 
@@ -26,7 +27,6 @@
 
 
 
-\usepackage{footmisc}
 
 \renewcommand*\footnoterule{}
 
@@ -87,9 +87,9 @@
 
 \newcommand{\mystar}{{\fontfamily{lmr}\selectfont$\star$}}
 
-
+\markboth{BBB}{AAA}
 \begin{document}
-
-%\include{INPUTS}
+\setcounter{tocdepth}{0}
+\include{INPUTS}
 
 \end{document}
