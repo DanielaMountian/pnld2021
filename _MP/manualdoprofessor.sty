@@ -16,24 +16,27 @@
 \RequirePackage{textcase}
 \RequirePackage[footnotesize,bf,hang]{caption}
 \RequirePackage[nodayofweek,level]{datetime}
-\RequirePackage[paperheight=275mm,paperwidth=205mm,top=15mm,left=2.75in,footskip=18mm]{geometry}
-
-
-
 \RequirePackage{lastpage,fancyhdr}
 \RequirePackage{epstopdf}
 \RequirePackage[table]{xcolor}
 \RequirePackage{multirow}
 \RequirePackage{tikz}
 \RequirePackage{eso-pic}
+\RequirePackage{ccicons}
+\RequirePackage{textcomp}
+\RequirePackage{caption}
+\RequirePackage[paperheight=275mm,paperwidth=205mm,top=15mm,left=2.75in,footskip=18mm]{geometry}
+\RequirePackage{hyperref}
+  \hypersetup{
+      colorlinks,
+      citecolor=black,
+      filecolor=black,
+      linkcolor=black,
+      urlcolor=black
+  }
 
 
-
-\usepackage{ccicons}
-\usepackage{textcomp}
-
-
-\renewcommand{\abstractname}{Carta ao professor}
+\renewcommand{\abstractname}{Carta ao   professor}
 
 \newlength\savedwidth
 \newcommand\thickcline[1]{\noalign{\global
@@ -177,3 +180,21 @@
 }
 
 
+\AtBeginDocument{
+\renewcommand{\abstractname}{Carta ao professor}
+
+
+\reversemarginpar
+\marginparwidth=5cm
+
+\newcommand{\Image}[2]{
+\begin{figure}
+\includegraphics[width=\textwidth]{./images/#2}
+\caption*{#1}
+\end{figure}}
+
+\newcommand{\SideImage}[2]{
+\marginpar{\includegraphics[width=\marginparwidth]{./images/#2}\\\footnotesize #1}}
+
+
+}
