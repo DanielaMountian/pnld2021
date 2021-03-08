@@ -24,7 +24,6 @@
 \RequirePackage{eso-pic}
 \RequirePackage{ccicons}
 \RequirePackage{textcomp}
-\RequirePackage{caption}
 \RequirePackage[paperheight=275mm,paperwidth=205mm,top=15mm,left=2.75in,footskip=18mm]{geometry}
 \RequirePackage{hyperref}
   \hypersetup{
@@ -153,24 +152,6 @@
 
 \newcommand{\cclicense}{\ccbync}
 
-\newcommand{\video}[2]{%
-\begin{figure}
-\begin{center}
-  \includemedia[
-    width=0.7\linewidth,
-    %totalheight=0.225\linewidth,
-    activate=pageopen,
-    passcontext,  %show VPlayer's right-click menu
-    addresource=./videos/#2,
-    flashvars={
-      %important: same path as in `addresource'
-      source=./videos/#2
-    }
-  ]{\fbox{Click!}}{./videos/#2}
-\caption{#1 (Abrir de preferência com Acrobat Reader e clicar com o botão esquerdo do mouse.)}
-\end{center}
-\end{figure}
-}
 
 \AtEndDocument{
   \vspace*{2cm}
@@ -181,20 +162,15 @@
 
 
 \AtBeginDocument{
+\baselineskip=1.15\baselineskip\par
 \renewcommand{\abstractname}{Carta ao professor}
-
-
 \reversemarginpar
 \marginparwidth=5cm
-
 \newcommand{\Image}[2]{
 \begin{figure}
 \includegraphics[width=\textwidth]{./images/#2}
 \caption*{#1}
 \end{figure}}
-
 \newcommand{\SideImage}[2]{
 \marginpar{\includegraphics[width=\marginparwidth]{./images/#2}\\\footnotesize #1}}
-
-
 }
