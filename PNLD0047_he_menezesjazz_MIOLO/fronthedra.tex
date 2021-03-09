@@ -6,11 +6,12 @@
 
 %% Créditos ------------------------------------------------------
 \raggedright
-\linha{copyright}{\copyrightlivro}
 
-\hspace{43pt}\tiny\textit{Direitos cedidos à Editora Hedra Educação}\medskip
+\linha{copyright}{\publishername}
+%\linha{copyright}{\copyrightlivro}
+%\hspace{43pt}\tiny\textit{Direitos cedidos à \\publishername}\medskip
 
-%\linhalayout{edição brasileira©}{Hedra \ifdef{\ano}{\ano}{\the\year}}
+%\linhalayout{edição brasileira©}{Editora Hedra \ifdef{\ano}{\ano}{\the\year}}
 \linha{tradução©}{\copyrighttraducao}
 \linha{organização©}{\copyrightorganizacao}
 \linha{prefácio©}{\copyrightintroducao}
@@ -22,18 +23,17 @@
 \linha{indicação}{\indicacao}\smallskip
 \linha{edição}{\edicao}
 \linha{coedição}{\coedicao}
-\linha{assistência editorial}{\assistencia}
+\linhalayout{editor assistente}{Paulo Henrique Pompermaier}
+%\linha{assistência editorial}{\assistencia}
 \linha{revisão}{\revisao}
 \linha{preparação}{\preparacao}
 \linha{iconografia}{\iconografia}
-\linhalayout{projeto da coleção}{Lucas Kröeff}
-\linhalayout{música}{João Gabriel Fideles, Enrique Menezes, Ricardo Zohyo,\\ Daniel Grajew e Diogo Maia}
-\linhalayout{pesqusia}{Enrique Menezes, Biancamaria Binazzi e Luísa Valentini}
-\linha{capa}{\capa}
+\linhalayout{capa e projeto gráfico}{Lucas Kröeff}
+%\linha{capa}{\capa}
 \linha{imagem da capa}{\imagemcapa}\smallskip
 \linha{ISBN}{\ISBN}\smallskip
 \begingroup\tiny
-\ifdef{\conselho}{\conselho}{\relax}
+%\ifdef{\conselho}{\conselho}{\relax}
 \par\endgroup\bigskip
 
 \begingroup \tiny
@@ -41,25 +41,49 @@
 \textit{Grafia atualizada segundo o Acordo Ortográfico da Língua\\
 Portuguesa de 1990, em vigor no Brasil desde 2009.}\\
 
+\medskip
+
+\hspace{10pt}Dados Internacionais de Catalogação na Publicação -- CIP
+
+\hrulefill
+
+\versal{A}XXX \hspace{5pt}Almeida, Júlia Lopes de (1862--1934)\\
+\hspace{20pt}\parbox{185pt}{Contos e novelas / Júlia Lopes de Almeida. Org. de Rodrigo Jorge Ribeiro Neves. -- Rio de Janeiro: Mais e melhores, 2021.}\\[6pt]
+
+\hspace{20pt}204 p.\\[6pt]
+
+\hspace{20pt}ISBN XXX-XX-XXXX-XXX-X\\[6pt]
+
+\hspace{20pt}\parbox{185pt}{1. Literatura brasileira. 2. Conto brasileiro. 3. Novela brasileira I. Título. II. Almeida, Júlia Lopes de. III. Neves, Rodrigo Jorge Ribeiro.}
+
+\hspace{20pt}\versal{CDU} XXXXX \hspace{138pt}\versal{CDD} XXXXX
+
+\hrulefill
+
+\hspace{10pt}Elaborado por Wanda Lucia Schmidt CRB-8-1922
+
+\medskip
+
 
 \vfill\textit{Direitos reservados em l\'ingua\\ portuguesa somente para o Brasil}\\\medskip
 
 %
+\ifdef{\publisheraddress}{\publisheraddress\par}{
 \textsc{editora hedra ltda.}\\
 R.~Fradique Coutinho, 1139 (subsolo)\\
 05416--011 São Paulo \textsc{sp} Brasil\\
 Telefone/Fax +55 11 3097 8304\\\smallskip
 editora@hedra.com.br\\
-www.hedra.com.br\\
+www.hedra.com.br}
 \bigskip
 Foi feito o depósito legal.\\\endgroup
-\pagebreak\raggedright
+\pagebreak\raggedleft
 %% Front ---------------------------------------------------------
 % Titulo
 \titulagem
 
 {\Large \autor \par\vspace{1.5ex}}
-\ifdef{\organizador}{{\small {\organizador} (\textit{organização})} \par}{}
+\ifdef{\organizador}{{\small {\organizador}\\ (\textit{organização})} \par}{}
 %\ifdef{\introdutor}{{\small {\introdutor} (\textit{prefácio})} \par}{}
 \ifdef{\tradutor}{{\small {\tradutor} (\textit{tradução})}\par}{}\vspace{8.5mm}
 
@@ -67,8 +91,7 @@ Foi feito o depósito legal.\\\endgroup
 %logos
 \vfill
 \normalsize
-{\includegraphics[width=8cm]{./imgs/logos.pdf}\\ São Paulo\quad\the\year}
-%\ifdef{\logo}{\IfFileExists{\logo}{\hfill\includegraphics[width=3cm]{\logo}\hfill\logoum{}
+\ifdef{\hfill\includegraphics[width=3cm]{\logoeditora}\\ São Paulo\quad\the\year}
 %\includegraphics[width=.4\textwidth,trim=0 0 25 0]{logo.jpg}\\\smallskip
 \par\clearpage\endgroup
 % Resumo -------------------------------------------------------
@@ -93,7 +116,7 @@ Foi feito o depósito legal.\\\endgroup
 
 % Finais -------------------------------------------------------
 \AtEndDocument{%
-  \publicidade
+  
 
 \pagebreak\ifodd\thepage\paginabranca\fi
 

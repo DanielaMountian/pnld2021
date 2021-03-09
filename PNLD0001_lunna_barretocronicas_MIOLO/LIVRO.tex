@@ -1,5 +1,5 @@
 \documentclass[showtrims,trimframe,12pt,spreadimages]{memoir}
-
+\usepackage[lunna]{../edlab}
 \usepackage[pnld]{hedraoptions} %% << %%%%%%%%%%%%%%%%
 \usepackage[baruch]{hedrastyles}
 \usepackage[xetex,chicagofootnotes]{tipografia}
@@ -15,6 +15,7 @@
 \usepackage{tabelas}
 \usepackage{versos}
 \usepackage{gitrevisioninfo}
+\usepackage{footmisc}
 
 \newcommand{\forceindent}{\leavevmode{\parindent=1,4em\indent}}
 
@@ -26,7 +27,6 @@
 
 
 
-\usepackage{footmisc}
 
 \renewcommand*\footnoterule{}
 
@@ -87,9 +87,9 @@
 
 \newcommand{\mystar}{{\fontfamily{lmr}\selectfont$\star$}}
 
-
+\markboth{BBB}{AAA}
 \begin{document}
-
+\setcounter{tocdepth}{0}
 \include{INPUTS}
 
 \end{document}

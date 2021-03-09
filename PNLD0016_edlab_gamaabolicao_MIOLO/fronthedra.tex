@@ -6,11 +6,12 @@
 
 %% Créditos ------------------------------------------------------
 \raggedright
-\linha{copyright}{\copyrightlivro}
 
-\hspace{43pt}\tiny\textit{Direitos cedidos à Editora EdLab}\medskip
+\linha{copyright}{\publishername}
+%\linha{copyright}{\copyrightlivro}
+%\hspace{43pt}\tiny\textit{Direitos cedidos à \\publishername}\medskip
 
-%\linhalayout{edição brasileira©}{Mais e melhores \ifdef{\ano}{\ano}{\the\year}}
+%\linhalayout{edição brasileira©}{Editora Hedra \ifdef{\ano}{\ano}{\the\year}}
 \linha{tradução©}{\copyrighttraducao}
 \linha{organização©}{\copyrightorganizacao}
 \linha{prefácio©}{\copyrightintroducao}
@@ -67,12 +68,13 @@ Portuguesa de 1990, em vigor no Brasil desde 2009.}\\
 \vfill\textit{Direitos reservados em l\'ingua\\ portuguesa somente para o Brasil}\\\medskip
 
 %
+\ifdef{\publisheraddress}{\publisheraddress\par}{
 \textsc{editora hedra ltda.}\\
 R.~Fradique Coutinho, 1139 (subsolo)\\
 05416--011 São Paulo \textsc{sp} Brasil\\
 Telefone/Fax +55 11 3097 8304\\\smallskip
 editora@hedra.com.br\\
-www.hedra.com.br\\
+www.hedra.com.br\\}
 \bigskip
 Foi feito o depósito legal.\\\endgroup
 \pagebreak\raggedleft
@@ -81,7 +83,7 @@ Foi feito o depósito legal.\\\endgroup
 \titulagem
 
 {\Large \autor \par\vspace{1.5ex}}
-\ifdef{\organizador}{{\small {\organizador}\\ (\textit{organização} e \textit{prefácio})} \par}{}
+\ifdef{\organizador}{{\small {\organizador}\\ (\textit{organização})} \par}{}
 %\ifdef{\introdutor}{{\small {\introdutor} (\textit{prefácio})} \par}{}
 \ifdef{\tradutor}{{\small {\tradutor} (\textit{tradução})}\par}{}\vspace{8.5mm}
 
@@ -89,10 +91,11 @@ Foi feito o depósito legal.\\\endgroup
 %logos
 \vfill
 \normalsize
-\ifdef{\hfill\includegraphics[width=3cm]{./logo/logo.jpg}\\ São Paulo\quad\the\year}
+\ifdef{\hfill\includegraphics[width=3cm]{\logoeditora}\\ São Paulo\quad\the\year}
+%\includegraphics[width=.4\textwidth,trim=0 0 25 0]{logo.jpg}\\\smallskip
 \par\clearpage\endgroup
 % Resumo -------------------------------------------------------
-\begingroup \footnotesize \parindent0pt \parskip 5pt \thispagestyle{empty} \vspace*{-.5\textheight}\mbox{} \vfill
+\begingroup \footnotesize \parindent0pt \parskip 5pt \thispagestyle{empty} \vspace*{-0.5\textheight}\mbox{} \vfill
 \baselineskip=.92\baselineskip
 \IfFileExists{PRETAS.tex}{\input{PRETAS}}{% 
 \ifdef{\resumo}{\resumo\par}{}
@@ -113,6 +116,7 @@ Foi feito o depósito legal.\\\endgroup
 
 % Finais -------------------------------------------------------
 \AtEndDocument{%
+  
 
 \pagebreak\ifodd\thepage\paginabranca\fi
 

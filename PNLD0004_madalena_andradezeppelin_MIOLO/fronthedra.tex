@@ -6,11 +6,12 @@
 
 %% Créditos ------------------------------------------------------
 \raggedright
+
+%\linha{copyright}{\publishername}
 \linha{copyright}{\copyrightlivro}
+\hspace{43pt}\tiny\textit{Direitos cedidos à \publishername}\medskip
 
-\hspace{43pt}\tiny\textit{Direitos cedidos à Editora Madalena}\medskip
-
-%\linhalayout{edição brasileira©}{Mais e melhores \ifdef{\ano}{\ano}{\the\year}}
+%\linhalayout{edição brasileira©}{Editora Hedra \ifdef{\ano}{\ano}{\the\year}}
 \linha{tradução©}{\copyrighttraducao}
 \linha{organização©}{\copyrightorganizacao}
 \linha{prefácio©}{\copyrightintroducao}
@@ -32,7 +33,7 @@
 \linha{imagem da capa}{\imagemcapa}\smallskip
 \linha{ISBN}{\ISBN}\smallskip
 \begingroup\tiny
-\ifdef{\conselho}{\conselho}{\relax}
+%\ifdef{\conselho}{\conselho}{\relax}
 \par\endgroup\bigskip
 
 \begingroup \tiny
@@ -67,12 +68,13 @@ Portuguesa de 1990, em vigor no Brasil desde 2009.}\\
 \vfill\textit{Direitos reservados em l\'ingua\\ portuguesa somente para o Brasil}\\\medskip
 
 %
+\ifdef{\publisheraddress}{\publisheraddress\par}{
 \textsc{editora hedra ltda.}\\
 R.~Fradique Coutinho, 1139 (subsolo)\\
 05416--011 São Paulo \textsc{sp} Brasil\\
 Telefone/Fax +55 11 3097 8304\\\smallskip
 editora@hedra.com.br\\
-www.hedra.com.br\\
+www.hedra.com.br\\}
 \bigskip
 Foi feito o depósito legal.\\\endgroup
 \pagebreak\raggedleft
@@ -89,7 +91,7 @@ Foi feito o depósito legal.\\\endgroup
 %logos
 \vfill
 \normalsize
-\ifdef{\hfill\includegraphics[width=3cm]{./logo/logo.jpeg}\\ São Paulo\quad\the\year}
+\ifdef{\hfill\includegraphics[width=3cm]{\logoeditora}\\ São Paulo\quad\the\year}
 %\includegraphics[width=.4\textwidth,trim=0 0 25 0]{logo.jpg}\\\smallskip
 \par\clearpage\endgroup
 % Resumo -------------------------------------------------------
