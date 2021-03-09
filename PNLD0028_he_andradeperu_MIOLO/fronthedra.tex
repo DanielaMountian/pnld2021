@@ -6,11 +6,12 @@
 
 %% Créditos ------------------------------------------------------
 \raggedright
-\linha{copyright}{\copyrightlivro}
 
-\hspace{43pt}\tiny\textit{Direitos cedidos à Editora Hedra Educação}\medskip
+\linha{copyright}{\publishername}
+%\linha{copyright}{\copyrightlivro}
+%\hspace{43pt}\tiny\textit{Direitos cedidos à \\publishername}\medskip
 
-%\linhalayout{edição brasileira©}{Hedra \ifdef{\ano}{\ano}{\the\year}}
+%\linhalayout{edição brasileira©}{Editora Hedra \ifdef{\ano}{\ano}{\the\year}}
 \linha{tradução©}{\copyrighttraducao}
 \linha{organização©}{\copyrightorganizacao}
 \linha{prefácio©}{\copyrightintroducao}
@@ -46,14 +47,14 @@ Portuguesa de 1990, em vigor no Brasil desde 2009.}\\
 
 \hrulefill
 
-\versal{A}XXX \hspace{5pt}Andrade, Mário de (1893--1945)\\
-\hspace{20pt}\parbox{185pt}{Alguns contos / Mário de Andrade. Org. de Rodrigo Jorge Ribeiro Neves. -- São Paulo: Hedra educação, 2021.}\\[6pt]
+\versal{A}XXX \hspace{5pt}Almeida, Júlia Lopes de (1862--1934)\\
+\hspace{20pt}\parbox{185pt}{Contos e novelas / Júlia Lopes de Almeida. Org. de Rodrigo Jorge Ribeiro Neves. -- Rio de Janeiro: Mais e melhores, 2021.}\\[6pt]
 
 \hspace{20pt}204 p.\\[6pt]
 
 \hspace{20pt}ISBN XXX-XX-XXXX-XXX-X\\[6pt]
 
-\hspace{20pt}\parbox{185pt}{1. Literatura brasileira. 2. Conto brasileiro. 3. Modernismo I. Título. II. Andrade, Mário de. III. Neves, Rodrigo Jorge Ribeiro.}
+\hspace{20pt}\parbox{185pt}{1. Literatura brasileira. 2. Conto brasileiro. 3. Novela brasileira I. Título. II. Almeida, Júlia Lopes de. III. Neves, Rodrigo Jorge Ribeiro.}
 
 \hspace{20pt}\versal{CDU} XXXXX \hspace{138pt}\versal{CDD} XXXXX
 
@@ -67,12 +68,13 @@ Portuguesa de 1990, em vigor no Brasil desde 2009.}\\
 \vfill\textit{Direitos reservados em l\'ingua\\ portuguesa somente para o Brasil}\\\medskip
 
 %
+\ifdef{\publisheraddress}{\publisheraddress\par}{
 \textsc{editora hedra ltda.}\\
 R.~Fradique Coutinho, 1139 (subsolo)\\
 05416--011 São Paulo \textsc{sp} Brasil\\
 Telefone/Fax +55 11 3097 8304\\\smallskip
 editora@hedra.com.br\\
-www.hedra.com.br\\
+www.hedra.com.br\\}
 \bigskip
 Foi feito o depósito legal.\\\endgroup
 \pagebreak\raggedleft
@@ -81,8 +83,7 @@ Foi feito o depósito legal.\\\endgroup
 \titulagem
 
 {\Large \autor \par\vspace{1.5ex}}
-\vspace{5cm} %9.3cm
-\ifdef{\organizador}{{\small {\organizador}\\ (\textit{organização} e \textit{prefácio})} \par}{}
+\ifdef{\organizador}{{\small {\organizador}\\ (\textit{organização})} \par}{}
 %\ifdef{\introdutor}{{\small {\introdutor} (\textit{prefácio})} \par}{}
 \ifdef{\tradutor}{{\small {\tradutor} (\textit{tradução})}\par}{}\vspace{8.5mm}
 
@@ -90,7 +91,7 @@ Foi feito o depósito legal.\\\endgroup
 %logos
 \vfill
 \normalsize
-\ifdef{\logo}{\IfFileExists{\logo}{\hfill\includegraphics[width=3cm]{\logo}\hfill\logoum{}\\ São Paulo\quad\the\year}}{\logoum\break{} São Paulo\quad\the\year}
+\ifdef{\hfill\includegraphics[width=3cm]{\logoeditora}\\ São Paulo\quad\the\year}
 %\includegraphics[width=.4\textwidth,trim=0 0 25 0]{logo.jpg}\\\smallskip
 \par\clearpage\endgroup
 % Resumo -------------------------------------------------------
@@ -115,7 +116,7 @@ Foi feito o depósito legal.\\\endgroup
 
 % Finais -------------------------------------------------------
 \AtEndDocument{%
- 
+  
 
 \pagebreak\ifodd\thepage\paginabranca\fi
 
