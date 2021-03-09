@@ -8,21 +8,25 @@ Comandos
 `\Image{Legenda}{arq}`
 `\SideImage{Legenda}{arq}`
 
+`\bnccativividadespreleitura`
+`\bnccativividadesleitura`
+`\bnccativividadesposleitura`
+`\bnccreferenciasgerais`
+
+
 Tarefas
 -------
 
-- [ ] Retirar o ISBN do professor
 - [ ] Minibio
+- [ ] Incluir Capa principal do material do professor
 - [ ] Isbns
 - [ ] bncc nas laterais (@Paulo)
 - [ ] Aplicar BNCCs básicas segundo comandos abaixo
 - [ ] Diagramação dos primeiros textos
 - [ ] Junção dos primeiros MP textos no repo
-- [ ] Levantamento das capas (todas)
-
-
 - [ ] Formato segundo o edital (30-45) 
-- [ ] Incluir Capa principal do material do professor
+- [X] Levantamento das capas (todas)
+- [X] Retirar o ISBN do professor
 - [X] Ficha catalográfica ao final (criar comando com padrão de nome pra isso)
 - [X] Incluir logo na diagramação
 - [X] Incluir CCBY na classe como imagem
@@ -40,13 +44,6 @@ Questões gerais
 - [ ] Imagens 
 - [ ] Capinhas (Lucas)
 
-BNCCs básicas
--------------
-
-	\bnccativividadespreleitura
-	\bnccativividadesleitura
-	\bnccativividadesposleitura
-	\bnccreferenciasgerais
 
 
 Formato
