@@ -1,1 +1,0 @@
-Versão "Cordel da Escola"
