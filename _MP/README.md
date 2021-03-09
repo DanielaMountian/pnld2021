@@ -1,6 +1,16 @@
 README.md
 ======
 
+
+Comandos
+--------
+
+`\Image{Legenda}{arq}`
+`\SideImage{Legenda}{arq}`
+
+Tarefas
+-------
+
 - [ ] Retirar o ISBN do professor
 - [ ] Minibio
 - [ ] Isbns
@@ -22,7 +32,7 @@ README.md
 
 
 Questões gerais
-===============
+---------------
 
 - [ ] BNCC padrão (como nos slides)
 - [ ] Formato da BNCC
