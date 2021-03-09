@@ -1,7 +1,9 @@
 README.md
 ======
 
-
+- [ ] Retirar o ISBN do professor
+- [ ] Minibio
+- [ ] Isbns
 - [ ] bncc nas laterais (@Paulo)
 - [ ] Aplicar BNCCs básicas segundo comandos abaixo
 - [ ] Diagramação dos primeiros textos
