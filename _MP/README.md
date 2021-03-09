@@ -7,6 +7,9 @@ Comandos
 `\Image{Legenda}{arq}`
 `\SideImage{Legenda}{arq}`
 
+Tarefas
+-------
+
 - [ ] bncc nas laterais (@Paulo)
 - [ ] Aplicar BNCCs básicas segundo comandos abaixo
 - [ ] Diagramação dos primeiros textos
@@ -25,7 +28,7 @@ Comandos
 
 
 Questões gerais
-===============
+---------------
 
 - [ ] BNCC padrão (como nos slides)
 - [ ] Formato da BNCC
