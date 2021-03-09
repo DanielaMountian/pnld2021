@@ -1,6 +1,11 @@
 README.md
 ======
 
+Comandos
+--------
+
+`\Image{Legenda}{arq}`
+`\SideImage{Legenda}{arq}`
 
 - [ ] bncc nas laterais (@Paulo)
 - [ ] Aplicar BNCCs básicas segundo comandos abaixo
