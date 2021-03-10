@@ -13,6 +13,34 @@ Comandos
 `\bnccativividadesposleitura`
 `\bnccreferenciasgerais`
 
+Tarefas épicas
+--------------
+- [ ] Avaliação dos textos (@FelipeMusetti)
+- [ ] Cartas ao professor
+- [ ] Redação de atividades menos genéricas
+- [ ] Aplicar BNCCs 
+- [ ] Revisão textual
+- [ ] Comparar vídeo/TP com MP
+
+
+
+Equipes
+-------
+
+Hedra
+	Suzana
+	Jorge
+	Felipe
+	Paulo Pompermaier
+	Ana Lancman
+	Sofia Boldrini
+
+n-1
+	Ricardo
+	Peter PP
+	Leticia
+	Ines
+
 
 Tarefas
 -------
@@ -21,10 +49,9 @@ Tarefas
 - [ ] Incluir Capa principal do material do professor
 - [ ] Isbns
 - [ ] bncc nas laterais (@Paulo)
-- [ ] Aplicar BNCCs básicas segundo comandos abaixo
-- [ ] Diagramação dos primeiros textos
 - [ ] Junção dos primeiros MP textos no repo
 - [ ] Formato segundo o edital (30-45) 
+- [X] Diagramação dos primeiros textos
 - [X] Levantamento das capas (todas)
 - [X] Retirar o ISBN do professor
 - [X] Ficha catalográfica ao final (criar comando com padrão de nome pra isso)
