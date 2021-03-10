@@ -18,10 +18,10 @@ O asterisco indica que o prefácio da edição original pode ser utilizado.
 
 
 - [x] PNLD0001_lunna_akutagawa_rashomon*
-- [x] PNLD0002_mm_almeida_contos* [falta sobre o gênero]
+- [x] PNLD0002_mm_almeida_contos*
 - [x] PNLD0003_he_andrade_peru* [falta sobre o gênero]
 - [x] PNLD0004_madalena_andrade_zeppelin* [falta sobre o gênero]
-- [ ] PNLD0005_circuito_andrade_tudoamo*
+- [x] PNLD0005_circuito_andrade_tudoamo*
 - [x] PNLD0007_hedra_athayde_cordel 
 - [x] PNLD0008_araucaria_atui_mare (Não tem)* [faltam 7 páginas]
 - [ ] PNLD0006_ayllon_baccega_graal
