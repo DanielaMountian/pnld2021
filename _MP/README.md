@@ -22,8 +22,6 @@ Tarefas épicas
 - [ ] Revisão textual
 - [ ] Comparar vídeo/TP com MP
 
-
-
 Equipes
 -------
 
