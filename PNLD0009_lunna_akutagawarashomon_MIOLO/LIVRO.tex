@@ -1,35 +1,34 @@
-\documentclass[showtrims,compontinhos,12pt,spreadimages]{memoir}
-\usepackage[lunna]{../edlab}
+\documentclass[showtrims,trimframe,12pt,spreadimages]{memoir}
+\usepackage[maisemelhores]{../edlab}
 
 \usepackage[pnld]{hedraoptions} %% << %%%%%%%%%%%%%%%%
 \usepackage[baruch]{hedrastyles}
 \usepackage[xetex,chicagofootnotes]{tipografia}
-\usepackage[standart,sempontinhos]{toc}
+\usepackage[standart,compontinhos]{toc}
 \usepackage{hedraextra}
-\usepackage{fichatecnica}
 \usepackage{penalidades}
 \usepackage{graficos}
-\usepackage{hedralogo}	
+\usepackage{hedralogo}
+\usepackage[shrink,siderepl]{hedrasides}
 \usepackage{hifensextras}
+\usepackage{fichatecnica}
 \usepackage[standart]{aparatos}
+\usepackage{tabelas}
 \usepackage{versos}
 \usepackage{gitrevisioninfo}
 
-
 \newcommand{\forceindent}{\leavevmode{\parindent=1,4em\indent}}
 
-
 \makeatletter
-
 \def\@xfootnote[#1]{%
   \protected@xdef\@thefnmark{#1}%
   \@footnotemark\@footnotetext}
-\def\footnoterule{\kern-8\p@
-  \hrule \@width 2in \kern 7.6\p@} % the \hrule is .4pt high
-%\skip\footins=10mm\@plus3mm\@minus5mm
 \makeatother
 
+\usepackage{footmisc}
 
+\renewcommand*\footnoterule{}
+%--------------------------------------------
 \usepackage{afterpage}
 
 \newcommand\blankpage{%
@@ -39,10 +38,8 @@
     \newpage}
 
 
-
 \setcounter{tocdepth}{1}
 \setcounter{secnumdepth}{-2} 
-%\linespread{1.08}
 \usepackage{commands}
 
 \usepackage{setspace}
@@ -87,10 +84,8 @@
 
 \newcommand{\mystar}{{\fontfamily{lmr}\selectfont$\star$}}
 
-
 \begin{document}
 
-\include{TEXTO}
-\part{Paratexto}
-\include{INTRO}
+\include{INPUTS}
+
 \end{document}
