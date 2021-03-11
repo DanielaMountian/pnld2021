@@ -19,14 +19,14 @@ O asterisco indica que o prefácio da edição original pode ser utilizado.
 
 - [x] PNLD0001_lunna_akutagawa_rashomon*
 - [x] PNLD0002_mm_almeida_contos*
-- [x] PNLD0003_he_andrade_peru* [falta sobre o gênero]
-- [x] PNLD0004_madalena_andrade_zeppelin* [falta sobre o gênero]
+- [x] PNLD0003_he_andrade_peru*
+- [x] PNLD0004_madalena_andrade_zeppelin*
 - [x] PNLD0005_circuito_andrade_tudoamo*
 - [x] PNLD0007_hedra_athayde_cordel 
 - [x] PNLD0008_araucaria_atui_mare (Não tem)* [faltam 7 páginas]
 - [ ] PNLD0006_ayllon_baccega_graal
 - [ ] PNLD0029_n-1_ballester_yanomami (Não tem) [faltam 7 páginas e sobre o gênero]
-- [x] PNLD0009_lunna_barreto_cronicas* [falta sobre o gênero]
+- [x] PNLD0009_lunna_barreto_cronicas*
 - [x] PNLD0010_acorde_baudelaire_pequenos*
 - [x] PNLD0011_relicario_brown_narrativa
 - [x] PNLD0012_he_cardim_tratado*
