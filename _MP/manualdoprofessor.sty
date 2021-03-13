@@ -23,6 +23,7 @@
 \RequirePackage{tikz}
 \RequirePackage{eso-pic}
 \RequirePackage{ccicons}
+\RequirePackage{float}
 \RequirePackage{textcomp}
 \RequirePackage{marginnote}
 \RequirePackage[paperheight=275mm,paperwidth=205mm,top=15mm,left=2.75in,footskip=18mm]{geometry}
@@ -170,8 +171,9 @@
 \newcommand{\Image}[2]{
 \begin{figure}
 \includegraphics[width=\textwidth]{./images/#2}
-\caption*{#1}
+\caption{#1}
 \end{figure}}
 \newcommand{\SideImage}[2]{
-\marginpar{\includegraphics[width=\marginparwidth]{./images/#2}\\\footnotesize #1}}
+\marginpar{\includegraphics[width=\marginparwidth]{./images/#2}
+      \captionof{Fig.}{#1}}
 }
