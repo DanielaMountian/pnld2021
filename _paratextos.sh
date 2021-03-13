@@ -1,0 +1,23 @@
+cd PNLD0012* && make && evince LIVRO.pdf && cd ..
+cd PNLD0015* && make && evince LIVRO.pdf && cd ..
+cd PNLD0017* && make && evince LIVRO.pdf && cd ..
+cd PNLD0018* && make && evince LIVRO.pdf && cd ..
+cd PNLD0019* && make && evince LIVRO.pdf && cd ..
+cd PNLD0020* && make && evince LIVRO.pdf && cd ..
+cd PNLD0023* && make && evince LIVRO.pdf && cd ..
+cd PNLD0025* && make && evince LIVRO.pdf && cd ..
+cd PNLD0030* && make && evince LIVRO.pdf && cd ..
+cd PNLD0031* && make && evince LIVRO.pdf && cd ..
+cd PNLD0032* && make && evince LIVRO.pdf && cd ..
+cd PNLD0034* && make && evince LIVRO.pdf && cd ..
+cd PNLD0035* && make && evince LIVRO.pdf && cd ..
+cd PNLD0038* && make && evince LIVRO.pdf && cd ..
+cd PNLD0039* && make && evince LIVRO.pdf && cd ..
+cd PNLD0040* && make && evince LIVRO.pdf && cd ..
+cd PNLD0041* && make && evince LIVRO.pdf && cd ..
+cd PNLD0043* && make && evince LIVRO.pdf && cd ..
+cd PNLD0044* && make && evince LIVRO.pdf && cd ..
+cd PNLD0045* && make && evince LIVRO.pdf && cd ..
+cd PNLD0046* && make && evince LIVRO.pdf && cd ..
+cd PNLD0049* && make && evince LIVRO.pdf && cd ..
+cd PNLD0050* && make && evince LIVRO.pdf  
