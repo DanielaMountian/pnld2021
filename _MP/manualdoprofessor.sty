@@ -164,7 +164,7 @@
 
 
 \AtBeginDocument{
-\baselineskip=1.15\baselineskip\par
+%\baselineskip=1.15\baselineskip\par
 \renewcommand{\abstractname}{Carta ao professor}
 \reversemarginpar
 \marginparwidth=5cm
@@ -175,5 +175,5 @@
 \end{figure}}
 \newcommand{\SideImage}[2]{
 \marginpar{\includegraphics[width=\marginparwidth]{./images/#2}
-      \captionof{Fig.}{#1}}
-}
+      \captionof{figure}{\footnotesize #1}}
+}}
