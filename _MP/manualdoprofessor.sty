@@ -37,7 +37,7 @@
   }
 
 
-\renewcommand{\abstractname}{Carta ao   professor}
+\renewcommand{\abstractname}{Carta ao professor}
 
 \newlength\savedwidth
 \newcommand\thickcline[1]{\noalign{\global
@@ -170,6 +170,7 @@
 \marginparwidth=5cm
 \newcommand{\Image}[2]{
 \begin{figure}
+\thisfloatpagestyle{empty}
 \includegraphics[width=\textwidth]{./images/#2}
 \caption{#1}
 \end{figure}}
