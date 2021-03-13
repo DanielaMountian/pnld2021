@@ -13,6 +13,22 @@ Comandos
 `\bnccativividadesposleitura`
 `\bnccreferenciasgerais`
 
+Tarefinhas
+----------
+
+- [ ] Tirar a marca das fichas catalográficas
+- [ ] Colocar legenda no 0049 e 0050 (Kalinka)
+- [ ] Acertar a bibligrafia e a parte de comentários
+- [ ] Acertar os links 
+- [ ] Incluir a capa grande nos manuais
+- [ ] Aplicar ISBN 
+- [ ] Tratar brancos nas capas
+- [ ] Colocar seções laterais "para ler" e "para ver"
+- [ ] Currículo do Redaator
+- [ ] Diagramar Glaac
+- [ ] Diagramar 0054 e 0035 
+
+
 Tarefas épicas
 --------------
 - [ ] Avaliação dos textos (@FelipeMusetti)

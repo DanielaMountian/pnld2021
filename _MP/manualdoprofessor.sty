@@ -11,7 +11,13 @@
 \RequirePackage{adjustbox}
 \RequirePackage[flushleft]{threeparttable} 
 \RequirePackage{enumerate}
-\RequirePackage[hidelinks]{hyperref}
+\RequirePackage{hyperref}
+              \hypersetup{
+                  colorlinks=true,
+                  linkcolor=black,
+                  filecolor=black,      
+                  urlcolor=cyan,
+              }
 \RequirePackage{penalidades}
 \RequirePackage{textcase}
 \RequirePackage[footnotesize,bf,hang]{caption}
@@ -27,14 +33,6 @@
 \RequirePackage{textcomp}
 \RequirePackage{marginnote}
 \RequirePackage[paperheight=275mm,paperwidth=205mm,top=15mm,left=2.75in,footskip=18mm]{geometry}
-\RequirePackage{hyperref}
-  \hypersetup{
-      colorlinks,
-      citecolor=black,
-      filecolor=black,
-      linkcolor=black,
-      urlcolor=black
-  }
 
 
 \renewcommand{\abstractname}{Carta ao professor}
@@ -155,12 +153,12 @@
 \newcommand{\cclicense}{\ccbync}
 
 
-\AtEndDocument{
-  \vspace*{2cm}
-  \ifdef{\fichacatalografica}%
-    {\includegraphics{\fichacatalografica}}%
-    {\includegraphics[width=\textwidth]{fichacatalografica.png}}
-}
+% \AtEndDocument{
+%   \vspace*{2cm}
+%   \ifdef{\fichacatalografica}%
+%     {\includegraphics{\fichacatalografica}}%
+%     {\includegraphics[width=\textwidth]{fichacatalografica.png}}
+% }
 
 
 \AtBeginDocument{
