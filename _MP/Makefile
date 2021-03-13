@@ -1,5 +1,6 @@
 all:
 	latexmk -xelatex $(file).tex
+	evince $(file).pdf &
 	open $(file).pdf 
 	
 clean:
