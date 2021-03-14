@@ -5,18 +5,22 @@ README.md
 Comandos
 --------
 
-`\Image{Legenda}{arq}`
-`\SideImage{Legenda}{arq}`
+```
+\Image{Legenda}{arq}
+\SideImage{Legenda}{arq}
 
-`\bnccativividadespreleitura`
-`\bnccativividadesleitura`
-`\bnccativividadesposleitura`
-`\bnccreferenciasgerais`
+\bnccativividadespreleitura
+\bnccativividadesleitura
+\bnccativividadesposleitura
+\bnccreferenciasgerais
+```
 
 Tarefinhas
 ----------
 
-- [ ] Tirar a marca das fichas catalográficas
+- [ ] Fazer rodar o 0002
+- [ ] Acertar iconografia entre 0038 e 0007
+- [x] Tirar a marca das fichas catalográficas
 - [ ] Colocar legenda no 0049 e 0050 (Kalinka)
 - [ ] Acertar a bibligrafia e a parte de comentários
 - [ ] Acertar os links 
