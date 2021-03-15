@@ -18,29 +18,45 @@ Comandos
 Tarefinhas
 ----------
 
-- [ ] Fazer rodar o 0002
+####Edição
+- [ ] Redação de atividades menos genéricas
+- [ ] Enxerto 
+- [ ] Aplicar BNCCs 
+- [ ] Revisão textual
+
+
+####Iconografia
+- [ ] Incluir imagens faltantes (??)
 - [ ] Acertar iconografia entre 0038 e 0007
-- [x] Tirar a marca das fichas catalográficas
 - [ ] Colocar legenda no 0049 e 0050 (Kalinka)
+
+####Layout
+- [ ] Aplicar ISBN 
+- [ ] Currículo do Redator**
 - [ ] Acertar a bibligrafia e a parte de comentários
 - [ ] Acertar os links 
-- [ ] Incluir a capa grande nos manuais
-- [ ] Aplicar ISBN 
+- [ ] Incluir a capa grande nos manuais (autoria do manual e "Material digital do professor") @jorge
 - [ ] Tratar brancos nas capas
+
+####Diagramação
+- [ ] PNLD0005
+- [ ] PNLD0035
+- [ ] PNLD0054
+- [ ] PNLD0061
+
+####Supérfluo
 - [ ] Colocar seções laterais "para ler" e "para ver"
-- [ ] Currículo do Redaator
-- [ ] Diagramar Glaac
-- [ ] Diagramar 0054 e 0035 
+
+####Feito
+- [x] Fazer rodar o 0002
+- [x] Tirar a marca das fichas catalográficas
 
 
 Tarefas épicas
 --------------
-- [ ] Avaliação dos textos (@FelipeMusetti)
-- [ ] Cartas ao professor
-- [ ] Redação de atividades menos genéricas
-- [ ] Aplicar BNCCs 
-- [ ] Revisão textual
-- [ ] Comparar vídeo/TP com MP
+- [x] Cartas ao professor
+- [x] Avaliação dos textos (@FelipeMusetti)
+
 
 Equipes
 -------
