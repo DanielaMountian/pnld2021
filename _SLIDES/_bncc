@@ -1,13 +1,8 @@
 \RequirePackage{tikz,comment}
 \RequirePackage[most]{tcolorbox}
 
-\definecolor{studiointro}{rgb}{0, 153, 0}
-\setbeamercolor{block title}{bg=red,fg=black}
-
-
-\newenvironment{bncc}[1]{%
-	\footnotesize  \bullet{}~\textbf{#1}\    
-	}{}
+% basenacionalcomum.mec.gov.br
+% http://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf
 
 
 \newcommand{\bnccativividadespreleitura}{
@@ -27,17 +22,18 @@
 	\BNCC{EM13LP46}
 	\BNCC{EM13LP49}}
 
-% \newcommand{\DefineBNCC}[2]{%
-%   \expandafter\newcommand\csname {#1}\endcsname{#2}%
-% }
-% \newcommand{\BNCC}[1]{\csname #1\endcsname}
 
+
+\newenvironment{bncc}[1]{%
+	\begin{tcolorbox}[colback=blue!5!white,colframe=blue!15!brown,title=#1]\footnotesize
+	}{%
+	\end{tcolorbox}
+	}
 
 \newcommand{\DefineBNCC}[2]{%
-  \expandafter\newcommand\csname {#1}\endcsname{#2}%
+  \expandafter\newcommand\csname #1\endcsname{#2}%
 }
 \newcommand{\BNCC}[1]{\csname #1\endcsname}
-
 
 \expandafter\newcommand\csname EM13LGG302\endcsname{\begin{bncc}{EM13LGG302}
 Posicionar-se criticamente diante de diversas visões de mundo presentes nos discursos em diferentes linguagens, levando em conta seus contextos de produção e de circulação.
