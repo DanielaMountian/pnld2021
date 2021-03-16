@@ -65,10 +65,10 @@ Tarefinhas
 
 
 ####Iconografia
-- [ ] 0054 Aplicar a iconografia (@analancman)
+- [x] 0054 Aplicar a iconografia (@analancman)
 - [ ] 0062 Sem iconografia (@jorgesallum com Rebeca)
 - [ ] 0060 Ainda sem iconografia (tem que fazer) (@analancaman vai fazer junto com a UBU)
-- [ ] 0007 Incluir foto dos narradores https://github.com/hedra-editora/wpa_narrativas/tree/master/imgs (@jorgesallum/@analancman)
+- [x] 0007 Incluir foto dos narradores https://github.com/hedra-editora/wpa_narrativas/tree/master/imgs (@jorgesallum/@analancman)
 - [x] 0036 Iconografia faltando! 
 - [x] 0033 Tratar imagens coloridas com cara de amadora e fundo branco errado
 - [x] 0033 Sumiu a imagem PNLD0033-07
