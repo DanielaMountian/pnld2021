@@ -1,6 +1,12 @@
 README.md
 ======
 
+- [ ] 0034
+- [ ] 0015
+- [ ] 0023
+- [ ] 0059
+
+
 * make file=PNLD... 
 	* Roda arquivo específico
 * make file=PNLD... png  
