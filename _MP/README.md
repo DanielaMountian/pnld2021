@@ -18,7 +18,8 @@ Comandos
 Tarefinhas
 ----------
 
-####Edição
+## Edição
+
 - [ ] 0035 Material está visivelmente incompleto, com texto em caixa alta. rascunho. inaprovável. @reniersilva ⛔
 - [ ] Restabelecer imagens
 - [ ] Redação de atividades menos genéricas
@@ -70,8 +71,8 @@ Tarefinhas
 - [x] 0010
 - [x] 0016
 - [ ] Incluir imagens faltantes (??)
-- [ ] Acertar iconografia entre 0038 e 0007
-- [ ] Colocar legenda no 0049 e 0050 (Kalinka)
+- [x] Acertar iconografia entre 0038 e 0007
+- [x] Colocar legenda no 0049 e 0050 (Kalinka)
 
 ####Layout
 - [ ] Página de abertura
