@@ -47,25 +47,35 @@ Tarefinhas
 - [ ] 0062 Título e divisões errados
 - [ ] PNLD0015 texto com 19 páginas. Rever atividades @jorgesallum
 - [ ] PNLD0013 Falta carta e está com 26 páginas. Falar se possível com Iuri Pereira.
+- [ ] PNLD0030 Preparação do enxerto. Tamanho.
+- [ ] PNLD0041 Preparação do enxerto. Tamanho.
+- [ ] PNLD0043 Preparação do enxerto
+- [ ] PNLD0045 Preparação do enxerto
+- [ ] PNLD0046 Preparação do enxerto
+- [ ] PNLD0059 Preparação do enxerto
+- [ ] PNLD0060 Preparação do enxerto
+
+
 
 ######Enxerto
  
 - [x] PNLD0015
+- [x] PNLD0018
 - [x] PNLD0030
-- [ ] PNLD0051
-- [ ] PNLD0062*
-- [ ] PNLD0018
-- [ ] PNLD0033 ⛔
-- [ ] PNLD0040 
-- [ ] PNLD0041
-- [ ] PNLD0043
-- [ ] PNLD0045
-- [ ] PNLD0046
-- [ ] PNLD0059
-- [ ] PNLD0060
+- [x] PNLD0033
+- [x] PNLD0040 
+- [x] PNLD0041
+- [x] PNLD0043
+- [x] PNLD0045
+- [x] PNLD0046
+- [x] PNLD0051
+- [x] PNLD0059
+- [x] PNLD0060
 
 
 ####Iconografia
+- [ ] PNLD0060 ainda sem imagens!!
+- [ ] PNLD0046 Incluir mais duas páginas de imagens. (3 horizontais)
 - [ ] PNLD0015-05.png fundo branco
 - [x] 0054 Aplicar a iconografia (@analancman)
 - [ ] 0062 Sem iconografia (@jorgesallum com Rebeca)
