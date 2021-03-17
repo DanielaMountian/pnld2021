@@ -17,21 +17,21 @@ Primeira etapa
 O asterisco indica que o prefácio da edição original pode ser utilizado.
 
 
-- [ ] PNLD0001_lunna_akutagawa_rashomon*
+- [x] PNLD0001_lunna_akutagawa_rashomon*
 - [x] PNLD0002_mm_almeida_contos*
 - [ ] PNLD0003_he_andrade_peru*
 - [x] PNLD0004_madalena_andrade_zeppelin*
 - [x] PNLD0005_circuito_andrade_tudoamo*
 - [ ] PNLD0007_hedra_athayde_cordel 
-- [ ] PNLD0008_araucaria_atui_mare
+- [x] PNLD0008_araucaria_atui_mare
 - [ ] PNLD0006_ayllon_baccega_graal
 - [ ] PNLD0029_n-1_ballester_yanomami
 - [x] PNLD0009_lunna_barreto_cronicas*
-- [ ] PNLD0010_acorde_baudelaire_pequenos* [Dirceu quer refazer]
+- [x] PNLD0010_acorde_baudelaire_pequenos*
 - [ ] PNLD0011_relicario_brown_narrativa
 - [ ] PNLD0012_he_cardim_tratado*
-- [ ] PNLD0013_ayllon_defoe_robinson* [Dirceu quer refazer]
-- [ ] PNLD0014_acorde_firmina_antologia*
+- [x] PNLD0013_ayllon_defoe_robinson* [Dirceu quer refazer]
+- [x] PNLD0014_acorde_firmina_antologia*
 - [ ] PNLD0030_nexus_fontela_poesia
 - [ ] PNLD0015_piseagrama_gabriel_tratado*
 - [ ] PNLD0016_edlab_gama_abolicao
@@ -47,14 +47,14 @@ O asterisco indica que o prefácio da edição original pode ser utilizado.
 - [ ] PNLD0026_lamparina_machado_pai*
 - [ ] PNLD0027_glac_marra_crack
 - [ ] PNLD0028_he_menezes_jazz*
-- [ ] PNLD0031_he_panelas_cordel
+- [x] PNLD0031_he_panelas_cordel
 - [ ] PNLD0032_he_patativa_cordel
 - [ ] PNLD0033_blooks_patativa_ispinho*
 - [ ] PNLD0034_he_rodolfo_cordel
 - [ ] PNLD0035_escola_safo_hino*
 - [ ] PNLD0036_escola_schwob_vidas* :notebook: 
 - [ ] PNLD0037_he_stevenson_medico*
-- [ ] PNLD0038_relicario_stoker_sol*
+- [x] PNLD0038_relicario_stoker_sol*
 - [ ] PNLD0039_glac_strindberg_hemso
 - [ ] PNLD0040_blooks_strindberg_sagas
 - [ ] PNLD0041_mm_tieck_feitico*
