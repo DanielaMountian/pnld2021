@@ -19,6 +19,12 @@
 
 \newcommand{\forceindent}{\leavevmode{\parindent=1,4em\indent}}
 
+\makeatletter
+\def\@xfootnote[#1]{%
+  \protected@xdef\@thefnmark{#1}%
+  \@footnotemark\@footnotetext}
+\makeatother
+
 \setparaheadstyle{\normalfont\bfseries}
 \setafterparaskip{0ex}
 
