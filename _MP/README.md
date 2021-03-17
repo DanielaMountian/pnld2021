@@ -45,14 +45,15 @@ Tarefinhas
 - [ ] 0059 o manual carece de atividades voltadas a ambientar o aluno nas características formais do texto. Propor no mínimo uma atividade que trabalhe o gênero do livro.
 - [ ] 0060 1.3 Pós-leitura e não pré-leitura. (detalhe)
 - [ ] 0062 Título e divisões errados
+- [ ] PNLD0015 texto com 19 páginas. Rever atividades @jorgesallum
 
 ######Enxerto
-
-- [ ] PNLD0015
-- [ ] PNLD0013
-- [ ] PNLD0030
+ 
+- [x] PNLD0015
+- [ ] PNLD0013*
+- [x] PNLD0030
 - [ ] PNLD0051
-- [ ] PNLD0062
+- [ ] PNLD0062*
 - [ ] PNLD0018
 - [ ] PNLD0033 ⛔
 - [ ] PNLD0040 
@@ -65,6 +66,7 @@ Tarefinhas
 
 
 ####Iconografia
+- [ ] PNLD0015-05.png fundo branco
 - [x] 0054 Aplicar a iconografia (@analancman)
 - [ ] 0062 Sem iconografia (@jorgesallum com Rebeca)
 - [x] 0060 Ainda sem iconografia (tem que fazer) (@analancaman vai fazer junto com a UBU)
