@@ -33,7 +33,7 @@ O asterisco indica que o prefácio da edição original pode ser utilizado.
 - [x] PNLD0013_ayllon_defoe_robinson* [Dirceu quer refazer]
 - [x] PNLD0014_acorde_firmina_antologia*
 - [ ] PNLD0030_nexus_fontela_poesia
-- [ ] PNLD0015_piseagrama_gabriel_tratado*
+- [x] PNLD0015_piseagrama_gabriel_tratado*
 - [ ] PNLD0016_edlab_gama_abolicao
 - [ ] PNLD0017_he_gandavo_provincia*
 - [ ] PNLD0018_iluminuras_heine_rabi*
