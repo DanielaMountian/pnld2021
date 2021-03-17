@@ -46,11 +46,11 @@ Tarefinhas
 - [ ] 0060 1.3 Pós-leitura e não pré-leitura. (detalhe)
 - [ ] 0062 Título e divisões errados
 - [ ] PNLD0015 texto com 19 páginas. Rever atividades @jorgesallum
+- [ ] PNLD0013 Falta carta e está com 26 páginas. Falar se possível com Iuri Pereira.
 
 ######Enxerto
  
 - [x] PNLD0015
-- [ ] PNLD0013*
 - [x] PNLD0030
 - [ ] PNLD0051
 - [ ] PNLD0062*
