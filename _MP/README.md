@@ -74,10 +74,10 @@ Tarefinhas
 
 
 ####Iconografia
-- [ ] PNLD0060 ainda sem imagens!!
 - [ ] PNLD0046 Incluir mais duas páginas de imagens. (3 horizontais)
 - [ ] PNLD0015-05.png fundo branco
 - [x] 0054 Aplicar a iconografia (@analancman)
+- [x] PNLD0060 ainda sem imagens!!
 - [ ] 0062 Sem iconografia (@jorgesallum com Rebeca)
 - [x] 0060 Ainda sem iconografia (tem que fazer) (@analancaman vai fazer junto com a UBU)
 - [x] 0007 Incluir foto dos narradores https://github.com/hedra-editora/wpa_narrativas/tree/master/imgs (@jorgesallum/@analancman)
