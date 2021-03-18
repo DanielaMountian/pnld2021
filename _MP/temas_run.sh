@@ -1,0 +1,1 @@
+temas_run.sh
