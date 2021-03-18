@@ -96,7 +96,7 @@
                       \ifdef{\imagemCapa}{
                       \includegraphics[width=4cm]{\imagemCapa}
                                           }{
-                      \includegraphics[width=4cm]{capa.png}                    
+                      %\includegraphics[width=4cm]{capa.png}                    
                                           }
                            }
                       };
@@ -169,8 +169,8 @@
 \newcommand{\Image}[2]{
 \begin{figure}
 \thisfloatpagestyle{empty}
-\includegraphics[width=\textwidth]{./images/#2}
-\caption{#1}\label{fig:#2}
+\includegraphics[width=\textwidth]{./images/#2}\label{fig:#2}
+\caption{#1}
 \end{figure}}
 \newcommand{\SideImage}[2]{
 \marginpar{\includegraphics[width=\marginparwidth]{./images/#2}\label{fig:#2}
