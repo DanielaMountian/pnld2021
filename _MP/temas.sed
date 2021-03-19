@@ -8,17 +8,17 @@
 %BNCC-GENERICO
 \BNCC{EM13LGG203} \BNCC{EM13LGG204}
 
-PNLD0005_Eu tudoamo: antologia de poemas de Mário de Andrade
-PNLD0010_Pequenos poemas em prosa
-PNLD0012_Vocação de cantador
-PNLD0019_Uma voz do Nordeste
-PNLD0025_Poeta popular paraense
-PNLD0030_Poemas escolhidos
-PNLD0031_Circo, teatro e cordel
-PNLD0033_Ispinho e Fulô
-PNLD0035_Hino a Afrodite e outros poemas
-PNLD0044_Teogonia & Trabalhos e dias
-PNLD0045_Tipógrafo, poeta e editor
+gsed -i '/\\tableofcontents/ r tema_poema.tex' PNLD0005-MP.tex
+gsed -i '/\\tableofcontents/ r tema_poema.tex' PNLD0010-MP.tex
+gsed -i '/\\tableofcontents/ r tema_poema.tex' PNLD0012-MP.tex
+gsed -i '/\\tableofcontents/ r tema_poema.tex' PNLD0019-MP.tex
+gsed -i '/\\tableofcontents/ r tema_poema.tex' PNLD0025-MP.tex
+gsed -i '/\\tableofcontents/ r tema_poema.tex' PNLD0030-MP.tex
+gsed -i '/\\tableofcontents/ r tema_poema.tex' PNLD0031-MP.tex
+gsed -i '/\\tableofcontents/ r tema_poema.tex' PNLD0033-MP.tex
+gsed -i '/\\tableofcontents/ r tema_poema.tex' PNLD0035-MP.tex
+gsed -i '/\\tableofcontents/ r tema_poema.tex' PNLD0044-MP.tex
+gsed -i '/\\tableofcontents/ r tema_poema.tex' PNLD0045-MP.tex
 
 
 %CONTO
@@ -31,26 +31,26 @@ PNLD0045_Tipógrafo, poeta e editor
 %BNCC-GENERICO
 \BNCC{EM13LGG204} \BNCC{EM13LGG20
 
-PNLD0001_Crônicas e contos
-PNLD0002_Contos e novelas
-PNLD0004_Zeppelin: algumas crônicas de Mário de Andrade
-PNLD0006_A demanda do Santo Graal
-PNLD0009_Rashômon e outros contos
-PNLD0011_Sob o pôr do sol
-PNLD0021_O chamado de Cthulhu
-PNLD0024_Um suplício moderno e outros contos
-PNLD0026_Pai contra mãe e outros contos
-PNLD0027_Crônicas do crack
-PNLD0028_O peru de natal e outros contos
-PNLD0032_Dublinenses
-PNLD0036_Vidas imaginárias e outros textos
-PNLD0040_Sagas
-PNLD0041_Feitiço de amor e outros contos
-PNLD0043_Diários de Adão e Eva
-PNLD0048_O Alienista — O Imortal — A Cartomante
-PNLD0050_Contos russos juvenis
-PNLD0051_Rio de Sonhos
-PNLD0055_Passando-se
+gsed -i '/\\tableofcontents/ r tema_conto.tex' PNLD0001-MP.tex
+gsed -i '/\\tableofcontents/ r tema_conto.tex' PNLD0002-MP.tex
+gsed -i '/\\tableofcontents/ r tema_conto.tex' PNLD0004-MP.tex
+gsed -i '/\\tableofcontents/ r tema_conto.tex' PNLD0006-MP.tex
+gsed -i '/\\tableofcontents/ r tema_conto.tex' PNLD0009-MP.tex
+gsed -i '/\\tableofcontents/ r tema_conto.tex' PNLD0011-MP.tex
+gsed -i '/\\tableofcontents/ r tema_conto.tex' PNLD0021-MP.tex
+gsed -i '/\\tableofcontents/ r tema_conto.tex' PNLD0024-MP.tex
+gsed -i '/\\tableofcontents/ r tema_conto.tex' PNLD0026-MP.tex
+gsed -i '/\\tableofcontents/ r tema_conto.tex' PNLD0027-MP.tex
+gsed -i '/\\tableofcontents/ r tema_conto.tex' PNLD0028-MP.tex
+gsed -i '/\\tableofcontents/ r tema_conto.tex' PNLD0032-MP.tex
+gsed -i '/\\tableofcontents/ r tema_conto.tex' PNLD0036-MP.tex
+gsed -i '/\\tableofcontents/ r tema_conto.tex' PNLD0040-MP.tex
+gsed -i '/\\tableofcontents/ r tema_conto.tex' PNLD0041-MP.tex
+gsed -i '/\\tableofcontents/ r tema_conto.tex' PNLD0043-MP.tex
+gsed -i '/\\tableofcontents/ r tema_conto.tex' PNLD0048-MP.tex
+gsed -i '/\\tableofcontents/ r tema_conto.tex' PNLD0050-MP.tex
+gsed -i '/\\tableofcontents/ r tema_conto.tex' PNLD0051-MP.tex
+gsed -i '/\\tableofcontents/ r tema_conto.tex' PNLD0055-MP.tex
 
 %ROMANCE
 %BNCC-PRE-LEITURA	 
@@ -62,18 +62,18 @@ PNLD0055_Passando-se
 %BNCC-GENERICO 
 \BNCC{EM13CHS502} \BNCC{EM13LGG203} \BNCC{EM13LGG602} 						
 
-PNLD0008_Mare nostrum: Paranã Tipi
-PNLD0013_Robinson Crusoé
-PNLD0017_O médico e o monstro
-PNLD0018_O Rabi de Bacherach
-PNLD0022_Stephen Herói
-PNLD0037_Um retrato do artista quando Jovem
-PNLD0039_Gente de Hemsö
-PNLD0042_A morte de Ivan Ílitch
-PNLD0046_Viagem em volta do meu quarto
-PNLD0049_A infância de Nikita
-PNLD0053_Júlia – Nos campos conflagrados do Senhor
-PNLD0054_Sofia
+gsed -i '/\\tableofcontents/ r tema_romance.tex' PNLD0008-MP.tex
+gsed -i '/\\tableofcontents/ r tema_romance.tex' PNLD0013-MP.tex
+gsed -i '/\\tableofcontents/ r tema_romance.tex' PNLD0017-MP.tex
+gsed -i '/\\tableofcontents/ r tema_romance.tex' PNLD0018-MP.tex
+gsed -i '/\\tableofcontents/ r tema_romance.tex' PNLD0022-MP.tex
+gsed -i '/\\tableofcontents/ r tema_romance.tex' PNLD0037-MP.tex
+gsed -i '/\\tableofcontents/ r tema_romance.tex' PNLD0039-MP.tex
+gsed -i '/\\tableofcontents/ r tema_romance.tex' PNLD0042-MP.tex
+gsed -i '/\\tableofcontents/ r tema_romance.tex' PNLD0046-MP.tex
+gsed -i '/\\tableofcontents/ r tema_romance.tex' PNLD0049-MP.tex
+gsed -i '/\\tableofcontents/ r tema_romance.tex' PNLD0053-MP.tex
+gsed -i '/\\tableofcontents/ r tema_romance.tex' PNLD0054-MP.tex
 
 
 %DIARIO
@@ -86,18 +86,18 @@ PNLD0054_Sofia
 %BNCC-GENERICO 
 \BNCC{EM13LGG101} \BNCC{EM13LGG203 
 
-PNLD0007_Nascidos na escravidão: depoimentos norte-americanos
-PNLD0015_Tratado descritivo do Brasil (Seleta)
-PNLD0016_O herói da abolição: a luta de Luiz Gama no império do Brasil
-PNLD0020_Incidentes da vida de uma escrava
-PNLD0023_Tratado da terra e gente do Brasil
-PNLD0034_História da província de Santa Cruz
-PNLD0038_Narrativa de William Wells Brown, escravo fugitivo
-PNLD0047_Jazz Rural
-PNLD0056_E eu não sou uma mulher? — A narrativa de Sojourner Truth
-PNLD0057_Dez dias no manicômio
-PNLD0058_Volta ao mundo em 72 dias
-PNLD0062_Pequena prisão
+gsed -i '/\\tableofcontents/ r tema_diario.tex' PNLD0007-MP.tex
+gsed -i '/\\tableofcontents/ r tema_diario.tex' PNLD0015-MP.tex
+gsed -i '/\\tableofcontents/ r tema_diario.tex' PNLD0016-MP.tex
+gsed -i '/\\tableofcontents/ r tema_diario.tex' PNLD0020-MP.tex
+gsed -i '/\\tableofcontents/ r tema_diario.tex' PNLD0023-MP.tex
+gsed -i '/\\tableofcontents/ r tema_diario.tex' PNLD0034-MP.tex
+gsed -i '/\\tableofcontents/ r tema_diario.tex' PNLD0038-MP.tex
+gsed -i '/\\tableofcontents/ r tema_diario.tex' PNLD0047-MP.tex
+gsed -i '/\\tableofcontents/ r tema_diario.tex' PNLD0056-MP.tex
+gsed -i '/\\tableofcontents/ r tema_diario.tex' PNLD0057-MP.tex
+gsed -i '/\\tableofcontents/ r tema_diario.tex' PNLD0058-MP.tex
+gsed -i '/\\tableofcontents/ r tema_diario.tex' PNLD0062-MP.tex
 
 
 
