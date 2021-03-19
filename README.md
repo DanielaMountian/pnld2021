@@ -30,7 +30,7 @@ O asterisco indica que o prefácio da edição original pode ser utilizado.
 - [x] PNLD0010_acorde_baudelaire_pequenos*
 - [ ] PNLD0011_relicario_brown_narrativa
 - [ ] PNLD0012_he_cardim_tratado*
-- [x] PNLD0013_ayllon_defoe_robinson* [Dirceu quer refazer]
+- [x] PNLD0013_ayllon_defoe_robinson*
 - [x] PNLD0014_acorde_firmina_antologia*
 - [ ] PNLD0030_nexus_fontela_poesia
 - [x] PNLD0015_piseagrama_gabriel_tratado*
@@ -40,15 +40,15 @@ O asterisco indica que o prefácio da edição original pode ser utilizado.
 - [ ] PNLD0019_he_hesiodo_teogonia_trabalhos*
 - [ ] PNLD0020_nexus_jacobs_incidentes
 - [ ] PNLD0021_he_joyce_dublinenses*
-- [ ] PNLD0022_he_joyce_retrato****
-- [ ] PNLD0023_he_joyce_stephen*
-- [ ] PNLD0024_circuito_lobato_suplicio*
+- [ ] PNLD0022_he_joyce_retrato
+- [x] PNLD0023_he_joyce_stephen*
+- [x] PNLD0024_circuito_lobato_suplicio*
 - [ ] PNLD0025_he_lovecraft_chulhu*
-- [ ] PNLD0026_lamparina_machado_pai*
+- [x] PNLD0026_lamparina_machado_pai*
 - [ ] PNLD0027_glac_marra_crack
 - [ ] PNLD0028_he_menezes_jazz*
 - [x] PNLD0031_he_panelas_cordel
-- [ ] PNLD0032_he_patativa_cordel
+- [x] PNLD0032_he_patativa_cordel
 - [ ] PNLD0033_blooks_patativa_ispinho*
 - [ ] PNLD0034_he_rodolfo_cordel
 - [ ] PNLD0035_escola_safo_hino*
@@ -60,10 +60,10 @@ O asterisco indica que o prefácio da edição original pode ser utilizado.
 - [ ] PNLD0041_mm_tieck_feitico*
 - [ ] PNLD0042_madalena_tolstoi_ivan*
 - [ ] PNLD0043_edlab_twain_diarios
-- [x] PNLD0044_he_vieira_sermoes* [falta justificação da antologia]
-- [ ] PNLD0045_hedra_wpa_nascidos
+- [ ] PNLD0044_he_vieira_sermoes* 
+- [ ] PNLD0045_hedra_wpa_nascidos 
 - [ ] PNLD0046_araucaria_maistre_viagem
-- [ ] PNLD0047_he_vicente_cordel
+- [x] PNLD0047_he_vicente_cordel
 - [ ] PNLD0048_piseagrama_machado_cartomante
 - [ ] PNLD0049_kalinka_tolstoi_nikita
 - [ ] PNLD0050_kalinka_russos_mountian
