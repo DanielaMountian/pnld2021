@@ -121,6 +121,12 @@
 \newcommand{\fn@aux}{\csname fn\the\count0\endcsname}
 \makeatother
 
+% pagebreak after section
+\let\oldsection\section
+\renewcommand\section{\clearpage\oldsection}
+
+% sumary name
+\renewcommand{\contentsname}{Sumário}
 
 % title
     \newcommand{\subtitlestyle}[1]{-- \emph{#1}\medskip}
