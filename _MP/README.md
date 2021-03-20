@@ -32,7 +32,7 @@ Tarefinhas
 
 ## Notas de revisão
 - [ ] 0010 Trocar poema do Bandeira por outro em domínio público @reniersilva
-- [ ] 0007 "Nas três narravivas"... verificar por que.
+- [X] 0007 "Nas três narravivas"... verificar por que.
 - [ ] 0011 Detalhar as atividades sugeridas
 - [ ] 0015 Atividades não estão ruins, mas carecem de mais desenvolvimento. Aumentar páginas! Temos somente 16 páginas. Incluir ilustração do próprio livro. Destacar o capítulo do monstro.
 - [ ] 0016 O manual apenas desenvolve atividades de trabalho com o texto propriamente dito na parte de Aprofundamento. Nas Atividades I e II: atividades sobre temas relacionados à obra, mas nenhuma atividade sobre a especificidade da obra. FALTA: Atividades que orientem o professor a trabalhar com o texto da obra; atividades que trabalhem os aspectos formais da obra; atividades relacionadas ao gênero da obra. EM SUMA: O centro nervoso da falta é a conexão das atividades genéricas sugeridas nas Atividades I e II com o próprio texto da obra, em sua especificidade. Sugere-se a elaboração de atividades com o próprio texto da obra já nas Atividades I e II, para conectar o tema da escravidão com a OBRA de Luiz Gama. Importante também que as Atividades I e II abordem o gênero literário da obra.
