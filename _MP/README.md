@@ -18,11 +18,11 @@ Comandos
 Tarefinhas
 ----------
 
-- [x] Avaliar desde já a situação
-- [x] Textos problemáticos ⛔
 - [ ] Preparação das atividades
 - [ ] Revisão textual
 - [ ] Aplicar BNCCs 
+- [x] Avaliar desde já a situação
+- [x] Textos problemáticos ⛔
 - [x] Restabelecer imagens
 
 ## Edição
@@ -30,33 +30,35 @@ Tarefinhas
 - [x] 0054 ⛔ @reniersilva
 - [x] 0035 ⛔ @reniersilva
 - [x] 0029 ⛔ @sofiaboldrini
-- [x] 0016 Gama @analancman
+- [x] 0016 ⛔ Gama @analancman
+- [ ] 0015 🚧
+- [ ] 0016 🚧
+- [ ] 0039 🚧
+- [ ] 0041 🚧
+- [ ] 0042 🚧
+- [ ] 0043 🚧
+- [ ] 0059 🚧
 
 
 ## Notas de revisão
-- [ ] 0010 Trocar poema do Bandeira por outro em domínio público @reniersilva
-- [X] 0007 "Nas três narravivas"... verificar por que.
+
 - [ ] 0011 Detalhar as atividades sugeridas
-- [ ] 0015 Atividades não estão ruins, mas carecem de mais desenvolvimento. Aumentar páginas! Temos somente 16 páginas. Incluir ilustração do próprio livro. Destacar o capítulo do monstro.
-- [ ] 0016 O manual apenas desenvolve atividades de trabalho com o texto propriamente dito na parte de Aprofundamento. Nas Atividades I e II: atividades sobre temas relacionados à obra, mas nenhuma atividade sobre a especificidade da obra. FALTA: Atividades que orientem o professor a trabalhar com o texto da obra; atividades que trabalhem os aspectos formais da obra; atividades relacionadas ao gênero da obra. EM SUMA: O centro nervoso da falta é a conexão das atividades genéricas sugeridas nas Atividades I e II com o próprio texto da obra, em sua especificidade. Sugere-se a elaboração de atividades com o próprio texto da obra já nas Atividades I e II, para conectar o tema da escravidão com a OBRA de Luiz Gama. Importante também que as Atividades I e II abordem o gênero literário da obra.
-- [ ] 0036 Importante deixar claro qual o genero literário da obra que está sendo trabalhada e propor atividades específicas para ambientar os alunos no gênero literário.
-- [ ] 0039 Atividade 1, pré-leitura, poderia explorar melhor o gênero da obra em questão (limita-se a pesquisa de gêneros literários em geral).
-- [ ] 0041 Algumas atividades boas, outras mais curtas e vagas.
-- [ ] 0042 Atividades exploram pouco gênero literário e aspectos formais da obra.
-- [ ] 0043 Algumas atividades carecem de desenvolvimento.
+- [ ] 0036 Importante deixar claro qual o genero literário
 - [ ] 0045 Cuidado com revisão. Títulos errados. 
-- [ ] 0059 o manual carece de atividades voltadas a ambientar o aluno nas características formais do texto. Propor no mínimo uma atividade que trabalhe o gênero do livro.
 - [ ] 0060 1.3 Pós-leitura e não pré-leitura. (detalhe)
 - [ ] 0062 Título e divisões errados
-- [ ] PNLD0015 texto com 19 páginas. Rever atividades @jorgesallum
-- [ ] PNLD0013 Falta carta e está com 26 páginas. Falar se possível com Iuri Pereira.
-- [ ] PNLD0030 Preparação do enxerto. Tamanho.
-- [ ] PNLD0041 Preparação do enxerto. Tamanho.
-- [ ] PNLD0043 Preparação do enxerto
-- [ ] PNLD0045 Preparação do enxerto
-- [ ] PNLD0046 Preparação do enxerto
-- [ ] PNLD0059 Preparação do enxerto
-- [ ] PNLD0060 Preparação do enxerto
+- [x] 0010 Poema do Bandeira
+- [x] 0007 "Nas três narravivas"... verificar por que.
+- [x] PNLD0015 texto com 19 páginas. Rever atividades @jorgesallum
+- [x] PNLD0013 Falta carta e está com 26 páginas. Falar se possível com Iuri Pereira.
+
+- [x] PNLD0030 Preparação do enxerto 
+- [x] PNLD0041 Preparação do enxerto
+- [x] PNLD0043 Preparação do enxerto
+- [x] PNLD0045 Preparação do enxerto
+- [x] PNLD0046 Preparação do enxerto
+- [x] PNLD0059 Preparação do enxerto
+- [x] PNLD0060 Preparação do enxerto
 
 
 
