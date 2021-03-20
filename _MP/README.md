@@ -18,16 +18,19 @@ Comandos
 Tarefinhas
 ----------
 
-- [ ] Textos problemáticos ⛔
+- [x] Avaliar desde já a situação
+- [x] Textos problemáticos ⛔
+- [ ] Preparação das atividades
 - [ ] Revisão textual
 - [ ] Aplicar BNCCs 
 - [x] Restabelecer imagens
 
 ## Edição
-- [ ] 0054 ⛔ Um dos piores casos. O manual é praticamente inexistente. @jorgesallum @vicente
-- [ ] 0027 ⛔ Nos campos das Atividades I e II, foca-se em temas relacionados ao texto, mas não se sugere atividade com a obra propriamente dita. Valoriza-se bastante os aspectos temáticos, mas explora-se pouco os aspectos formais da obra, como exige o edital. Problema: logo na atividade I, a proposta sugere trabalhar com os estudantes o gênero biografia, quando a obra é um conjunto de crônicas (na parte de aprofundamento, reconhece-se que o gênero a ser trabalhado é a crônica). Isso pode levar a eliminação. Importante corrigir a parte que sugere inserir o texto no gênero da biografia, aproveitando para enriquecer as Atividades I e II com propostas que estimulem o contato com o texto da obra propriamente dita, bem como seus aspectos formais. @jorgesallum
-- [ ] 0035 ⛔ Material está visivelmente incompleto, com texto em caixa alta. rascunho. inaprovável.   @reniersilva
-- [ ] 0029 ⛔ Material não está ruim, mas explora pouco o gênero literário e carece de mais páginas. Escrever 10 págnas @sofiaboldrini @analancman 
+- [ ] 0027 ⛔ Crack. Refazer @jorge
+- [x] 0054 ⛔ @reniersilva
+- [x] 0035 ⛔ @reniersilva
+- [x] 0029 ⛔ @sofiaboldrini
+- [x] 0016 Gama @analancman
 
 
 ## Notas de revisão
