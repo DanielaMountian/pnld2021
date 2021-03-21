@@ -1,7 +1,6 @@
 README.md
 ======
 
-
 Comandos
 --------
 
@@ -30,7 +29,7 @@ Tarefinhas
 - [x] 0054 ⛔ @reniersilva
 - [x] 0035 ⛔ @reniersilva
 - [x] 0029 ⛔ @sofiaboldrini
-- [x] 0016 ⛔ Gama @analancman
+- [x] 0016 ⛔ Gama @analancaman
 - [ ] 0015 🚧
 - [ ] 0016 🚧
 - [ ] 0039 🚧
