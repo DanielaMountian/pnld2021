@@ -14,6 +14,12 @@ Comandos
 \bnccreferenciasgerais
 ```
 
+Fechamento
+----------
+* Capa @suzanasalama
+* Autoria 
+* Revisão final
+
 Tarefinhas
 ----------
 
