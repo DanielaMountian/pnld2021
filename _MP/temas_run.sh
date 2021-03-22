@@ -1,6 +1,3 @@
-gsed -i '/\\tableofcontents/ r tema_poema.tex' 
-
-
 gsed -i '/\\tableofcontents/ r tema_poema.tex' PNLD0005-MP.tex
 gsed -i '/\\tableofcontents/ r tema_poema.tex' PNLD0010-MP.tex
 gsed -i '/\\tableofcontents/ r tema_poema.tex' PNLD0012-MP.tex
