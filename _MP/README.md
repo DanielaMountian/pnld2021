@@ -23,9 +23,11 @@ Fechamento
 Tarefinhas
 ----------
 
+- [ ] Diagramação dos da Alameda
+- [ ] Aplicar BNCCs 
+
 - [ ] Preparação das atividades
 - [ ] Revisão textual
-- [ ] Aplicar BNCCs 
 - [x] Avaliar desde já a situação
 - [x] Textos problemáticos ⛔
 - [x] Restabelecer imagens
