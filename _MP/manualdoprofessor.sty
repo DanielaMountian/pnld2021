@@ -106,9 +106,9 @@
        \footnotesize\begin{minipage}{5cm}
        \includegraphics[width=4cm]{\logoeditora}\bigskip\\
        \hyphenpenalty=10000\authornotes\\ 
-       \ifdef{\issnppub}{\issnppub\ (Obra)\\}{}
+       \ifdef{\issnppub}{\issnppub\ (Isbn do livro)\\}{}
        % \ifdef{\issnepub}{\issnepub\ (Material do Professor)\smallskip\\}{}
-       \ifdef{\cclicense}{{\Large\cclicense}\\}{}
+       \ifdef{\cclicense}{{\Large CC-BY}\\}{}
        \ifdef{\ack}{\bigskip\\ \ack}{}
        \end{minipage}};
   \end{tikzpicture}
@@ -153,9 +153,9 @@
     {\footnote{ Ver nota \ref{ftn:#1} (p.\pageref{ftn:#1}).}}
   \stepcounter{#1}}
 
-  \def\subject{Material digital do professor}
+  \def\subject{Material digital do professor\quad $\cclicense$\ }
   \newcommand\articledoi{\ifdef{\AutorLivro}{\textsc{\AutorLivro}}{} \ifdef{\TituloLivro}{\emph{\TituloLivro}, \publishername}{}}
-  \newcommand{\journaltitle}{\textsc{material digital do professor}}
+  \newcommand{\journaltitle}{\textsc{Material digital do professor\quad \cclicense}}
 
 \newcommand{\cclicense}{\ccbync}
 
