@@ -38,11 +38,11 @@ Tarefinhas
 - [x] 0035 ⛔ @reniersilva
 - [x] 0029 ⛔ @sofiaboldrini
 - [x] 0016 ⛔ Gama @analancaman
-- [ ] 0015 🚧
+- [x] 0015 🚧
 - [ ] 0016 🚧
 - [X] 0039 🚧
 - [ ] 0041 🚧
-- [ ] 0042 🚧
+- [x] 0042 🚧
 - [ ] 0043 🚧
 - [ ] 0059 🚧
 
@@ -87,7 +87,7 @@ Tarefinhas
 
 ####Iconografia
 - [ ] PNLD0046 Incluir mais duas páginas de imagens. (3 horizontais)
-- [ ] PNLD0015-05.png fundo branco
+- [x] PNLD0015-05.png fundo branco
 - [x] 0054 Aplicar a iconografia (@analancman)
 - [x] PNLD0060 ainda sem imagens!!
 - [ ] 0062 Sem iconografia (@jorgesallum com Rebeca)
