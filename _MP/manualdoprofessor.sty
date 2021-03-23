@@ -31,11 +31,11 @@
 \RequirePackage{ccicons}
 \RequirePackage{float}
 \RequirePackage{textcomp}
-\RequirePackage[heightadjust]{marginnote}
+\RequirePackage[depthadjust]{marginnote}
 \RequirePackage[paperheight=275mm,paperwidth=205mm,top=15mm,left=2.75in,footskip=18mm]{geometry}
 
 %Marginnote to multiple BNCC
-\newcommand{\BNCCC}[1]{\marginnote{\small Ver também as habilidades:\\ #1}}
+\newcommand{\BNCCC}[1]{\marginnote{\footnotesize \texttt{\textbf{Ver também as habilidades:}}\\ \texttt{#1}}}
 
 \renewcommand{\abstractname}{Carta ao professor}
 
