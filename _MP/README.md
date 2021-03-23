@@ -14,12 +14,20 @@ Comandos
 \bnccreferenciasgerais
 ```
 
+Fechamento
+----------
+* Capa @suzanasalama
+* Autoria 
+* Revisão final
+
 Tarefinhas
 ----------
 
+- [ ] Diagramação dos da Alameda
+- [ ] Aplicar BNCCs 
+
 - [ ] Preparação das atividades
 - [ ] Revisão textual
-- [ ] Aplicar BNCCs 
 - [x] Avaliar desde já a situação
 - [x] Textos problemáticos ⛔
 - [x] Restabelecer imagens
@@ -30,18 +38,18 @@ Tarefinhas
 - [x] 0035 ⛔ @reniersilva
 - [x] 0029 ⛔ @sofiaboldrini
 - [x] 0016 ⛔ Gama @analancaman
-- [ ] 0015 🚧
+- [x] 0015 🚧
 - [ ] 0016 🚧
-- [ ] 0039 🚧
+- [X] 0039 🚧
 - [ ] 0041 🚧
-- [ ] 0042 🚧
+- [x] 0042 🚧
 - [ ] 0043 🚧
 - [ ] 0059 🚧
 
 
 ## Notas de revisão
 
-- [ ] 0011 Detalhar as atividades sugeridas
+- [X] 0011 Detalhar as atividades sugeridas
 - [ ] 0036 Importante deixar claro qual o genero literário
 - [ ] 0045 Cuidado com revisão. Títulos errados. 
 - [ ] 0060 1.3 Pós-leitura e não pré-leitura. (detalhe)
@@ -79,7 +87,7 @@ Tarefinhas
 
 ####Iconografia
 - [ ] PNLD0046 Incluir mais duas páginas de imagens. (3 horizontais)
-- [ ] PNLD0015-05.png fundo branco
+- [x] PNLD0015-05.png fundo branco
 - [x] 0054 Aplicar a iconografia (@analancman)
 - [x] PNLD0060 ainda sem imagens!!
 - [ ] 0062 Sem iconografia (@jorgesallum com Rebeca)
