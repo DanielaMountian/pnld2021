@@ -40,7 +40,7 @@ Tarefinhas
 - [x] 0016 ⛔ Gama @analancaman
 - [ ] 0015 🚧
 - [ ] 0016 🚧
-- [ ] 0039 🚧
+- [X] 0039 🚧
 - [ ] 0041 🚧
 - [ ] 0042 🚧
 - [ ] 0043 🚧
@@ -49,7 +49,7 @@ Tarefinhas
 
 ## Notas de revisão
 
-- [ ] 0011 Detalhar as atividades sugeridas
+- [X] 0011 Detalhar as atividades sugeridas
 - [ ] 0036 Importante deixar claro qual o genero literário
 - [ ] 0045 Cuidado com revisão. Títulos errados. 
 - [ ] 0060 1.3 Pós-leitura e não pré-leitura. (detalhe)
