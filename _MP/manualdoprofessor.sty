@@ -31,9 +31,11 @@
 \RequirePackage{ccicons}
 \RequirePackage{float}
 \RequirePackage{textcomp}
-\RequirePackage{marginnote}
+\RequirePackage[depthadjust]{marginnote}
 \RequirePackage[paperheight=275mm,paperwidth=205mm,top=15mm,left=2.75in,footskip=18mm]{geometry}
 
+%Marginnote to multiple BNCC
+\newcommand{\BNCCC}[1]{\marginnote{\footnotesize \texttt{\textbf{Ver também as habilidades:}}\\ \texttt{#1}}}
 
 \renewcommand{\abstractname}{Carta ao professor}
 
@@ -104,9 +106,9 @@
        \footnotesize\begin{minipage}{5cm}
        \includegraphics[width=4cm]{\logoeditora}\bigskip\\
        \hyphenpenalty=10000\authornotes\\ 
-       \ifdef{\issnppub}{\issnppub\ (Obra)\\}{}
+       \ifdef{\issnppub}{\issnppub\ (Isbn do livro)\\}{}
        % \ifdef{\issnepub}{\issnepub\ (Material do Professor)\smallskip\\}{}
-       \ifdef{\cclicense}{{\Large\cclicense}\\}{}
+       \ifdef{\cclicense}{{\Large $\cclicense$}\\}{}
        \ifdef{\ack}{\bigskip\\ \ack}{}
        \end{minipage}};
   \end{tikzpicture}
@@ -122,8 +124,8 @@
 \makeatother
 
 % pagebreak after section
-\let\oldsection\section
-\renewcommand\section{\clearpage\oldsection}
+%\let\oldsection\section
+%\renewcommand\section{\clearpage\oldsection}
 
 
 
@@ -151,9 +153,9 @@
     {\footnote{ Ver nota \ref{ftn:#1} (p.\pageref{ftn:#1}).}}
   \stepcounter{#1}}
 
-  \def\subject{Material digital do professor}
+  \def\subject{Material digital do professor\quad $\cclicense$\ }
   \newcommand\articledoi{\ifdef{\AutorLivro}{\textsc{\AutorLivro}}{} \ifdef{\TituloLivro}{\emph{\TituloLivro}, \publishername}{}}
-  \newcommand{\journaltitle}{\textsc{material digital do professor}}
+  \newcommand{\journaltitle}{\textsc{Material digital do professor\quad \cclicense}}
 
 \newcommand{\cclicense}{\ccbync}
 
