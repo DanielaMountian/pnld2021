@@ -124,8 +124,8 @@
 \makeatother
 
 % pagebreak after section
-\let\oldsection\section
-\renewcommand\section{\clearpage\oldsection}
+%\let\oldsection\section
+%\renewcommand\section{\clearpage\oldsection}
 
 
 
@@ -169,6 +169,12 @@
 
 
 \AtBeginDocument{
+{ \hspace{-4.5cm}\includegraphics[width=14cm]{./images/\jobname-C}
+\setcounter{page}{0}
+\thispagestyle{empty}
+\pagebreak
+}
+
 % sumary name
 \renewcommand{\contentsname}{Sumário}
 \baselineskip=1.15\baselineskip\par
@@ -185,5 +191,11 @@
 \marginpar{\includegraphics[width=\marginparwidth]{./images/#2}\label{fig:#2}
       \captionof{figure}{\footnotesize #1}}
 }}
+
+\newcounter{activity} % create a new counter, called 'mycounter'
+% default def'n of '\themycounter' is '\arabic{mycounter}'
+
+%% command to increment 'mycounter' by 1 and to display its value:
+\newcommand\numativ{\stepcounter{activity}\theactivity}
 
 
