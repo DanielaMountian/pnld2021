@@ -192,4 +192,10 @@
       \captionof{figure}{\footnotesize #1}}
 }}
 
+\newcounter{activity} % create a new counter, called 'mycounter'
+% default def'n of '\themycounter' is '\arabic{mycounter}'
+
+%% command to increment 'mycounter' by 1 and to display its value:
+\newcommand\numativ{\stepcounter{activity}\theactivity}
+
 
