@@ -19,6 +19,7 @@ Fechamento
 ```tex
 \section{Sugestões de referências complementares}
 
+% Atenção! Sem referências!
 \subsection{Filmes}
 \subsection{Sites}
 \subsection{Museus}
