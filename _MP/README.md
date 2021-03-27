@@ -4,6 +4,7 @@ README.md
 
 Fechamento
 ----------
+- [ ]
 - [ ] Capa @suzanasalama
 - [ ] Autoria 
 - [ ] Revisão final
@@ -31,7 +32,8 @@ Consideremmos primeiramente o campo da vida pessoal.
 
 Tarefinhas 
 ----------
-
+- [ ] Capas 0051 0052 0053 0054 0061 0062
+- [ ] Aspas inglesas `grep PNLD*tex && grep \ \" PNLD*tex`
 - [ ] Rever atividades extras do 0007/0016/0020/0039 todas iguais
 - [ ] Diagramação do 0061 (Livro)
 - [ ] Iconografia 0062
