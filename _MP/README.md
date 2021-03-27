@@ -19,6 +19,7 @@ Fechamento
 ```tex
 \section{Sugestões de referências complementares}
 
+% Atenção! Sem referências!
 \subsection{Filmes}
 \subsection{Sites}
 \subsection{Museus}
@@ -28,9 +29,11 @@ Fechamento
 
 Consideremmos primeiramente o campo da vida pessoal.
 
-Tarefinhas
+Tarefinhas 
 ----------
 
+- [ ] Rever atividades extras do 0007/0016/0020/0039 todas iguais
+- [ ] Diagramação do 0061 (Livro)
 - [ ] Iconografia 0062
 
 
