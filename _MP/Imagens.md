@@ -52,7 +52,7 @@ PNLD0006-MP.tex:680:\Image{Manuscrito em que há uma representação do Rei Arth
 PNLD0006-MP.tex:683:\Image{Outro manuscrito medieval em que há uma representação do Rei Arthur. Ele segura sua espada e um brasão com a figura da Virgem Maria e seu filho. (British Library; Domínio Público)}{PNLD0006-05.png}
 PNLD0006-MP.tex:727:\Image{A primeira sede dos cavaleiros templários, a Mesquita de Al-Aqsa, em Jerusalém, o monte do Templo. Os cruzados chamaram-lhe de o Templo de Salomão, como ele foi construído em cima das ruínas do templo original, e foi a partir desse local que os cavaleiros tomaram seu nome de templários. (CC-BY-SA 3.0; CC-BY-SA 3.0)}{PNLD0006-10.png}
 PNLD0006-MP.tex:739:\Image{Cavaleiros sentados ao redor da Távola Redonda (Biblioteca Nacional da França; Domínio Público)}{PNLD0006-06.png}
-PNLD0006-MP.tex:754:\SideImage{Quadro intitulado "O Santo Graal", de Dante Gabriel Rossetti (1860) (Dante Gabriel Rossetti; Domínio Público)}{PNLD0006-11.png}
+PNLD0006-MP.tex:754:\SideImage{Quadro intitulado ``O Santo Graal'', de Dante Gabriel Rossetti (1860) (Dante Gabriel Rossetti; Domínio Público)}{PNLD0006-11.png}
 PNLD0006-MP.tex:1064:\SideImage{Poeta Zé da Luz (1904-1965), à direita da foto. Fonte: Wikipedia. CC-BY.}{PNLD0006-20.jpg}
 PNLD0007-MP.tex:80:%\SideImage{Paul D. Escott (Wake Forest University; Acervo pessoal do autor)}{PNLD0007-03}
 PNLD0007-MP.tex:211:\Image{Fuga em massa de escravos de Cambridge, Maryland, EUA,1857 (William Still; CC-BY-NC 2.0)}{PNLD0007-04}
@@ -77,31 +77,31 @@ PNLD0008-MP.tex:509:\Image{Localização de São Gabriel da Cachoeira, cidade em
 PNLD0008-MP.tex:567:\Image{O Festival Cultural dos Povos Indígenas do Alto Rio Negro/AM, 
 PNLD0008-MP.tex:581:\Image{Apresentação das agremiações no Festival Cultural dos Povos Indígenas do Alto Rio Negro/AM. (Hans Denis Schneider; CC-BY-NC-SA)}{PNLD0008-08.png}
 PNLD0009-MP.tex:92:\Image{Ryūnosuke Akutagawa, depois de graduado em Literatura Inglesa, torna-se
-PNLD0009-MP.tex:170:\SideImage{Cartaz original do filme de Akira Kurosawa}{PNLD0009-20.png}
-PNLD0009-MP.tex:173:\SideImage{Retrato de Ryūnosuke Akutagawa (Yokohama,
-PNLD0009-MP.tex:191:\Image{Samurai aprisionado por bandido. <<Rashômon>> (1050), de A.
-PNLD0009-MP.tex:225:\Image{Filme de Akira Kurosawa baseado em dois contos de Ryūnosuke Akutagawa:
-PNLD0009-MP.tex:234:\Image{Noiva do Samurai em perigo. <<Rashômon>>
-PNLD0009-MP.tex:270:\Image{Noiva ameaçada. <<Rashômon>> (1050), de A.
-PNLD0009-MP.tex:315:\Image{"A viagem de Chihiro" (2001), Studio Ghibli.  (Srchaos; CC-BY-SA
-PNLD0009-MP.tex:339:\Image{Morador de vilarejo
-PNLD0009-MP.tex:344:%\Image{Painel da Era Meiji  (Khalili Collections; CC-BY-SA
-PNLD0009-MP.tex:387:\Image{Mulher japonesa do período Meiji montada em um cavalo de carga,
-PNLD0009-MP.tex:428:\Image{"Leg of the horse , manuscrito do autor, 1925, Museu Edo-Tokyo – Sumida,
-PNLD0009-MP.tex:519:\Image{Foto em grupo com Kan Kikuchi, Ryūnosuke Akutagawa, Mutō Chōzō, Nagami
-PNLD0010-MP.tex:285:\Image{Félix Nadar (1920-1910), notável fotógrafo francês. Foi também 
-PNLD0010-MP.tex:329:\Image{Jantar na Villa Kyrial, Vila Mariana, São Paulo.}{PNLD0010-21}
-PNLD0010-MP.tex:434:% E já coloca a legenda aqui: \begin{verbatim}{\Image{legenda}{PNLD0010-2X}}\end{verbatim}
-PNLD0010-MP.tex:456:\Image{As avenidas e bulevares de Paris foram uma novidade do novo 
-PNLD0010-MP.tex:460:\Image{O novo traçado das cidades atravessou por completo o plano original 
-PNLD0010-MP.tex:463:\Image{Barão de Haussmann, urbanista responsável pela reconstrução da Paris moderna}{PNLD0010-25}
-PNLD0010-MP.tex:637:\Image{Charles Baudelaire em 1863. (Etienne Carjat; CC-BY 2.0)}{PNLD0010-03.png}
-PNLD0010-MP.tex:646:\Image{Retrato de Baudelaire pintado por Émile Deroy, em 1844 (Émile Deroy; CC-BY-SA-4.0)}{PNLD0010-05.png}
-PNLD0010-MP.tex:672:\Image{Desenho de Baudelaire feito pelo artista Édouard Manet (Édouard Manet; Domínio Público)}{PNLD0010-06.png}
+PNLD0009-MP.tex:180:\SideImage{Cartaz original do filme de Akira Kurosawa}{PNLD0009-20.png}
+PNLD0009-MP.tex:183:\SideImage{Retrato de Ryūnosuke Akutagawa (Yokohama,
+PNLD0009-MP.tex:200:\Image{Samurai aprisionado por bandido. <<Rashômon>> (1050), de A.
+PNLD0009-MP.tex:237:\Image{Filme de Akira Kurosawa baseado em dois contos de Ryūnosuke Akutagawa:
+PNLD0009-MP.tex:246:\Image{Noiva do Samurai em perigo. <<Rashômon>>
+PNLD0009-MP.tex:282:\Image{Noiva ameaçada. <<Rashômon>> (1050), de A.
+PNLD0009-MP.tex:327:\Image{"A viagem de Chihiro" (2001), Studio Ghibli.  (Srchaos; CC-BY-SA
+PNLD0009-MP.tex:351:\Image{Morador de vilarejo
+PNLD0009-MP.tex:356:%\Image{Painel da Era Meiji  (Khalili Collections; CC-BY-SA
+PNLD0009-MP.tex:399:\Image{Mulher japonesa do período Meiji montada em um cavalo de carga,
+PNLD0009-MP.tex:440:\Image{"Leg of the horse , manuscrito do autor, 1925, Museu Edo-Tokyo – Sumida,
+PNLD0009-MP.tex:531:\Image{Foto em grupo com Kan Kikuchi, Ryūnosuke Akutagawa, Mutō Chōzō, Nagami
+PNLD0010-MP.tex:277:\Image{Félix Nadar (1920-1910), notável fotógrafo francês. Foi também 
+PNLD0010-MP.tex:317:\Image{Jantar na Villa Kyrial, Vila Mariana, São Paulo.}{PNLD0010-21}
+PNLD0010-MP.tex:411:% E já coloca a legenda aqui: \begin{verbatim}{\Image{legenda}{PNLD0010-2X}}\end{verbatim}
+PNLD0010-MP.tex:435:\Image{As avenidas e bulevares de Paris foram uma novidade do novo 
+PNLD0010-MP.tex:439:\Image{O novo traçado das cidades atravessou por completo o plano original 
+PNLD0010-MP.tex:442:\Image{Barão de Haussmann, urbanista responsável pela reconstrução da Paris moderna}{PNLD0010-25}
+PNLD0010-MP.tex:518:\Image{Charles Baudelaire em 1863. (Etienne Carjat; CC-BY 2.0)}{PNLD0010-03.png}
+PNLD0010-MP.tex:630:\Image{Retrato de Baudelaire pintado por Émile Deroy, em 1844. (Émile Deroy; CC-BY-SA-4.0)}{PNLD0010-05.png}
+PNLD0010-MP.tex:644:%\Image{Desenho de Baudelaire feito pelo artista Édouard Manet (Édouard Manet; Domínio Público)}{PNLD0010-06.png}
 PNLD0010-MP.tex:681:\Image{O escritor Edgar Allan Poe, grande inspiração de Baudelaire. (Autor desconhecido, fotografia restaurada por Yann Forget e Adam Cuerden ; Domínio Público)}{PNLD0010-08.png}
-PNLD0010-MP.tex:718:\Image{Estátua "O Flaneur": um tipo social retratado pelo autor, que representa o caminhante de galerias de grandes cidades. (PVT Pauline; CC-BY-SA 3.0)}{PNLD0010-07.png}
-PNLD0010-MP.tex:731:\Image{"Carnaval parisiense": a sensação de estar imerso na multidão na cidade é um dos assuntos tratados pelo autor.  (Anônimo; CC-BY-SA 3.0)}{PNLD0010-10.png}
-PNLD0010-MP.tex:765:\Image{A atmosfera de Paris é retratada pelo autor, especialmente no tema da solidão. (Stockholm Transport Museum; Domínio Público)}{PNLD0010-09.png}
+PNLD0010-MP.tex:701:\Image{Estátua "O Flaneur": um tipo social retratado pelo autor, que representa o caminhante de galerias de grandes cidades. (PVT Pauline; CC-BY-SA 3.0)}{PNLD0010-07.png}
+PNLD0010-MP.tex:714:\Image{"Carnaval parisiense": a sensação de estar imerso na multidão na cidade é um dos assuntos tratados pelo autor.  (Anônimo; CC-BY-SA 3.0)}{PNLD0010-10.png}
+PNLD0010-MP.tex:748:\Image{A atmosfera de Paris é retratada pelo autor, especialmente no tema da solidão. (Stockholm Transport Museum; Domínio Público)}{PNLD0010-09.png}
 PNLD0011-MP.tex:86:\SideImage{Bram Stoker, 1906 (National Portrait Gallery, Londres; Domínio Público)}{PNLD0011-03.png}
 PNLD0011-MP.tex:138:\Image{Alvares de Azevedo introduziu a Literatura Gótica no Brasil (Acervo Digital da Biblioteca Nacional; Domínio Público)}{PNLD0011-12.png}
 PNLD0011-MP.tex:140:\Image{Augusto dos Anjos, representante da Literatura Gótica (Acervo Digital da Biblioteca Nacional; Domínio Público)}{PNLD0011-13.png}
@@ -141,16 +141,16 @@ PNLD0015-MP.tex:358:\SideImage{Gravura reproduzindo o monstro marinho de Gândav
 PNLD0015-MP.tex:370:\Image{Primeira edição, organizada e revisada pelo historiador brasileiro Adolfo de Varnhagen (1816-1878), 1851 (Biblioteca Brasiliana Guita e José Mindlin; Domínio Público )}{PNLD0015-05.png}
 PNLD0015-MP.tex:434:\SideImage{A edição de 1851 e a de 1879 de <<Tratado Descritivo do Brazil em 1581>> são finalizadas com 270 comentários e observações de Francisco Adolpho de Varnhagen (Acervo digital da Biblioteca Nacional; Domínio Público )}{PNLD0015-06.png}
 PNLD0015-MP.tex:437:\Image{Viagens marítimas de Hans Staden feitas em vários momentos em 1547 de Portugal/Espanha para o Rio de Janeiro e outros lugares do Brasil. (Acervo digital da Biblioteca Nacional; Domínio Público )}{PNLD0015-08.png}
-PNLD0016-MP.tex:337:\Image{Desenho de Luiz Gama, publicado no jornal "O Mequetrefe" do Rio de Janeiro, em 1882, feito pelo escritor e cartunista Raul Pompeia. (Raul Pompeia; Domínio Público)}{PNLD0016-05.png}
-PNLD0016-MP.tex:348:\Image{Foto de Luiz Gama (Arquivo Nacional; Domínio Público)}{PNLD0016-03.png}
-PNLD0016-MP.tex:374:\Image{Documento original da carta que Luiz Gama escreveu em julho de 1880 a Lúcio de Mendonça - Parte 1. (Biblioteca Nacional; Domínio Público)}{PNLD0016-09.png}
-PNLD0016-MP.tex:377:\Image{Parte 2 da carta. (Biblioteca Nacional; Domínio Público)}{PNLD0016-10.png}
-PNLD0016-MP.tex:380:\Image{Parte 3 da carta. (Biblioteca Nacional; Domínio Público)}{PNLD0016-11.png}
-PNLD0016-MP.tex:383:\Image{Última parte da carta. (Biblioteca Nacional; Domínio Público)}{PNLD0016-12.png}
-PNLD0016-MP.tex:425:\Image{Princesa Isabel, Conde D'Eu e Machado de Assis na missa em celebração da Abolição da Escravatura. (Antonio Luiz Ferreira; Domínio Público)}{PNLD0016-08.png}
-PNLD0016-MP.tex:428:\Image{Missa campal celebrada em ação de graças pela Abolição da Escravatura no Brasil, 1888. Campo de São Cristóvão, Rio de Janeiro-RJ, Brasil. (Brasiliana Iconográfica; Domínio Público)}{PNLD0016-07.png}
-PNLD0016-MP.tex:446:\Image{Quadro "Abolição da Escravatura", de Victor Meirelles (1888) (Brasiliana Iconográfica; Domínio Público)}{PNLD0016-06.png}
-PNLD0016-MP.tex:495:\Image{Busto em homenagem a Luiz Gama,  situado no Largo do Arouche, na cidade de São Paulo. Inaugurado em 1884. (Everton Zanella Alvarenga; CC0)}{PNLD0016-04.png}
+PNLD0016-MP.tex:340:\Image{Desenho de Luiz Gama, publicado no jornal "O Mequetrefe" do Rio de Janeiro, em 1882, feito pelo escritor e cartunista Raul Pompeia. (Raul Pompeia; Domínio Público)}{PNLD0016-05.png}
+PNLD0016-MP.tex:351:\Image{Foto de Luiz Gama (Arquivo Nacional; Domínio Público)}{PNLD0016-03.png}
+PNLD0016-MP.tex:377:\Image{Documento original da carta que Luiz Gama escreveu em julho de 1880 a Lúcio de Mendonça - Parte 1. (Biblioteca Nacional; Domínio Público)}{PNLD0016-09.png}
+PNLD0016-MP.tex:380:\Image{Parte 2 da carta. (Biblioteca Nacional; Domínio Público)}{PNLD0016-10.png}
+PNLD0016-MP.tex:383:\Image{Parte 3 da carta. (Biblioteca Nacional; Domínio Público)}{PNLD0016-11.png}
+PNLD0016-MP.tex:386:\Image{Última parte da carta. (Biblioteca Nacional; Domínio Público)}{PNLD0016-12.png}
+PNLD0016-MP.tex:427:\Image{Princesa Isabel, Conde D'Eu e Machado de Assis na missa em celebração da Abolição da Escravatura. (Antonio Luiz Ferreira; Domínio Público)}{PNLD0016-08.png}
+PNLD0016-MP.tex:430:\Image{Missa campal celebrada em ação de graças pela Abolição da Escravatura no Brasil, 1888. Campo de São Cristóvão, Rio de Janeiro-RJ, Brasil. (Brasiliana Iconográfica; Domínio Público)}{PNLD0016-07.png}
+PNLD0016-MP.tex:448:\Image{Quadro "Abolição da Escravatura", de Victor Meirelles (1888) (Brasiliana Iconográfica; Domínio Público)}{PNLD0016-06.png}
+PNLD0016-MP.tex:497:\Image{Busto em homenagem a Luiz Gama,  situado no Largo do Arouche, na cidade de São Paulo. Inaugurado em 1884. (Everton Zanella Alvarenga; CC0)}{PNLD0016-04.png}
 PNLD0018-MP.tex:452:\Image{Retrato do autor, pintado em 1831 por Moritz Oppenheim (Moritz Oppenheim; Domínio público)}{PNLD0018-03.png}
 PNLD0018-MP.tex:483:Image{Retrato de Heine, desenhado em 1829 (Bibliothek des allgemeinen und praktischen Wissens. Bd. 5; Domínio público)}{PNLD0018-05.png}
 PNLD0018-MP.tex:499:\Image{Monumento em homenagem ao autor, localizado em Brocken, na Alemanha (Stefan Schäfer, Lich ; CC-BY-SA-4.0)}{PNLD0018-04.png}
@@ -209,14 +209,14 @@ PNLD0026-MP.tex:774:\Image{Estátua de bronze de Machado de Assis na fachada do 
 PNLD0026-MP.tex:991:\Image{Panorama em 3 partes da Enseada do Botafogo, entre 1860 e 1879 (Acervo Digital da Biblioteca Nacional; Domínio Público)}{PNLD0026-09.png}
 PNLD0026-MP.tex:1065:\Image{Machado de Assis acompanhado de colegas como Pereira Passos, Joaquim Nabuco, José Américo dos Santos, Aloysio de Carvalho, Lafayette Rodrigues Pereira e Gastão da Cunha. (Augusto Malta; Domínio Público)}{PNLD0026-06.png}
 PNLD0027-MP.tex:119:	\Image{Abertura do documentário <<Crônicas do crack>>, de Luis Marra, disponível 
-PNLD0027-MP.tex:191:\Image{Luis Marra, autor de \textit{Crônicas do Crack}.}{PNLD0027-15.png}
-PNLD0027-MP.tex:338:\Image{O livro aborda a temática da dependência química a partir 
-PNLD0027-MP.tex:350:\SideImage{O crack inibe a recaptação da dopamina alterando o 
-PNLD0027-MP.tex:428:\Image{Substâncias químicas e o corpo humano (Drug Disposal; Domínio Público)}{PNLD0027-06.png}
-PNLD0027-MP.tex:513:\Image{Dependente químico mostrando cachimbo  (Marco Gomes; CC-BY 2.0)}{PNLD0027-08.png}
-PNLD0027-MP.tex:534:\Image{Moradores de rua no centro de São Paulo (Marco Gomes; CC-BY 2.0)}{PNLD0027-07.png}
-PNLD0027-MP.tex:562:\Image{Dependentes químicos na região da Cracolândia (Luciana Marinho/Flickr; CC-BY 2.0)}{PNLD0027-09.png}
-PNLD0027-MP.tex:713:\Image{Entorno da Cracolândia (Marco Gomes; CC-BY 2.0)}{PNLD0027-10.png}
+PNLD0027-MP.tex:194:\Image{Luis Marra, autor de \textit{Crônicas do Crack}.}{PNLD0027-15.png}
+PNLD0027-MP.tex:341:\Image{O livro aborda a temática da dependência química a partir 
+PNLD0027-MP.tex:353:\SideImage{O crack inibe a recaptação da dopamina alterando o 
+PNLD0027-MP.tex:431:\Image{Substâncias químicas e o corpo humano (Drug Disposal; Domínio Público)}{PNLD0027-06.png}
+PNLD0027-MP.tex:516:\Image{Dependente químico mostrando cachimbo  (Marco Gomes; CC-BY 2.0)}{PNLD0027-08.png}
+PNLD0027-MP.tex:537:\Image{Moradores de rua no centro de São Paulo (Marco Gomes; CC-BY 2.0)}{PNLD0027-07.png}
+PNLD0027-MP.tex:565:\Image{Dependentes químicos na região da Cracolândia (Luciana Marinho/Flickr; CC-BY 2.0)}{PNLD0027-09.png}
+PNLD0027-MP.tex:716:\Image{Entorno da Cracolândia (Marco Gomes; CC-BY 2.0)}{PNLD0027-10.png}
 PNLD0029-MP.tex:9:% \Image{Anne Ballester Soares (Autor Desconhecido; Acervo da Autora)}{PNLD0029-03.png}
 PNLD0029-MP.tex:10:% \Image{Xapono, casa comunal habitada pelo Yanomami (Wikimedia Commons; Domínio Público)}{PNLD0029-04.png}
 PNLD0029-MP.tex:11:% \Image{Mapa do território Yanomami no Brasil e Venezuela, 2012 (Wikimedia Commons; CC-BY-SA 3.0)}{PNLD0029-05.png}
@@ -269,10 +269,9 @@ PNLD0036-MP.tex:503:\Image{Mapa da rota das Cruzadas, expedições militares org
 PNLD0036-MP.tex:519:\Image{Manuscrito medieval de 1474 que buscou representar a Cruzada Popular de Pedro, O Eremita, de 1096 -- movimento extraoficial da Primeira Cruzada (Biblioteca Nacional da França; Domínio Público)}{PNLD0036-06.png}
 PNLD0036-MP.tex:627:\Image{Ilustração do flautista de Hamelin, por Kate Greenaway. (Kate Greenaway; Domínio Público)}{PNLD0036-07.png}
 PNLD0038-MP.tex:75:\Image{Gravura de William Wells Brown, 1847 (Autor Desconhecido; Domínio Público )}{PNLD0038-03.png}
-PNLD0038-MP.tex:194:\Image{Representação do autor enquanto personagem principal do livro (Internet Archive; Domínio Público)}{PNLD0038-04.png}
-PNLD0038-MP.tex:254:\Image{Na legenda da ilustração: ``O traficante de escravos e o autor conduzindo uma grupo de escravos para o mercado do sul'' (Internet Archive; Domínio Público)}{PNLD0038-05.png}
-PNLD0038-MP.tex:463:\Image{Na legenda da ilustração: ``O autor e a sua mãe presos e levados de volta à escravidão'' (Internet Archive; Domínio Público)}{PNLD0038-06.png}
-PNLD0038-MP.tex:777:\Image{Na legenda da ilustração, o poema de Thomas Campbell ``United States! your banner wears/ Two emblems--one of fame:/ Alas! the other that it bears/ Reminds us of your shame:/ Your banner's constellation types/ White freedom with its stars, /But what's the meaning of the stripes?/ They mean your negroes' scars.'' (Internet Archive; Domínio Público)}{PNLD0038-07.png}
+PNLD0038-MP.tex:236:\Image{Representação do autor enquanto personagem principal do livro (Internet Archive; Domínio Público)}{PNLD0038-04.png}
+PNLD0038-MP.tex:238:\Image{Na legenda da ilustração: ``O traficante de escravos e o autor conduzindo uma grupo de escravos para o mercado do sul'' (Internet Archive; Domínio Público)}{PNLD0038-05.png}
+PNLD0038-MP.tex:583:\Image{Na legenda da ilustração, o poema de Thomas Campbell ``United States! your banner wears/ Two emblems--one of fame:/ Alas! the other that it bears/ Reminds us of your shame:/ Your banner's constellation types/ White freedom with its stars, /But what's the meaning of the stripes?/ They mean your negroes' scars.'' (Internet Archive; Domínio Público)}{PNLD0038-07.png}
 PNLD0039-MP.tex:305:\Image{Foto de Strindberg após seu aniversário de 50 anos. (Autor desconhecido; Domínio Público)}{PNLD0039-03.png}
 PNLD0039-MP.tex:432:\Image{O diretor Ingmar Bergman, conterrâneo de Strindberg, no set do filme Morangos Silvestres. (Louis Huch; Domínio Público)}{PNLD0039-09.png}
 PNLD0039-MP.tex:561:\Image{Vista da ilha Öland, na Suécia, no mar Báltico, localização aproximada da fictícia ilha de Hemsö. (Arnold Paul; CC-BY-SA 2.5)}{PNLD0039-06.png}
@@ -321,24 +320,24 @@ PNLD0045-MP.tex:397:\Image{Xilogravura da Artista plástica Yolanda Carvalho (Ra
 PNLD0045-MP.tex:489:\Image{Capa do cordel ``Os sofrimentos de Alzira'' (Fundação Casa de Rui Barbosa; Domínio Público)}{PNLD0045-07.png}
 PNLD0045-MP.tex:568:\Image{Capa de ``A Xilogravura Popular e a Literatura de Cordel'', 1985 (Thomas Fisher Rare Book Library/Flickr; CC-BY-NC-SA 2.0)}{PNLD0045-09.png}
 PNLD0045-MP.tex:577:\Image{Mapa de Ingá na Paraíba, cidade onde nasceu o autor (Marcos Elias de Oliveira Júnior/Wikimedia Commons; CC-BY-SA 3.0)}{PNLD0045-04.png}
-PNLD0046-MP.tex:461:\Image{Gravura de Xavier de Maistre feita por Cyprien Jacquemin no século XIX (Cyprien Jacquemin; Domínio Público)}{PNLD0046-03.png}
-PNLD0046-MP.tex:486:\Image{Folha de rosto da obra, original da edição de Dufart, Paris, 1796. (Gallica; Domínio Público)}{PNLD0046-05.png}
-PNLD0046-MP.tex:519:\Image{A temática do mergulho em seu próprio quarto também foi explorada por outros artistas, como Van Gogh em seu famoso quadro "Quarto em Arles", de 1888. (Museu do Van Gogh; CC-BY-SA 2.0)}{PNLD0046-07.png}
-PNLD0046-MP.tex:539:\Image{Pintura de Nikolay Karazin baseada no livro "Crime e Castigo"  de Dostoievski. O homem como objeto de análise é um tema comum da narrativa dessa obra e de "Viagem ao redor do meu quarto".  (Nikolay Karazin; Domínio Público)}{PNLD0046-08.png}
-PNLD0046-MP.tex:542:\Image{Folha de rosto da primeira edição do livro "Anna Karenina", de Tolstói, no original russo. O homem como objeto de análise e sua vivência em uma sociedade de aparências é um dos temas presentes.  (Manhattan Rare Books; Domínio Público)}{PNLD0046-09.png}
-PNLD0046-MP.tex:569:\Image{Folha de rosto de "Memórias Póstumas de Brás Cubas" dedicada por Machado de Assis para a Biblioteca Nacional. Logo no início do livro, Machado faz referência à Xavier de Maistre, em quem se inspirou na maneira de dialogar com o leitor. (Biblioteca Nacional; Domínio Público)}{PNLD0046-10.png}
-PNLD0046-MP.tex:585:\Image{O estilo da narrativa que se desenvolve como um bate-papo também é encontrada em Grande Sertão: Veredas de Guimarães Rosa. Nessa foto, é possível ver o autor em uma das viagens que fez ao sertão em 1952. (Eugênio Silva; CC0)}{PNLD0046-11.png}
-PNLD0046-MP.tex:608:\Image{Autorretrato do autor, de aprox.1825 (Xavier de Maistre; Domínio Público)}{PNLD0046-04.png}
-PNLD0046-MP.tex:611:\Image{Estátua em homenagem as irmãos Joseph e Xavier de Maistre, localizada no castelo de Chambéry, na França. (Florian Pépellin; CC-BY-SA 4.0)}{PNLD0046-06.png}
+PNLD0046-MP.tex:477:\Image{Gravura de Xavier de Maistre feita por Cyprien Jacquemin no século \textsc{xix} (Cyprien Jacquemin; Domínio Público)}{PNLD0046-03.png}
+PNLD0046-MP.tex:502:\Image{Folha de rosto da obra, original da edição de Dufart, Paris, 1796. (Gallica; Domínio Público)}{PNLD0046-05.png}
+PNLD0046-MP.tex:535:\Image{A temática do mergulho em seu próprio quarto também foi explorada por outros artistas, como Van Gogh em seu famoso quadro "Quarto em Arles", de 1888. (Museu do Van Gogh; CC-BY-SA 2.0)}{PNLD0046-07.png}
+PNLD0046-MP.tex:555:\Image{Pintura de Nikolay Karazin baseada no livro "Crime e Castigo"  de Dostoievski. O homem como objeto de análise é um tema comum da narrativa dessa obra e de "Viagem ao redor do meu quarto".  (Nikolay Karazin; Domínio Público)}{PNLD0046-08.png}
+PNLD0046-MP.tex:558:\Image{Folha de rosto da primeira edição do livro "Anna Karenina", de Tolstói, no original russo. O homem como objeto de análise e sua vivência em uma sociedade de aparências é um dos temas presentes.  (Manhattan Rare Books; Domínio Público)}{PNLD0046-09.png}
+PNLD0046-MP.tex:585:\Image{Folha de rosto de "Memórias Póstumas de Brás Cubas" dedicada por Machado de Assis para a Biblioteca Nacional. Logo no início do livro, Machado faz referência à Xavier de Maistre, em quem se inspirou na maneira de dialogar com o leitor. (Biblioteca Nacional; Domínio Público)}{PNLD0046-10.png}
+PNLD0046-MP.tex:601:\Image{O estilo da narrativa que se desenvolve como um bate-papo também é encontrada em Grande Sertão: Veredas de Guimarães Rosa. Nessa foto, é possível ver o autor em uma das viagens que fez ao sertão em 1952. (Eugênio Silva; CC0)}{PNLD0046-11.png}
+PNLD0046-MP.tex:624:\Image{Autorretrato do autor, de aprox.1825 (Xavier de Maistre; Domínio Público)}{PNLD0046-04.png}
+PNLD0046-MP.tex:627:\Image{Estátua em homenagem as irmãos Joseph e Xavier de Maistre, localizada no castelo de Chambéry, na França. (Florian Pépellin; CC-BY-SA 4.0)}{PNLD0046-06.png}
 PNLD0048-MP.tex:149:\SideImage{Retrato de Machado de Assis, 1890 (Marc Ferrez; Domínio público)}{PNLD0048-03.png}
 PNLD0048-MP.tex:188:\Image{Morro do Livramento, Rio de Janeiro, onde Machado de Assis nasceu (a seta aponta no alto do canto direito a possível casa de nascimento), sem data. (ABL; Domínio público)}{PNLD0048-04.png}
 PNLD0048-MP.tex:195:\Image{Gravura de Francisco de Paula Brito  (Autor Desconhecido, Século XIX. Pinto, Ana Flávia Magalhães. De Pele Escura e Tinta Preta: a imprensa negra do século XIX (1833-1899). Mestrado. Universidade de Brasília, 2006; Domínio público)}{PNLD0048-05.png}
 PNLD0048-MP.tex:577:\Image{Pintura ``O vampiro'' (1897) de Philip Burne-Jones (Philip Burne-Jones; Domínio público)}{PNLD0048-07.png}
-PNLD0048-MP.tex:656:%\Image{O vampiro Conde Drácula movendo-se como um lagarto ao longo da parede de seu castelo. Ilustração da capa de Holloway para a décima terceira edição do romance de Bram Stoker (Londres, William Rider & Son, 1919). (Holloway; Domínio público)}{PNLD0048-06.png}
+PNLD0048-MP.tex:656:Image{O vampiro Conde Drácula movendo-se como um lagarto ao longo da parede de seu castelo. Ilustração da capa de Holloway para a décima terceira edição do romance de Bram Stoker (Londres, William Rider & Son, 1919). (Holloway; Domínio público)}{PNLD0048-06.png}
 PNLD0048-MP.tex:666:\Image{Crepúsculo é um filme norte-americano de 2008, dirigido por Catherine Hardwicke, sendo o primeiro da saga, adaptado do primeiro livro de Stephenie Meyer (Flickr ; Creative Commons CC-BY-SA 2.0)}{PNLD0048-09.png}
 PNLD0048-MP.tex:674:\Image{Placa comemorativa para o clássico do cinema mudo Nosferatu (1922) em Wismar, na Alemanha. Partes do filme foram filmadas em Wismar. (J.H. Janßen; Domínio público)}{PNLD0048-08.png}
-PNLD0048-MP.tex:789:\Image{``Poética'' de Aristóteles é um conjunto de anotações de suas aulas sobre o tema da poesia e da arte em sua época (Biblioteca da Universidade de Sidney ; Domínio público)}{PNLD0048-10.png}
-PNLD0048-MP.tex:1049:\Image{Quadro ``A liberdade guiando o povo'' de Eugène Delacroix, de 1830 (Eugène Delacroix; Domínio público)}{PNLD0048-11.png}
+PNLD0048-MP.tex:789:\Image{``Poética'' de Aristóteles é um conjunto de anotações de suas aulas sobre o tema da poesia e da arte em sua época. (Biblioteca da Universidade de Sidney ; Domínio público)}{PNLD0048-10.png}
+PNLD0048-MP.tex:1049:\Image{Quadro ``A liberdade guiando o povo'' de Eugène Delacroix, de 1830. (Eugène Delacroix; Domínio público)}{PNLD0048-11.png}
 PNLD0048-MP.tex:1325:\Image{``Hamlet'' de William Shakespeare edição de 1866 (Internet Archive; Domínio público)}{PNLD0048-12.png}
 PNLD0049-MP.tex:214:\SideImage{Foto de Maksim Górki (1868-1936), escritor russo (Wikipédia; Domínio público).}{PNLD0049-08}
 PNLD0049-MP.tex:304:\SideImage{Samovar: utensílio tradicional russo usado para ferver a água do chá. Ilustração para livro de Fabio Flaks (Kalinka; Direitos cedidos à Kalinka).}{PNLD0049-04}
