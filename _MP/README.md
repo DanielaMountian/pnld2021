@@ -4,20 +4,28 @@ README.md
 
 Fechamento
 ----------
-- [ ]
 - [ ] Capa @suzanasalama
 - [ ] Autoria 
 - [ ] Revisão final
 - [ ] Ajustes 
 
-
-1. \section{Sugestões de referências complementares}
-1. \subsection{Atividades para o aprofundamento da pesquisa}
+Ondas em curso
+--------------
 1. Tirar as seções sobre "Campos" e fazer uma leve preparação; 
 2. Tirar livros da seção Sugestoes e levar para Bibliografia comentada
 3. +BNCCs nas Sugestões de referências complementares
+4. Aplicação de BNCCs
+
+Trechos padrões
+---------------
 
 ```tex
+
+
+\subsection{Atividades para o aprofundamento da pesquisa}
+
+----
+
 \section{Sugestões de referências complementares}
 
 % Atenção! Sem referências!
@@ -26,9 +34,6 @@ Fechamento
 \subsection{Museus}
 
 ```
-
-
-Consideremmos primeiramente o campo da vida pessoal.
 
 Tarefinhas 
 ----------
