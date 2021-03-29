@@ -9,28 +9,38 @@ Fechamento
 - [ ] Revisão final
 - [ ] Ajustes 
 
-
-1. \section{Sugestões de referências complementares}
-1. \subsection{Atividades para o aprofundamento da pesquisa}
+Ondas em curso
+--------------
 1. Tirar as seções sobre "Campos" e fazer uma leve preparação; 
 2. Tirar livros da seção Sugestoes e levar para Bibliografia comentada
 3. +BNCCs nas Sugestões de referências complementares
+4. Aplicação de BNCCs
+
+Trechos padrões
+---------------
 
 ```tex
+
+
+\subsection{Atividades para o aprofundamento da pesquisa}
+
+----
+
 \section{Sugestões de referências complementares}
 
+% Atenção! Sem referências!
 \subsection{Filmes}
 \subsection{Sites}
 \subsection{Museus}
 
 ```
 
-
-Consideremmos primeiramente o campo da vida pessoal.
-
-Tarefinhas
+Tarefinhas 
 ----------
-
+- [ ] Capas 0051 0052 0053 0054 0061 0062
+- [ ] Aspas inglesas `grep PNLD*tex && grep \ \" PNLD*tex`
+- [ ] Rever atividades extras do 0007/0016/0020/0039 todas iguais
+- [ ] Diagramação do 0061 (Livro)
 - [ ] Iconografia 0062
 
 
