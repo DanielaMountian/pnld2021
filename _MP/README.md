@@ -20,9 +20,16 @@ Trechos padrões
 ---------------
 
 ```tex
+Leia a seguir sobre a habilidade da BNCC abordada.
 
 
 \subsection{Atividades para o aprofundamento da pesquisa}
+
+
+\BNCC{EM13LP30} % Fazer pesquisa
+	em fontes abertas e confiáveis\footnote{Verifique 
+	a seção \ref{sugestoes}, ``Sugestões de referências complementares'', 
+	na página \pageref{sugestoes} desse manual.}
 
 ----
 
