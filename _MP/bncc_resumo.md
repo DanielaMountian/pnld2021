@@ -62,7 +62,7 @@ preconceitos e *ideologias* nas diferentes mídias	`\BNCC{EM13LGG102}` 📘Lingu
 *produzir discursos* em textos de diversas semioses	`\BNCC{EM13LGG103}` 📘Linguagens e suas tecnologias
 utilizar diferentes *linguagens* e produção de textos	`\BNCC{EM13LGG104}` 📘Linguagens e suas tecnologias
 Analisar e experimentar diversos processos de *remidiação* de produções multissemióticas, multimídia e transmídia, desenvolvendo diferentes modos de participação e intervenção social.	`\BNCC{EM13LGG105}` 📘Linguagens e suas tecnologias
-diversas linguagens (artísticas, corporais e verbais) em diferentes *contextos*	`\BNCC{EM13LGG201}` 📘Linguagens e suas tecnologias
+diversas linguagens (artísticas, corporais e verbais) em diferentes *contextos* <contexto>	`\BNCC{EM13LGG201}` 📘Linguagens e suas tecnologias
 relações de poder e perspectivas de mundo nos discursos, o modo como circulam, *ideologias*.	`\BNCC{EM13LGG202}` 📘Linguagens e suas tecnologias
 analisar disputa por *legitimidade* <lugardefala>	`\BNCC{EM13LGG203}` 📘Linguagens e suas tecnologias
 Dialogar e produzir *entendimento mútuo*, <democracia>	`\BNCC{EM13LGG204}` 📘Linguagens e suas tecnologias
@@ -85,7 +85,7 @@ Explorar *tecnologias digitais*	`\BNCC{EM13LGG701}` 📘Linguagens e suas tecnol
 uso *crítico das mídias digitais*	`\BNCC{EM13LGG702}` 📘Linguagens e suas tecnologias
 Utilizar *ferramentas digitais* em processos de produção	`\BNCC{EM13LGG703}` 📘Linguagens e suas tecnologias
 Apropriar-se de *processos de pesquisa*, ferramentas para distribuição do conhecimento	`\BNCC{EM13LGG704}` 📘Linguagens e suas tecnologias
-Relacionar o texto...com suas condições de produção e seu *contexto sócio-histórico*	`\BNCC{EM13LP01}` 📘Língua Portuguesa
+Relacionar o texto...com suas condições de produção e seu *contexto sócio-histórico* <contexto>	`\BNCC{EM13LP01}` 📘Língua Portuguesa
 Estabelecer relações entre as partes do texto `::Atividade Leitura`	`\BNCC{EM13LP02}` 📘Língua Portuguesa
 Analisar relações de intertextualidade e interdiscursividade `Cordéis`	`\BNCC{EM13LP03}` 📘Língua Portuguesa
 Estabelecer relações de interdiscursividade ... *construir e corroborar explicações e relatos*	`\BNCC{EM13LP04}` 📘Língua Portuguesa
