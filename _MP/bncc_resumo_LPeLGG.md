@@ -1,7 +1,7 @@
 # Descrição	Código
 processos de produção e *circulação de discursos*	EM13LGG101
 preconceitos e *ideologias* nas diferentes mídias	EM13LGG102
-*produzir discursos* em textos de diversas semioses	EM13LGG103
+*produzir discursos* em textos de diversas semioses	EM13LGG103	
 utilizar diferentes *linguagens* e produção de textos	EM13LGG104
 Analisar e experimentar diversos processos de *remidiação* de produções multissemióticas, multimídia e transmídia, desenvolvendo diferentes modos de participação e intervenção social.	EM13LGG105
 diversas linguagens (artísticas, corporais e verbais) em diferentes *contextos*	EM13LGG201
@@ -55,12 +55,12 @@ Analisar formas não institucionalizadas de *participação social* ... *interve
 Relacionar textos e documentos legais e normativos de âmbito universal, nacional, local <leis>	EM13LP26
 Engajar-se *denunciando* o desrespeito a direitos ... pautada pela ética da responsabilidade, pelo consumo consciente e pela consciência socioambiental.	EM13LP27
 Organizar situações de estudo e utilizar procedimentos e *estratégias de leitura* adequados aos objetivos e à natureza do conhecimento em questão. <fichamentos>	EM13LP28
-*Resumir e resenhar textos*, por meio do uso de paráfrases, de marcas do discurso reportado e de citações, para uso em textos de divulgação de estudos e pesquisas.	EM13LP29
+*Resumir e resenhar textos*, por meio do uso de paráfrases, de marcas do discurso reportado e de citações, para uso em textos de divulgação de estudos e pesquisas.	EM13LP29 <resumo>
 Realizar *pesquisas* de diferentes tipos (bibliográfica, de campo, experimento científico, levantamento de dados etc.), usando *fontes abertas e confiáveis*	EM13LP30
 Compreender criticamente *textos de divulgação científica orais* ... problematizando *enfoques tendenciosos* ou superficiais.	EM13LP31
 *Selecionar informações* ...  índices de confiabilidade	EM13LP32
 Selecionar, elaborar e utilizar instrumentos de coleta de dados ... *questionários*, enquetes, mapeamentos, opinários) e de tratamento e análise dos conteúdos obtidos, que atendam adequadamente a diferentes objetivos de pesquisa.	EM13LP33
-Produzir *textos para a divulgação do conhecimento*  verbete de enciclopédia (colaborativa ou não), infográfico (estático ou animado), relato de experimento, relatório, relatório multimidiático de campo, reportagem científica, *podcast* ou vlog científico, apresentações orais, seminários, comunicações em mesas redondas, mapas dinâmicos etc. -, considerando o contexto de produção e utilizando os conhecimentos sobre os gêneros de divulgação científica, de forma a engajar-se em processos significativos de *socialização e divulgação do conhecimento*.	EM13LP34
+Produzir *textos para a divulgação do conhecimento*  verbete de enciclopédia (colaborativa ou não), infográfico (estático ou animado), relato de experimento, relatório, relatório multimidiático de campo, reportagem científica, *podcast* ou vlog científico, apresentações orais, seminários, comunicações em mesas redondas, mapas dinâmicos etc. -, considerando o contexto de produção e utilizando os conhecimentos sobre os gêneros de divulgação científica, de forma a engajar-se em processos significativos de *socialização e divulgação do conhecimento*. <seminário>	EM13LP34
 Utilizar adequadamente ferramentas de apoio a *apresentações* orais <edição>	EM13LP35
 Analisar os interesses que movem o campo jornalístico atitude analítica e crítica diante dos textos jornalísticos <lerjornal>	EM13LP36
 Conhecer e analisar diferentes projetos editorias... reconhecendo o papel da mídia plural <fontes>	EM13LP37
