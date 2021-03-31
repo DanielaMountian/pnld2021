@@ -1,6 +1,27 @@
 README.md
 ======
 
+```tex
+\BNCC{EM13LP02} % Análise do texto
+\BNCC{EM13LGG103} %Produzir conteúdo
+\BNCC{EM13LP16} % Produzir conteúdo envolvendo-se
+\BNCC{EM13LP49} % Entender os gêneros
+\BNCC{EM13LP50} % Intertextualidade
+\BNCC{EM13LP47} % Sarau
+\BNCC{EM13CHS205} %Regionalismos
+\BNCC{EM13LP10} % Variação linguística
+\BNCC{EM13LP17} % Grupo fazendo trabalho juntos
+\BNCC{EM13LP01} % Contexto histórico
+\BNCC{EM13CHS101} % O meio influencia a obra; sociologia e literatura
+\BNCC{EM13LP22} Mapa
+\BNCC{EM13LGG604} % Relacionar arte à cultura e sociedade
+
+\BNCC{EM13LP30} % Fazer pesquisa
+	em fontes abertas e confiáveis\footnote{Verifique 
+	a seção \ref{sugestoes}, ``Sugestões de referências complementares'', 
+	na página \pageref{sugestoes} desse manual.}
+\BNCC{EM13LP12} % Pesquisa para fazer trabalhos maiores (um nível de aprofundamento adequado)
+```
 
 Fechamento
 ----------
@@ -25,11 +46,6 @@ Leia a seguir sobre a habilidade da BNCC abordada.
 
 \subsection{Atividades para o aprofundamento da pesquisa}
 
-
-\BNCC{EM13LP30} % Fazer pesquisa
-	em fontes abertas e confiáveis\footnote{Verifique 
-	a seção \ref{sugestoes}, ``Sugestões de referências complementares'', 
-	na página \pageref{sugestoes} desse manual.}
 
 ----
 
