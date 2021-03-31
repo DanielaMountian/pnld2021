@@ -20,6 +20,8 @@
 
 \newcommand{\forceindent}{\leavevmode{\parindent=1,4em\indent}}
 
+\def\dotfill#1{\cleaders\hbox to #1{.}\hfill}
+\newcommand\dotline[2][.5em]{\leavevmode\hbox to #2{\dotfill{#1}\hfil}}
 
 \makeatletter
 \def\@xfootnote[#1]{%
