@@ -206,7 +206,7 @@ mv *.pdf $FOLDER.pdf
 cp $FOLDER.pdf ..
 cd ..
 
-FOLDER="PNLD0027_\?\?\?_marracrack_MIOLO/"
+FOLDER="PNLD0027_glac_marracrack_MIOLO/"
 cd $FOLDER
 make
 make rename
