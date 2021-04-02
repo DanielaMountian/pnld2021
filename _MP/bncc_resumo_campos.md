@@ -45,7 +45,7 @@ Compartilhar sentidos construídos na leitura/escuta de textos literários <leit
 Participar de eventos (*saraus*, competições orais, audições, mostras, festivais, feiras culturais...	EM13LP47
 Identificar assimilações, rupturas e permanências no processo de constituição da literatura brasileira <cânone>	EM13LP48
 Perceber as peculiaridades estruturais e estilísticas de diferentes gêneros literários <gêneros>	EM13LP49
-Analisar relações intertextuais e interdiscursivas entre obras de diferentes autores <comparar:autores>	EM13LP50
+Analisar relações intertextuais e interdiscursivas entre obras de diferentes autores <intertextualidade><comparar:autores>	EM13LP50
 Selecionar obras do repertório artístico-literário contemporâneo à disposição... um acervo pessoal <escolhadoaluno>	EM13LP51
 Analisar obras significativas das literaturas brasileiras e de outros países e povos <análisedodiscurso> <cânone>	EM13LP52
 Produzir apresentações e comentários apreciativos e críticos sobre livros, filmes, discos, canções, espetáculos de teatro e dança, exposições etc. (resenhas, vlogs e podcasts literários e artísticos, playlists comentadas, fanzines, e-zines etc.). <resenhas>	EM13LP53
