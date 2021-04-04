@@ -85,6 +85,6 @@ Identificar assimilações, rupturas e permanências no processo de constituiç�
 Perceber as peculiaridades estruturais e estilísticas de diferentes gêneros literários <gêneros> 🌺	EM13LP49
 Analisar relações <intertextuais> e interdiscursivas entre obras de diferentes autores <comparar:autores> 🌺	EM13LP50
 Selecionar obras do repertório artístico-literário contemporâneo à disposição... um acervo pessoal <escolhadoaluno> <gosto>	EM13LP51
-Analisar obras significativas das literaturas brasileiras e de outros países e povos <análisedodiscurso> <cânone> <classico>	EM13LP52
+Analisar obras significativas das literaturas brasileiras e de outros países e povos <análisedodiscurso> <cânone> <classico> <indígenas> <brasileiro>	EM13LP52
 Produzir apresentações e comentários apreciativos e críticos sobre livros, filmes, discos, canções, espetáculos de teatro e dança, exposições etc. (resenhas, vlogs e podcasts literários e artísticos, playlists comentadas, fanzines, e-zines etc.). <resenhas>	EM13LP53
 Criar obras autorais, em diferentes gêneros e mídias - mediante seleção e apropriação de recursos textuais e expressivos do repertório artístico -, e/ou produções derivadas (paródias, estilizações, fanfics, fanclipes etc.), como forma de dialogar crítica e/ou subjetivamente com o texto literário. <produçãodeconteúdo> <redação>	EM13LP54
