@@ -7,7 +7,7 @@ fazeres
 # Descrição	Código
 processos de produção e *circulação de discursos*	EM13LGG101
 preconceitos e <ideologias> nas diferentes mídias	EM13LGG102
-*produzir discursos* em textos de diversas semioses	EM13LGG103	
+*produzir discursos* em textos de diversas semioses	EM13LGG103	<escritacriativa>
 utilizar diferentes *linguagens* e produção de textos	EM13LGG104
 Analisar e experimentar diversos processos de <remidiação> de produções multissemióticas, multimídia e transmídia, desenvolvendo diferentes modos de participação e intervenção social.	EM13LGG105
 diversas linguagens (artísticas, corporais e verbais) em diferentes <contextos>	<trabalho>  <dança>EM13LGG201
@@ -15,7 +15,7 @@ relações de poder e perspectivas de mundo nos discursos, o modo como circulam,
 analisar disputa por *legitimidade* <lugardefala>	EM13LGG203
 Dialogar e produzir *entendimento mútuo*, <democracia>	EM13LGG204
 produção *individual e colaborativa* <trabalho>	EM13LGG301
-*Posicionar-se* criticamente diante de diversas visões de mundo	EM13LGG302
+*Posicionar-se* criticamente diante de diversas visões de mundo	EM13LGG302 <etica>
 Debater *questões polêmicas*	EM13LGG303
 Formular propostas, intervir e tomar decisões, *Direitos Humanos*, a consciência socioambiental	EM13LGG304
 *atuação social*, política, artística e cultural	EM13LGG305
@@ -34,7 +34,7 @@ uso *crítico das mídias digitais*	EM13LGG702
 Utilizar *ferramentas digitais* em processos de produção	EM13LGG703
 Apropriar-se de *processos de pesquisa*, ferramentas para distribuição do conhecimento	<pesquisa> EM13LGG704
 Relacionar o texto...com suas condições de produção e seu <contexto sócio-histórico>  🌺	EM13LP01
-Estabelecer relações entre as partes do texto `::Atividade Leitura`	EM13LP02 🌺
+Estabelecer relações entre as partes do texto `::Atividade Leitura`	<estrturadotexto> EM13LP02 🌺
 Analisar relações de intertextualidade e interdiscursividade `Cordéis` <contar:própriaspalavras>	EM13LP03
 Estabelecer relações de interdiscursividade ... *construir e corroborar explicações e relatos* <tarefa>	EM13LP04
 Analisar, em *textos argumentativos, os posicionamentos* assumidos	EM13LP05
@@ -46,13 +46,13 @@ Analisar o fenômeno da variação linguística <regionalismos>	EM13LP10
 Fazer *curadoria de informação*, tendo em vista diferentes propósitos e projetos discursivos. <tarefa:curadoria>	 EM13LP11
 Selecionar informações, dados e argumentos em *fontes confiáveis* um nível de aprofundamento adequado <pesquisa> <tarefa> <fontes>	EM13LP12
 Analisar, a partir de referências contextuais, estéticas e culturais ... levando-os em conta na produção de áudios, para ampliar as possibilidades de construção de sentidos e de apreciação. <análise:músicas>	EM13LP13
-Analisar, a partir de referências contextuais, estéticas e culturais.... <análise:cinema> <análise:pintura>	EM13LP14
+Analisar, a partir de referências contextuais, estéticas e culturais.... <análise:cinema> <análise:pintura>	
 Planejar, produzir, revisar, *editar, reescrever e avaliar textos* escritos	<tarefa> <edição> EM13LP15
 *Produzir e analisar textos orais*, considerando sua adequação aos contextos de produção <seminários>	EM13LP16
 Elaborar roteiros para a produção de vídeos variados (*vlog*, videoclipe, videominuto, *documentário* etc.) <tarefa>  vídeo>	EM13LP17
 Utilizar *softwares de edição de textos*, fotos, vídeos e áudio, além de ferramentas <edição>	EM13LP18
 Apresentar-se por meio de ... *ferramentas digitais*  para falar de si mesmo de formas variadas	EM13LP19
-Compartilhar gostos, interesses, práticas culturais,... participar de grupos, clubes, *oficinas* e afins. <gostos>	EM13LP20
+Compartilhar gostos, interesses, práticas culturais,... participar de grupos, clubes, <oficinas> e afins. <gostos>	EM13LP20
 Produzir, de forma colaborativa, e socializar <playlists>	EM13LP21 
 Construir e/ou atualizar, de forma colaborativa, *registros dinâmicos* (<mapas>, <wiki> etc.) ... 
 para vislumbrar trajetórias pessoais e profissionais.	EM13LP22
@@ -83,8 +83,8 @@ Compartilhar sentidos construídos na leitura/escuta de textos literários <leit
 Participar de eventos (*saraus*, competições orais, audições, mostras, festivais, feiras culturais... <sarau>	EM13LP47
 Identificar assimilações, rupturas e permanências no processo de constituição da literatura brasileira <cânone> 🌺	EM13LP48
 Perceber as peculiaridades estruturais e estilísticas de diferentes gêneros literários <gêneros> 🌺	EM13LP49
-Analisar relações intertextuais e interdiscursivas entre obras de diferentes autores <comparar:autores> 🌺	EM13LP50
+Analisar relações <intertextuais> e interdiscursivas entre obras de diferentes autores <comparar:autores> 🌺	EM13LP50
 Selecionar obras do repertório artístico-literário contemporâneo à disposição... um acervo pessoal <escolhadoaluno> <gosto>	EM13LP51
-Analisar obras significativas das literaturas brasileiras e de outros países e povos <análisedodiscurso> <cânone> <classico>	EM13LP52
+Analisar obras significativas das literaturas brasileiras e de outros países e povos <análisedodiscurso> <cânone> <classico> <indígenas> <brasileiro>	EM13LP52
 Produzir apresentações e comentários apreciativos e críticos sobre livros, filmes, discos, canções, espetáculos de teatro e dança, exposições etc. (resenhas, vlogs e podcasts literários e artísticos, playlists comentadas, fanzines, e-zines etc.). <resenhas>	EM13LP53
 Criar obras autorais, em diferentes gêneros e mídias - mediante seleção e apropriação de recursos textuais e expressivos do repertório artístico -, e/ou produções derivadas (paródias, estilizações, fanfics, fanclipes etc.), como forma de dialogar crítica e/ou subjetivamente com o texto literário. <produçãodeconteúdo> <redação>	EM13LP54
