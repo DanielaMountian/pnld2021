@@ -7,7 +7,7 @@ Identificar *tipologias evolutivas* (populações nômades e sedentárias, entre
 Utilizar as *linguagens cartográfica* ... tecnologias digitais	`\BNCC{EM13CHS106}` 📘Ciências Humanas
 Analisar as dinâmicas das populações, das mercadorias e do capital `escravos` `viajantes`	`\BNCC{EM13CHS201}` 📘Ciências Humanas
 Analisar dinâmicas de grupos, povos e sociedades contemporâneos (*fluxos populacionais*...	`\BNCC{EM13CHS202}` 📘Ciências Humanas
-Comparar os significados de *território, fronteiras e vazio*	`\BNCC{EM13CHS203}` 📘Ciências Humanas
+Comparar os significados de *território, fronteiras e vazio*	`\BNCC{EM13CHS203p}` 📘Ciências Humanas
 *formação de territórios,* territorialidades e fronteiras, identificando o papel de diferentes agentes (como grupos sociais e culturais, impérios, Estados Nacionais...	`\BNCC{EM13CHS204}` 📘Ciências Humanas
 Analisar a produção de *diferentes territorialidades* com destaque para as culturas juvenis. `Cordel`	`\BNCC{EM13CHS205}` 📘Ciências Humanas
 Analisar a *ocupação humana* ... que contribuem para o raciocínio geográfico.	`\BNCC{EM13CHS206}` 📘Ciências Humanas
@@ -44,7 +44,7 @@ simular *intervenções nos ecossistemas*	`\BNCC{EM13CNT203}` 📘Ciências da N
 *movimentos* de objetos na Terra	`\BNCC{EM13CNT204}` 📘Ciências da Natureza
 *noções de probabilidade* e incerteza	`\BNCC{EM13CNT205}` 📘Ciências da Natureza
 *conservação da biodiversidade* `Yanomami`	`\BNCC{EM13CNT206}` 📘Ciências da Natureza
-*vulnerabilidades* aos quais as juventudes estão expostas `Crack`	`\BNCC{EM13CNT207}` 📘Ciências da Natureza
+*vulnerabilidades* aos quais as juventudes estão expostas `Crack`	`\BNCC{2021-04-04}` 📘Ciências da Natureza
 *evolução biológica* para analisar a história humana `Origem das espécies`	`\BNCC{EM13CNT208}` 📘Ciências da Natureza
 Analisar a *evolução estelar*	`\BNCC{EM13CNT209}` 📘Ciências da Natureza
 Construir questões...*instrumentos de medição*	`\BNCC{EM13CNT301}` 📘Ciências da Natureza
