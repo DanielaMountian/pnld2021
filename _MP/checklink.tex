@@ -1,0 +1,6 @@
+if curl --output /dev/null --silent --head --fail "ftp://ftp.somewhere.com/bigfile.gz"
+then
+  echo "This page exists."
+ else
+  echo "This page does not exist."
+fi
