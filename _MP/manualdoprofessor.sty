@@ -195,5 +195,17 @@
 }}
 
 
+\newif\iffootnote
+\let\FFootnote\footnote
+\renewcommand\footnote[1]{\begingroup\footnotetrue\FFootnote{#1}\endgroup}
+
+
+\let\oldhref\href
+\renewcommand{\href}[2]{\oldhref{#1}{#2}\iffootnote (11/04/2021)\else\footnote{Link acessado em 11 de abril de 2021.}\fi }
+
+\let\oldurl\url
+\renewcommand{\url}[2]{\oldurl{#1}\iffootnote (11/04/2021)\else\footnote{Link acessado em 11 de abril de 2021.}\fi }  %\footnote{Link acessado em 11 de abril de 2021.}}
+
+
 \newcommand{\asterisc}{\begin{center} *\,*\,* \end{center}}
 
