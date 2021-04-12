@@ -156,7 +156,7 @@
   \stepcounter{#1}}
 
   \def\subject{Material digital do professor\quad $\cclicense$\ }
-  \newcommand\articledoi{\ifdef{\AutorLivro}{\textsc{\AutorLivro}}{} \ifdef{\TituloLivro}{\emph{\TituloLivro}, \publishername}{}}
+  \newcommand\articledoi{\footnotesize \ifdef{\AutorLivro}{\textsc{\AutorLivro}}{} \ifdef{\TituloLivro}{\emph{\TituloLivro}, \publishername}{}}
   \newcommand{\journaltitle}{\textsc{Material digital do professor\quad \cclicense}}
 
 \newcommand{\cclicense}{\ccbync}
@@ -195,5 +195,16 @@
 }}
 
 
+\newif\iffootnote
+\let\FFootnote\footnote
+\renewcommand\footnote[1]{\begingroup\footnotetrue\FFootnote{#1}\endgroup}
+
+\let\oldurl\url
+\renewcommand{\url}[1]{\oldurl{#1} \iffootnote (21/04/2021) \else\footnote{Acessado em 21/04/2021.} \fi}
+
+\let\oldhref\href
+\renewcommand{\href}[2]{\oldhref{#1}{#2}\iffootnote (21/04/2021)\else\footnote{\oldurl{#1} Acessado em 21/04/2021.} \fi}
+
 \newcommand{\asterisc}{\begin{center} *\,*\,* \end{center}}
+
 
