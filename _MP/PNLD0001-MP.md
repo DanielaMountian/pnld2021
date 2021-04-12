@@ -30,16 +30,16 @@ Planilha Geral: [EDI :: 2021 :: Geral](https://docs.google.com/spreadsheets/d/1h
 - [ ] Consta no sumário `Aprofundamento`?
 - [ ] Consta no sumário `Sugestões de referências complementares`?
 - [ ] Consta no sumário `Referências bibliográficas`?
-- [ ] Consta `BNCC` em ativ. de Pré-leitura, Leitura ou Pós-Leitura
 - [ ] Legenda das imagens: consta `Fonte`? `grep`
 - [ ] Legenda das imagens: consta `Autoria`? `grep`
 - [ ] Legenda das imagens: consta `Licença`? `grep`
 - [ ] Links funcionam? `script` `log`
 
 ### Texto
-- [ ] Conferir spellcheck
-- [ ] `Sugestões de referências complementares` estão com conteúdo?
-- [ ] Os segundo blocos de atividades é interdisciplinar? Ler. 
+- [x] Conferir spellcheck
+- [x] `Sugestões de referências complementares` estão com conteúdo?
+- [x] Os segundo blocos de atividades é interdisciplinar? Ler. 
+- [x] Consta `BNCC` em ativ. de Pré-leitura, Leitura ou Pós-Leitura
 
 ## Arquivo -MP.pdf
 - [ ] PDF do MP deve ter 30 a 45 páginas. `script`
