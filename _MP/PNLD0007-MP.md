@@ -28,8 +28,8 @@ Planilha Geral: [EDI :: 2021 :: Geral](https://docs.google.com/spreadsheets/d/1h
 - [x] Consta no sumário `Propostas de Atividades I`?
 - [x] Consta no sumário `Propostas de Atividades II`?
 - [x] Consta no sumário `Aprofundamento`?
-- [ ] Consta no sumário `Sugestões de referências complementares`?
-- [ ] Consta no sumário `Referências bibliográficas`?
+- [x] Consta no sumário `Sugestões de referências complementares`?
+- [x] Consta no sumário `Bibliografia comentada`?
 - [ ] Legenda das imagens: consta `Fonte`? `grep`
 - [ ] Legenda das imagens: consta `Autoria`? `grep`
 - [ ] Legenda das imagens: consta `Licença`? `grep`
