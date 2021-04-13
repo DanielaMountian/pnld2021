@@ -12,12 +12,12 @@ Planilha Geral: [EDI :: 2021 :: Geral](https://docs.google.com/spreadsheets/d/1h
 ## Arquivo -MP.tex
 
 ### Créditos
-- [ ] ISBN do estudante e do prof.
+- [x] ISBN do estudante e do prof.
 - [x] Suprimir nome dos editores, da equipe interna `grep`
 - [x] Conferir `Nome dos redatores` com planilha geral (aba: Técnicos)
-- [ ] Conferir `Título` com planilha geral (aba: Técnicos)
-- [ ] Conferir `Subtítulo` com planilha geral (aba: Técnicos)
-- [ ] Conferir `Autor` com planilha geral (aba: Técnicos)
+- [x] Conferir `Título` com planilha geral (aba: Técnicos)
+- [x] Conferir `Subtítulo` com planilha geral (aba: Técnicos)
+- [x] Conferir `Autor` com planilha geral (aba: Técnicos)
 - [x] Conferir `Editora` com planilha geral (aba: Técnicos)
 - [x] Capa: Há `Material Digital do Professor`?
 - [x] Capa: Há `Redatores`?
@@ -30,9 +30,9 @@ Planilha Geral: [EDI :: 2021 :: Geral](https://docs.google.com/spreadsheets/d/1h
 - [x] Consta no sumário `Aprofundamento`?
 - [x] Consta no sumário `Sugestões de referências complementares`?
 - [x] Consta no sumário `Bibliografia comentada`?
-- [ ] Legenda das imagens: consta `Fonte`? `grep`
-- [ ] Legenda das imagens: consta `Autoria`? `grep`
-- [ ] Legenda das imagens: consta `Licença`? `grep`
+
+
+
 - [x] Links funcionam? `script` `log`
 
 ### Texto
