@@ -24,7 +24,7 @@ Planilha Geral: [EDI :: 2021 :: Geral](https://docs.google.com/spreadsheets/d/1h
 - [x] Capa: Há `CC BY NC 3.0 BR`?
 
 ### Referências internas
-- [ ] Consta no sumário `Carta ao professor`?
+- [x] Consta no sumário `Carta ao professor`?
 - [ ] Consta no sumário `Propostas de Atividades I`?
 - [ ] Consta no sumário `Propostas de Atividades II`?
 - [ ] Consta no sumário `Aprofundamento`?
