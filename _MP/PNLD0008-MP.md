@@ -43,7 +43,7 @@ Planilha Geral: [EDI :: 2021 :: Geral](https://docs.google.com/spreadsheets/d/1h
 
 ## Arquivo -MP.pdf
 - [ ] PDF do MP deve ter 30 a 45 páginas. `script`
-- [ ] Posição do sumário (não pode ter poucas linhas antes ou depois)
-- [ ] Posição das imagens
-- [ ] Se possível, colocar a imagem do autor grande e próxima ao Sumário
-- [ ] `\SideImage` caso não seja importante e o número de páginas comporte
+- [x] Posição do sumário (não pode ter poucas linhas antes ou depois)
+- [x] Posição das imagens
+- [x] Se possível, colocar a imagem do autor grande e próxima ao Sumário
+- [x] `\SideImage` caso não seja importante e o número de páginas comporte
