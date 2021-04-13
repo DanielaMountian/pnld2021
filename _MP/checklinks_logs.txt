@@ -1,16 +1,3 @@
-URL does not exist: https://theatromunicipal.org.br/}
-URL does not exist: https://www.gov.br/funai
-URL does not exist: http://bd.trabalhoindigenista.org.br/
-URL does not exist: https://www.gov.br/arquivonacional/pt-br
-URL does not exist: www.justica.gov.br/sua-protecao/politicas-sobre-drogas
-URL does not exist: https://tab.uol.com.br/noticias/redacao/2020/10/11/saudade-ansiedade-aconchego-como-a-lingua-influencia-cultura-e-sensacoes.html}
-URL does not exist: http://www.scielo.br/scielo.php?script=sci_arttext\&pid=S0103-20701993000100145\&lng=en\&nrm=iso
-URL does not exist: https:/medium.com/@othiagokazu/um-guia-de-refer\%C3\%AAncias-so-podcasts-narrativos-44a58270271c
-URL does not exist: https://teses.usp.br/teses/disponiveis/8/8155/tde-12092008-170622/publico/DISSERTACAO\_FLAVIA\_CRISTINA\_MOINO\_CAROLINSKI.pdf
-URL does not exist: http://www.dominiopublico.gov.br/pesquisa/DetalheObraForm.do?select_action=\&co_obra=17424
-URL does not exist: http://www.vacatussa.com/entrevista-sidney-rocha/
-URL does not exist: umsabadoqualquer.com
-URL does not exist: https://canalcienciascriminais.jusbrasil.com.br/artigos/622104088/a-luta-de-solomon-northup-pela-liberdade?ref=amp
-URL does not exist: https://canalcienciascriminais.jusbrasil.com.br/artigos/409579800/johnny-cash-e-a-prisao-folsom-a-real-historia-de-glen-sherley
-URL does not exist: https://abralic.org.br/anais/arquivos/2018\_1547730007.pdf
-URL does not exist: https://www.gov.br/mdh/pt-br/noticias\_seppir/noticias/junho/mapa-do-encarceramento-aponta-maioria-da-populacao-carceraria-e-negra-1
+
+
+
