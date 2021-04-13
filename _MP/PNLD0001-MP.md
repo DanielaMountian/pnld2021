@@ -12,7 +12,7 @@ Planilha Geral: [EDI :: 2021 :: Geral](https://docs.google.com/spreadsheets/d/1h
 ## Arquivo -MP.tex
 
 ### Créditos
-- [ ] ISBN do estudante e do prof.
+- [ ] ISBN do estudante e do prof. @suzana
 - [x] Suprimir nome dos editores, da equipe interna `grep`
 - [x] Conferir `Nome dos redatores` com planilha geral (aba: Técnicos)
 - [ ] Conferir `Título` com planilha geral (aba: Técnicos)
