@@ -25,8 +25,8 @@ Planilha Geral: [EDI :: 2021 :: Geral](https://docs.google.com/spreadsheets/d/1h
 
 ### Referências internas
 - [x] Consta no sumário `Carta ao professor`?
-- [ ] Consta no sumário `Propostas de Atividades I`?
-- [ ] Consta no sumário `Propostas de Atividades II`?
+- [x] Consta no sumário `Propostas de Atividades I`?
+- [x] Consta no sumário `Propostas de Atividades II`?
 - [ ] Consta no sumário `Aprofundamento`?
 - [ ] Consta no sumário `Sugestões de referências complementares`?
 - [ ] Consta no sumário `Referências bibliográficas`?
