@@ -33,7 +33,7 @@ Planilha Geral: [EDI :: 2021 :: Geral](https://docs.google.com/spreadsheets/d/1h
 - [ ] Legenda das imagens: consta `Fonte`? `grep`
 - [ ] Legenda das imagens: consta `Autoria`? `grep`
 - [ ] Legenda das imagens: consta `Licença`? `grep`
-- [ ] Links funcionam? `script` `log`
+- [x] Links funcionam? `script` `log`
 
 ### Texto
 - [ ] Conferir spellcheck
