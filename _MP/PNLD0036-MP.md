@@ -15,9 +15,9 @@ Planilha Geral: [EDI :: 2021 :: Geral](https://docs.google.com/spreadsheets/d/1h
 - [ ] ISBN do estudante e do prof.
 - [x] Suprimir nome dos editores, da equipe interna `grep`
 - [x] Conferir `Nome dos redatores` com planilha geral (aba: Técnicos)
-- [ ] Conferir `Título` com planilha geral (aba: Técnicos)
-- [ ] Conferir `Subtítulo` com planilha geral (aba: Técnicos)
-- [ ] Conferir `Autor` com planilha geral (aba: Técnicos)
+- [x] Conferir `Título` com planilha geral (aba: Técnicos)
+- [x] Conferir `Subtítulo` com planilha geral (aba: Técnicos)
+- [x] Conferir `Autor` com planilha geral (aba: Técnicos)
 - [x] Conferir `Editora` com planilha geral (aba: Técnicos)
 - [x] Capa: Há `Material Digital do Professor`?
 - [x] Capa: Há `Redatores`?
