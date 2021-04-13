@@ -30,9 +30,9 @@ Planilha Geral: [EDI :: 2021 :: Geral](https://docs.google.com/spreadsheets/d/1h
 - [x] Consta no sumário `Aprofundamento`?
 - [x] Consta no sumário `Sugestões de referências complementares`?
 - [x] Consta no sumário `Bibliografia comentada`?
-- [ ] Legenda das imagens: consta `Fonte`? `grep`
-- [ ] Legenda das imagens: consta `Autoria`? `grep`
-- [ ] Legenda das imagens: consta `Licença`? `grep`
+
+
+
 - [x] Links funcionam? `script` `log`
 
 ### Texto
