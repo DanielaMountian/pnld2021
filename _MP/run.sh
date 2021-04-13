@@ -1,42 +1,42 @@
-make file=PNLD0001-MP 
-make file=PNLD0002-MP 
-make file=PNLD0004-MP 
-make file=PNLD0005-MP 
-make file=PNLD0006-MP 
-make file=PNLD0007-MP 
-make file=PNLD0008-MP 
-make file=PNLD0009-MP 
-make file=PNLD0010-MP 
-make file=PNLD0011-MP 
-make file=PNLD0013-MP 
-make file=PNLD0014-MP 
-make file=PNLD0015-MP 
-make file=PNLD0016-MP 
-make file=PNLD0018-MP 
-make file=PNLD0020-MP 
-make file=PNLD0024-MP 
-make file=PNLD0026-MP 
-make file=PNLD0027-MP 
-make file=PNLD0029-MP 
-make file=PNLD0030-MP 
-make file=PNLD0033-MP 
-make file=PNLD0035-MP 
-make file=PNLD0036-MP 
-make file=PNLD0038-MP 
-make file=PNLD0039-MP 
-make file=PNLD0040-MP 
-make file=PNLD0041-MP 
-make file=PNLD0042-MP 
-make file=PNLD0043-MP 
-make file=PNLD0045-MP 
-make file=PNLD0046-MP 
-make file=PNLD0048-MP 
-make file=PNLD0049-MP 
-make file=PNLD0050-MP 
-make file=PNLD0051-MP 
-make file=PNLD0052-MP 
-make file=PNLD0054-MP 
-make file=PNLD0059-MP 
-make file=PNLD0060-MP 
-make file=PNLD0061-MP  
-make file=PNLD0062-MP 
+make file=PNLD0001-MP && echo "PNLD0001-MP ========================================================"
+make file=PNLD0002-MP && echo "PNLD0002-MP ========================================================"
+make file=PNLD0004-MP && echo "PNLD0004-MP ========================================================"
+make file=PNLD0005-MP && echo "PNLD0005-MP ========================================================"
+make file=PNLD0006-MP && echo "PNLD0006-MP ========================================================"
+make file=PNLD0007-MP && echo "PNLD0007-MP ========================================================"
+make file=PNLD0008-MP && echo "PNLD0008-MP ========================================================"
+make file=PNLD0009-MP && echo "PNLD0009-MP ========================================================"
+make file=PNLD0010-MP && echo "PNLD0010-MP ========================================================"
+make file=PNLD0011-MP && echo "PNLD0011-MP ========================================================"
+make file=PNLD0013-MP && echo "PNLD0013-MP ========================================================"
+make file=PNLD0014-MP && echo "PNLD0014-MP ========================================================"
+make file=PNLD0015-MP && echo "PNLD0015-MP ========================================================"
+make file=PNLD0016-MP && echo "PNLD0016-MP ========================================================"
+make file=PNLD0018-MP && echo "PNLD0018-MP ========================================================"
+make file=PNLD0020-MP && echo "PNLD0020-MP ========================================================"
+make file=PNLD0024-MP && echo "PNLD0024-MP ========================================================"
+make file=PNLD0026-MP && echo "PNLD0026-MP ========================================================"
+make file=PNLD0027-MP && echo "PNLD0027-MP ========================================================"
+make file=PNLD0029-MP && echo "PNLD0029-MP ========================================================"
+make file=PNLD0030-MP && echo "PNLD0030-MP ========================================================"
+make file=PNLD0033-MP && echo "PNLD0033-MP ========================================================"
+make file=PNLD0035-MP && echo "PNLD0035-MP ========================================================"
+make file=PNLD0036-MP && echo "PNLD0036-MP ========================================================"
+make file=PNLD0038-MP && echo "PNLD0038-MP ========================================================"
+make file=PNLD0039-MP && echo "PNLD0039-MP ========================================================"
+make file=PNLD0040-MP && echo "PNLD0040-MP ========================================================"
+make file=PNLD0041-MP && echo "PNLD0041-MP ========================================================"
+make file=PNLD0042-MP && echo "PNLD0042-MP ========================================================"
+make file=PNLD0043-MP && echo "PNLD0043-MP ========================================================"
+make file=PNLD0045-MP && echo "PNLD0045-MP ========================================================"
+make file=PNLD0046-MP && echo "PNLD0046-MP ========================================================"
+make file=PNLD0048-MP && echo "PNLD0048-MP ========================================================"
+make file=PNLD0049-MP && echo "PNLD0049-MP ========================================================"
+make file=PNLD0050-MP && echo "PNLD0050-MP ========================================================"
+make file=PNLD0051-MP && echo "PNLD0051-MP ========================================================"
+make file=PNLD0052-MP && echo "PNLD0052-MP ========================================================"
+make file=PNLD0054-MP && echo "PNLD0054-MP ========================================================"
+make file=PNLD0059-MP && echo "PNLD0059-MP ========================================================"
+make file=PNLD0060-MP && echo "PNLD0060-MP ========================================================"
+make file=PNLD0061-MP  && echo "PNLD0061-MP  ========================================================"
+make file=PNLD0062-MP && echo "PNLD0062-MP ========================================================"

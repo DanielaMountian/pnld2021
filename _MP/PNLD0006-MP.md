@@ -13,23 +13,23 @@ Planilha Geral: [EDI :: 2021 :: Geral](https://docs.google.com/spreadsheets/d/1h
 
 ### Créditos
 - [ ] ISBN do estudante e do prof.
-- [ ] Suprimir nome dos editores, da equipe interna `grep`
-- [ ] Conferir `Nome dos redatores` com planilha geral (aba: Técnicos)
+- [x] Suprimir nome dos editores, da equipe interna `grep`
+- [x] Conferir `Nome dos redatores` com planilha geral (aba: Técnicos)
 - [ ] Conferir `Título` com planilha geral (aba: Técnicos)
 - [ ] Conferir `Subtítulo` com planilha geral (aba: Técnicos)
 - [ ] Conferir `Autor` com planilha geral (aba: Técnicos)
-- [ ] Conferir `Editora` com planilha geral (aba: Técnicos)
-- [ ] Capa: Há `Material Digital do Professor`?
-- [ ] Capa: Há `Redatores`?
-- [ ] Capa: Há `CC BY NC 3.0 BR`?
+- [x] Conferir `Editora` com planilha geral (aba: Técnicos)
+- [x] Capa: Há `Material Digital do Professor`?
+- [x] Capa: Há `Redatores`?
+- [x] Capa: Há `CC BY NC 3.0 BR`?
 
 ### Referências internas
-- [ ] Consta no sumário `Carta ao professor`?
-- [ ] Consta no sumário `Propostas de Atividades I`?
-- [ ] Consta no sumário `Propostas de Atividades II`?
-- [ ] Consta no sumário `Aprofundamento`?
-- [ ] Consta no sumário `Sugestões de referências complementares`?
-- [ ] Consta no sumário `Referências bibliográficas`?
+- [x] Consta no sumário `Carta ao professor`?
+- [x] Consta no sumário `Propostas de Atividades I`?
+- [x] Consta no sumário `Propostas de Atividades II`?
+- [x] Consta no sumário `Aprofundamento`?
+- [x] Consta no sumário `Sugestões de referências complementares`?
+- [x] Consta no sumário `Bibliografia comentada`?
 - [ ] Legenda das imagens: consta `Fonte`? `grep`
 - [ ] Legenda das imagens: consta `Autoria`? `grep`
 - [ ] Legenda das imagens: consta `Licença`? `grep`
