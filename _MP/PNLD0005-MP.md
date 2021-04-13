@@ -27,7 +27,7 @@ Planilha Geral: [EDI :: 2021 :: Geral](https://docs.google.com/spreadsheets/d/1h
 - [x] Consta no sumário `Carta ao professor`?
 - [x] Consta no sumário `Propostas de Atividades I`?
 - [x] Consta no sumário `Propostas de Atividades II`?
-- [ ] Consta no sumário `Aprofundamento`?
+- [x] Consta no sumário `Aprofundamento`?
 - [ ] Consta no sumário `Sugestões de referências complementares`?
 - [ ] Consta no sumário `Referências bibliográficas`?
 - [ ] Legenda das imagens: consta `Fonte`? `grep`
