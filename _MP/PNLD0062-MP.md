@@ -36,10 +36,10 @@ Planilha Geral: [EDI :: 2021 :: Geral](https://docs.google.com/spreadsheets/d/1h
 - [ ] Links funcionam? `script` `log`
 
 ### Texto
-- [ ] Conferir spellcheck
-- [ ] `Sugestões de referências complementares` estão com conteúdo? 
-- [ ] Os segundo blocos de atividades é interdisciplinar? Ler. 
-- [ ] Consta `BNCC` em ativ. de Pré-leitura, Leitura ou Pós-Leitura
+- [X] Conferir spellcheck
+- [X] `Sugestões de referências complementares` estão com conteúdo? 
+- [X] Os segundo blocos de atividades é interdisciplinar? Ler. 
+- [X] Consta `BNCC` em ativ. de Pré-leitura, Leitura ou Pós-Leitura
 
 ## Arquivo -MP.pdf
 - [ ] PDF do MP deve ter 30 a 45 páginas. `script`
