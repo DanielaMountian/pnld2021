@@ -42,7 +42,7 @@ Planilha Geral: [EDI :: 2021 :: Geral](https://docs.google.com/spreadsheets/d/1h
 - [x] Consta `BNCC` em ativ. de Pré-leitura, Leitura ou Pós-Leitura
 
 ## Arquivo -MP.pdf
-- [ ] PDF do MP deve ter 30 a 45 páginas. `script`
+- [x] PDF do MP deve ter 30 a 45 páginas. `script`
 - [x] Posição do sumário (não pode ter poucas linhas antes ou depois)
 - [x] Posição das imagens
 - [x] Se possível, colocar a imagem do autor grande e próxima ao Sumário
