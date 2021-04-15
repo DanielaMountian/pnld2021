@@ -106,12 +106,18 @@
        \footnotesize\begin{minipage}{5cm}
        \includegraphics[width=4cm]{\logoeditora}\bigskip\\
        \hyphenpenalty=10000
-       \footnotesize\textsc{\textbf{elaboração}}\\ \authornotes\bigskip\\
+       \footnotesize\textsc{
        \textsc{\textbf{obras}}\\
        \ifdef{\issnppub}{\issnppub\ (Estudante)\\}{}
        \ifdef{\issnepub}{\issnepub\ (Professor)\smallskip\\}{}
+       \textsc{\textbf{elaboração}}}\\ \authornotes \\
+       \textsc{\textbf{coordenação editorial}}   \\ Jorge Sallum\\ Suzana Salama \\ Paulo Pompermaier
+       \textsc{\textbf{edição}} \\ Ana Lancman\\ Sofia Boldrini\\ Renier Silva \\
+       \textsc{\textbf{assistência editorial}} \\ Felipe Musetti \\
+       \textsc{\textbf{diagramação e revisão}} \\ EdLab Press \\
        \ifdef{\cclicense}{{\textsc{\textbf{licenças}}\\ \textsc{cc-by-nc 3.0 br}}\\}{}
        \ifdef{\ack}{\bigskip\\ \ack}{}
+       \vfill\publisheraddress
        \end{minipage}};
   \end{tikzpicture}
 \sf \ifdef{\articledoi}{\articledoi}{}}
