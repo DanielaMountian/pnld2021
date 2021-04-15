@@ -5,7 +5,7 @@
 \RequirePackage{adforn}
 \RequirePackage{hifensextras}
 \RequirePackage[para*]{manyfoot}
-\RequirePackage[stable,multiple]{footmisc}
+\RequirePackage[stable,bottom,multiple]{footmisc}
 \RequirePackage{textcase}
 \RequirePackage{etoolbox}
 \RequirePackage{xifthen}
@@ -55,7 +55,7 @@
 \epigraphsourceposition{flushright}
 \epigraphfontsize{\footnotesize}
 \setlength{\epigraphrule}{0pt}
-\setlength{\epigraphwidth}{.7\textwidth}}
+\setlength{\epigraphwidth}{.35\textwidth}}
 
 
 % Quote 
@@ -104,8 +104,8 @@
 
 % asterisc 
 %\newcommand{\asterisc}{\vspace{-1ex}\begin{center} ***\vspace{-2ex}\end{center}}
-\newcommand{\asterisc}{\vspace{-1ex}\begin{center} \adforn{47}\end{center}}
-
+%\newcommand{\asterisc}{\vspace{-1ex}\begin{center} \adforn{47}\end{center}}
+\newcommand{\asterisc}{\begin{center}\raisebox{-3pt}{*\,*\,*}\end{center}}
 %%%%%%%%%%% COMPILADOR: PDFTEX--XETEX %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
@@ -185,7 +185,6 @@
 \RequirePackage{fontspec}
 \RequirePackage{luatextra}
 \newfontfeature{Microtype}{protrusion=default, expansion=default}
-%\defaultfontfeatures{Microtype}
 %\RequirePackage{xunicode}
 %\RequirePackage{polyglossia}
 %\setmainlanguage{portuges}
@@ -193,17 +192,16 @@
 %\newcommand{\pt}[1]{\foreignlanguage{brazilian}{#1}}
 %\newcommand{\Italiano}{\selectlanguage{italian}}
 %\newcommand{\Alemao}{\selectlanguage{ngerman}}
-%\newcommand{\alemao}{\foreignlanguage{ngerman}{#1}}
+%%\newcommand{\alemao}{\foreignlanguage{ngerman}{#1}}
 %\newcommand{\Frances}{\selectlanguage{french}}
 %\newcommand{\Ingles}{\selectlanguage{english}}
 %\newcommand{\Russo}{\selectlanguage{russian}}
 %\newcommand{\gr}[1]{#1}
-%\defaultfontfeatures{Ligatures=TeX}        Conflito com Microtype
+%%\defaultfontfeatures{Ligatures=TeX}        Conflito com Microtype
 \defaultfontfeatures{Numbers={Proportional,OldStyle}}
 \setmainfont{Linux Libertine O}
-%\setmainfont[Ligatures=TeX,Numbers=OldStyle]{Linux Libertine O}
-%\setmainfont[Ligatures=TeX,Numbers=OldStyle]{Charis SIL}
-%% translineação
+%%\setmainfont[Ligatures=TeX,Numbers=OldStyle]{Charis SIL}
+%%% translineação
 %\newcommand{\letra}[2]{\lettrine[lines=3,nindent=-.1mm,findent=2mm]{#1}{#2}}
 %\defineshorthand{"-}{\discretionary{-}{-}{-}} 
 %\newcommand{\quebra}{\linebreak}
@@ -234,7 +232,7 @@
 \DeclareOption{arial}{\AtEndOfClass{\setmainfont[Ligatures=TeX]{Arial}}}
 \DeclareOption{georgia}{\AtEndOfClass{\setmainfont[Ligatures=TeX,Numbers=OldStyle]{Georgia}}}
 \DeclareOption{swiftneue}{\AtEndOfClass{\setmainfont[Ligatures=TeX]{Swift Neue LT Pro}}} % Mameluco
-
+\DeclareOption{weiss}{\AtEndOfClass{\setmainfont[Ligatures=TeX]{Weiss}}} %
 \DeclareOption{chines}{\newenvironment{chines}{\begingroup\china\parindent0pt}{\endgroup}
 }
 
