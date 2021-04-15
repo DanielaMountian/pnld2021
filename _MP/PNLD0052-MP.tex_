@@ -13,8 +13,8 @@
 \newcommand{\Tema}{História da música}
 \newcommand{\Genero}{Diário, biografia, autobiografia, relatos, memórias}
 \newcommand{\imagemCapa}{./images/PNLD0052-01}
-\newcommand{\issnppub}{978-65-5966-006-3}
-\newcommand{\issnepub}{978-65-5966-008-7}
+\newcommand{\issnppub}{---}
+\newcommand{\issnepub}{---}
 % \newcommand{\fichacatalografica}{PNLD0052-00}
 \newcommand{\colaborador}{Irineu F.~Perpétuo}
 
@@ -96,7 +96,7 @@ trabalho em sala de aula!
 \tableofcontents
 
 
-\section{Propostas de Atividades I}
+\section{Atividade \textsc{i (a)}}
 
 \subsection{``Polcas, maxixes e tangos brasileiros''}
 
@@ -112,8 +112,7 @@ contra o Paraguai, Francisca Edwiges Gonzaga mereceu o repúdio da
 família depois de abandonar o marido, com o qual se casara aos 16 anos
 de idade. Viveu sempre de música e, aos 52 anos, uniu-se a um homem de
 16, que apresentava a todos como seu filho.
-\SideImage{Chiquinha Gonzaga (1847--1935) aos 18 anos de idade. Foto de autor desconhecido. (Domínio público, Wikipedia)
-}{PNLD0052-03}
+\SideImage{Chiquinha Gonzaga (1847--1935) aos 18 anos de idade.}{PNLD0052-03}
 
 O caso de Chiquinha permite abordar as tensões entre ``popular'' e
 ``erudito'', entre ``respeitável'' e ``indecente'' -- entre ``brega'' e
@@ -127,7 +126,8 @@ vedetes. Era o tempo da opereta, da mágica (assim chamada devido à
 utilização de temas fantásticos), da burleta e do teatro de revista --
 que levava esse nome por ``passar em revista'' os principais
 acontecimentos do ano.
-\SideImage{Partitura de Odeon, de Ernesto Nazareth. (Música Brasilisis/Wikipedia/CC BY-SA 4.0)}{PNLD0052-33}
+
+\SideImage{Partitura de Odeon, de Ernesto Nazareth (Wikipedia; Domínio público)}{PNLD0052-33}
 
 Nessa época fértil, que marca o florescimento de gêneros fundamentais da
 nossa música popular, como o choro e o samba, as tensões latentes na
@@ -150,8 +150,8 @@ Esse conjunto de atividades vai permitir abordar algunas habilidades fundamentai
 % \paragraph{Metodologia}
 
 
-\subsubsection{Pré-leitura}
-\SideImage{Piano. Desenho de Haroldo Ceravolo Sereza. (Direitos cedidos à Alameda Editorial)}{PNLD0052-07}
+\subsubsection{Antes da leitura}
+\SideImage{Piano.}{PNLD0052-07}
 
 Pedir que os alunos procurem no dicionário e anotem os significados das
 palavras \emph{polca, maxixe} e \emph{tango.} Promover um bate-papo com
@@ -164,7 +164,7 @@ funk? Existem gêneros musicais ``nobres'' e outros ``respeitáveis''? Um
 tipo de música é melhor do que outro? Quem decide o que é música
 ``boa''? A música ``maldita'' de hoje é a música ``boa'' de amanhã?
 
-\subsubsection{Leitura}
+\subsubsection{Durante a leitura}
 
 Analisar a trajetória de Chiquinha Gonzaga e seu pioneirismo na
 sociedade brasileira da segunda metade do século \textsc{xix} e início do século
@@ -200,7 +200,7 @@ Nesse tópico, fica muito claro que usando a nossa história da música, podemos
 Chamar ainda a atenção dos alunos para a existência de um ``tango
 brasileiro'', bastante diferente do célebre tango argentino.
 
-\subsubsection{Pós-leitura}
+\subsubsection{Depois da leitura}
 
 Propor que os alunos ouçam algumas das obras mencionadas no capítulo,
 como o \emph{Corta-Jaca,} de Chiquinha Gonzaga, e \emph{Odeon,} de
@@ -253,7 +253,7 @@ Paralelamente ao aprendizado da história da música, a ideia é desenvolver uma
 %\paragraph{Metodologia}
 
 
-\subsubsection{Pré-leitura}
+\subsubsection{Antes da leitura}
 
 Pedir que os alunos procurem ilustrações e definições de instrumentos musicais
 empregados pelos indígenas brasileiros, como inúbia, maracá, tacapu, torokaná,
@@ -263,7 +263,7 @@ desses povos. Designados genericamente como “índios”, na verdade eles não
 constituem um todo homogêneo, formando antes um mosaico variegado de diversas
 nações.
 
-\SideImage{Índios Tupinambás, por Jean de Léry. (Domínio público/\,Wikipedia)}{PNLD0052-14}
+\SideImage{Índios Tupinambás (Wikipedia/\,Jean de Léry; Domínio público)}{PNLD0052-14}
 
 Refletir ainda sobre as diferenças entre a função da música nas diversas
 sociedades – e o que essas diferenças dizem sobre as próprias sociedades.
@@ -306,15 +306,13 @@ serem “repartidos” entre colonos ou funcionários da Coroa – reflete-se em
 instabilidade populacional que resultará em uma atividade musical bem menos
 pujante do que a que ocorria nas missões do lado espanhol. 
 
-\subsubsection{Pós-leitura}
-
+\subsubsection{Depois da leitura}
 
 Propor que os alunos ouçam gravações de música indígena brasileira original,
 dos trabalhos de Marlui Miranda, profunda pesquisadora da cultura dos índios, e
 de Villa-Lobos – que se intitulava “índio de casaca”. No caso de Villa-Lobos,
 especificamente, seria instrutivo ouvir \emph{Canide Ioune}, sua reelaboração de um
 dos cânticos recolhidos no século \textsc{xvi} por Jean de Léry.
-
 
 A audição pode estimular uma série de discussões. O que é “autêntico”
 e o que se perde quando a música de um povo é relida e filtrada por outro?
@@ -333,15 +331,16 @@ Embora essa seja uma escuta musical, ela lembra uma habilidade muito importante 
 \paragraph{Tempo estimado} Duas aulas de 50 minutos.
 
 
-\section{Propostas de Atividades II}
 
+
+\section{Atividade \textsc{ii (a)}}
 \subsection{``Villa-Lobos''}
 
 \paragraph{Tema} As relações entre Villa-Lobos e Getúlio Vargas como
 emblema das relações entre arte e poder. A educação musical. A questão
 nacional.
 
-\Image{Villa-Lobos e a cantora lírica Bidu Sayão. Fundo Correio da Manhã/Arquivo Nacional. (Domínio público/\,Wikipedia)}{PNLD0052-04}
+\Image{Heitor Villa-Lobos (1887--1959)}{PNLD0052-04}
 
 \paragraph{Objetivos e justificativa}
 
@@ -355,7 +354,7 @@ conta, no Rio de Janeiro, com um eficiente museu dedicado a seu legado,
 e sua efígie já foi parar até em cédula de dinheiro brasileiro, após o
 Plano Cruzado, de 1986.
 
-\Image{Villa-Lobos regendo, tendo ao fundo uma litografia de Johann Moritz Rugendas. Casa da Moeda do Brasil. (Domínio público/\,Wikipedia)}{PNLD0052-05}
+\Image{Heitor Villa-Lobos em uma nota de cruzado, moeda brasileira dos anos 1980.}{PNLD0052-05}
 
 Embora ainda não cubra a totalidade de sua produção (não só por seu
 caráter gigantesco, mas também devido pelo estado surpreendentemente
@@ -364,7 +363,7 @@ compositor é bastante representativa, bem como a bibliografia sobre ele,
 na qual proliferam tanto biografias quanto estudos críticos sobre
 aspectos específicos de sua obra.
 
-Gerard Béhague\footnote{BÉ\textsc{hague}, Gerard. \emph{Heitor Villa-Lobos: the
+Gerard Béhague\footnote{BÉHAGUE, Gerard. \emph{Heitor Villa-Lobos: the
   search for Brazil's musical soul.} Austin: Institute of Latin American
   Studies, 1994.} sintetiza: ``em muitas maneiras, sua personalidade,
 sua carreira e sua produção refletiram diversos traços típicos
@@ -393,12 +392,11 @@ continuam a ser pertinentes nos dias de hoje.
 Nesse contexto, tem uma habilidade da BNCC que pode ser trabalhada e que certamente vai interessar as alunas e alunos:
 \BNCC{EM13LGG202}
 
-\subsubsection{Pré-leitura}
+\subsubsection{Antes da leitura}
 %\SideImage{}{PNLD0052-8}
 
 Pedir aos alunos que pesquisem a respeito da presença de Villa-Lobos e
-Getúlio Vargas na sua cidade, com apoio dos professores das disciplinas de 
-Ciências Humanas. Há alguma instituição ou logradouro com o
+Getúlio Vargas na sua cidade. Há alguma instituição ou logradouro com o
 nome de algum desses personagens históricos?
 
 Pesquisar no dicionário o significado das palavras \emph{orfeão} e
@@ -407,7 +405,7 @@ musical, pode-se abrir um bate-papo com os alunos sobre este tema. As
 escolas devem ensinar música? Ou devem se ater a matérias de ``utilidade
 prática''? Existem matérias ``úteis'' e ``inúteis''?
 
-\subsubsection{Leitura}
+\subsubsection{Durante a leitura}
 
 Heitor Villa-Lobos é o único compositor a merecer um capítulo exclusivo
 em \emph{História Concisa da Música Clássica Brasileira.} Além de dar a
@@ -431,6 +429,9 @@ enriquecedora é ``~A~Lição~de~Violão~'', primeiro capítulo de
 com agudeza o estigma contra o instrumento na sociedade brasileira do
 começo do século \textsc{xx}.
 
+Essa abordagem está ligada à seguinte habilidade:
+\BNCC{EM13CHS101}
+
 Outra questão é a relação entre arte e poder. Com o chamado canto
 orfeônico, Villa-Lobos implantou um pioneiro programa de educação
 musical em massa, em âmbito nacional. Esse programa, porém, ocorreu
@@ -447,7 +448,7 @@ Mas o que constitui o nacional? O que faz com que alguém seja
 brasileiro, ou com que alguma obra de arte o seja? São questões que
 podem ser sugeridas aos alunos como temas de reflexão e debate.
 
-\subsubsection{Pós-leitura}
+\subsubsection{Depois da leitura}
 
 Assistir ao filme \emph{Villa-Lobos, uma Vida de Paixão,} de Zelito
 Viana. Cotejar o retrato do compositor nas telas e nas páginas do livro 
@@ -464,6 +465,7 @@ reais e compararem os resultados.
 \paragraph{Tempo estimado:} Duas aulas de 50 minutos.
 
 
+\section{Atividade \textsc{ii (b)}}
 \subsection{“Mulatismo musical”}
 
 \paragraph{Tema} A presença negra na sociedade brasileira e sua manifestação pela música.
@@ -486,7 +488,7 @@ anterior, e sua contribuição é ainda mais variada do que se imagina. A quest�
 não é invalidar Pixinguinha, Cartola, Criolo e Emicida, mas apontar para seus
 tataravós musicais.
 
-\SideImage{Emicida, em fevereiro de 2020. (Bruno Figueiredo/\,Área de Serviço/\,CC BY-SA 2.0)}{PNLD0054-21}
+\SideImage{Emicida.}{PNLD0054-21}
 
 Talvez, fora da África, não haja país com maior número de compositores
 clássicos negros do que o Brasil. Se formos falar em apagamento, poderíamos
@@ -495,10 +497,9 @@ tocada mesmo em nosso país. Levando o raciocínio até o fim, esse apagamento �
 também o apagamento de uma das esferas da cultura brasileira na qual os negros
 sempre tiveram uma importância histórica incontornável e decisiva.
 
+\subsubsection{Antes da leitura}
 
-\subsubsection{Pré-leitura}
-
-Fazer um levantamento, em intersecção com as aulas de História, sobre o tráfico negreiro para o Brasil: quando
+Fazer um levantamento da história do tráfico negreiro para o Brasil: quando
 começou, quando terminou, números de escravos traficados, condições em que eram
 transportados etc. O livro \emph{O Trato dos Viventes: Formação do Brasil no
 Atlântico Sul}, de Luiz Felipe de Alencastro, pode ser uma boa fonte de
@@ -520,7 +521,7 @@ Também é possível tratar de outra habilidade fundamental:
 
 \subsubsection{Durante a leitura}
 
-  Observar como as peculiares condições históricas de Minas Gerais no século
+Observar como as peculiares condições históricas de Minas Gerais no século
 \textsc{xviii} deram origem a um florescimento cultural até então inusitado no Brasil. A
 descoberta de metais preciosos deu origem a um fluxo migratório impressionante
 e à primeira sociedade urbana de um país até então predominantemente agrícola e
@@ -533,7 +534,7 @@ religiosas e à organização da vida espiritual por meio de irmandades e ordens
 terceiras, que competiam entre si através do luxo das igrejas e das festas
 religiosas, das quais a música era elemento central.
 
-\SideImage{Suposto retrato póstumo de Aleijadinho, feito no século \textsc{xix}. (Euclásio Ventura/\,Domínio público/\,Wikipedia)}{PNLD0052-36}
+\SideImage{Suposto retrato póstumo de Aleijadinho feito no século \textsc{xix} (Euclásio Ventura/ Wikpedia; Dominio público)}{PNLD0052-36}
 Falar em igrejas mineiras é falar no Aleijadinho, e vale aí procurar
 ilustrações de suas obras espalhadas pelas diversas cidades históricas
 mineiras. A importância do Aleijadinho é tão grande que a ele se deve,
@@ -552,7 +553,7 @@ ser lida a ``Lira I'', de \emph{Marília de Dirceu}, de Gonzaga, em que este se 
 classe entre esses poetas – bacharéis, membros da elite branca –  e os músicos,
 de sangue negro.
 
-\subsubsection{Pós-leitura}
+\subsubsection{Depois da leitura}
 
 Propor que os alunos assistam escutem a pelo menos uma das obras de um
 compositor listado no capítulo. Por exemplo, o \emph{Salve Regina}, de Lobo de
@@ -571,11 +572,13 @@ negritude em música. Existe música negra? Caso exista, quais são seus
 elementos? O que é negritude em música? Um negro pode fazer música branca? Um
 branco pode fazer música negra?
 
+
 \paragraph{Tempo estimado:} Duas aulas de 50 minutos. 
 
+\section{Atividade \textsc{ii (c)}}
 
-\subsection{``Versalhes tropical'' e ``Modinhas, lundus e um
-imperador"-compositor''}
+\subsection{“Versalhes tropical” e “Modinhas, lundus e um
+imperador-compositor”}
 
 \paragraph{Tema} O profundo impacto da vinda da corte portuguesa em 1808 e suas
 consequências diretas na Independência. O Brasil visitado, visto e documentado
@@ -594,7 +597,7 @@ a música foi agente decisivo desse processo “civilizador”.
 Além de todas as inovações advindas desse transplante lisboeta na Baía de
 Guanabara, a presença da Corte colocou o Rio de Janeiro em um circuito
 internacional de visitantes europeus. Nomes como Spix, Martius, Debret e
-\SideImage{Festa de beber dos Coroados, do atlas de viagem de Spix e Martius. (Domínio público/\,Wikipedia)}{PNLD0052-38}
+\SideImage{Dança de bebida dos cordados, do atlas de viagem de Spix e Martius (Wilipedia; Domínio público)}{PNLD0052-38}
 Neukomm fizeram um mapeamento e uma documentação sem paralelos da vida natural,
 social e cultural do país em nascimento. A familiarização com os trabalhos
 destes pioneiros fornecerá ao aluno não apenas elementos para melhor
@@ -609,9 +612,9 @@ Ao longo das atividades propostas nesse conjunto, várias questões normalmente 
 
 \Image{Mapa francês da Baía de Guanabara, c. 1555 (Wikipedia; Domínio público)}{PNLD0052-15}
 
-\subsubsection{Pré-leitura}
+\subsubsection{Antes da leitura}
 
-Fazer um levantamento, em diálogo com as disciplinas das Ciências Humanas e da Natureza, sobre a jornada pelo Brasil dos naturalistas alemães Johann
+Fazer um levantamento da jornada pelo Brasil dos naturalistas alemães Johann
 Baptist von Spix, biólogo, de Carl Friedrich Martius, botânico. Entre 1817 e
 1820, eles percorreram 14 mil quilômetros, em diversos estados brasileiros,
 lançando as bases para a divisão dos biomas brasileiros, além de catalogarem
@@ -621,16 +624,16 @@ os cinco biomas de nosso país, que nascem justamente do trabalho destes
 naturalistas.
 
 Um ano antes da vinda de Spix e Martius ao Brasil, chegou aqui a assim chamada
-Missão Francesa, que incluía, entre outros, o pintor Jean"-Baptiste Debret, cuja
+Missão Francesa, que incluía, entre outros, o pintor Jean-Baptiste Debret, cuja
 Viagem Pitoresca e Histórica ao Brasil (1834-1839) trazia 151 pranchas
 retratando o cotidiano brasileiro. Os alunos devem ser estimulados a
 pesquisarem as gravuras brasileiras de Debret e a refletirem sobre a pioneira
 história da vida privada no país que delas emerge.
 
-\subsubsection{Leitura}
+\subsubsection{Durante a leitura}
 
 Dimensionar o impacto da transferência súbita e repentina da corte portuguesa
-para o Rio de Janeiro, com a apoio dos professores das Ciências Humanas. A começar do ponto de vista puramente demográfico: entre
+para o Rio de Janeiro. A começar do ponto de vista puramente demográfico: entre
 os censos de 1799 e 1821, a população da cidade salta de 43 mil para 79 mil
 habitantes, e o contingente de livres (ou seja, de brancos de origem europeia)
 mais do que dobra, de 20 mil para 43 mil. 
@@ -679,15 +682,15 @@ musical brasileira desta época.
 É digno de ser ressaltado o fato de que Spix e Martius, além de seu
 impressionante levantamento da fauna e da flora nacional, incluíram em seu
 trabalho um anexo musical multiétnico, que abarca melodias indígenas e um
-exemplar da dança afro"-brasileira conhecida como lundu (chamado pelos
+exemplar da dança afrobrasileira conhecida como lundu (chamado pelos
 naturalistas alemães de landum). Se o lundu pode ser considerado uma espécie de
 avô do samba, florescia nessa época também aquele que talvez tenha sido o
 primeiro gênero musical nascido no Brasil e exportado para o exterior: a
 modinha, canção de salão com temática normalmente sentimental, no meio do
 caminho entre o popular e o erudito, que talvez possa ser vista como a
-ancestral do cancioneiro amoroso da \textsc{mpb}.
+ancestral do cancioneiro amoroso da MPB.
 
-\subsubsection{Pós-leitura}
+\subsubsection{Depois da leitura}
 
 Ouvir o lundu (ou landum) coletado por Spix e Martius, e uma modinha do Padre
 José Maurício – como, por exemplo, \emph{Beijo a mão que me condena}. Discutir se é
@@ -705,7 +708,9 @@ terem sido fruto de mentes europeias?
 \paragraph{Tempo estimado} Duas aulas de 50 minutos. 
 
  
+\section{Atividade \textsc{ii (d)}}
 \subsection{“A ópera nacional e Carlos Gomes”}
+
 
 \paragraph{Tema} A realização de uma ópera nacional como o produto estético que melhor
 traduz as aspirações do Segundo Império no Brasil 
@@ -725,20 +730,19 @@ Brasil do século \textsc{xix} não foi diferente, e a iniciativa de criação d
 Nacional deu origem à grande figura pública de nosso país na época, o primeiro
 brasileiro a virar uma figura de destaque internacional: o compositor Carlos
 Gomes.
-\SideImage{Estátua de Carlos Gomes na Cinelândia, Rio de Janeiro. (Quintinense/\,Wikimedia Commons/\,Domínio público)}{PNLD0052-30}
-
 
 Assim, ao compreender o real significado da ópera no Segundo Império, o aluno
 não apenas adquire uma compreensão mais profunda desse período de nossa
 história, como ainda se capacita para discutir a constante questão da
 identidade nacional.
 
+\SideImage{Estátua de Carlos Gomes na Cinelândia, Rio de Janeiro (Wikipedia; Domínio púlbico)}{PNLD0052-30}
+
 Para essa atividade, propomos que os docentes não deixem de atentar para as questões estéticas, conforme as seguintes habilidades dos estudantes:
 \BNCC{EM13LP13}
 \BNCC{EM13LP14}
 
-
-\subsubsection{Pré-leitura}
+\subsubsection{Antes da leitura}
 
 Pesquisar a definição de ópera e sua história. Notar que a ópera surge, por
 volta de 1600, como uma manifestação artística aristocrática, feita apenas no
@@ -751,7 +755,7 @@ Clássica Brasileira} (como ``As Primeiras Obras'' e ``Mulatismo Musical'') most
 no período colonial, havia teatros chamados de “casa de ópera” em todo o
 território nacional, de Belém a Porto Alegre, passando por Cuiabá, Vila Rica
 (hoje Ouro Preto), São Paulo e Rio de Janeiro.
-\Image{Igreja do Carmo, em Ouro Preto. Foto de HGSJunior. (Wikipedia/\,CC BY-SA 4.0)}{PNLD0052-37}
+\Image{Detalhe de Ouro Preto com a Igreja do Carmo (Wikipedia; Domínio público)}{PNLD0052-37}
 
 Como os personagens das óperas de Carlos Gomes são índios que cantam em
 italiano, é importante observar ainda que o italiano foi durante muito tempo a
@@ -761,7 +765,7 @@ cantadas no idioma nem do autor, nem no da plateia, mas em italiano. Uma
 analogia pode ser feita com a música pop dos séculos \textsc{xx} e \textsc{xxi}: de acordo com
 seu gosto musical (ou sugestões dos alunos), o professor pode apontar diversas
 bandas que cantaram em inglês, embora este não fosse seu idioma nativo, como
-Abba (sueca), Scorpions (alemã), A-ha (norueguesa), Sepultura (brasileira), \textsc{bts}
+Abba (sueca), Scorpions (alemã), A-ha (norueguesa), Sepultura (brasileira), BTS
 (coreana) etc. 
 
 Ao longo do século \textsc{xix}, como parte do processo de construção de identidade
@@ -777,12 +781,11 @@ submeter às exigências da música), como o quanto a sonoridade de uma melodia 
 modifica (com eventuais perdas ou ganhos) quando se altera o idioma no qual ela
 originalmente foi composta. 
 
-\subsubsection{Leitura}
+\subsubsection{Durante a leitura}
 
 Mostrar a força que a ópera adquire no Brasil, especialmente, a partir da
 década de 1840, com a superação do clima de instabilidade política do período
-da Regência e a coroação de D. Pedro~\textsc{ii}, a partir de intersecções com as disciplinas 
-das Ciências Humanas.
+da Regência e a coroação de D. Pedro II.
 
 Sublinhar a reação apaixonada do público que comparecia aos espetáculos, que
 não seria exagero talvez comparar aos modernos estádios de futebol brasileiros.
@@ -821,13 +824,13 @@ Chamar a atenção dos estudantes para como o exemplo pessoal de Carlos Gomes
 revela a complexidade das relações raciais no Brasil do Segundo Império. Embora
 a tez escura evidenciasse antepassados negros (seu pai, na infância, era
 descrito como “pardo”), ele oficialmente se dizia descendente de um nobre
-espanhol de Pamplona e de ``uma belíssima índia, filha de um chefe Guarany'',
+espanhol de Pamplona e de “uma belíssima índia, filha de um chefe Guarany”,
 segundo escreveu sua filha, Ítala. E os heróis de suas óperas mais conhecidas
 seriam índios cantando em italiano. Não apenas \emph{Il Guarany}, mas também \emph{Lo
 Schiavo} – ou seja, \emph{O Escravo}, ópera supostamente abolicionista, estreada no Rio
 de Janeiro em 1889, após a proclamação da Lei Áurea, cujo protagonista,
 contudo, não é um escravo negro, mas sim um índio.
-\SideImage{Desenho de Peter Hoffer para capa de libreto da ópera \emph{Il Guarany}. (Archivio Storico Ricordi/Domínio público/Wikipedia)}{PNLD0052-31}
+\SideImage{Desenho para a capa do libreto de  (Wikipedia; Domínio público)}{PNLD0052-31}
 
 Índio também é Pery, o mais célebre herói das óperas de Carlos Gomes, em \emph{Il Guarany}, inspirada no romance homônimo de José de Alencar. Vale ressaltar que
 uma das características do romantismo brasileiro era a idealização do indígena,
@@ -850,24 +853,22 @@ pela tentativa de construir um perfil cultural nacional, cimentando traços
 locais com uma linguagem internacional mais ou menos atualizada, pode se dizer
 que \emph{Il Guarany} é seu produto artístico mais bem-sucedido”.
 
-\subsubsection{Pós-leitura}
+\subsubsection{Depois da leitura}
 
 A abertura da ópera \textit{Il Guarany} chegou a ser considerada uma espécie de
 “segundo hino nacional brasileiro”, devido à sua utilização como prefixo do
 programa radiofônico \emph{A Voz do Brasil}. Propor aos alunos que ouçam ou assistam a
 trechos da ópera  (há uma 
 \href{https://www.youtube.com/watch?v=XTIpAyXyvFA&t=3746s}{versão completa no YouTube}. 
-com legendas em
-português).
-E que cotejem
-com excertos do romance de José de Alencar. A partir daí, há algumas linhas
+com legendas em português).
+E que cotejem com excertos do romance de José de Alencar. A partir daí, há algumas linhas
 possíveis de reflexão. Uma é a adaptação de uma obra de um meio a outro – no
 caso, de um livro para ópera. E paralelos podem ser feitos com um tipo de
 adaptação bem mais familiar aos alunos: quando uma obra literária é filmada
 (seja longa-metragem, série ou novela televisiva). 
 
-  Outra linha seria a reflexão sobre a identidade nacional. Os brasileiros do
-século \textsc{xix} se sentiram representados por uma ópera como. Ao ouvir
+Outra linha seria a reflexão sobre a identidade nacional. Os brasileiros do
+século \textsc{xix} se sentiram representados por uma ópera como . Ao ouvir
 hoje esses índios cantando em italiano, sentimos essa música como nossa? Mesmo
 falando em português, os personagens de Alencar soam próximos ao leitor de
 hoje? E é possível colocar em pauta até a questão do lugar de fala. O quanto
@@ -901,7 +902,7 @@ verdade, quando se fala simplesmente de ``música brasileira'', sem
 nenhum outro adjetivo, é a produção popular que imediatamente vem à
 cabeça da maioria, seja no Brasil, seja no exterior.
 
-\SideImage{Instrumento de cordas. Desenho de Haroldo Ceravolo Sereza. (Direitos cedidos à Alameda Editorial)}{PNLD0052-09}
+\SideImage{Violino.}{PNLD0052-09}
 
 Não que isso seja injusto. Nossa música popular não apenas merece
 destaque dentre as outras ``músicas populares'' do planeta por sua
@@ -1081,7 +1082,7 @@ entre esses gêneros? Disponível \href{https://www.youtube.com/watch?v=5WFFxGjx
 
 \item 
 \textsc{azevedo}, Luiz Heitor Corrêa de. \emph{150 anos de música no Brasil
-(1800-1950).} 2\textsuperscript{a} Edição. Rio de Janeiro: \textsc{fbn},
+(1800-1950).} 2\textsuperscript{a} Edição. Rio de Janeiro: FBN,
 Coordenadoria de editoração, 2016.
 
 
