@@ -4,7 +4,7 @@ Fica saber: o chão deste mundo é o teto de um mundo mais por baixo.
 
 *Mia Couto*
 
-1.  PREFÁCIO
+# Prefácio
 
 Rafael Haddock-Lobo
 
@@ -143,7 +143,7 @@ outros cheiros possam ser experimentados, pois, ao contrário do que
 conta nossa história oficial, "O preto velho é um nego feiticeiro. Se
 não fosse o preto velho, não acabava o cativeiro".
 
-2.  APRESENTAÇÃO
+#  Apresentação
 
 No ano de 1876, o senador e ex-diretor da Faculdade de Medicina do Rio
 de Janeiro, Dr. José Martins da Cruz Jobim, escreve aos jornais[^2]
@@ -158,7 +158,7 @@ vigoroso e entrar nos corpos humanos e matá-los?" Ora, nos "cortiços não
 bastará que estejam muitas pessoas juntas e mal arejadas para lhes
 entrar o mal pela respiração"? Poucos meses depois a Câmara decide não
 conceder mais licenças para a construção de cortiços, "casinhas ou
-(\...) nomes equivalentes, no perímetro da cidade"[^4] do Rio de
+(...) nomes equivalentes, no perímetro da cidade"[^4] do Rio de
 Janeiro. E nos projetos urbanísticos da Comissão de Melhoramentos da
 Cidade -- que elaborará dois relatórios (1875-6) que inspirarão em
 alguma medida a execução da reforma Passos na primeira década do XX --
@@ -303,8 +303,7 @@ normatização higienista do corpo? É mais ou menos o *a priori* histórico
 de cada uma dessas três questões que conduzem a ordem dos capítulos do
 livro.
 
-3.  A FEBRE AMARELA EM 1850: DO CORPO-MICROCOSMO AO CADÁVER COMO QUESTÃO
-    DE SAÚDE PÚBLICA
+# A febre amarela em 1850: do corpo-microcosmo ao cadáver como questão de saúde pública
 
 Antes de 1832 -- ano de fundação, sob influência de médicos franceses
 que residiam na Corte, de Escolas e Faculdades de Medicina em Rio e
@@ -345,29 +344,20 @@ fenômeno repugnante e a morte, consequentemente, em fenômeno insólito.
 Em seguida, reorganizando consideravelmente a repartição urbana dos
 espaços de isolamento e quadriculamento da morte.
 
-1.  1.1 O corpo-microcosmo e a medicina das semelhanças
+##  O corpo-microcosmo e a medicina das semelhanças
 
-*Epígrafe*
 
-*Octavio paz escreveu:*
-
-*"A palavra pão, tocada pela palavra dia, *
-
-*torna-se efetivamente um astro; e o sol, *
-
-*por sua vez, torna-se alimento *
-
-*luminoso."*
-
-*Paul de Man escreveu:*
-
-*"Ninguém em seu perfeito juízo ficará à espera*
-
-*de que as uvas em sua videira amadureçam*
-
-*sob a luminosidade*
-
-*da palavra dia"*
+> *Epígrafe*
+> *Octavio paz escreveu:*
+> *"A palavra pão, tocada pela palavra dia,*
+> *torna-se efetivamente um astro; e o sol,*
+> *por sua vez, torna-se alimento*
+> *luminoso."*
+> *Paul de Man escreveu:*
+> *"Ninguém em seu perfeito juízo ficará à espera*
+> *de que as uvas em sua videira amadureçam*
+> *sob a luminosidade*
+> *da palavra dia"*
 
 (Ana Martins Marques, *O livro das semelhanças*)
 
@@ -378,7 +368,7 @@ mesmo adoecer que em breves dias acabar, lançando pela boca copioso
 sangue".[^9] Era febre ordinariamente do gênero dos sinocos podres,
 epidêmica -- descreve Joaquim Ferreira da Rosa, então físico da
 Capitania: "pois tem causado tal mortandade, que em seus princípios
-quase o deixou deserto, morrendo com muita brevidade; (\...) ainda que o
+quase o deixou deserto, morrendo com muita brevidade; (...) ainda que o
 número de mortos neste Recife neste contágio não passe muito de duas mil
 pessoas".[^10] Alcançou a Bahia, iniciando seu rastro de defuntos em
 abril de 1686, e fez durar o efeito dos venenos influxos até 1695. Em
@@ -614,7 +604,7 @@ produzindo Bexigas, que em outros Reinos do mundo.
 > e úmido, mais capaz para estes fervores, junto com o incêndio do
 > Cometa, faz mais os seus efeitos nesta América com estes fervores,
 > produzindo Bexigas, e Sarampos, do que nos outros Reinos, onde
-> produzem guerras, e outros efeitos semelhantes. (\...) Advertência,
+> produzem guerras, e outros efeitos semelhantes. (...) Advertência,
 > que razão há para que nos outros Reinos haja todos os anos Sarampos, e
 > Bexigas, daquelas, que chamam esporádicas, que são as que vêm por
 > causa interna, e compreendem a pouca gente, e não por influxo celeste,
@@ -679,7 +669,7 @@ sublunar. Seus astrônomos dividiram a largura da Terra em sete fatias,
 outros em nove, cada uma dessas recebendo o nome de Clima. Clima é um
 espaço da terra compreendido entre duas linhas paralelas, "o qual vemos
 mudar a cada meia-hora, para que o dia vá se tornando cada vez mais
-desigual. (\...) Tanto mais um clima está numericamente distante do
+desigual. (...) Tanto mais um clima está numericamente distante do
 equinocial, tanto mais as unidades de meia-hora avançam no curso do dia
 de doze horas".[^33] Nessas condições, o primeiro Clima se chama *dia
 meroës*, porque *dia* em grego significa "por" e Meroe é uma cidade da
@@ -780,7 +770,7 @@ alguma desarmonia entre meio interno e esferas envolventes.
 O *Tetrabiblos* de Ptolomeu já interrogava ser ou não possível
 desenvolver um prognóstico da disposição do corpo humano pelo
 conhecimento acurado da qualidade das estações.[^42] "Através da
-configuração celestial, (\...) o tipo corpóreo e a capacidade mental da
+configuração celestial, (...) o tipo corpóreo e a capacidade mental da
 qual a pessoa é dotada desde o berço podem ser anunciados".[^43] Brás
 Luís de Abreu, em seu *Portugal Médico* (1726), dizia que os homens
 dotados de compleição saturnina tinham com frequência a estatura do
@@ -914,19 +904,19 @@ entre "experiência da epidemia no período pré-higienista" e a sucessão
 dos surtos de febre amarela que varreram a antiga capital do Império, a
 partir de 1850.
 
-2.  1.2 Constituições epidêmicas e patologização do cadáver
+## Constituições epidêmicas e patologização do cadáver
 
-*Pode ser que o veneno teatro lançado no corpo social o desagregue, como
-diz Santo Agostinho, mas à maneira de uma peste, um flagelo vingador,
-uma epidemia salvadora na qual épocas crédulas quiseram ver o dedo de
-Deus e que nada mais é senão a aplicação de uma lei da natureza pela
-qual todo gesto é compensado por outro gesto e toda ação por uma reação
-(\...) O teatro, assim com ao peste, é uma crise que se resolve pela
-morte ou pela cura. E a peste é um mal superior por ser uma crise
-completa, não sobrando nada depois dela a não ser a morte ou a
-purificação.*
+> Pode ser que o veneno teatro lançado no corpo social o desagregue, como
+> diz Santo Agostinho, mas à maneira de uma peste, um flagelo vingador,
+> uma epidemia salvadora na qual épocas crédulas quiseram ver o dedo de
+> Deus e que nada mais é senão a aplicação de uma lei da natureza pela
+> qual todo gesto é compensado por outro gesto e toda ação por uma reação
+> (...) O teatro, assim com ao peste, é uma crise que se resolve pela
+> morte ou pela cura. E a peste é um mal superior por ser uma crise
+> completa, não sobrando nada depois dela a não ser a morte ou a
+> purificação.
 
-> (Antonin Artaud, "O teatro e a peste")
+(Antonin Artaud, "O teatro e a peste")
 
 Passou a noite tranquilo. Porém de manhã inquietou-se impertinente e um
 tanto febril, que terminou a febre por suor. Fizeram-se fricções sobre
@@ -1016,7 +1006,7 @@ de perto nos toca:
 > proporção dos mortos, embora a moléstia seja por sua natureza grave,
 > não deve a ninguém atemorizar; esta proporção é muito pequena. (\...)
 > *Eu tenho a persuasão, não ouso dizer a convicção, de que a epidemia
-> está muito longe de ser contagiosa, porquanto (\...) temos nós visto
+> está muito longe de ser contagiosa, porquanto (...) temos nós visto
 > morrer algum médico no hospital, no Lazareto? Não consta*.[^57]
 
 No mês de março, a esposa do deputado adoece atingida pela febre e ele
@@ -1196,7 +1186,7 @@ exemplo, é uma *espécie* que integra as doenças epidêmicas de outono,
 porque inaugura seu domínio no mês de agosto e dura o mês. Mas
 particularmente, no tocante às febres,
 
-> (\...) a maior parte das que são *contínuas* não possuem nenhum nome
+> (...) a maior parte das que são *contínuas* não possuem nenhum nome
 > particular, uma vez que dependem da constituição geral. Os nomes que
 > as distinguem entre si são tomados de alguma alteração considerável no
 > sangue ou de algum sintoma mais evidente. É só neste sentido que são
@@ -1394,7 +1384,7 @@ no fígado -- ordinariamente o órgão que mais sofre. Que os nacionais
 poderiam vir a sentir calafrios, dores de cabeça, ou sobre os olhos,
 tonteiras, dores contusivas pelo corpo, costas, lombos ou cadeiras,
 fraqueza geral, inapetência, dores pelo ventre, pulso cheio e duro. "Que
-estes sintomas duram de 12 a 60 horas, (\...) sucedendo-lhes o
+estes sintomas duram de 12 a 60 horas, (...) sucedendo-lhes o
 restabelecimento do doente com apenas falta de apetite e algum
 abatimento do corpo".[^91] Conforme, os doentes que no primeiro perfil
 da moléstia se apresentavam eram imediatamente sangrados, "em seguida
@@ -1431,7 +1421,7 @@ seria construído na Ilha do Bom Jesus (atualmente integrada à do Fundão)
 para atender aos fins ditados. Os doentes a bordo são obrigados a
 recolherem-se nos referidos lazaretos e não só os marinheiros, como
 "todos os outros moradores no Porto desta Cidade, serão visitados duas
-vezes ao dia pelos Médicos (\...) que observarão o estado de asseio, e
+vezes ao dia pelos Médicos (...) que observarão o estado de asseio, e
 de arejamento, e darão destino aos doentes que encontrarem". Além da
 Santa Casa, do Hospital da Marinha e de uma enfermaria a ser criada na
 Rua da Misericórdia, seriam estabelecidos mais dois lazaretos: o da Rua
@@ -1478,7 +1468,7 @@ outras pestilências".[^98] Não havia poços na Corte de então, e sim
 barris; as carroças passavam em certas horas, e o tonel exalando as
 águas servidas e as matérias fecais tomava o caminho das praias. "Quanto
 ao resto\... lá vai indo até o mar à cabeça dos negros, como um cesto de
-laranjas. (\...) A este pormenor de edilidade chama-se o serviço de
+laranjas. (...) A este pormenor de edilidade chama-se o serviço de
 *tigres*. Arreda-se a gente de noite, quando esses tristes obreiros da
 labutação imunda se prolongam pelas ruas".[^99] Capistrano de Abreu em
 sua história do Brasil condena o fato do enterro dos "cadáveres nas
@@ -1568,7 +1558,7 @@ começavam a rarear igrejas, conventos e capelas particulares para o rito
 e sepultamento católicos. No antigo templo cristão, enterra-se pelo solo
 e, dependendo da origem do morto, da irmandade religiosa à qual se
 pagava donativos, enterra-se "pelas paredes, debaixo dos altares, por
-cima deles, por detrás dos oratórios. (\...) *Recheio de igreja é
+cima deles, por detrás dos oratórios. (...) *Recheio de igreja é
 defunto*".[^106] Escreveu-se recentemente sobre a cultura fúnebre
 brasileira[^107] que a década de 1850 foi importante para que o Governo
 Imperial decidisse sancionar leis e decretos que estabelecessem
@@ -1621,8 +1611,8 @@ ser desativado.
 > segmentos mais altos da sociedade nos terrenos adjacentes às igrejas,
 > ocupavam-se, em alguns casos, do enterro de escravos, porém era
 > bastante comum seus corpos serem apenas jogados à beira dos caminhos e
-> de praias. (\...) Em meados do século XIX, a situação do Hospital
-> (\...) tornara-se insustentável com o cemitério ao seu lado. Os
+> de praias. (...) Em meados do século XIX, a situação do Hospital
+> (...) tornara-se insustentável com o cemitério ao seu lado. Os
 > médicos protestavam violentamente contra a proximidade dos cadáveres,
 > tanto de mendigos quanto de irmãos da Misericórdia, em número
 > crescente, comprometendo a salubridade não só do hospital, como também
@@ -1712,7 +1702,7 @@ tutela dos cadáveres, por ocasião da epidemia de cólera de 1855:
 > fumigada, estragando alguns pertences. Para piorar a situação, o
 > enterro ocorreu apenas três horas e meia depois da morte e nem os
 > familiares puderam acompanhar o funeral -- chocante para os costumes
-> da época. (\...) Provavelmente, dramas semelhantes foram vividos por
+> da época. (...) Provavelmente, dramas semelhantes foram vividos por
 > muitos outros que, no entanto, sem acesso às folhas em circulação,
 > permaneceram incógnitos sob denúncias genéricas da oposição. Podemos
 > inferir essa situação a partir da correspondência entre o ministro
@@ -1812,10 +1802,10 @@ diante do espetáculo da epidemia.
 Carl Schilichthorst, que organizou memórias sobre a vida social e
 política no Primeiro Reinado, impressionou-se com o "excessivo
 desperdício nos enterros" católicos. Cobre-se o caixão de "veludo preto,
-ricamente agaloado de ouro. (\...) Na igreja, colocam-no aberto sobre
+ricamente agaloado de ouro. (...) Na igreja, colocam-no aberto sobre
 uma eça. As pessoas que o acompanham e qualquer outra que se ache
 presente recebem uma vela de cera acesa. Começa, então, o ofício do
-corpo presente, (\...) em excelente acompanhamento vocal e
+corpo presente, (...) em excelente acompanhamento vocal e
 instrumental".[^121] Era regra enterrar-se ao cair da noite, sob efeito
 da luz de tochas e velas. Terminada a prece, lança-se sobre o defunto
 água benta e "uma medida de cal virgem e fecha-se o esquife, que é
@@ -1834,7 +1824,7 @@ a instituição católica era não só matriz da experiência oficial do
 sagrado mas também do lazer popular, segundo o calendário das festas,
 batizados, as festas de matrimônios. Era uma Corte onde -- diz o
 protestante Schilichthorst -- "todos os dias parecem mais ou menos
-domingos. (\...) Pela manhã, inúmeras igrejas abrem as largas portas à
+domingos. (...) Pela manhã, inúmeras igrejas abrem as largas portas à
 piedosa multidão, que nelas se reúne para rezar. Uma curta Ave Maria
 marca o fim de cada dia. Entre as preces matutinas e da tarde, a vida
 segue sua rotina".[^124] Portanto, é de se esperar que seus fiéis
@@ -1855,14 +1845,14 @@ Em 1843, no Rio de Janeiro, uma portaria do ministro do Império era
 enviada à Câmara cobrando algum rigor no cumprimento das Posturas que
 estipulavam prazo de 18 meses para reabertura das catacumbas. "Ao
 contrário do estabelecido, elas estariam sendo abertas para dar lugar a
-novos sepultamentos no intervalo de quatro a cinco meses, (\...) de
-forma que se pedia à municipalidade (\...) 'a fim de pôr termo a tão
+novos sepultamentos no intervalo de quatro a cinco meses, (...) de
+forma que se pedia à municipalidade (...) 'a fim de pôr termo a tão
 escandaloso abuso'".[^127] Daí até 1850 o que se espera é a oportunidade
 política e sanitária para se fazer valer essa nova sensibilidade,
 animada pela emergência de uma morte limpa, invisibilizada, e de um
 cadáver higiênico. Porque onde antes se enxergava a doméstica integração
 entre o teatro da vida e o teatro da morte, onde vivos e mortos "faziam
-companhia uns aos outros nos velórios em casa, (\...) atravessavam
+companhia uns aos outros nos velórios em casa, (...) atravessavam
 juntos ruas familiares, os vivos enterravam os mortos em templos onde
 estes haviam sido batizados, tinham casado, confessado, assistido a
 missas e cometido ações menos devotas"[^128]; onde antes isso se
@@ -2004,7 +1994,7 @@ urinóis e outros banheiros hediondos da capital". A "água de Labarraque"
 > em 1830, desodoriza cadáveres dos falecidos de julho. A Revolução de
 > 1830 marca o triunfo definitivo da água de Labarraque. O Dr. Troche
 > borrifa as covas que mandou cavar sob a praça do mercado dos Inocentes
-> e ante Colunata do Louvre. (\...) Menos de dois anos mais tarde,
+> e ante Colunata do Louvre. (...) Menos de dois anos mais tarde,
 > quando estala a cólera morbus, é da capital inteira de que se trata de
 > desinfetar (\...). O prefeito Gisquet dá ordens para utilizá-la na
 > limpeza das vitrines dos açougueiros e toucinheiros, e para
@@ -2180,7 +2170,7 @@ deixar de enxergar
 O médico francês Louis Valentin, que, escrevendo em 1803, tentou
 conceitualizar a ação à distância dos miasmas, dizia que, como na peste,
 a febre amarela está limitada ao domínio das circunstâncias locais: "se
-os doentes são (\...) transportados para fora dos navios ou dos
+os doentes são (...) transportados para fora dos navios ou dos
 hospitais, e expostos ao ar salubre, eles não comunicam mais sua
 infecção".[^150] Os princípios miasmáticos decorriam de um modo de ser
 ou das condições especiais de uma localidade. O que significa que o
@@ -2291,7 +2281,7 @@ reinante em uma localidade datada. E, afinal, como o dispositivo
 médico-higienista responde aos desafios que se apresentam na ocasião da
 sua institucionalização?
 
-1\) Por intermédio de *normas provisórias e combativas* que integram os
+1. Por intermédio de *normas provisórias e combativas* que integram os
 chamados *estados de quarentena*. A interdição do porto, a promoção do
 asseio da rua, o esquadrinhamento, a fiscalização e a desinfecção dos
 navios, prisões, hospitais, estalagens ou qualquer instituição que reúna
@@ -2306,7 +2296,7 @@ que irá selar o estado sanitário ótimo de um território. Trata-se, *in
 summa*, de frear a degeneração da atmosfera através de um combate a
 princípios miasmáticos decorrentes da incúria dos homens e da natureza.
 
-2\) Paralelamente, o dispositivo procura realizar de forma *preventiva e
+2. Paralelamente, o dispositivo procura realizar de forma *preventiva e
 pioneira o controle* sobre uma nova cultura fúnebre, que alterará
 consideravelmente a repartição urbana dos espaços de individualização e
 o registro obtuário. Do caos dos sepultamentos nas igrejas ao
@@ -2351,13 +2341,13 @@ localização dos hospitais e cemitérios etc.) -- isso que poderemos
 denominar "corpo higiênico". Há aí uma descontinuidade em termos de
 funcionamento de poder. O que era verdadeiramente "característico da
 medicina urbana", Foucault aponta, "é a habitação privada não ser tocada
-e o pobre (\...) não ser claramente considerado um elemento perigoso
+e o pobre (...) não ser claramente considerado um elemento perigoso
 para a saúde da população".[^156] Há aí uma descontinuidade não só em
 termos de tecnologias políticas, mas de objetos de investimento que
 revelam por que a afirmação da Higiene na formação urbana e social da
 Corte não foi isenta de conflitos e contradições.
 
-4.  2 O NASCIMENTO DA CIDADE ANTI-HIGIÊNICA
+# O nascimento da cidade anti-higiênica
 
 A cidade anti-higiênica existiu, mas muito mais como produto ou efeito,
 não como origem. Como foi possível algo que não existia concentrar
@@ -2381,8 +2371,7 @@ institucionalizado, capturado, um ramo de competências em torno da rua
 e, depois, do cortiço como formas de problematização quase exclusivas no
 contexto das epidemias de febre amarela da década de 1870.
 
-3.  2.1 "A cidade que os portugueses construíram na América não é
-    produto mental"
+## "A cidade que os portugueses construíram na América não é produto mental"
 
 Há duas regularidades na vasta bibliografia de reminiscências de
 viajantes suíços, franceses, norte-americanos, alemães de passagem pelo
@@ -2437,7 +2426,7 @@ exótico.
 Em meados do XVIII, o depósito e mercado de escravizados deixou de
 acontecer na Alfândega porque o governo do Marquês do Lavradio, ao
 chegar ao Rio de Janeiro, "horrorizou-se com o espetáculo degradante que
-oferecia o desembarque de escravizados, então efetuado (\...) em plena
+oferecia o desembarque de escravizados, então efetuado (...) em plena
 Rua da Direita, a mais importante e central da cidade, onde eram
 vendidos praticamente nus e aparentando as misérias".[^165] Criou-se o
 Mercado do Valongo, suficientemente distante para que o cenário do
@@ -2545,7 +2534,7 @@ impressão na alma. "A natureza parece ter depositado aqui todas as suas
 energias".[^178] A bordo, vista do navio pela manhã, "a cidade tinha a
 mais imponente das aparências, mas um contato mais próximo dissimula a
 ilusão. As ruas são estreitas e sujas. E com o fedor dos milhares de
-negros que se aglomeram (\...) as primeiras impressões se tornam tudo
+negros que se aglomeram (...) as primeiras impressões se tornam tudo
 menos agradáveis".[^179] Não é a primeira vez nem a última que o
 africano desperta aversão e repulsa no estrangeiro pela falta de asseio.
 Higienistas não se esqueceriam de contabilizar em 1850 que o vômito
@@ -2743,13 +2732,13 @@ Mumford:
 > Graças à sua faculdade persistente de adaptar-se ao lugar e às
 > necessidades práticas, a cidade medieval apresentava estes exemplos
 > multiformes de individualismo: o homem que fazia o plano tirava
-> proveito do irregular, do acidentado e do inesperado (\...) e não era
+> proveito do irregular, do acidentado e do inesperado (...) e não era
 > contrário à simetria e à regularidade, quando se podia fazer o traçado
 > num só plano de terra virgem, tal como ocorria nas cidades
 > fronteiriças*. Muitas das irregularidades que ainda podem observar-se
 > nos traçados medievais devem-se à presença de córregos recobertos
 > posteriormente, árvores cortadas ou a obstáculos naturais que outrora
-> serviam de mirões para delimitar a propriedade rural.* (\...) Nos
+> serviam de mirões para delimitar a propriedade rural.* (...) Nos
 > domínios das cidades, começamos a dar-nos conta, por fim, de que as
 > *nossas descobertas obtidas depois de tanto trabalho na arte de fazer
 > planos, especialmente se se tem em conta o ponto de vista higiênico,
@@ -2786,7 +2775,7 @@ múltiplas séries passadas. Tempo no qual coisas que desaparecem não
 passam por completo, pois não é este o seu destino, porque estamos numa
 série de repetições de sussurros de antepassados que permite que
 "pessoas absolutamente sem glória surjam do meio de tantos mortos,
-gesticulem ainda, continuem manifestando sua (\...) invencível
+gesticulem ainda, continuem manifestando sua (...) invencível
 obstinação em divagar, compensando talvez o azar que lançara sobre eles,
 apesar de sua modéstia e anonimato, o raio do poder".[^197] A imagem
 benjaminiana da história como "objeto de uma construção, cujo lugar não
@@ -2811,7 +2800,7 @@ devir histórico.
 > as chibatas da marinha de guerra do Brasil na revolta de 1910. Na
 > materialidade bruta da Pedra do Sal ressoam batuques de primitivos
 > sambas e berram todos os bodes imolados aos deuses que chegaram da
-> África nos porões dos negreiros, acompanhando seu povo. (\...) Existem
+> África nos porões dos negreiros, acompanhando seu povo. (...) Existem
 > lugares de esquecimento, territórios do efêmero, e lugares de memória,
 > territórios da permanência. Estes últimos são espaços que,
 > sacralizados pelos homens em suas geografias de ritos, antecedem a sua
@@ -2861,7 +2850,7 @@ mangue que se estendia da Praça Onze à baía), e com a resolução dos
 atoleiros que cercavam Santa Teresa e Rio Comprido permitiu-se a
 ocupação da Cidade Nova. "A rapidez da ocupação dessa 'Cidade Nova' foi
 tão intensa que, a partir de 1865, criou-se a freguesia do Espírito
-Santo, (\...) tendo sido desmembrada de terrenos pertencentes às
+Santo, (...) tendo sido desmembrada de terrenos pertencentes às
 freguesias de Santo Antônio, Engenho Velho, Santana e São
 Cristóvão".[^203] Assim nos apresenta Roberto Moura as transformações
 que sofre a região e a densidade histórica do Espírito Santo no curso do
@@ -2878,7 +2867,7 @@ XIX:
 > centro um chafariz projetado por Grandjean de Montigny, arquiteto
 > vindo com a Missão Francesa trazida pelo conde da Barca em 1816. A
 > partir da ocupação da Cidade Nova pela gente pobre deslocada pelas
-> obras \[da prefeitura de Pereira Passos\] (\...) a praça se tornaria
+> obras \[da prefeitura de Pereira Passos\] (...) a praça se tornaria
 > ponto de convergência desses novos moradores, local onde se
 > desenrolariam os encontros de capoeiras, malandros, operários do meio
 > popular carioca, músicos, compositores e dançarinos, dos blocos e
@@ -2999,7 +2988,7 @@ fins", segundo a *Genealogia da moral*,
 > assenhorou de algo menos poderoso e lhe imprimiu o sentido de uma
 > função; e toda a história de uma "coisa" \[em nosso caso, a cidade
 > anti-higiênica, o cortiço como uma matriz de epidemias ou como circo
-> de imoralidades\] (\...) pode desse modo ser uma ininterrupta cadeia
+> de imoralidades\] (...) pode desse modo ser uma ininterrupta cadeia
 > de signos de sempre novas interpretações e ajustes, cujas causas nem
 > precisam estar relacionadas de maneira meramente casual.[^210]
 
@@ -3028,9 +3017,9 @@ de mostrar
 > luz da razão que enfim atingiu seu zênite. Trata-se de mostrar por que
 > interferências toda uma série de práticas -- a partir do momento em
 > que são coordenadas a um regime de verdade --, por que inferências
-> essa série de práticas pôde fazer que o que não existe (\...) se
+> essa série de práticas pôde fazer que o que não existe (...) se
 > tornasse porém uma coisa, uma coisa que no entanto continuava não
-> existindo. Ou seja, (\...) o que eu gostaria de mostrar é que foi
+> existindo. Ou seja, (...) o que eu gostaria de mostrar é que foi
 > certo regime de verdade e, por conseguinte, não um erro que fez que
 > uma coisa que não existe possa ter se tornado uma coisa.[^213]
 
@@ -3106,7 +3095,7 @@ mortuária entre os anos de 1869 e 1876 para concluir um de seus
 relatórios nesses termos: "Estas perturbações progressivas e
 constantemente aumentadas não podem em minha opinião ser devidas a
 causas acidentais e passageiras, como sejam as condições meteorológicas
-e atmosféricas, (\...) e sim a causas permanentes, cuja ação se exerce
+e atmosféricas, (...) e sim a causas permanentes, cuja ação se exerce
 de um modo contínuo".[^218] O mesmo Barão de Lavradio, no livro chamado
 *Esboço Histórico das epidemias que têm grassado na cidade do Rio de
 Janeiro desde 1830 a 1870,* reavalia os tempos idos de 1850 e observa
@@ -3379,7 +3368,7 @@ transportados em carros fechados para fora da cidade, seriam em seguida
 incinerados. Contrapondo-se à proposta, o inglês John F. Russel
 apresentou seu projeto à exploração do serviço: "consistia na construção
 de rede de esgotos em toda a área central da cidade e transporte dos
-esgotos coletados para (\...) um tanque de precipitação química. O
+esgotos coletados para (...) um tanque de precipitação química. O
 material sólido seria vendido como adubo e o efluente da estação
 encaminhado até o mar".[^230] Como parte da estratégia de convencimento
 das autoridades, Russel e seu sócio Lima Júnior experimentam a
@@ -3445,9 +3434,9 @@ lavagem de roupa no local) ficariam proibidos.
 > Carl von Koseritz, imigrante alemão radicado no Rio Grande do Sul, ao
 > visitar o Rio de Janeiro nos anos 1880, não conteve seu entusiasmo
 > diante do crescimento de uma cidade que ele visitara nos anos 1850.
-> (\...) Koseritz, tal como Expilly nos anos 1860, mencionou o mau
+> (...) Koseritz, tal como Expilly nos anos 1860, mencionou o mau
 > cheiro do Rio de Janeiro e sua corrupção atmosférica, principalmente
-> na área da Prainha, freguesia de Santa Rita. (\...) Porém os imensos
+> na área da Prainha, freguesia de Santa Rita. (...) Porém os imensos
 > pântanos, próximos da parte mais antiga da cidade, já tinham sido
 > aterrados e o outrora sujo Campo do Santana foi transformado "num dos
 > mais belos parques do mundo".[^237]
@@ -3767,7 +3756,7 @@ a única, mas bastante comum. Em 1875, Vieira Souto sai em defesa da
 abertura de duas novas avenidas cariocas, a *Vinte e Oito de Setembro*,
 e uma segunda[^265] que contornasse a praia de Sta. Luzia e seguisse até
 a praia de Botafogo: "essas duas avenidas, *verdadeiros pulmões
-facultados à nossa cidade*, seriam ligadas entre si com uma (\...) que
+facultados à nossa cidade*, seriam ligadas entre si com uma (...) que
 percorreria os terrenos vagos resultantes do arrasamento dos morros do
 Castelo e Sto. Antônio".[^266] Semelhantemente, em 1878, a Junta é
 consultada pelo Governo para colaborar com os engenheiros da "Comissão
@@ -3868,7 +3857,7 @@ proporções. Elas prescrevem, em função da proporção entre altura das
 casas e largura das ruas, uma ventilação conveniente, uma quantidade
 suficiente de luz; e distribuem o calor, pela "comparação entre os dias
 de chuva, de seca, de calor e de frio com a natureza do vento que os
-acompanha; a consideração dos sítios geográficos vizinhos; (\...) para
+acompanha; a consideração dos sítios geográficos vizinhos; (...) para
 determinar de uma maneira racional o mais conveniente a se fazer no caso
 de uma cidade ou de uma habitação".[^274] Há um copertencimento entre a
 qualidade da habitação e a largura conveniente das ruas, e essas coisas
@@ -4075,7 +4064,7 @@ antiestético e anti-higiênico.
 > enormes que durante o dia derramou-lhe na atmosfera baixa, pesada e
 > estagnada a multidão de animais e de coisas que por aí se agitou, e
 > procura sorver a longos tragos o ar mais puro que lhe traga a noite.
-> (\...) Entretanto, nem a estas horas aí se pode viver; as ruas
+> (...) Entretanto, nem a estas horas aí se pode viver; as ruas
 > tortuosas, esguias e longas, marginadas por altos edifícios, embaraçam
 > a ação das brisas suaves que sopravam outrora em nossa cidade e as
 > casas, com uma lotação que não comporta a área estreita que abrangem,
@@ -4271,7 +4260,7 @@ arbitrariedade policial. Um pouco mais tarde, em 1884, o chefe de
 polícia da Corte escreve à Câmara Municipal reclamando medidas sobre o
 estado de ruína em que se encontravam "os cubículos do grande cortiço da
 Rua da Relação, o qual foi condenado a despejado há mais de dois anos,
-(\...) a fim de que se sirvam mandar demolir os ditos cubículos, que
+(...) a fim de que se sirvam mandar demolir os ditos cubículos, que
 servem hoje de valhacouto a vagabundos e para a prática de atos
 imorais".[^300] O cortiço é a propriedade privada sujeita à violação. Em
 um primeiro momento, prioriza-se a fragmentação dos sujeitos de direito:
@@ -4329,7 +4318,7 @@ na proposta de Foucault, três eixos ou três fatias de realidade: as
 forças em exercício, a funcionalidade dos enunciados, a objetividade do
 que nos vêm ao encontro como visível ou não, são todos vetores ou
 tensores. "De modo que as três grandes instâncias que Foucault distingue
-sucessivamente (\...) não possuem de modo algum contornos definitivos,
+sucessivamente (...) não possuem de modo algum contornos definitivos,
 mas são cadeias de elementos variáveis relacionadas entre si".[^302] Só
 que, se essa relação (ou mesmo cortes de relação) se dá entre redes ou
 cadeias de elementos variáveis, o que referencia essas redes e
@@ -4366,7 +4355,6 @@ definida. Já o dispositivo é a sorte de formação que, em um dado momento
 histórico, teve como papel responder a uma urgência, responder a um
 repertório de problemas em demanda.
 
-[]{.underline}
 
 > O dispositivo tem então uma função estratégica dominante. Que poderia
 > ser, por exemplo, a absorção de uma massa de população flutuante que
@@ -4376,7 +4364,6 @@ repertório de problemas em demanda.
 > controle-assujeitamento da loucura, da doença mental, da
 > neurose.[^306]
 
-[]{.underline}
 
 O dispositivo é a rede de vetores que dá acesso a formas de
 problematização, ele é um conjunto heterogêneo e multipontual de
@@ -4442,7 +4429,7 @@ suas ambições administrativas no Império. Esse quadro sofre uma
 reviravolta súbita na irrupção das catástrofes epidêmicas que se
 seguiram a 1850. Em curto espaço de tempo, a febre amarela se
 transformaria "na principal questão de saúde pública no Brasil. Tal fato
-(\...) contribuiu para a criação da Junta Central de Higiene Pública,
+(...) contribuiu para a criação da Junta Central de Higiene Pública,
 que deslocaria a Academia do papel central que até então representara
 para a saúde pública".[^309] A criação da Junta irá marcar uma
 descontinuidade profunda no que diz respeito à apreciação das questões
@@ -4474,12 +4461,12 @@ policiais que lhe foram incumbidas. Paula Candido assim se pronuncia a
 respeito em 1857:
 
 > Desgraçadamente os encargos de perscrutar as causas da insalubridade,
-> tão sabiamente impostos à *Junta* pela lei de sua criação (\...) foram
+> tão sabiamente impostos à *Junta* pela lei de sua criação (...) foram
 > ampliados nos regulamentos, de modo a abranger uma infinidade de
 > atribuições policiais e enleadas formalidades, às vezes mesmo
 > ridículas, que mal quadram a quem deve prestar não interrompida
 > atenção aos multiplicados agentes modificadores da saúde pública, que
-> exigiam ciência, dedicação e insano trabalho. (\...) Não bastando
+> exigiam ciência, dedicação e insano trabalho. (...) Não bastando
 > essas dificuldades, surgiram outras: esse estudo difícil e apurado
 > deveu ser interrompido para cuidar-se das desastrosas epidemias de
 > febre amarela e de cólera morbus e não só cuidar, em face do perigo,
@@ -4528,7 +4515,7 @@ de cortiços, e sim "casas de porta e janela", casinhas ou equivalentes),
 ou negociavam a "vista grossa" dos fiscais das freguesias, como diz Luís
 Edmundo,[^315] ou ainda -- como em uma postura que submete as
 "construções no interior dos terrenos" à licença da Câmara -- levantavam
-"tabiques e outras divisões (\...) para formação de quartos ou
+"tabiques e outras divisões (...) para formação de quartos ou
 cubículos"[^316] no interior das estalagens ou casas de alugar quartos.
 
 A pergunta que então se coloca: o que faz com que dada habitação
@@ -4612,10 +4599,10 @@ calmosas e soubesse aceitar a complexidade da dependência das moléstias
 em relação às influências sociais.
 
 > Aglomerações dos povos constituindo centros populosos podem exercer
-> influência na evolução patogênica das epidemias. (\...) A aglomeração
+> influência na evolução patogênica das epidemias. (...) A aglomeração
 > considerada inteiramente independente das influências de costumes e da
 > higiene pública só por si pode muito contribuir para o desenvolvimento
-> das moléstias pestilenciais. (\...) Considerada porém a aglomeração
+> das moléstias pestilenciais. (...) Considerada porém a aglomeração
 > conjuntamente com outros fatores, ainda mais saliente se torna a sua
 > preponderância.[^322]
 
@@ -4818,7 +4805,7 @@ mesquinhez em que vive".[^333] Algo parecido nos conta Pereira Rego em
 discurso pronunciado no aniversário de 42 anos da Academia Imperial de
 Medicina:
 
-> (\...) cumpre não deixar ao arbítrio de cada um construir casas como
+> (...) cumpre não deixar ao arbítrio de cada um construir casas como
 > lhe convier, torna-se indispensável adotar um plano em geral de
 > edificações, em que sejam previstas estas condições. Talvez os
 > espíritos minimamente escrupulosos enxerguem na adoção desta medida um
@@ -5078,7 +5065,7 @@ Aluísio no romance, um mecanismo já outras vezes repisado no dispositivo
 médico-higienista, como segue exemplo de um artigo dos *Annaes
 Brasilienses de Medicina* em 1872: "O Rio de Janeiro, bem observado, é
 semelhante a um vasto cortiço, onde se abrigam classes de imigrantes
-imundos e ignorantes. Contra os erros desta classe, que (\...) também
+imundos e ignorantes. Contra os erros desta classe, que (...) também
 conta com alguns ricos e poderosos, que pode fazer a classe inteligente
 e culta deste país?"[^351] O artifício é sobrepor o movimento da
 narrativa ao movimento social para fazer girar a roda da representação
@@ -5086,7 +5073,7 @@ do cortiço como "ao mesmo tempo um sistema de relações concretas entre
 personagens e uma figuração do próprio Brasil".[^352] O cortiço, como o
 próprio Rio de Janeiro, pode tomar assim a forma de bando, "aglomeração
 tumultuosa de machos e fêmeas",[^353] "coisa viva, uma geração, que
-parecia brotar espontânea, (\...) daquele lameiro, e multiplicar-se como
+parecia brotar espontânea, (...) daquele lameiro, e multiplicar-se como
 larvas no esterco".[^354] Dia após dia socando-se gentes "com aquela
 exuberância brutal de vida".[^355] Um Rio de Janeiro em miniatura, por
 ser uma mistura de raças, cores, sóis e raízes na conivência democrática
@@ -5114,7 +5101,7 @@ cortiço*.
 Já na montagem do elenco do romance orienta-se a justificar o
 desnorteamento da metralhadora punitiva dos urbanos, porque o cortiço --
 e estas não são mais expressões de Aluísio, muito embora aparentem --
-existe na sobreposição da "miséria andrajosa e repugnante (\...) ao lado
+existe na sobreposição da "miséria andrajosa e repugnante (...) ao lado
 do vício e do lodaçal impuro do aviltamento moral", vizinha "do leito do
 trabalhador honesto, que respira à noite a atmosfera deletéria deste
 esterquilíneo de fezes!"[^358] A violência policial logo aí toma lugar e
@@ -5335,7 +5322,7 @@ quantias suficientes para "viverem por si", isto é, arcar com
 alimentação e aluguéis sem interferência direta dos senhores. Os que
 "não tinham condições para conseguir um lugar para morar, simplesmente
 dormiam ao relento, pelas ruas, praças e, os mais afortunados, em seus
-locais de trabalho. Obviamente (\...) sujeitos à prisão pela Polícia,
+locais de trabalho. Obviamente (...) sujeitos à prisão pela Polícia,
 pois era proibido que 'andassem fora das horas'".[^378] De um modo ou de
 outro, o tempo dos cortiços no Rio de Janeiro foi o tempo da
 intensificação das lutas dos escravizados pela libertação e também foi
@@ -5575,23 +5562,17 @@ Constantemente esteve a imprensa a noticiar que tal ou qual autoridade
 demoliu um cortiço ou desalojou seus moradores. O que torna o cortiço a
 única propriedade violável? A epidemia? O crime?
 
-5.  3.1 Xavier Bichat e Pai Manoel na linha de cura
+# Xavier Bichat e Pai Manoel na linha de cura
 
-*Eu fui criado no colo de um Preto Velho*
+> Eu fui criado no colo de um Preto Velho
+> E suas pernas me embalavam ora
+> Na harmonia de um acalanto
+> Ora no cavalgar de mar bravo
+> Seu sorriso me guardava sob os ombros
+> Por vezes eu me agarrava em seu pescoço
+> E olhava seus dentes brancos me servindo de patuá.
 
-*E suas pernas me embalavam ora*
-
-*Na harmonia de um acalanto*
-
-*Ora no cavalgar de mar bravo*
-
-*Seu sorriso me guardava sob os ombros*
-
-*Por vezes eu me agarrava em seu pescoço*
-
-*E olhava seus dentes brancos me servindo de patuá.*
-
-> ("Estrada do Engenho", Marcos Nascimento)
+("Estrada do Engenho", Marcos Nascimento)
 
 Um erveiro de origem *Nàgô* escravizado no engenho em Muribeca,
 freguesia de Recife, obteve autorização do presidente da província para
@@ -5871,8 +5852,8 @@ pensador moderno muito fundamental.
 > doença vai desempenhar o mesmo papel misto, mas agora entre a vida e a
 > morte. Entendamo-nos bem: conhecia-se, bem antes da anatomia
 > patológica, o caminho que vai da saúde à doença e desta à morte.
-> (\...) O que já conhecemos: a morte como ponto de vista absoluto sobre
-> a vida e abertura (\...) para sua verdade. Mas a morte é também aquilo
+> (...) O que já conhecemos: a morte como ponto de vista absoluto sobre
+> a vida e abertura (...) para sua verdade. Mas a morte é também aquilo
 > contra que, em seu exercício cotidiano, a vida vem se chocar; nela o
 > ser vivo naturalmente se dissolve: e a doença perde seu velho estatuto
 > de acidente para entrar na dimensão interior, constante e móvel da
@@ -6010,7 +5991,7 @@ daquela sociedade pernambucana aos serviços oferecidos por Pai Manoel.
 
 > Não eram só os doentes pretos e os pardos que corriam dos mucambos e
 > das senzalas para o parceiro: também brancos finos de sobrado. (\...)
-> Ofereciam-lhe "carro para conducção rapida", (\...) carro de cavalo
+> Ofereciam-lhe "carro para conducção rapida", (...) carro de cavalo
 > que naqueles dias era privilégio ou regalo só de brancos, de fidalgos,
 > de senhores. E em informação ao ministro do Império teve de confessar
 > o então presidente da província que, no meio da "conflagração
@@ -6062,7 +6043,7 @@ etnocentrismo colonizador.
 > Concordamos com Pessoa de Castro, quanto ao fato de ter sido a
 > introdução contínua de escravos de uma mesma procedência étnica no
 > meio urbano, fator relevante para a viabilização de uma resistência
-> maior. (\...) Cabe ressaltar que, em escritos do início deste século,
+> maior. (...) Cabe ressaltar que, em escritos do início deste século,
 > Nina Rodrigues encarava o candomblé como um foco de resistência
 > cultural e como centro de fermentação para sublevações e rebelião
 > social (\...). Albuquerque, analisando a formação social brasileira
@@ -6298,7 +6279,7 @@ transmitidas oralmente, evocadas por um sacerdote cuja atribuição
 específica é o conhecimento e utilização das espécies vegetais. É como
 explica Pierre Fatumbi Verger: seria até difícil traçar "uma linha de
 demarcação entre os assim chamados conhecimento científico e prática
-'mágica'. Isso ocorre devido à importância dada (\...) à encantação,
+'mágica'. Isso ocorre devido à importância dada (...) à encantação,
 *ofò*, pronunciada no momento de preparação ou aplicação das diversas
 receitas medicinais, *oògun*".[^437] Fatumbi, em seu *Ewé: o uso das
 plantas na sociedade iorubá*, após coletar alguns milhares de receitas,
@@ -6460,7 +6441,7 @@ práticas aculturadas naquela sociedade. Tudo isso é correlativo ao que
 podemos chamar, com Foucault, de um procedimento de *exame*. O
 aparecimento da clínica no Brasil, como no mundo, pode ser identificado
 -- embora certamente não se esgote aí -- "na mudança ínfima e decisiva
-que substitui a pergunta 'o que é que você tem?' (\...) por essa outra
+que substitui a pergunta 'o que é que você tem?' (...) por essa outra
 em que reconhecemos o jogo da clínica e o princípio de todo seu
 discurso: 'onde lhe dói?'".[^450] Entra em discussão o *corpo biológico*
 atravessado pelo direito ao exame, submetido ao laboratório da cura, à
@@ -6728,16 +6709,15 @@ Brasis aos quais presto minhas oferendas? No céu da Boca do Mato, Serra
 dos Pretos Forros, na voz de um velho, o verde musga o segredo das
 folhas.
 
-**3.2 Um Estado em outro Estado: a liberdade exagerada no viver e
-fazer**
+## Um Estado em outro Estado: a liberdade exagerada no viver e fazer
 
-*Gilberto Freyre condenava a Avenida Central, elogiando ruas estreitas
-como a do Ouvidor, cheias de sombra e portanto mais adequadas ao calor
-tropical. E fazia a apologia do morro da Favela como um exemplo de
-"restos do Rio de Janeiro antes de Passos, pendurados por cima do Rio
-novo".*
+> Gilberto Freyre condenava a Avenida Central, elogiando ruas estreitas
+> como a do Ouvidor, cheias de sombra e portanto mais adequadas ao calor
+> tropical. E fazia a apologia do morro da Favela como um exemplo de
+> "restos do Rio de Janeiro antes de Passos, pendurados por cima do Rio
+> novo".
 
-> (*O mistério do samba,* Hermano Vianna)
+(*O mistério do samba,* Hermano Vianna)
 
 Antônio Vianna (1883-1952), chamado "cronista da cidade" de Salvador,
 foi folclorista na primeira metade do XX e escreveu algumas páginas
@@ -6845,7 +6825,7 @@ recalcados de que reuniões e conselhos "sussurrantes, de resoluções
 sigilosas a ouvidos estranhos" agitassem a subcena das ruas. Aquele
 domingo de 1888 despertaria opiniões tateantes, como este editorial que,
 se não apaziguava ninguém, pelo menos rezava que a "conduta dos
-libertados deve ser tão digna como a ação dos libertadores. (\...) Não
+libertados deve ser tão digna como a ação dos libertadores. (...) Não
 há vencedores nem vencidos, mas pessoas nobilitadas pela glória, pela
 felicidade e pelo progresso da grande nação".[^473] O mal-estar crescia
 na medida das queixas dos escravocratas com essa gente isenta de um
@@ -7495,7 +7475,7 @@ também. Só que extraoficialmente, no intervalo dos ciclos econômicos,
 recriou-se, pela ritualização dos espaços, alguma coisa sem vocação para
 o capital e para o colonialismo: a rua.
 
-**CONCLUSÃO**
+## Conclusão
 
 A subcena das ruas não circulou com hora marcada nem permissão dos
 guardas. Nossos bairros em construção foram erguidos como mutirões de
@@ -7687,255 +7667,255 @@ passava um pensamento: nós, os da costa, éramos habitantes não de um
 continente, mas de um oceano".[^537] Partilhamos, eu e a liberdade
 excedida dos encantados, a mesma pátria, que é o Atlântico.
 
-6.  DOCUMENTAÇÃO CONSULTADA
+# Documentação consultada
 
-    1.  Fontes
+## Fontes
 
-APIAN, P. *La Cosmographie*. Paris: par Vivant Gaultherot, 1551.
+1. APIAN, P. *La Cosmographie*. Paris: par Vivant Gaultherot, 1551.
 
-BARBOSA; RESENDE. *Os serviços de saúde pública no Brasil, especialmente
+1. BARBOSA; RESENDE. *Os serviços de saúde pública no Brasil, especialmente
 na cidade do Rio de Janeiro de 1808 a 1907 (esboço histórico e
 legislação) -- Primeiro Volume.* Rio de Janeiro: Imprensa Nacional,
 1909.
 
-BICHAT, Xavier. *Anatomie pathologique*, dernier cours de Xavier Bichat:
+1. BICHAT, Xavier. *Anatomie pathologique*, dernier cours de Xavier Bichat:
 d\'après un ms. autographe de P.-A. Béclard avec une Notice sur la vie
 et les travaux de Bichat / par F.-G. Boisseau. Paris: chez J.-B.
 Baillière, Libraire, 1825.
 
-BOUDIN, J. *Traité de géographie et de statistique médicales et des
+1. BOUDIN, J. *Traité de géographie et de statistique médicales et des
 maladies endémiques.* Paris: J.-B. Baillière et Fils, 1857.
 
-BUFFON, *Histoire Naturelle, générale et particuliere, avec la
+1. BUFFON, *Histoire Naturelle, générale et particuliere, avec la
 description du Cabinet du Roy, Tome Quatorzième*. A Paris, de
 l'Imprimerie Royale, 1749.
 
-CHERNOVIZ, P. L. N. *Diccionario de Medicina Popular* -- *Volume
+1. CHERNOVIZ, P. L. N. *Diccionario de Medicina Popular* -- *Volume
 Terceiro.* 2ª ed. Rio de Janeiro: Eduardo & Henrique Laemmert, 1851.
 
-CHERNOVIZ, P. L. N. *Diccionario de Medicina Popular -- Volume Primeiro
+1. CHERNOVIZ, P. L. N. *Diccionario de Medicina Popular -- Volume Primeiro
 A-F.* Paris: A. Roger & F. Chernoviz, 1890.
 
-DEBRET, Jean-Baptiste. *Viagem pitoresca e histórica ao Brasil*. Tomo I,
+1. DEBRET, Jean-Baptiste. *Viagem pitoresca e histórica ao Brasil*. Tomo I,
 volume II. Rio de Janeiro: Martins, 1949.
 
-DURAND-FARDEL. « Des maladies contagieuses et infectieuses. A propos
+1. DURAND-FARDEL. « Des maladies contagieuses et infectieuses. A propos
 d'un mémoire de M. Audouard. » *Revue médicale française et étrangère,
 journal des progrès de la médicine hippocratique*, t. II. Paris: 1850.
 
-EWBANK, Thomas. *Life in Brazil, or a Journal of a visit to the land of
+1. EWBANK, Thomas. *Life in Brazil, or a Journal of a visit to the land of
 the cocoa and the palm.* New York: Harper & Brothers publishers, 1856.
 
-FONSSAGRIVES, J.-B. *Hygiène et Assainissement des villes*. Paris: J.-B.
+1. FONSSAGRIVES, J.-B. *Hygiène et Assainissement des villes*. Paris: J.-B.
 Ballière & Fils, 1874.
 
-FRACASTORO, J. *La contagion, les maladies contagieuses et leur
+1. FRACASTORO, J. *La contagion, les maladies contagieuses et leur
 traitement*. Paris: Société d'éditions scientifiques, 1893.
 
-GARDNER, G. *Travels in the interior of Brazil.* London: Reeve Brothers,
+1. GARDNER, G. *Travels in the interior of Brazil.* London: Reeve Brothers,
 1846.
 
-HALLÉ, J.-N. *Traité d'Hygiène*. Paris: chez M. Gautret, 1838.
+1. HALLÉ, J.-N. *Traité d'Hygiène*. Paris: chez M. Gautret, 1838.
 
-LA CLOTURE, L. *Observations sur les maladies epidémiques.* Paris: De
+1. LA CLOTURE, L. *Observations sur les maladies epidémiques.* Paris: De
 l'imprimerie de Vincent, 1770.
 
-MOTARD, A. *Traité d'Hygiène Générale -- Tome Premier.* Paris: J. B.
+1. MOTARD, A. *Traité d'Hygiène Générale -- Tome Premier.* Paris: J. B.
 Baillière et Fils, 1868a.
 
-\_\_\_\_\_\_. *Traité d'Hygiène Générale -- Tome Second.* Paris: J. B.
+1. \_\_\_\_\_\_. *Traité d'Hygiène Générale -- Tome Second.* Paris: J. B.
 Baillière et Fils, 1868b.
 
-PERDIGÃO MALHEIRO, A. M. *Escravidão no Brasil: ensaio
+1. PERDIGÃO MALHEIRO, A. M. *Escravidão no Brasil: ensaio
 histórico-jurídico-social -- Parte 3ª*. Rio de Janeiro: Typographia
 Nacional, 1867.
 
-PIMENTEL, Antonio M. de Azevedo. *Subsídios para o estudo de higiene do
+1. PIMENTEL, Antonio M. de Azevedo. *Subsídios para o estudo de higiene do
 Rio de Janeiro*. Rio de Janeiro: Tipografia e Lit. De Carlos Gaspar da
 Silva, 1890.
 
-PROUST, A. *Traité d'Hygiène*. 2ed. Paris: G. Masson Éditeur, 1881.
+1. PROUST, A. *Traité d'Hygiène*. 2ed. Paris: G. Masson Éditeur, 1881.
 
-PTOLOMEU. *Tetrabiblos.* Trad. inglesa J. M. Ashmand. London: W.
+1. PTOLOMEU. *Tetrabiblos.* Trad. inglesa J. M. Ashmand. London: W.
 Foulsham & CO.
 
-REBOUÇAS, A. *Conferederação abolicionista*. *Abolição imediata e sem
+1. REBOUÇAS, A. *Conferederação abolicionista*. *Abolição imediata e sem
 indenização*. Panfleto n. 1. Rio de Janeiro: Typ. Central, 1883.
 
-REBOUÇAS, Manuel Maurício. *Dissertation sur les inhumations en géneral
+1. REBOUÇAS, Manuel Maurício. *Dissertation sur les inhumations en géneral
 (leurs resultats fâcheux lorsqu'on les pratique dans les églises et dans
 l'enceinte des villes, et des moyens d'y rémedier par des cimetières
 extra-muro).* Thèse présentée et soutenue à la Faculté de Médicine de
 Paris. Paris: l'imprimerie de Didot le Jeune, 1831.
 
-REINHIPO, R. M. *Trattado Unico das bexigas e sarampo, oferecido a D.
+1. REINHIPO, R. M. *Trattado Unico das bexigas e sarampo, oferecido a D.
 João de Sousa.* Lisboa: na oficina de João Galrao, 1683.
 
-RIBEIRO, Cândido Barata. *Quais as medidas sanitárias que devem ser
+1. RIBEIRO, Cândido Barata. *Quais as medidas sanitárias que devem ser
 aconselhadas para impedir o desenvolvimento e propagação da febre
 amarela na cidade do Rio de Janeiro?* (Tese apresentada à Faculdade de
 Medicina do Rio de Janeiro como primeira prova de concurso de Lente
 Substituto a um lugar vago, na seção de Ciências Médicas). Rio de
 Janeiro: Typographia do Direito. 1877.
 
-RIBEYROLLES, Charles. *Brazil Pittoresco -- Tomo II*. Rio de Janeiro:
+1. RIBEYROLLES, Charles. *Brazil Pittoresco -- Tomo II*. Rio de Janeiro:
 Typographia Nacional, 1859.
 
-ROSA, Joaquem Ferreira da. *Tratado único da constituição pestilencial
+1. ROSA, Joaquem Ferreira da. *Tratado único da constituição pestilencial
 de Pernambuco*. Lisboa: Oficina de Miguel Manescal, 1694.
 
-REGO, J. P. *Esboço Histórico das epidemias que têm grassado na cidade
+1. REGO, J. P. *Esboço Histórico das epidemias que têm grassado na cidade
 do Rio de Janeiro desde 1830 a 1870*. Rio de Janeiro: Typographia
 Nacional, 1872.
 
-REGO, J. P. *Historia e Descripção da Febre Amarella Epidemica que
+1. REGO, J. P. *Historia e Descripção da Febre Amarella Epidemica que
 grassou no Rio de Janeiro em 1850*. Rio de Janeiro: Typographia de F. de
 Paula Brito, 1851.
 
-SIGAUD, J. F. X. *Du Climat et des Maladies du Brésil*. Paris: Fortin,
+1. SIGAUD, J. F. X. *Du Climat et des Maladies du Brésil*. Paris: Fortin,
 Masson et Cie, Libraires, 1844.
 
-SOUTO, Vieira. *Melhoramento da cidade do Rio de Janeiro: crítica dos
+1. SOUTO, Vieira. *Melhoramento da cidade do Rio de Janeiro: crítica dos
 trabalhos da respectiva comissão.* Rio de Janeiro: Lino C. Teixeira &
 C., 1875.
 
-SYDENHAM, T. *Médicine Pratique*. Paris: chez Théophile Barrois le
+1. SYDENHAM, T. *Médicine Pratique*. Paris: chez Théophile Barrois le
 jeune, 1784.
 
-SYNDENHAM, T. *The Works -- Vol. 1.* Translated from the latin edition
+1. SYNDENHAM, T. *The Works -- Vol. 1.* Translated from the latin edition
 by R. G. Latham. London: printed for the Sydenham Society, 1848.
 
-TORRES HOMEM, J. V. *Elementos da Clínica Médica -- seguidos do anuário
+1. TORRES HOMEM, J. V. *Elementos da Clínica Médica -- seguidos do anuário
 das mais notáveis observações colhidas nas enfermarias de clínica médica
 em 1869*. Rio de Janeiro: Nicoláo A. Alves, 1870.
 
-\_\_\_\_\_\_. *Estudo clínico sobre as febres do Rio de Janeiro*. Rio de
+1. \_\_\_\_\_\_. *Estudo clínico sobre as febres do Rio de Janeiro*. Rio de
 Janeiro: Livraria clássica de Nicolao Alves, 1877.
 
-TOURTELLE, *Traité d'Hygiène*. Paris: chez M. Gautret, 1838.
+1. TOURTELLE, *Traité d'Hygiène*. Paris: chez M. Gautret, 1838.
 
-VALENTIN, L. *Traité de la fiévre jaune d'Amérique*. Paris: Méquignon
+1. VALENTIN, L. *Traité de la fiévre jaune d'Amérique*. Paris: Méquignon
 Libraire, 1803.
 
-VIANNA, A. *Quintal de nagô e outras crônicas*. Salvador: Publicação da
+1. VIANNA, A. *Quintal de nagô e outras crônicas*. Salvador: Publicação da
 Universidade Federal da Bahia, 1979.
 
-2.  DOCUMENTOS OFICIAIS
+## Documentos oficiais
 
-    1.  Arquivo geral da cidade do Rio de Janeiro
+### Arquivo geral da cidade do Rio de Janeiro
 
-AGCRJ Códice 43.1.25 -- Estalagens e Cortiços (Requerimentos e outros
+1. AGCRJ Códice 43.1.25 -- Estalagens e Cortiços (Requerimentos e outros
 papéis relativos a existência e à fiscalização sanitária e de costumes
 dessas habitações coletivas -- 1834 a 1880)
 
-AGCRJ Códice 41.3.36 Fundo Câmara Municipal -- Série Cortiços e
+1. AGCRJ Códice 41.3.36 Fundo Câmara Municipal -- Série Cortiços e
 Estalagens (Ofícios da Secretaria da Polícia e do Ministério do Império
 sobre as medidas a adotar com referência aos cortiços - 1860)
 
-AGCRJ Códice 43.3.26 -- Fundo Câmara Municipal -- Série epidemias (Febre
+1. AGCRJ Códice 43.3.26 -- Fundo Câmara Municipal -- Série epidemias (Febre
 Amarela -- Medidas Higiênicas -- Portaria do Ministro do Império
 Visconde de Monte Alegre, etc. -- 1850)
 
-AGCRJ Códice 44.2.7 -- Habitações coletivas, estalagens ou "cortiços" --
+1. AGCRJ Códice 44.2.7 -- Habitações coletivas, estalagens ou "cortiços" --
 Vários papéis sobre medidas higiênicas reclamadas pelas autoridades,
 projetos de posturas e outros, concernentes ao assunto -- 1855, 1864 a
 1866 e 1868
-
+1. 
 AGCRJ Códice 6.1.37 -- Escravos -- Assuntos: Casas alugadas ou
 sublocadas a escravos, muitos dos quais fugidos e malfeitores -- Ofício
 do Chefe de Polícia (1860)
 
-BR RJAGCRJ 8.3.7 Fundo Câmara Municipal -- Série Higiene Pública
+1. BR RJAGCRJ 8.3.7 Fundo Câmara Municipal -- Série Higiene Pública
 (Higiene e Saúde Pública / Avisos / 1850-1854)
 
-BR RJAGCRJ Códice 8.4.6 Fundo Câmara Municipal -- Série Higiene Pública
+1. BR RJAGCRJ Códice 8.4.6 Fundo Câmara Municipal -- Série Higiene Pública
 
-BR RJAGCRJ 8.4.20 Fundo Câmara Municipal -- Série Higiene Pública
+1. BR RJAGCRJ 8.4.20 Fundo Câmara Municipal -- Série Higiene Pública
 (Salubridade do Rio de Janeiro / Vários papéis, reclamações, projetos,
 pareceres etc. / 1830 a 1888)
 
-BR RJAGCRJ 8.4.22 Fundo Câmara Municipal -- Série Higiene Pública
+1. BR RJAGCRJ 8.4.22 Fundo Câmara Municipal -- Série Higiene Pública
 (Salubridade / Editais, medidas higiênicas; instruções; projetos de
 posturas; desinfecções; limpeza; melhoramentos na cidade para
 preservá-la de epidemias; cortiços etc.)
 
-BR RJAGCRJ Códice 8.4.24 Fundo Câmara Municipal -- Série Higiene Pública
+1. BR RJAGCRJ Códice 8.4.24 Fundo Câmara Municipal -- Série Higiene Pública
 
-BR RJAGCRJ 41.3.35 -- Fundo Câmara Municipal -- Série Cortiços e
+1. BR RJAGCRJ 41.3.35 -- Fundo Câmara Municipal -- Série Cortiços e
 Estalagens
 
-BR RJAGCRJ Códice 41.3.37 Fundo Câmara Municipal -- Série Cortiços e
+1. BR RJAGCRJ Códice 41.3.37 Fundo Câmara Municipal -- Série Cortiços e
 Estalagens
 
-BR RJAGCRJ Códice 43.1.27 Fundo Câmara Municipal -- Série Cortiços e
+1. BR RJAGCRJ Códice 43.1.27 Fundo Câmara Municipal -- Série Cortiços e
 Estalagens
 
-BR RJAGCRJ 43.1.25 -- Fundo Câmara Municipal -- Série Cortiços e
+1. BR RJAGCRJ 43.1.25 -- Fundo Câmara Municipal -- Série Cortiços e
 Estalagens
 
-BR RJAGCRJ Códice 43.1.26 Fundo Câmara Municipal -- Série Cortiços e
+1. BR RJAGCRJ Códice 43.1.26 Fundo Câmara Municipal -- Série Cortiços e
 Estalagens
 
-BR RJAGCRJ 43.3.27 Fundo Câmara Municipal - Série Epidemias
+1. BR RJAGCRJ 43.3.27 Fundo Câmara Municipal - Série Epidemias
 
-BR RJAGCRJ 44.2.7 Fundo Câmara Municipal - Série Habitações Coletivas
+1. BR RJAGCRJ 44.2.7 Fundo Câmara Municipal - Série Habitações Coletivas
 
-AGCRJ Códice 46.4.47 Fundo Câmara Municipal -- Série Casas para
+1. AGCRJ Códice 46.4.47 Fundo Câmara Municipal -- Série Casas para
 Operários e Classes Pobres
 
-AGCRJ Códice 48.4.59 Fundo Câmara Municipal -- Série Prostituição
+1. AGCRJ Códice 48.4.59 Fundo Câmara Municipal -- Série Prostituição
 
-AGCRJ Códice 48.4.61 Fundo Câmara Municipal -- Série Prostituição
+1. AGCRJ Códice 48.4.61 Fundo Câmara Municipal -- Série Prostituição
 
-*Posturas e editas da Câmara Municipal do Rio de Janeiro: 1832-1890,*
+1. *Posturas e editas da Câmara Municipal do Rio de Janeiro: 1832-1890,*
 Códices 6-1-18, 6-1-28, 18-1-72 e 18-2-2 a 18-2-12
 
-2.  Arquivo Nacional
+### Arquivo Nacional
 
-MAÇO IS 4-23 -- Série Saúde -- Higiene e Saúde Pública -- Instituto
+1. MAÇO IS 4-23 -- Série Saúde -- Higiene e Saúde Pública -- Instituto
 Oswaldo Cruz (1850-1859)
 
-MAÇO IS 4-24 -- Série Saúde -- Higiene e Saúde Pública -- Instituto
+1. MAÇO IS 4-24 -- Série Saúde -- Higiene e Saúde Pública -- Instituto
 Oswaldo Cruz (1850-1859)
 
-MAÇO IS 4-25 -- Série Saúde -- Higiene e Saúde Pública -- Instituto
+1. MAÇO IS 4-25 -- Série Saúde -- Higiene e Saúde Pública -- Instituto
 Oswaldo Cruz (1860-1869)
 
-MAÇO IS 4-26 -- Série Saúde -- Higiene e Saúde Pública -- Instituto
+1. MAÇO IS 4-26 -- Série Saúde -- Higiene e Saúde Pública -- Instituto
 Oswaldo Cruz (1860-1869)
 
-MAÇO IS 4-27 -- Série Saúde -- Higiene e Saúde Pública -- Instituto
+1. MAÇO IS 4-27 -- Série Saúde -- Higiene e Saúde Pública -- Instituto
 Oswaldo Cruz (1870-1879)
 
-MAÇO IS 4-28 -- Série Saúde -- Higiene e Saúde Pública -- Instituto
+1. MAÇO IS 4-28 -- Série Saúde -- Higiene e Saúde Pública -- Instituto
 Oswaldo Cruz (1870-1879)
 
-3.  Legislação
+### Legislação
 
-Coleção de Leis do Império -- 1850, 1851, 1876
+1. Coleção de Leis do Império -- 1850, 1851, 1876
 (http://www2.camara.leg.br/atividade-legislativa/legislacao)
 
-4.  Imprensa e revistas científicas
+### Imprensa e revistas científicas
 
-Annaes Brasilienses de Medicina (1853-1874)
+1. Annaes Brasilienses de Medicina (1853-1874)
 
-Diario do Rio de Janeiro (1850-1853 / 1876)
+1. Diario do Rio de Janeiro (1850-1853 / 1876)
 
-Cidade do Rio de Janeiro (1880-1889)
+1. Cidade do Rio de Janeiro (1880-1889)
 
-Gazeta da Tarde (1880-1889)
+1. Gazeta da Tarde (1880-1889)
 
-Gazeta de Notícias (1880-1892)
+1. Gazeta de Notícias (1880-1892)
 
-Jornal do Brasil (1880-1892)
+1. Jornal do Brasil (1880-1892)
 
-Jornal do Commercio (1850)
+1. Jornal do Commercio (1850)
 
-O Fluminense (1880-1889)
+1. O Fluminense (1880-1889)
 
-Revista do Instituto Polytechnico Brasileiro. (1872-1873)
+1. Revista do Instituto Polytechnico Brasileiro. (1872-1873)
 
-7.  POSFÁCIO . Dialética da Quarentena de Todos os Dias
+# Posfácio: dialética da quarentena de todos os dias
 
 Claudio Medeiros e Victor Galdino
 
@@ -8295,13 +8275,13 @@ descarrilhamento do mundo não seja só reflexo de uma frustração com um
 Pai-Estado desorientado e nada envergonhado da sua incapacidade para
 conter o vírus.
 
-Ilha do Governador,
+Ilha do Governador, 15 de julho de 2020
 
-  15 de julho de 2020
 
-8.  SOBRE . Nota da edição
+# Paratexto
 
-    O autor
+
+## O autor
 
 Claudio Vinicius Felix Medeiros é professor de Filosofia Geral na
 Universidade Federal Fluminense, com atuação nos campos de Ética,
@@ -8322,7 +8302,7 @@ narrativa histórica e experiência do pensamento. Para isso mobiliza
 fontes literárias modernas e contemporâneas e rigor de pesquisa
 arquivística.
 
-12. A obra
+## A obra
 
 Claudio Vinicius Felix Medeiros é professor de Filosofia Geral na
 Universidade Federal Fluminense, com atuação nos campos de Ética,
@@ -8380,7 +8360,7 @@ assim, um momento de consolidação dos discursos marginalizantes que irão
 associar às "classes perigosas" o foco tanto das epidemias quanto dos
 males sociais.
 
-6.  Corpo como microcosmo e corpo como organismo
+### Corpo como microcosmo e corpo como organismo
 
 Segundo Medeiros, "um corpo é uma encruzilhada histórica de relações de
 força." Isso significa que em sua obra a ideia de corpo, e a própria
@@ -8426,7 +8406,7 @@ perigosos, pertencentes a classes tidas como anti-higiênicas, e que
 deveriam, por extensão, serem expulsas (ou escondidas nas margens) do
 espaço urbano.
 
-7.  Higiene e reformulação do espaço geográfico da cidade
+### Higiene e reformulação do espaço geográfico da cidade
 
 Medeiros nos mostra em seu livro como a primeira epidemia de febre
 amarela na Corte do Rio de Janeiro, entre 1849 e 1850, desembocou, junto
@@ -8476,7 +8456,7 @@ dos cortiços, dos quilombos, das práticas dos corpos improdutivos e dos
 curandeiros, que trazem uma outra forma de organizar o espaço, viver a
 cidade e a rua, e de cuidar dos corpos.
 
-13. O gênero
+## O gênero
 
 Podemos, até o momento, compreender que o livro de Claudio Medeiros
 transita entre os campos da filosofia e da história, que estão
@@ -8745,14 +8725,14 @@ daquele momento histórico.
     as ciências naturais não encontraram um espaço de autonomia, pois as
     leis relativas a esse mundo sublunar não poderiam explicar o
     supralunar, não autorizando 'uma superposição epistemológica das
-    ciências físicas e naturais sobre a teologia'. (\...) Apesar da
+    ciências físicas e naturais sobre a teologia'. (...) Apesar da
     relativa 'abertura' dos jesuítas no restante da Europa, que
     propunham conciliar as doutrinas aristotélicas com a ciência nos
     moldes do cartesianismo, o ensino em Portugal não incorporou tais
     mudanças. Em 1746, o reitor do Colégio de Artes determinava por meio
     de um edital a proibição em ensinar e defender as 'opiniões
-    recebidas ou inúteis (\...) como são as de Renato Descartes,
-    Gassendi, Newton (\...) ou quaisquer outras conclusões, opostos ao
+    recebidas ou inúteis (...) como são as de Renato Descartes,
+    Gassendi, Newton (...) ou quaisquer outras conclusões, opostos ao
     sistema de Aristóteles'". Cf. Jean L. N. Abreu, *Nos domínios do
     corpo*, 2011, p. 18-9.
 
@@ -8782,7 +8762,7 @@ daquele momento histórico.
     enredados em um número infinito de partes orgânicas. Uma mutação no
     sistema de pensamento da história natural "acarreta uma consequência
     maior: a radicalidade da divisão entre orgânico e inorgânico. No
-    quadro dos seres que a história natural desdobrava, (\...) a
+    quadro dos seres que a história natural desdobrava, (...) a
     oposição entre o orgânico e o inorgânico torna-se fundamental."
     Michel Foucault, *As palavras e as coisas* \[1966\], 2007, p. 318.
 
@@ -8837,8 +8817,8 @@ daquele momento histórico.
 [^66]: "A *preeminência britânica* motivaria o comentário de Sérgio
     Teixeira de Macedo, ministro brasileiro na Grã-Bretanha, em 1854, de
     que 'o comércio entre dois países é movimentado pelo capital inglês,
-    em navios ingleses e por firmas inglesas. Os lucros, (\...) os juros
-    sobre o capital, (\...) o pagamento dos prêmios de seguros, as
+    em navios ingleses e por firmas inglesas. Os lucros, (...) os juros
+    sobre o capital, (...) o pagamento dos prêmios de seguros, as
     comissões e os dividendos provindos das operações financeiras, tudo
     é carreado para o bolso dos ingleses'." Ilmar Rohloff de Mattos, *O
     tempo saquarema* (São Paulo, HUCITEC, 1987), p. 16.
@@ -9231,7 +9211,7 @@ daquele momento histórico.
     ouvidos àqueles que representam o senhor de escravos brasileiro como
     um monstro cruel. Minha experiência entre eles foi muito boa, e
     muito poucos atos de crueldade foram feitos sob minha própria
-    observação. (\...) Eles são de um temperamento lento e indolente."
+    observação. (...) Eles são de um temperamento lento e indolente."
     George Gardner, *Travels in the interior of Brazil* (London, Reeve
     Brothers, 1846), p. 17. Tradução nossa.
 
@@ -9385,7 +9365,7 @@ daquele momento histórico.
     geométrico jamais pôde alcançar, entre nós, a importância que veio a
     ter em terras da Coroa de Castela: não raro o desenvolvimento
     ulterior dos centros urbanos repeliu aqui esse esquema inicial para
-    obedecer antes às sugestões topográficas. (\...) A rotina e não a
+    obedecer antes às sugestões topográficas. (...) A rotina e não a
     razão abstrata foi o princípio que norteou os portugueses, nesta
     como em tantas outras expressões de sua atividade colonizadora.
     Preferiam agir por experiências sucessivas, nem sempre coordenadas
@@ -9394,7 +9374,7 @@ daquele momento histórico.
     tenham mudado uma, duas ou mais vezes de sítio, e a presença da
     clássica vila velha ao lado de certos centros urbanos de origem
     colonial é persistente testemunho dessa atitude tateante e
-    perdulária. (\...) *A cidade que os portugueses construíram na
+    perdulária. (...) *A cidade que os portugueses construíram na
     América não é produto mental*, não chega a contradizer o quadro da
     natureza, e sua silhueta se enlaça na linha da paisagem. Nenhum
     rigor, nenhum método, nenhuma previdência, sempre esse significativo
@@ -10608,7 +10588,7 @@ daquele momento histórico.
     científicos, os professores, os homens que representam a ciência;
     perante a justiça e o direito, não perante a lei que é a sua
     expressão, nem perante os magistrados, administradores da lei;
-    (\...) perante os partidos, não perante os ministros, os deputados,
+    (...) perante os partidos, não perante os ministros, os deputados,
     os senadores, os presidentes de província (\...)." *Ibidem*, p. 28.
 
 [^519]: *Ibidem,* p. 167.
