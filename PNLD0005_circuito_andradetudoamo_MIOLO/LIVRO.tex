@@ -25,7 +25,7 @@
   \@footnotemark\@footnotetext}
 \makeatother
 
-%\stanzaskip=.3em
+\stanzaskip=1em
 
 \usepackage{footmisc}
 
@@ -85,6 +85,12 @@
 \makeatother
 
 \newcommand{\mystar}{{\fontfamily{lmr}\selectfont$\star$}}
+
+\newenvironment{absolutelynopagebreak}
+  {\par\nobreak\vfil\penalty0\vfilneg
+   \vtop\bgroup}
+  {\par\xdef\tpd{\the\prevdepth}\egroup
+   \prevdepth=\tpd}
 
 %------------------------------------------ INCLUIR EPIGRAFE EM PART
 \let\oldafterpartskip\afterpartskip 
